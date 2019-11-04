@@ -6,23 +6,23 @@ description: اول خطوه هي تنزل النظام
 
 بعد تحميلك اداه تنزيل الماك[ gibmacos](https://github.com/corpnewt/gibMacOS) عنطريق الضغط على زر clone or download وثم اختار Download ZIP
 
-![&#x627;&#x62E;&#x62A;&#x627;&#x631; Download ZIP](.gitbook/assets/image%20%2815%29.png)
+![&#x627;&#x62E;&#x62A;&#x627;&#x631; Download ZIP](.gitbook/assets/image%20%2816%29.png)
 
 بعد ما يتم التحميل نفك الضغط و بعدها نفتح الملف ونختار gibMacOS.bat
 
-![](.gitbook/assets/image%20%2839%29.png)
+![](.gitbook/assets/image%20%2847%29.png)
 
 في حاله عدم وجود بايثون 3 على حهازك البرنامج سيطلب منك تحميله اكتب y للموافقه
 
-![](.gitbook/assets/image%20%2844%29.png)
+![](.gitbook/assets/image%20%2853%29.png)
 
 البرنامج يرتب النسخ **بحسب وقت اصدارها** ابل ايضا تحدث الاصدارات القديمه  نحن نريد اصدار 10.15 كاتلينا وهو اخر اصدار من الماك وفي هاذه الحاله تم رفع تحديث امني لي الاصدار الذي قبله فظهر في الاعلى اعلى من الاصدار الاخير من الماك  لذا سوف نختار رقم 2
 
-![](.gitbook/assets/image%20%2832%29.png)
+![](.gitbook/assets/image%20%2839%29.png)
 
 ثم سيقوم البرنامج ببدء التنزيل
 
-![](.gitbook/assets/image%20%2818%29.png)
+![](.gitbook/assets/image%20%2820%29.png)
 
 {% hint style="info" %}
 سرعه التنزيل تعتمد على سرعه الانترنت الخاص بك
@@ -41,7 +41,7 @@ description: اول خطوه هي تنزل النظام
 
 سيقوم البرنامج بتحميل قائمه الاصدارات المتوفره 
 
-![](.gitbook/assets/image%20%2817%29.png)
+![](.gitbook/assets/image%20%2819%29.png)
 
 سوف تظهر اختيارات جديده نختار اعلى اختيار من الاصدار المطلوب بهاذه الحاله MacOS High Sierra
 
@@ -49,5 +49,5 @@ description: اول خطوه هي تنزل النظام
 
 ثم البرنامج سيقوم بتنزيل النسخه مقسمه على 11 ملف
 
-![](.gitbook/assets/image%20%2829%29.png)
+![](.gitbook/assets/image%20%2833%29.png)
 
