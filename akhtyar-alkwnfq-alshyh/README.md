@@ -24,13 +24,13 @@
 
 ثم افتح ملف GenSMBIOS.bat
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2829%29.png)
 
 البرنامج يحتاج بايثون 3 اكتب y ليقم بتحميله
 
 
 
-![](../.gitbook/assets/image%20%2844%29.png)
+![](../.gitbook/assets/image%20%2853%29.png)
 
 ![&#x627;&#x644;&#x642;&#x627;&#x626;&#x645;&#x647; &#x627;&#x644;&#x631;&#x626;&#x64A;&#x633;&#x64A;&#x647;](../.gitbook/assets/image%20%287%29.png)
 
@@ -42,19 +42,19 @@
 
 نسحب ملف الكونفق الى ال cmd  
 
-![](../.gitbook/assets/image%20%2838%29.png)
+![](../.gitbook/assets/image%20%2846%29.png)
 
 سوف يظهر مكان الملف بعد سحبه لل cmd اضغط انتر 
 
-![](../.gitbook/assets/image%20%2833%29.png)
+![](../.gitbook/assets/image%20%2840%29.png)
 
 سوف يطهر لك البرنامج الاشياء التي سيتم التعديل عليها في الكونفق اكتب y وثم اضغط على زر انتر
 
-![](../.gitbook/assets/image%20%2835%29.png)
+![](../.gitbook/assets/image%20%2842%29.png)
 
 سوف يظهر في اعلى البرنامج مكان ملف الكونفق الذي تم اختياره 
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](../.gitbook/assets/image%20%2845%29.png)
 
 الان نختار رقم 3
 
