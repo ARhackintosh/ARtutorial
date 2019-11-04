@@ -5,7 +5,7 @@
 * [اختيار الكونفق الصحيح\(config\)](akhtyar-alkwnfq-alshyh/README.md)
   * [\(laptop config\)للابتوبات](akhtyar-alkwnfq-alshyh/llabtwbat.md)
 * [تحميل الماك](thmyl-almak.md)
-* [USB نسخ الماك الى](usb-nskh-almak-ala.md)
+* [USB تجهيز ال](usb-nskh-almak-ala.md)
 * [الاقلاع](aml-flashh.md)
 * [بعد التثبيت](bad-althbyt.md)
 
