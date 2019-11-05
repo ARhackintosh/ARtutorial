@@ -10,13 +10,13 @@ description: التعريفات الاساسيه للنظام
 
 طبعا [Virtualsmc.kext](https://github.com/acidanthera/VirtualSMC/releases) **أساسي يقنع النظام ان هاذا جهاز ماك**
 
-**التعريفات الأساسية موجوده في أرشيف** **ال Kexts** من هنا  **بحيث** **سيكون مكتوب وظيفه كل Kext مع رابط التحميل**
+**التعريفات الأساسية موجوده في أرشيف** **ال Kexts** من هنا **بحيث** **سيكون مكتوب وظيفه كل Kext مع رابط التحميل**
 
 ## الايثرنت Ethernet :
 
 بالنسبه للشبكه راح نعتمد على **السلك وليس الواي فاي**
 
-ا   [SmallTreeIntel82576.zip](https://drive.google.com/file/d/0B5Txx3pb7pgcOG5lSEF2VzFySWM/view?usp=sharing) مخصص لتعريف كرت انتل I211-AT
+ا [SmallTreeIntel82576.zip](https://drive.google.com/file/d/0B5Txx3pb7pgcOG5lSEF2VzFySWM/view?usp=sharing) مخصص لتعريف كرت انتل I211-AT
 
 **ا** [intelmausiEthernet.kext](https://github.com/Mieze/IntelMausiEthernet) يعمل مع معظم كروت الشبكه الحديثه من انتل
 
@@ -32,9 +32,9 @@ description: التعريفات الاساسيه للنظام
 
 راح تحتاج[ USBinjectAll,kext](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/) اذا كنت على مذربرود **H370,B360 و H310** من **الجيل الثامن** واذا كان عندك مذربورد **X79/X99/X299** راح تحتاجه XHCI-unsupported.kext المضمون في [USBinjectAll.kext](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/)
 
- في **10.11** ابل وضعت **حد 15 مدخل USB** **على كل USB Controller** يتبين ان 15 عدد كافي حتى يتبين لك ان كل مدخل **USB3** **يحسب كمدخلان.**
+في **10.11** ابل وضعت **حد 15 مدخل USB** **على كل USB Controller** يتبين ان 15 عدد كافي حتى يتبين لك ان كل مدخل **USB3** **يحسب كمدخلان.**
 
- **على** **مذربوردات الجيل السادس فما فوق** **مداخل USB3** و **USB 2** يتم التحكم بها من **XHCI controllrer** وبما ان كل **مدخل USB3 يحسب 2 يمكن الوصول الحد بسهوله** لاكن **ممكن يتم تحويل مداخل USB2 الى ال** **EHCI Controller** باستخدام كيكست [FakePCIID.kext](https://bitbucket.org/RehabMan/os-x-fake-pci-id) **\(تشتغل على بعض المذربوردات فقط\)** وتشيل الضغط عن **XHCI Controller**
+**على** **مذربوردات الجيل السادس فما فوق** **مداخل USB3** و **USB 2** يتم التحكم بها من **XHCI controllrer** وبما ان كل **مدخل USB3 يحسب 2 يمكن الوصول الحد بسهوله** لاكن **ممكن يتم تحويل مداخل USB2 الى ال** **EHCI Controller** باستخدام كيكست [FakePCIID.kext](https://bitbucket.org/RehabMan/os-x-fake-pci-id) **\(تشتغل على بعض المذربوردات فقط\)** وتشيل الضغط عن **XHCI Controller**
 
 ## كرت الشاشة \(GPU\) :
 
@@ -42,7 +42,7 @@ description: التعريفات الاساسيه للنظام
 
 ## الصوت \(Sound\) :
 
-بالنسبه **للصوت** راح تحتاج [Applealc.Kext](https://github.com/acidanthera/AppleALC) و الكيكست المرافق [Lilu.kext](https://github.com/acidanthera/lilu/releases) اذا كان كرت الصوت عندك موجود في هاذه [القائمه](https://github.com/acidanthera/applealc/wiki/supported-codecs) اذا كان كرتك غير موجود هناك تعريف بديل [VoodoHDA.Kext](https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V14) مع دعم اوسع 
+بالنسبه **للصوت** راح تحتاج [Applealc.Kext](https://github.com/acidanthera/AppleALC) و الكيكست المرافق [Lilu.kext](https://github.com/acidanthera/lilu/releases) اذا كان كرت الصوت عندك موجود في هاذه [القائمه](https://github.com/acidanthera/applealc/wiki/supported-codecs) اذا كان كرتك غير موجود هناك تعريف بديل [VoodoHDA.Kext](https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V14) مع دعم اوسع
 
 ## واي فاي وبلوتوث Wi-Fi / Bluetooth :
 
@@ -124,7 +124,7 @@ description: التعريفات الاساسيه للنظام
 
 #### **تعريف** [**BrcmPatchRAM**](https://github.com/RehabMan/OS-X-BrcmPatchRAM) **:**
 
-مطلوب لجميع البطاقات اللاسلكية غير المصنوعة من **Apple** 
+مطلوب لجميع البطاقات اللاسلكية غير المصنوعة من **Apple**
 
 #### **تعريف** [**BrcmBluetoothInjector**](https://github.com/RehabMan/OS-X-BrcmPatchRAM) **:**
 
@@ -150,7 +150,7 @@ description: التعريفات الاساسيه للنظام
 * AR9280
 * AR9380
 
-لتنصيبه يجب نسخه على هذا المسار : **Library/Extensions** لا تلصقه هنا ****~~**System/Library/Extensions**~~
+لتنصيبه يجب نسخه على هذا المسار : **Library/Extensions** لا تلصقه هنا **\*\*~~**System/Library/Extensions\*\*~~
 
 تم انسخ هدا الامر على **Terminal**
 
@@ -179,63 +179,34 @@ sudo chown -R root:wheel /L*/E*; sudo chmod -R 755 /L*/E*; sudo kextcache -i /
 
 #### يعمل على العديد من اللواقط منها :
 
+| **RTL8188CUS** | **RTL8192CU** | **RTL8192EU** | **RTL8188EUS** | **RTL8811AU** | **RTL8812BU** | **RTL8814AU** | **RTL8812AU** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+
+
 <table>
   <thead>
     <tr>
-      <th style="text-align:center"><b>RTL8188CUS</b>
-      </th>
-      <th style="text-align:center"><b>RTL8192CU</b>
-      </th>
-      <th style="text-align:center"><b>RTL8192EU</b>
-      </th>
-      <th style="text-align:center"><b>RTL8188EUS</b>
-      </th>
-      <th style="text-align:center"><b>RTL8811AU</b>
-      </th>
-      <th style="text-align:center"><b>RTL8812BU</b>
-      </th>
-      <th style="text-align:center"><b>RTL8814AU</b>
-      </th>
-      <th style="text-align:center"><b>RTL8812AU</b>
+      <th style="text-align:left">Asus USB-N 10 Nano/N150</th>
+      <th style="text-align:left">EDIMAX- EW-7722UTn V2</th>
+      <th style="text-align:left">TL-WN823N v2</th>
+      <th style="text-align:left">TL-WN725N v3</th>
+      <th style="text-align:left">Archer T2U NANO</th>
+      <th style="text-align:left">Archer T4U V3</th>
+      <th style="text-align:left">Archer T9UH V2</th>
+      <th style="text-align:left">
+        <p>Linksys</p>
+        <p>WUSB6300</p>
       </th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:center">Asus USB-N 10 Nano/N150</td>
-      <td style="text-align:center">EDIMAX- EW-7722UTn V2</td>
-      <td style="text-align:center">TL-WN823N v2</td>
-      <td style="text-align:center">TL-WN725N v3</td>
-      <td style="text-align:center">Archer T2U NANO</td>
-      <td style="text-align:center">Archer T4U V3</td>
-      <td style="text-align:center">Archer T9UH V2</td>
-      <td style="text-align:center">
-        <p>Linksys</p>
-        <p>WUSB6300</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:center">TRENDnet N150 Micro</td>
-      <td style="text-align:center">EDIMAX N300</td>
-      <td style="text-align:center">TL-WN823N v3</td>
-      <td style="text-align:center">TL-WN722N v3</td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
-    </tr>
-    <tr>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">TL-WN821N v6</td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
-      <td style="text-align:center">-</td>
-    </tr>
-  </tbody>
-</table>###  تعريف بعض لواقط **WIFI** المعروفة دات شرائح **Ralink :**
+  <tbody></tbody>
+</table>| TRENDnet N150 Micro | EDIMAX N300 | TL-WN823N v3 | TL-WN722N v3 | - | - | - | - |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+
+
+| - | - | TL-WN821N v6 | - | - | - | - | - |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+
 
 #### تعريف [USB Wireless Utility](https://github.com/chris1111/USB-Wireless-Utility)
 
@@ -247,7 +218,7 @@ sudo chown -R root:wheel /L*/E*; sudo chmod -R 755 /L*/E*; sudo kextcache -i /
 
   \*\*\*\*
 
-## بقية الكيكست : 
+## بقية الكيكست :
 
 هناك الكثير من الكيكستات وتعتمد على حسب الجهاز مثل الابتوبات هناك كيكستات للبطاريه واضائه الكيبورد و العديد من الكيكستات الاخرى التي تعتمد على جهازك هنا في هاكنتوش العرب نحاول ارشفة جميع الكيكستات هنا وما وظيفتها مع رابط التحميل لاكن تحتاج بحث كبير منك خاصه لو كنت على لابتوب.
 
