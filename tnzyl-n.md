@@ -16,7 +16,7 @@ description: التعريفات الاساسيه للنظام
 
 بالنسبه للشبكه راح نعتمد على **السلك وليس الواي فاي**
 
-ا  [SmallTree-Intel-211-AT-PCIe-GBE.kext](https://www.mediafire.com/file/norleak8dhjbmy2/SmallTree-Intel-211-AT-PCIe-GBE.kext.zip/file) مخصص لتعريف كرت انتل I211-AT
+ا   [SmallTreeIntel82576.zip](https://drive.google.com/file/d/0B5Txx3pb7pgcOG5lSEF2VzFySWM/view?usp=sharing) مخصص لتعريف كرت انتل I211-AT
 
 **ا** [intelmausiEthernet.kext](https://github.com/Mieze/IntelMausiEthernet) يعمل مع معظم كروت الشبكه الحديثه من انتل
 
