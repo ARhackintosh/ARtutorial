@@ -1,4 +1,4 @@
-# Table of contents / محتوايات الشرح
+# Table of contents
 
 * [البداية](README.md)
 * [\(Kext\) اختيار التعريفات](gathering-kexts.md)
@@ -8,3 +8,4 @@
 * [USB تجهيز ال](creating-hackintosh-usb.md)
 * [الاقلاع](booting.md)
 * [بعد التثبيت](post-install.md)
+
