@@ -1,11 +1,10 @@
-# Table of contents
+# Table of contents / محتوايات الشرح
 
 * [البداية](README.md)
-* [\(Kext\) اختيار التعريفات](tnzyl-n.md)
-* [اختيار الكونفق الصحيح\(config\)](akhtyar-alkwnfq-alshyh/README.md)
-  * [\(laptop config\)للابتوبات](akhtyar-alkwnfq-alshyh/llabtwbat.md)
-* [تحميل الماك](thmyl-almak.md)
-* [USB تجهيز ال](usb-nskh-almak-ala.md)
-* [الاقلاع](aml-flashh.md)
-* [بعد التثبيت](bad-althbyt.md)
-
+* [\(Kext\) اختيار التعريفات](gathering-kexts.md)
+* [اختيار الكونفق الصحيح\(config\)](config-setup/README.md)
+  * [\(laptop config\)للابتوبات](config-setup/laptops.md)
+* [تحميل الماك](downloading-macos.md)
+* [USB تجهيز ال](creating-hackintosh-usb.md)
+* [الاقلاع](booting.md)
+* [بعد التثبيت](post-install.md)
