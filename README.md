@@ -55,17 +55,50 @@
 * **Radeon RX Vega 64**
 * **Radeon RX Vega Frontier Edition**
 * **Radeon Pro WX 9100**
+* **Radeon 5700 xt \(10.15.1\)**
 
-ال **RX 590** و **560** ايضا مدعومين لانهم من نفس المعماريه طبعا هاذي القائمه لا تشمل جميع الكروت لاكنها هي الكروت التي المؤكد عملها من داخل النظام مثلا كرت Radeon Vii يعمل مباشره من النظام بينما كرت **R9 380** احتاج كيكست [**WhateverGreen**](https://github.com/acidanthera/WhateverGreen) ليعمل
+ال **RX 590** و **560** ايضا مدعومين لانهم من نفس المعماريه وايضا ال **5700**  طبعا هاذي القائمه لا تشمل جميع الكروت لاكنها هي الكروت التي المؤكد عملها من داخل النظام مثلا كرت Radeon Vii يعمل مباشره من النظام بينما كرت **R9 380** احتاج كيكست [**WhateverGreen**](https://github.com/acidanthera/WhateverGreen) ليعمل  
+فاذا كان لديك كرت radeon حديث نسبيا **احتمال كبير انه يكون مدعوم** او انه يحتاج اضافه whatevergreen حتى يعمل
 
 بالنسبه لكروت انفيديا فهاذه لائحه تعرض بعض الكروت المدعومه في اخر اصدار من الماك
 
 ### لائحة بعض كروت Nvidia المدعومة على macOS Catalina 10.15
 
-GTX Titan \| GK 110 GTX Titan Black \| GK 110 GTX Titan Z GTX 780 Ti GTX 770 GTX 760 Ti GT 740 GT 730 GT 720 GT 710 GTX 690 GTX 680 GTX 670 GTX 660 Ti GTX 650 Ti GTX 645 \(Fermi\) GT 640 \(Kepler edition, GK 107/208 core\) GT 630 \(Kepler edition, GK 208 core\) Quadro 410 Quadro K420 Quadro K600 Quadro K2000/D Quadro K4000/D Quadro K4200 Quadro K5000 Quadro K5200 Quadro K6000 Quadro NVS510   
-c/@b\_wdgt
+GTX Titan  
+ GK 110   
+GTX Titan Black   
+GK 110   
+GTX Titan Z   
+GTX 780 Ti   
+GTX 770   
+GTX 760 Ti   
+GT 740   
+GT 730   
+GT 720   
+GT 710   
+GTX 690   
+GTX 680   
+GTX 670   
+GTX 660 Ti   
+GTX 650 Ti   
+GTX 645 \(Fermi\)   
+GT 640 \(Kepler edition,   
+GK 107/208 core\)   
+GT 630 \(Kepler edition, GK 208 core\)   
+Quadro 410   
+Quadro K420   
+Quadro K600   
+Quadro K2000/D   
+Quadro K4000/D   
+Quadro K4200   
+Quadro K5000   
+Quadro K5200   
+Quadro K6000   
+Quadro NVS510   
+**c/@b\_wdgt**
 
-بالنسبه لكروت **Nvidia الاخرى** بشكل عام انا انصح ان تبقى على الويندوز لان البرامج على ويندوز مصممه لاستخدام كروت انفيديا بشكل افضل لاكن اذا كنت تريد تثبيت الماك مع كرت انفيديا ستكون محدود الى اصدار **High Sierra 10.13** بحيث هاذا **اخر اصدار سمحت أبل لانفيديا باصدار التعريفات له**
+بالنسبه لكروت **Nvidia الاخرى** بشكل عام انا انصح ان تبقى على الويندوز لان البرامج على ويندوز مصممه لاستخدام كروت انفيديا بشكل افضل لاكن اذا كنت تريد تثبيت الماك مع كرت انفيديا اذا كان من فئه **20** مثل **2080** او فئه **16** مثل **1660** **فهو غير مدعوم ولا يعمل ابدا على الماك**   
+اما اذا كان كرت من فئه 10 **مثل 1080 او فئه 9 مثل 980** ستكون محدود الى اصدار **High Sierra 10.13** بحيث هاذا **اخر اصدار سمحت أبل لانفيديا باصدار التعريفات له**
 
 ### الدعم :
 
@@ -77,7 +110,7 @@ c/@b\_wdgt
 
 ايضا سوف نحتاج اداه السيريل للماك \(GenSMbios\) من نفس المطور تحملها من [هنا ](https://github.com/corpnewt/GenSMBIOS)
 
-اداه SSDTime المعدله من مطور IOIIIO **تحتاجه فقط لكاتلينا وفوق** تحميل من [هنا](https://github.com/IOIIIO/SSDTTime)
+اداه SSDTime المعدله من مطور **IOIIIO** **تحتاجه فقط لكاتلينا وفوق** تحميل من [هنا](https://github.com/IOIIIO/SSDTTime)
 
 {% hint style="info" %}
 التحميل من الروابط في الاعلى يكون من زر Clone or download ثم اختار download zip ثم انشئ ملف تفك في ضغط الملفات
