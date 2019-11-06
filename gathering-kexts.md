@@ -154,7 +154,7 @@ description: التعريفات الاساسيه للنظام
 
 تم انسخ هدا الامر على **Terminal**
 
-```text
+```
 sudo chown -R root:wheel /L*/E*; sudo chmod -R 755 /L*/E*; sudo kextcache -i /
 ```
 
