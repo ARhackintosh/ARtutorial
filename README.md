@@ -98,12 +98,12 @@
 | GT 710 | GTX 780 Ti | Quadro K2000/D |
 | GT 640 \(Kepler edition, GK 107/208 core\) | GTX 770 | Quadro K4000/D |
 | GT 630 \(Kepler edition, GK 208 core\) | GTX 760 Ti | Quadro K4200 |
-|  | GTX 690 | Quadro K5000 |
-|  | GTX 680 | Quadro K5200 |
-|  | GTX 670 | Quadro K6000 |
-|  | GTX 660 Ti | Quadro NVS510 |
-|  | GTX 650 Ti |  |
-|  | GTX 645 \(Fermi\) |  |
+| - | GTX 690 | Quadro K5000 |
+| - | GTX 680 | Quadro K5200 |
+| - | GTX 670 | Quadro K6000 |
+| - | GTX 660 Ti | Quadro NVS510 |
+| - | GTX 650 Ti | - |
+| - | GTX 645 \(Fermi\) | - |
 
 بالنسبه لكروت **Nvidia الاخرى** بشكل عام انا انصح ان تبقى على الويندوز لان البرامج على ويندوز مصممه لاستخدام كروت انفيديا بشكل افضل لاكن اذا كنت تريد تثبيت الماك مع كرت انفيديا ستكون محدود الى اصدار **High Sierra 10.13** بحيث هاذا **اخر اصدار سمحت أبل لانفيديا باصدار التعريفات له**
 
