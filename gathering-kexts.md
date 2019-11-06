@@ -150,7 +150,7 @@ description: التعريفات الاساسيه للنظام
 * AR9280
 * AR9380
 
-لتنصيبه يجب نسخه على هذا المسار : **Library/Extensions** لا تلصقه هنا **\*\*~~**System/Library/Extensions\*\*~~
+لتنصيبه يجب نسخه على هذا المسار : **Library/Extensions** لا تلصقه هنا **\*\***~~**System/Library/Extensions**~~\*\*
 
 تم انسخ هدا الامر على **Terminal**
 
@@ -180,7 +180,7 @@ sudo chown -R root:wheel /L*/E*; sudo chmod -R 755 /L*/E*; sudo kextcache -i /
 #### يعمل على العديد من اللواقط منها :
 
 | **RTL8188CUS** | **RTL8192CU** | **RTL8192EU** | **RTL8188EUS** | **RTL8811AU** | **RTL8812BU** | **RTL8814AU** | **RTL8812AU** |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 
 
 <table>
@@ -205,7 +205,7 @@ sudo chown -R root:wheel /L*/E*; sudo chmod -R 755 /L*/E*; sudo kextcache -i /
 
 
 | - | - | TL-WN821N v6 | - | - | - | - | - |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
 
 
 #### تعريف [USB Wireless Utility](https://github.com/chris1111/USB-Wireless-Utility)
@@ -215,8 +215,6 @@ sudo chown -R root:wheel /L*/E*; sudo chmod -R 755 /L*/E*; sudo kextcache -i /
 * **RT3572 , RT3072 , RT3070 , RT3573 , MT7610 , MT7610 , MT7610 , RT5370**
 
   **RT2870 , RT3071 , RT2770 , RT3573 , RT5572 , RT3573 , RT3573 , RT5572 , RT3572**
-
-  \*\*\*\*
 
 ## بقية الكيكست :
 
