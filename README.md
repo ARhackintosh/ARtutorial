@@ -77,6 +77,7 @@
 * **Radeon RX 480**
 * **Radeon RX 570**
 * **Radeon RX 580**
+* **Radeon RX 5700 XT \(Catalina 10.15.1+\)**
 * **Radeon Pro WX 7100**
 * **Radeon RX Vega 56**
 * **Radeon RX Vega 64**
@@ -89,8 +90,20 @@
 
 ### لائحة بعض كروت Nvidia المدعومة على macOS Catalina 10.15
 
-GTX Titan \| GK 110 GTX Titan Black \| GK 110 GTX Titan Z GTX 780 Ti GTX 770 GTX 760 Ti GT 740 GT 730 GT 720 GT 710 GTX 690 GTX 680 GTX 670 GTX 660 Ti GTX 650 Ti GTX 645 \(Fermi\) GT 640 \(Kepler edition, GK 107/208 core\) GT 630 \(Kepler edition, GK 208 core\) Quadro 410 Quadro K420 Quadro K600 Quadro K2000/D Quadro K4000/D Quadro K4200 Quadro K5000 Quadro K5200 Quadro K6000 Quadro NVS510   
-c/@b\_wdgt
+| **GT** | **GTX** | **Quadro** |
+| :---: | :---: | :---: |
+| GT 740 | GTX Titan \| GK 110 | Quadro 410 |
+| GT 730 | GTX Titan Black \| GK 110 | Quadro K420 |
+| GT 720 | GTX Titan Z | Quadro K600 |
+| GT 710 | GTX 780 Ti | Quadro K2000/D |
+| GT 640 \(Kepler edition, GK 107/208 core\) | GTX 770 | Quadro K4000/D |
+| GT 630 \(Kepler edition, GK 208 core\) | GTX 760 Ti | Quadro K4200 |
+|  | GTX 690 | Quadro K5000 |
+|  | GTX 680 | Quadro K5200 |
+|  | GTX 670 | Quadro K6000 |
+|  | GTX 660 Ti | Quadro NVS510 |
+|  | GTX 650 Ti |  |
+|  | GTX 645 \(Fermi\) |  |
 
 بالنسبه لكروت **Nvidia الاخرى** بشكل عام انا انصح ان تبقى على الويندوز لان البرامج على ويندوز مصممه لاستخدام كروت انفيديا بشكل افضل لاكن اذا كنت تريد تثبيت الماك مع كرت انفيديا ستكون محدود الى اصدار **High Sierra 10.13** بحيث هاذا **اخر اصدار سمحت أبل لانفيديا باصدار التعريفات له**
 
