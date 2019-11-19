@@ -96,7 +96,7 @@
 اداه **SSDTime** المعدله من مطور **IOIIIO** تحتاجه فقط **لكاتلينا وفوق** تحميل من [هنا](https://github.com/IOIIIO/SSDTTime)
 
 كيكست [Virtualsmc.kext](https://github.com/acidanthera/VirtualSMC/releases) هذا يستبدل **Fakesmc** بحيث سيكون محاكي ال [smc](https://en.wikipedia.org/wiki/System_Management_Controller) القطعه المسئوله عن التحكم في النظام في اجهزه ابل  
- بدونها لا يمكن الاقلاع
+بدونها لا يمكن الاقلاع
 
 {% hint style="info" %}
 التحميل من الروابط في الاعلى يكون من زر **Clone or download** ثم اختار **Download zip** ثم انشئ ملف تفك في ضغط الملفات
