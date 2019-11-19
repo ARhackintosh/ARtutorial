@@ -1,8 +1,10 @@
+# \(Kext\) اختيار التعريفات
+
 الموضوع يختلف على حسب الجهاز طبعا بحيث يعتمد على القطع الموجودة في المذربورد
 
 طبعا [Virtualsmc.kext](https://github.com/acidanthera/VirtualSMC/releases) **أساسي يقنع النظام ان هذا جهاز ماك**
 
-**التعريفات الأساسية موجوده في أرشيف** **ال Kexts** من هنا **بحيث** **سيكون مكتوب وظيفه كل Kext مع رابط التحميل**
+**التعريفات الأساسية موجوده في أرشيف** **ال Kexts** [من هنا](https://kextarchive.هاكنتوش.com/) **بحيث** **سيكون مكتوب وظيفه كل Kext مع رابط التحميل**
 
 ## الايثرنت Ethernet :
 
@@ -22,7 +24,9 @@
 
 ## مداخل \(USB\) :
 
-راح تحتاج[ USBinjectAll,kext](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/) اذا كنت على مذربرود **H370,B360 و H310** من **الجيل الثامن** واذا كان عندك مذربورد **X79/X99/X299** راح تحتاجه XHCI-unsupported.kext المضمون في [USBinjectAll.kext](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/)
+راح تحتاج[ USBinjectAll,kext](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/) اذا كنت على مذربرود **H370,B360 و H310** من **الجيل الثامن** 
+
+واذا كان عندك مذربورد **X79/X99/X299** راح تحتاج XHCI-unsupported.kext المضمون في [USBinjectAll.kext](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/)
 
 في **10.11** ابل وضعت **حد 15 مدخل USB** **على كل USB Controller** يتبين ان 15 عدد كافي حتى يتبين لك ان كل مدخل **USB3** **يحسب كمدخلان.**
 
@@ -192,11 +196,7 @@ sudo chown -R root:wheel /L*/E*; sudo chmod -R 755 /L*/E*; sudo kextcache -i /
     </tr>
   </thead>
   <tbody></tbody>
-</table>| TRENDnet N150 Micro | EDIMAX N300 | TL-WN823N v3 | TL-WN722N v3 | - | - | - | - |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-
-
-| - | - | TL-WN821N v6 | - | - | - | - | - |
+</table>| - | - | TL-WN821N v6 | - | - | - | - | - |
 | :--- | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
 
 
@@ -211,3 +211,4 @@ sudo chown -R root:wheel /L*/E*; sudo chmod -R 755 /L*/E*; sudo kextcache -i /
 ## بقية الكيكست :
 
 هناك الكثير من الكيكستات وتعتمد على حسب الجهاز مثل الابتوبات هناك كيكستات للبطاريه واضائه الكيبورد و العديد من الكيكستات الاخرى التي تعتمد على جهازك هنا في هاكنتوش العرب نحاول ارشفة جميع الكيكستات هنا وما وظيفتها مع رابط التحميل لاكن تحتاج بحث كبير منك خاصه لو كنت على لابتوب.
+
