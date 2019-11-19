@@ -15,5 +15,5 @@
 ## بعد نقل الماك <a id="after-copying-the-installer"></a>
 
 * [الاقلاع](after-copying-the-installer/booting.md)
-* [بعد التثبيت](post-install.md)
+* [بعد التثبيت](after-copying-the-installer/post-install.md)
 
