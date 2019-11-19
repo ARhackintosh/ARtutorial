@@ -10,7 +10,7 @@
 
 ## online طريقه تثبيت
 
-* [USB تجهيز ال](ARtutorial/online-installer/creating-hackintosh-usb.md)
+* [USB تجهيز ال](online-installer/creating-hackintosh-usb.md)
 
 ## طريقه تثبيت لاتحتاج انترنت \(اعقد بشكل عام\)
 
