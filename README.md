@@ -91,8 +91,6 @@
 
 أداة تنزيل الماك ونسخه **\(GibmacOS\)** من المطور الرهيب **corpnewt** تحميل من [هنا](https://github.com/corpnewt/gibMacOS)
 
-سكربت **PackAppWin.py** من مطور **doesprintfwork** تحميل [من هنا](https://github.com/doesprintfwork/MakeInstallmacOS)
-
 ايضا سوف نحتاج اداه السيريل للماك **\(GenSMbios\) للمكتبي فقط** من نفس المطور تحملها من [هنا ](https://github.com/corpnewt/GenSMBIOS)
 
 اداه **SSDTime** المعدله من مطور **IOIIIO** تحتاجه فقط **لكاتلينا وفوق** تحميل من [هنا](https://github.com/IOIIIO/SSDTTime)
@@ -103,15 +101,6 @@
 {% hint style="info" %}
 التحميل من الروابط في الاعلى يكون من زر **Clone or download** ثم اختار **Download zip** ثم انشئ ملف تفك في ضغط الملفات
 {% endhint %}
-
-برنامج **\(bdu\) Boot Disk Utility** البرنامج الذي سوف نستخدمه لحرق الماك ونسخ الملفات الضروريه لل **usb**  
- تحميل يكون من علامه الحفظ اخر الموقع ****[من هنا](http://cvad-mac.narod.ru/index/bootdiskutility_exe/0-5)
-
-سوف تحتاج برنامج **7zip** بديل مفتوح المصدار افضل من winrar  يجب ان يكون مثبت في   `C:\Program Files (x86)\7zip` تحميل من [هنا](https://www.7-zip.org/)
-
-برنامج **transmac** لنقل الملفات لل usb تحميل [من هنا](https://www.acutesystems.com/scrtm.htm) \(حمل tmsetup.exe\)
-
-برنامج **Paragon partion manger \(ppm\)** المخصص لتغير حجم اقسام الفلاش [التحميل من هنا](https://www.paragon-software.com/free/pm-express/#)
 
 التعريفات **\(Kext\)** سوف تكون على حسب جهازك. **سنشرح هذا في القسم القادم**
 
