@@ -107,7 +107,7 @@
 برنامج **\(bdu\) Boot Disk Utility** البرنامج الذي سوف نستخدمه لحرق الماك ونسخ الملفات الضروريه لل **usb**  
  تحميل يكون من علامه الحفظ اخر الموقع ****[من هنا](http://cvad-mac.narod.ru/index/bootdiskutility_exe/0-5)
 
-سوف تحتاج برنامج **7zip** بديل مفتوح المصدار افضل من winrar مثبت في   `C:\Program Files (x86)\7zip` تحميل من [هنا](https://www.7-zip.org/)
+سوف تحتاج برنامج **7zip** بديل مفتوح المصدار افضل من winrar  يجب ان يكون مثبت في   `C:\Program Files (x86)\7zip` تحميل من [هنا](https://www.7-zip.org/)
 
 برنامج **transmac** لنقل الملفات لل usb تحميل [من هنا](https://www.acutesystems.com/scrtm.htm) \(حمل tmsetup.exe\)
 
