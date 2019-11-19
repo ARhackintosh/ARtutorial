@@ -5,14 +5,14 @@
 * [اختيار الكونفق الصحيح\(config\)](config-setup/README.md)
   * [\(laptop config\)للابتوبات](config-setup/laptops.md)
 * [تحميل الماك](downloading-macos.md)
-* [الاقلاع](booting.md)
+
+## نقل الماك <a id="creating-usb-intaller"></a>
+
+* [تثبيت مع الانرنت](creating-usb-intaller/online-installer.md)
+* [التثبيت بدون انترنت](creating-usb-intaller/offline-installer.md)
+
+## بعد نقل الماك <a id="after-copying-the-installer"></a>
+
+* [الاقلاع](after-copying-the-installer/booting.md)
 * [بعد التثبيت](post-install.md)
-
-## online طريقه تثبيت
-
-* [USB تجهيز ال](online-installer/creating-hackintosh-usb.md)
-
-## طريقه تثبيت لاتحتاج انترنت \(اعقد بشكل عام\)
-
-* [usb تجهيز ال](tryqh-tthbyt-lathtaj-antrnt-aaqd-bshkl-aam/usb-tjhyz-al.md)
 
