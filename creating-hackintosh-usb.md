@@ -9,7 +9,7 @@
 
 ![](.gitbook/assets/image%20%2847%29.png)
 
-الان نكتب الرقك المكتوب بجانب ال USB في هاذا الحال رقم 1
+الان نكتب الرقك المكتوب بجانب ال USB في هذا الحال رقم 1
 
 ![](.gitbook/assets/image%20%2841%29.png)
 
@@ -18,7 +18,7 @@
 ![](.gitbook/assets/image%20%286%29.png)
 
 بعد الفرمته الاساسيه البرنامج سوف يطلب موقع النظام في نفس الملف الخاص ب اداه gibmacos افتح ملف MacOS Downloads  
-ثم publicrelease ثم افتح ملف النظام الذي نزلته من البرنامج الاول \(gibMacOS\) بهاذا الحاله 10.15 macOS Catalina
+ثم publicrelease ثم افتح ملف النظام الذي نزلته من البرنامج الاول \(gibMacOS\) في هذه الحاله 10.15 macOS Catalina
 
 ![](.gitbook/assets/image%20%2840%29.png)
 
