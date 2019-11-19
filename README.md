@@ -47,7 +47,7 @@
 ### كرت الشاشة :
 
 بالنسبه لكروت الشاشه **المنفصله في الابتوبات غير مدعومه** وسوف يتم استخدام **الكرت الداخلي \(intel\)** للماك  
- كانت هناك محاولات ناجحه لتفعيل الكروت المنفصله في الابتوات **لاكنها ليست مؤكده لكل الاجهزه**
+كانت هناك محاولات ناجحه لتفعيل الكروت المنفصله في الابتوات **لاكنها ليست مؤكده لكل الاجهزه**
 
 بالنسبه للكمبيوتر المكتبي فكروت **AMD** هي افضل خيار لانها مدعومه **بشكل مباشر من النظام** ابتعد عن كروت **XFX** لانها تواجه احيانا بعض المشاكل ابل تدعم بشكل رسمي هاذي الكروت
 
@@ -91,22 +91,33 @@
 
 أداة تنزيل الماك ونسخه **\(GibmacOS\)** من المطور الرهيب **corpnewt** تحميل من [هنا](https://github.com/corpnewt/gibMacOS)
 
-ايضا سوف نحتاج اداه السيريل للماك **\(GenSMbios\)** من نفس المطور تحملها من [هنا ](https://github.com/corpnewt/GenSMBIOS)
+سكربت **PackAppWin.py** من مطور **doesprintfwork** تحميل [من هنا](https://github.com/doesprintfwork/MakeInstallmacOS)
+
+ايضا سوف نحتاج اداه السيريل للماك **\(GenSMbios\) للمكتبي فقط** من نفس المطور تحملها من [هنا ](https://github.com/corpnewt/GenSMBIOS)
 
 اداه **SSDTime** المعدله من مطور **IOIIIO** تحتاجه فقط **لكاتلينا وفوق** تحميل من [هنا](https://github.com/IOIIIO/SSDTTime)
+
+كيكست [Virtualsmc.kext](https://github.com/acidanthera/VirtualSMC/releases) هذا يستبدل **Fakesmc** بحيث سيكون محاكي ال [smc](https://en.wikipedia.org/wiki/System_Management_Controller) القطعه المسئوله عن التحكم في النظام في اجهزه ابل  
+ بدونها لا يمكن الاقلاع
 
 {% hint style="info" %}
 التحميل من الروابط في الاعلى يكون من زر **Clone or download** ثم اختار **Download zip** ثم انشئ ملف تفك في ضغط الملفات
 {% endhint %}
 
-يو اس بي **\(USB\)** مساحته **8GB** و أكثر
+برنامج **\(bdu\) Boot Disk Utility** البرنامج الذي سوف نستخدمه لحرق الماك ونسخ الملفات الضروريه لل **usb**  
+ تحميل يكون من علامه الحفظ اخر الموقع ****[من هنا](http://cvad-mac.narod.ru/index/bootdiskutility_exe/0-5)
 
-كيكست [Virtualsmc.kext](https://github.com/acidanthera/VirtualSMC/releases) هذا يستبدل **Fakesmc** بحيث سيكون محاكي ال [smc](https://en.wikipedia.org/wiki/System_Management_Controller) القطعه المسئوله عن التحكم في النظام في اجهزه ابل بدونها لا يمكن الاقلاع
+سوف تحتاج برنامج **7zip** بديل مفتوح المصدار افضل من winrar مثبت في   `C:\Program Files (x86)\7zip` تحميل من [هنا](https://www.7-zip.org/)
+
+برنامج **transmac** لنقل الملفات لل usb تحميل [من هنا](https://www.acutesystems.com/scrtm.htm) \(حمل tmsetup.exe\)
+
+برنامج **Paragon partion manger \(ppm\)** المخصص لتغير حجم اقسام الفلاش [التحميل من هنا](https://www.paragon-software.com/free/pm-express/#)
 
 التعريفات **\(Kext\)** سوف تكون على حسب جهازك. **سنشرح هذا في القسم القادم**
 
-**شويه صبر وعزم واحتراف في البحث على الانترنت**
+يو اس بي **\(USB\)** مساحته **8GB** و أكثر
 
+**شويه صبر وعزم واحتراف في البحث على الانترنت**
 
 ### الدعم :
 
