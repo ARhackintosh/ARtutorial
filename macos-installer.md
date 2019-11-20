@@ -13,7 +13,7 @@
 
 بشكل عام اذا كان هناك تعريف شبكه لجهازك ننصحك بتجربه التثبيت مع الانترنت اذا واجهتك مشكله لم نستطيع حلها استخدم طريقه بدون انترنت
 
-{% page-ref page="creating-usb-intaller/online-installer.md" %}
+{% page-ref page="creating-usb-installer/online-installer.md" %}
 
-{% page-ref page="creating-usb-intaller/offline-installer.md" %}
+{% page-ref page="creating-usb-installer/offline-installer.md" %}
 
