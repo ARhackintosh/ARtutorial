@@ -11,8 +11,8 @@
 * [Untitled](creating-usb-installer/offline-installer.md)
 * [Untitled](online-installer.md)
 
-## بعد نسخ الماك
+## بعد نسخ الماك <a id="after-copying-the-installer"></a>
 
-* [الاقلاع](bad-nskh-almak/booting.md)
-* [بعد التثبيت](bad-nskh-almak/post-install.md)
+* [الاقلاع](after-copying-the-installer/booting.md)
+* [بعد التثبيت](after-copying-the-installer/post-install.md)
 
