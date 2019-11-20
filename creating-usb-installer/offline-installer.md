@@ -1,54 +1,108 @@
 # التثبيت بدون انترنت
 
-الان نبدء بنسخ الماك مع Make install الجزء الاخر من اداه gibMacOS
+سوف نحتاج الى
 
-اول شيء اوصل ال USB في الجهاز تاكد من معرفه حجم ال USB والشركه المصنعه
+سكربت **PackAppWin.py** من مطور **doesprintfwork** تحميل [من هنا](https://github.com/doesprintfwork/MakeInstallmacOS)
 
-الان بعد ما نفتح البرنامج راح يظهر عندنا في الاعلى اجهزه تخزين وجود كلمه \(removable\) يعني يمكن فصله عن الجهاز مثل USB وسيتم ذكر اسم الشركه المصنعه وسعه ال USB يجب التاكد منها.  
-تحت ال USB راح نلاقي ال Partions او اقسام ال USB الان **راح نفرمت ال USB** ا**ذا كان عندك اي معلومات مهمه انسخها قبل ما تفرمت**
+برنامج **\(bdu\) Boot Disk Utility** البرنامج الذي سوف نستخدمه لحرق الماك ونسخ الملفات الضروريه لل **usb**  
+تحميل يكون من علامه الحفظ اخر الموقع _\*\*_[من هنا](http://cvad-mac.narod.ru/index/bootdiskutility_exe/0-5)
 
-![](https://github.com/ARhackintosh/ARtutorial/tree/bfeda5d8b3a38dd329307a9b6ac4811c5a3a0995/creating-usb-installer/.gitbook/assets/image%20%2859%29.png)
+سوف تحتاج برنامج **7zip** بديل مفتوح المصدار افضل من winrar يجب ان يكون مثبت في `C:\Program Files (x86)\7zip` تحميل من [هنا](https://www.7-zip.org/)
 
-الان نكتب الرقك المكتوب بجانب ال USB في هاذا الحال رقم 1
+برنامج **transmac** لنقل الملفات لل usb تحميل [من هنا](https://www.acutesystems.com/scrtm.htm) \(حمل tmsetup.exe\)
 
-![](https://github.com/ARhackintosh/ARtutorial/tree/bfeda5d8b3a38dd329307a9b6ac4811c5a3a0995/creating-usb-installer/.gitbook/assets/image%20%2851%29.png)
+برنامج **Paragon partion manger \(ppm\)** المخصص لتغير حجم اقسام الفلاش [التحميل من هنا](https://www.paragon-software.com/free/pm-express/#)
 
-بعد ما نضغط زر انتر سوف ينبهنا البرنامج انه ستيم فرمته ال USB بالكامل بعد التاكد من ملفاتك اكتب y واضغط انتر
+اول نبدا مع سكربت نذهب الى ملف الذي تم تحميله ثم ننسخ سكربت packappwin.py الى ملف تنزيل الماك والذي سيكون في نفس ملف الموجود فيه اداه gibmacos ثم `macOS Downloads/publicrelase` ثم بعدها اذهب الى ملف الماك الذي نزلته وضع سكربت packappwin.py في نفس الملف
 
-![](https://github.com/ARhackintosh/ARtutorial/tree/bfeda5d8b3a38dd329307a9b6ac4811c5a3a0995/creating-usb-installer/.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%2844%29.png)
 
-بعد الفرمته الاساسيه البرنامج سوف يطلب موقع النظام في نفس الملف الخاص ب اداه gibmacos افتح ملف MacOS Downloads  
-ثم publicrelease ثم افتح ملف النظام الذي نزلته من البرنامج الاول \(gibMacOS\) بهاذا الحاله 10.15 macOS Catalina
+ثم نفتح السكربت اذا قال لك اختار البرنامج الذي سوف تستخدمه لفتح السكربت اختار اظهر زياده من البرامج ثم البحث عن البرنامج في هذا الكمبيوتر
 
-![](https://github.com/ARhackintosh/ARtutorial/tree/bfeda5d8b3a38dd329307a9b6ac4811c5a3a0995/creating-usb-installer/.gitbook/assets/image%20%2850%29.png)
+![](../.gitbook/assets/image%20%2852%29.png)
 
-افتح الملف وانسخ موقعه وضعه في ال CMD ثم اضغط زر انتر
+ثم بعدها اذهب الى هاذا المكان `C:\Users\USERNAME\AppData\Local\Programs\Python` استبدل USERNAME باسم حسابك على الويندوز ستجد ملف داخله افتح الملف وستجد البرنامج python.exe ثم اختار open او فتح
 
-![](https://github.com/ARhackintosh/ARtutorial/tree/bfeda5d8b3a38dd329307a9b6ac4811c5a3a0995/creating-usb-installer/.gitbook/assets/image%20%2874%29.png)
+![](../.gitbook/assets/image%20%2866%29.png)
 
-الان سوف يبدء البرنامج بعمليه النسخ **تعتمد على سرعه ال USB الخاص فيك**
+بعد ما يفتح ال cmd نختار p
 
-![](https://github.com/ARhackintosh/ARtutorial/tree/bfeda5d8b3a38dd329307a9b6ac4811c5a3a0995/creating-usb-installer/.gitbook/assets/image%20%2835%29.png)
+![](../.gitbook/assets/image%20%2871%29.png)
 
-ايضا البرنامج سيقوم بتنزيل الكلوفر و تثبيته على ال USB
+بعد انتهاء السكربت سوف تلاحظ وجود ملف جديد يسمى SharedSupport
 
-![](https://github.com/ARhackintosh/ARtutorial/tree/bfeda5d8b3a38dd329307a9b6ac4811c5a3a0995/creating-usb-installer/.gitbook/assets/image%20%2855%29.png)
+## BootDisk Utility
 
-بعد الانتهاء اغلق البرنامج
+ننتقل لbdu
 
-![](https://github.com/ARhackintosh/ARtutorial/tree/bfeda5d8b3a38dd329307a9b6ac4811c5a3a0995/creating-usb-installer/.gitbook/assets/image%20%2842%29.png)
+نذهب الى option/configuration/checknow للبحث عن اخر اصدار عن الكلوفر
+
+ثم بعدها اختار ال usb الخاص فيك ثم اضغط format **\(سوف نفرمت الفلاش تاكد من نسخ جميع الملفات!!\)**
+
+![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Le58xqzAwHioaNemfml%2F-LhVhPnzA4e86uCEV81a%2F-LhViriAJ70BK5y8gFUm%2Fezgif-4-b59bb851e67a.gif?alt=media&token=0acc35ae-1161-44d2-921d-42b730c204fa)
+
+1. ثم اذهب الى **tools/Extract HFS from dmg file**
+
+![](../.gitbook/assets/image%20%2836%29.png)
+
+2.اختار ملف BaseSystem.dmg من ملف تنزيلات الماك من برنامج gibmacos ثم اختار فتح او open
+
+![](../.gitbook/assets/image%20%2862%29.png)
+
+ثم اختار سطح المكتب كمكان لحفظ الملف
+
+![](../.gitbook/assets/image%20%2830%29.png)
+
+بعد ذلك البرنامج سيتسخدم 7zip لاستخراج الملف
+
+![](../.gitbook/assets/image%20%2856%29.png)
+
+بعدها سوف تجد ملف
+
+4.hfs على سطح المكتب
+
+الان نرجع الى bdu ثم اضغط على علامه الزائد بجانب ال usb  
+ثم اختار part 2
+
+![](../.gitbook/assets/image%20%2868%29.png)
+
+ثم اضغط على زر restore  
+بعدها نختار ملف الذي تم استخراجه \(4.hfs\)  
+ثم اضغط ok وانتظر حتى يتم نقل الملفات
+
+## Paragon Partion Manger
+
+الان سوف نحتاج الى تغير حجم قسم الماك
+
+نفتح البرنامج ثم بعدها اختار القسم الثاني من الفلاش الذي حجمه 1.87gb
+
+![](../.gitbook/assets/image%20%2847%29.png)
+
+ثم بعدها اجعل حجم ال newvolume اكبر ما يمكن وثم اضغط change now
+
+![](../.gitbook/assets/image%20%2867%29.png)
+
+## transmac
+
+الان ياتي دور برنامج Transmac افتح البرنامج كمشرف \(adminstartor\)
+
+ثم نقوم بسحب ملف SharedSupport من ملف الماك الى Transmac
+
+![](../.gitbook/assets/image%20%285%29.png)
+
+## نقل الكونفق والكيكست
 
 بعد اغلاق البرنامج ستلاحظ وجود USB باسم CLOVER اختارها ثم اذهب الى ملف ال EFI ثم CLOVER استبدل الكونفق الموجود بالخاص بجهازك بعد معالجته من برنامج GenSMBIOS **اذا كان جهازك مكتبي  
 اما للابتوبات فضع ملف الكونفق مباشره بعد تغير الاسم الى config.plist**
 
-![](https://github.com/ARhackintosh/ARtutorial/tree/bfeda5d8b3a38dd329307a9b6ac4811c5a3a0995/creating-usb-installer/.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
-بعدها افتح ملف kexts ثم others الكيكست تظهر كاملفات في الويندوز احذف الكيكست الموجود مسبقا FakeSMC.kext واستبدله ب virtualsmc  
+بعدها افتح ملف kexts ثم others الكيكست تظهر كملفات في الويندوز احذف الكيكست الموجود مسبقا FakeSMC.kext واستبدله ب virtualsmc  
 وبعد فك الضغط ضع الملف الذي ينتهي ب .kext في الملف others
 
 **مثال** لkext موجوده في ملف Other
 
-![&#x645;&#x62B;&#x627;&#x644;](https://github.com/ARhackintosh/ARtutorial/tree/bfeda5d8b3a38dd329307a9b6ac4811c5a3a0995/creating-usb-installer/.gitbook/assets/image%20%2843%29.png)
+![&#x645;&#x62B;&#x627;&#x644;](../.gitbook/assets/image%20%2843%29.png)
 
 ## كاتلينا فما فوق 10.15+
 
@@ -58,28 +112,28 @@
 
 نختار رقم 4 لاستخراج DSDT من المذربورد
 
-![](https://github.com/ARhackintosh/ARtutorial/tree/bfeda5d8b3a38dd329307a9b6ac4811c5a3a0995/creating-usb-installer/.gitbook/assets/image%20%2846%29.png)
+![](../.gitbook/assets/image%20%2846%29.png)
 
 الان الاداه سوف تختار ملف ال DSDT التي استخرجته  
 اختار رقم 2 FakeEC حتى نضيف التعديلات الازمه
 
-![](https://github.com/ARhackintosh/ARtutorial/tree/bfeda5d8b3a38dd329307a9b6ac4811c5a3a0995/creating-usb-installer/.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
 بعدها نذهب الى ملف Results يوجد بنفس الملف الي توجد به الاداه  
 سوف تجد ملف SSDT-EC.aml
 
-![](https://github.com/ARhackintosh/ARtutorial/tree/bfeda5d8b3a38dd329307a9b6ac4811c5a3a0995/creating-usb-installer/.gitbook/assets/image%20%2848%29.png)
+![](../.gitbook/assets/image%20%2848%29.png)
 
 انسخ الملف ثم اذهب الى ال usb ثم الى EFI/CLOVER/  
 ثم انشء ملف ACPI
 
-![](https://github.com/ARhackintosh/ARtutorial/tree/bfeda5d8b3a38dd329307a9b6ac4811c5a3a0995/creating-usb-installer/.gitbook/assets/image%20%2860%29.png)
+![](../.gitbook/assets/image%20%2860%29.png)
 
 ثم انشء ملف Patched
 
-![](https://github.com/ARhackintosh/ARtutorial/tree/bfeda5d8b3a38dd329307a9b6ac4811c5a3a0995/creating-usb-installer/.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%2828%29.png)
 
 داخل ملف Patched ضع ملف SSDT-EC.aml
 
-![](https://github.com/ARhackintosh/ARtutorial/tree/bfeda5d8b3a38dd329307a9b6ac4811c5a3a0995/creating-usb-installer/.gitbook/assets/image%20%2832%29.png)
+![](../.gitbook/assets/image%20%2832%29.png)
 
