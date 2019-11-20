@@ -8,8 +8,8 @@
 
 ## تثبيت الماك <a id="creating-usb-installer"></a>
 
+* [Untitled](creating-usb-installer/online-installer.md)
 * [Untitled](creating-usb-installer/offline-installer.md)
-* [Untitled](online-installer.md)
 
 ## بعد نسخ الماك <a id="after-copying-the-installer"></a>
 
