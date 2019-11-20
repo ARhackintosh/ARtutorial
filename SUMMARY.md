@@ -5,7 +5,7 @@
 * [اختيار الكونفق الصحيح\(config\)](config-setup/README.md)
   * [\(laptop config\)للابتوبات](config-setup/laptops.md)
 * [تحميل الماك](downloading-macos.md)
-* [تثبيت الماك](macos-installer.md)
+* [نسخ الماك](macos-installer.md)
 
 ## تثبيت الماك <a id="creating-usb-intaller"></a>
 
