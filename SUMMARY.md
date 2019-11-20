@@ -12,7 +12,7 @@
 * [تثبيت مع الانترنت](creating-usb-intaller/online-installer.md)
 * [التثبيت بدون انترنت](creating-usb-intaller/offline-installer.md)
 
-## بعد نقل الماك <a id="after-copying-the-installer"></a>
+## بعد نسخ الماك <a id="after-copying-the-installer"></a>
 
 * [الاقلاع](after-copying-the-installer/booting.md)
 * [بعد التثبيت](after-copying-the-installer/post-install.md)
