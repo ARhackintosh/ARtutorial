@@ -7,7 +7,7 @@
 * [تحميل الماك](downloading-macos.md)
 * [تثبيت الماك](macos-installer.md)
 
-## نقل الماك <a id="creating-usb-intaller"></a>
+## تثبيت الماك <a id="creating-usb-intaller"></a>
 
 * [تثبيت مع الانترنت](creating-usb-intaller/online-installer.md)
 * [التثبيت بدون انترنت](creating-usb-intaller/offline-installer.md)
