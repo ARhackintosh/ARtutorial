@@ -17,5 +17,4 @@
 
 * [الاقلاع](after-copying-the-installer/booting.md)
 * [بعد التثبيت](after-copying-the-installer/post-install.md)
-* [المصادر وفريق المتطوعين](after-copying-the-installer/almsadr-wfryq-almttwayn.md)
 
