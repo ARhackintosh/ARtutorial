@@ -24,6 +24,10 @@
 
 شرح موقع AmdOSX التي تم استخدام ارشاداتهم و الكونفق الخاص لمعالجات amd   
 [https://vanilla.amd-osx.com/](https://vanilla.amd-osx.com/)
+شرح المطور الرهيب coprnewt وهو التي تم بناء الشرح عليه بشكل اساسي
+https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/
+شرح midi jari اقتبسنا بعض الخطوات المتقدمه منه
+https://internet-install.gitbook.io/macos-internet-install/
 
   
   
