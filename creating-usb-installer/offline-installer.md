@@ -86,7 +86,7 @@
 
 الان ياتي دور برنامج Transmac افتح البرنامج كمشرف \(adminstartor\)
 
-ثم نقوم بسحب ملف SharedSupport من ملف الماك الى Transmac
+ثم نقوم بسحب ملف SharedSupport من ملف الماك ملف macOS Base System/instal macOS Catalina.app/Contents داخل برنامج Transmac
 
 ![](../.gitbook/assets/image%20%285%29.png)
 
@@ -136,4 +136,3 @@
 داخل ملف Patched ضع ملف SSDT-EC.aml
 
 ![](../.gitbook/assets/image%20%2833%29.png)
-
