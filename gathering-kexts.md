@@ -8,11 +8,6 @@
 
 طبعا [Virtualsmc.kext](https://github.com/acidanthera/VirtualSMC/releases) **أساسي يقنع النظام ان هذا جهاز ماك**
 
-**ايضا** [NullCPUPowerManagement.kext ](https://github.com/corpnewt/NullCPUPowerManagement)ضروري بحيث نظام الماك لايدعم تحكم بطاقه معالجات amd   
-\(تحميل يكون من clone or download\)
-
-وسوف نحتاج AppleMCEReporterDisabler.kext بحيث AppleMCEReporter قد يسبب KP 
-
 ## الايثرنت Ethernet :
 
 بالنسبه للشبكه راح نعتمد على **السلك وليس الواي فاي**
