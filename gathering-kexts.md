@@ -8,9 +8,16 @@ description: التعريفات الاساسيه للنظام
 
 الموضوع يختلف على حسب الجهاز طبعا بحيث يعتمد على القطع الموجودة في المذربورد
 
+**التعريفات الأساسية موجوده في أرشيف** **ال Kexts** من هنا **بحيث** **سيكون مكتوب وظيفه كل Kext مع رابط التحميل**
+
+## **كيكستات اساسيه**
+
 طبعا [Virtualsmc.kext](https://github.com/acidanthera/VirtualSMC/releases) **أساسي يقنع النظام ان هاذا جهاز ماك**
 
-**التعريفات الأساسية موجوده في أرشيف** **ال Kexts** من هنا **بحيث** **سيكون مكتوب وظيفه كل Kext مع رابط التحميل**
+**ايضا** [NullCPUPowerManagement.kext ](https://github.com/corpnewt/NullCPUPowerManagement)ضروري بحيث نظام الماك لايدعم تحكم بطاقه معالجات amd   
+\(تحميل يكون من clone or download\)
+
+وسوف نحتاج AppleMCEReporterDisabler.kext بحيث AppleMCEReporter قد يسبب KP 
 
 ## الايثرنت Ethernet :
 
@@ -30,11 +37,11 @@ description: التعريفات الاساسيه للنظام
 
 ## مداخل \(USB\) :
 
-راح تحتاج[ USBinjectAll,kext](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/) اذا كنت على مذربرود **H370,B360 و H310** من **الجيل الثامن** واذا كان عندك مذربورد **X79/X99/X299** راح تحتاجه XHCI-unsupported.kext المضمون في [USBinjectAll.kext](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/)
+راح تحتاج[ USBinjectAll,kext](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/) 
 
 في **10.11** ابل وضعت **حد 15 مدخل USB** **على كل USB Controller** يتبين ان 15 عدد كافي حتى يتبين لك ان كل مدخل **USB3** **يحسب كمدخلان.**
 
-**على** **مذربوردات الجيل السادس فما فوق** **مداخل USB3** و **USB 2** يتم التحكم بها من **XHCI controllrer** وبما ان كل **مدخل USB3 يحسب 2 يمكن الوصول الحد بسهوله** لاكن **ممكن يتم تحويل مداخل USB2 الى ال** **EHCI Controller** باستخدام كيكست [FakePCIID.kext](https://bitbucket.org/RehabMan/os-x-fake-pci-id) **\(تشتغل على بعض المذربوردات فقط\)** وتشيل الضغط عن **XHCI Controller**
+**على** **مذربوردات ryzen فما فوق** **مداخل USB3** و **USB 2** يتم التحكم بها من **XHCI controllrer** وبما ان كل **مدخل USB3 يحسب 2 يمكن الوصول الحد بسهوله** لاكن **ممكن يتم تحويل مداخل USB2 الى ال** **EHCI Controller** باستخدام كيكست [FakePCIID.kext](https://bitbucket.org/RehabMan/os-x-fake-pci-id) **\(تشتغل على بعض المذربوردات فقط\)** وتشيل الضغط عن **XHCI Controller**
 
 ## كرت الشاشة \(GPU\) :
 
@@ -42,7 +49,7 @@ description: التعريفات الاساسيه للنظام
 
 ## الصوت \(Sound\) :
 
-بالنسبه **للصوت** راح تحتاج [Applealc.Kext](https://github.com/acidanthera/AppleALC) و الكيكست المرافق [Lilu.kext](https://github.com/acidanthera/lilu/releases) اذا كان كرت الصوت عندك موجود في هاذه [القائمه](https://github.com/acidanthera/applealc/wiki/supported-codecs) اذا كان كرتك غير موجود هناك تعريف بديل [VoodoHDA.Kext](https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V14) مع دعم اوسع
+بالنسبه **للصوت** هناك تعريفين [VoodoHDA.Kext](https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V14) يعمل مباشره بدون اي تدخل لاكن [Applealc.Kext](https://github.com/acidanthera/AppleALC) و الكيكست المرافق [Lilu.kext](https://github.com/acidanthera/lilu/releases) اذا كان كرت الصوت عندك موجود في هاذه [القائمه](https://github.com/acidanthera/applealc/wiki/supported-codecs) راح يعطيك جوده افضل لاكن راح تحتاج خطوات اضافيه موجوده [هنا\(انجليزي\)](https://kb.hackintoshisfun.ml/clover/post-installation/posty#audio)
 
 ## واي فاي وبلوتوث Wi-Fi / Bluetooth :
 
