@@ -15,4 +15,5 @@
 
 * [الاقلاع](after-copying-the-installer/booting.md)
 * [بعد التثبيت](after-copying-the-installer/post-install.md)
+* [البداية](start.md)
 
