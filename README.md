@@ -2,12 +2,14 @@
 
 ## شرح الكامل لتثبيت الهاكنتوش من مجتمع هاكنتوش بالعربي
 
-### اهلا بك في شرح تثبيت الهاكنتوش من مجتمع [هاكنتوش بالعربي](https://هاكنتوش.com) شرح محدث ومستمر مع اصدارات  **الاصدار الحالي ه**و V1.0 بمكانك رؤيه سجل تغيرات من ال repository الخاص بالشرح على موقع github [من هنا](https://github.com/ARhackintosh/ARtutorial/releases)  او حتى اقتراح تغيرات او التبليغ عن مشاكل اوالمساعده في اضافه ميزات في الشرح !
+### اهلا بك في شرح تثبيت الهاكنتوش من مجتمع [هاكنتوش بالعربي](https://هاكنتوش.com) شرح مفتوح المصدر محدث ومستم
 
-{% hint style="info" %}
+###   **الاصدار الحالي ه**و V1.0 بمكانك رؤيه سجل تغيرات من ال repository الخاص بالشرح على موقع github [من هنا](https://github.com/ARhackintosh/ARtutorial/releases)  او حتى اقتراح تغيرات او التبليغ عن مشاكل اوالمساعده في اضافه ميزات في الشرح !
+
+{% hint style="success" %}
 **الاصدار V1.0**  
 -يدعم طريقه تثبيت مع الانترنت وبدونه عبر الويندوز فقط بدون الاحتياج الى نظام وهمي  
--يدعم معالجات amd و انتل على المكتبي و انتل فقط على الابتوبات  
+-يدعم معالجات انتل من الجيل الثالث فما فوق و معالجات amd من فئه fx فما فوق على المكتبي فقط  
 -يدعم clover bootloder  
 -مبني على اداه gibmacos و genmacsmbios و bdu و PPM17 و transmac  
 -يدعم تحديث catalina 10.15.1\(19b88\) لمعالجات amd
@@ -25,7 +27,8 @@
 
 شرح موقع AmdOSX التي تم استخدام ارشاداتهم و الكونفق الخاص لمعالجات amd  
 [https://vanilla.amd-osx.com/](https://vanilla.amd-osx.com/)   
-شرح المطور الرهيب coprnewt وهو التي تم بناء الشرح عليه بشكل اساسي [https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)   
+شرح المطور الرهيب coprnewt وهو التي تم بناء الشرح عليه بشكل اساسي  
+ [https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)   
 شرح midi jari اقتبسنا بعض الخطوات المتقدمه منه  
  [https://internet-install.gitbook.io/macos-internet-install/](https://internet-install.gitbook.io/macos-internet-install/)
 
