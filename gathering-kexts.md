@@ -2,9 +2,16 @@
 
 الموضوع يختلف على حسب الجهاز طبعا بحيث يعتمد على القطع الموجودة في المذربورد
 
+**التعريفات الأساسية موجوده في أرشيف** **ال Kexts** [من هنا](https://kextarchive.هاكنتوش.com/) **بحيث** **سيكون مكتوب وظيفه كل Kext مع رابط التحميل**
+
+## كيكستات اساسية
+
 طبعا [Virtualsmc.kext](https://github.com/acidanthera/VirtualSMC/releases) **أساسي يقنع النظام ان هذا جهاز ماك**
 
-**التعريفات الأساسية موجوده في أرشيف** **ال Kexts** [من هنا](https://kextarchive.هاكنتوش.com/) **بحيث** **سيكون مكتوب وظيفه كل Kext مع رابط التحميل**
+**ايضا** [NullCPUPowerManagement.kext ](https://github.com/corpnewt/NullCPUPowerManagement)ضروري بحيث نظام الماك لايدعم تحكم بطاقه معالجات amd   
+\(تحميل يكون من clone or download\)
+
+وسوف نحتاج AppleMCEReporterDisabler.kext بحيث AppleMCEReporter قد يسبب KP 
 
 ## الايثرنت Ethernet :
 
