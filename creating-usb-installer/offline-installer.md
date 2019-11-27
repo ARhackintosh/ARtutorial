@@ -136,3 +136,4 @@
 داخل ملف Patched ضع ملف SSDT-EC.aml
 
 ![](../.gitbook/assets/image%20%2833%29.png)
+
