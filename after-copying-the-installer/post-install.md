@@ -12,7 +12,7 @@
 قم بتنزيل ملف .pkg فهي صيغه البرامج في الماك شبيهه ب .exe في الويندوز
 {% endhint %}
 
-وسوف نحتاج برنامج clover configurator بحيث هو الذي سيسمح لنا بالدخول الى قسم ال efi ونقل التعريفات والملفات الضروريه من usb الى وحده التخزين
+وسوف نحتاج برنامج [clover configurator](https://mackie100projects.altervista.org/download-clover-configurator/) بحيث هو الذي سيسمح لنا بالدخول الى قسم ال efi ونقل التعريفات والملفات الضروريه من usb الى وحده التخزين
 
 ## تثبيت clover
 
