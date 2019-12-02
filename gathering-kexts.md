@@ -12,7 +12,7 @@ description: التعريفات الاساسيه للنظام
 
 ## **كيكستات اساسيه**
 
-طبعا [Virtualsmc.kext](https://github.com/acidanthera/VirtualSMC/releases) **أساسي يقنع النظام ان هاذا جهاز ماك**
+طبعا [Virtualsmc.kext](https://github.com/acidanthera/VirtualSMC/releases) **أساسي يقنع النظام ان هذا  جهاز ماك**
 
 **ايضا** [NullCPUPowerManagement.kext ](https://github.com/corpnewt/NullCPUPowerManagement)ضروري بحيث نظام الماك لايدعم تحكم بطاقه معالجات amd   
 \(تحميل يكون من clone or download\)
@@ -21,13 +21,13 @@ description: التعريفات الاساسيه للنظام
 
 ## الايثرنت Ethernet :
 
-بالنسبه للشبكه راح نعتمد على **السلك وليس الواي فاي**
+بالنسبة للشبكه راح نعتمد على **السلك وليس الواي فاي**
 
 ا [SmallTreeIntel82576.zip](https://drive.google.com/file/d/0B5Txx3pb7pgcOG5lSEF2VzFySWM/view?usp=sharing) مخصص لتعريف كرت انتل I211-AT
 
-**ا** [intelmausiEthernet.kext](https://github.com/Mieze/IntelMausiEthernet) يعمل مع معظم كروت الشبكه الحديثه من انتل
+**ا** [intelmausiEthernet.kext](https://github.com/Mieze/IntelMausiEthernet) يعمل مع معظم كروت الشبكة الحديثه من انتل
 
-ا [appleintelE1000e.kext ](https://sourceforge.net/projects/osx86drivers/files/Kext/Snow_or_Above/AppleIntelE1000e.kext.zip/download)يعمل مع كروت الشبكه القديمه من انتل مشكلتها قد تسبب KP مع الاجهزه الجديده
+ا [appleintelE1000e.kext ](https://sourceforge.net/projects/osx86drivers/files/Kext/Snow_or_Above/AppleIntelE1000e.kext.zip/download)يعمل مع كروت الشبكة القديمه من انتل مشكلتها قد تسبب KP مع الاجهزه الجديده
 
 ا [AtherosE2200Ethernet.kext ](https://github.com/Mieze/AtherosE2200Ethernet)- يعمل مع معظم كروت Atheros و KIller
 
@@ -41,15 +41,15 @@ description: التعريفات الاساسيه للنظام
 
 في **10.11** ابل وضعت **حد 15 مدخل USB** **على كل USB Controller** يتبين ان 15 عدد كافي حتى يتبين لك ان كل مدخل **USB3** **يحسب كمدخلان.**
 
-**على** **مذربوردات ryzen فما فوق** **مداخل USB3** و **USB 2** يتم التحكم بها من **XHCI controllrer** وبما ان كل **مدخل USB3 يحسب 2 يمكن الوصول الحد بسهوله** لاكن **ممكن يتم تحويل مداخل USB2 الى ال** **EHCI Controller** باستخدام كيكست [FakePCIID.kext](https://bitbucket.org/RehabMan/os-x-fake-pci-id) **\(تشتغل على بعض المذربوردات فقط\)** وتشيل الضغط عن **XHCI Controller**
+**على** **مذربوردات ryzen فما فوق** **مداخل USB3** و **USB 2** يتم التحكم بها من **XHCI controllrer** وبما ان كل **مدخل USB3 يحسب 2 يمكن الوصول الحد بسهوله** لاكن **ممكن يتم تحويل مداخل USB2 إلى ال** **EHCI Controller** باستخدام كيكست [FakePCIID.kext](https://bitbucket.org/RehabMan/os-x-fake-pci-id) **\(تشتغل على بعض المذربوردات فقط\)** وتشيل الضغط عن **XHCI Controller**
 
 ## كرت الشاشة \(GPU\) :
 
-بالنسبه **لكرت الشاشة** راح تحتاج [Whatevergreen.kext](https://github.com/acidanthera/WhateverGreen/releases) و الكيكست المرافق[ Lilu.kext](https://github.com/vit9696/Lilu/releases) بحيث استبدلو عدة **kexts** منها **Shiki** و **NvidiaGraphicsFixup** **وغيرها**
+بالنسبة **لكرت الشاشة** راح تحتاج [Whatevergreen.kext](https://github.com/acidanthera/WhateverGreen/releases) و الكيكست المرافق[ Lilu.kext](https://github.com/vit9696/Lilu/releases) بحيث استبدلو عدة **kexts** منها **Shiki** و **NvidiaGraphicsFixup** **وغيرها**
 
 ## الصوت \(Sound\) :
 
-بالنسبه **للصوت** هناك تعريفين [VoodoHDA.Kext](https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V14) يعمل مباشره بدون اي تدخل لاكن [Applealc.Kext](https://github.com/acidanthera/AppleALC) و الكيكست المرافق [Lilu.kext](https://github.com/acidanthera/lilu/releases) اذا كان كرت الصوت عندك موجود في هاذه [القائمه](https://github.com/acidanthera/applealc/wiki/supported-codecs) راح يعطيك جوده افضل لاكن راح تحتاج خطوات اضافيه موجوده [هنا\(انجليزي\)](https://kb.hackintoshisfun.ml/clover/post-installation/posty#audio)
+بالنسبة **للصوت** هناك تعريفين [VoodoHDA.Kext](https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V14) يعمل مباشره بدون اي تدخل لاكن [Applealc.Kext](https://github.com/acidanthera/AppleALC) و الكيكست المرافق [Lilu.kext](https://github.com/acidanthera/lilu/releases) إذا  كان كرت الصوت عندك موجود في هاذه [القائمه](https://github.com/acidanthera/applealc/wiki/supported-codecs) راح يعطيك جوده افضل لاكن راح تحتاج خطوات اضافيه موجوده [هنا\(انجليزي\)](https://kb.hackintoshisfun.ml/clover/post-installation/posty#audio)
 
 ## واي فاي وبلوتوث Wi-Fi / Bluetooth :
 
@@ -120,7 +120,7 @@ description: التعريفات الاساسيه للنظام
 * Intel® Wireless WiFi Link 5150AGN
 
 {% hint style="danger" %}
-اذا كنت ناوي تغير كرت الواي فاي **انتبه** من **BIOS** جهازك هل به **Whitelist** تعمله شركات مثل **HP** و **Lenovo** مقال يشرح ما هي [هنا](https://www.thewindowsclub.com/bios-whitelist)
+إذا  كنت ناوي تغير كرت الواي فاي **انتبه** من **BIOS** جهازك هل به **Whitelist** تعمله شركات مثل **HP** و **Lenovo** مقال يشرح ما هي [هنا](https://www.thewindowsclub.com/bios-whitelist)
 {% endhint %}
 
 ### تعريفات تحتاجها لتعريف الكروت المدعومة :
@@ -165,7 +165,7 @@ description: التعريفات الاساسيه للنظام
 sudo chown -R root:wheel /L*/E*; sudo chmod -R 755 /L*/E*; sudo kextcache -i /
 ```
 
-بشكل عام **افضل حل للواي فاي والبلوتوث هو كرت خارجي** مع تعريف من الشركه مثل **TP-Link** وغيرها من الشركات التي تعطي USB واي فاي **تاكد من وجود دعم للماك** و سوف تعمل معك.
+بشكل عام **افضل حل للواي فاي والبلوتوث هو كرت خارجي** مع تعريف من الشركة مثل **TP-Link** وغيرها من الشركات التي تعطي USB واي فاي **تاكد من وجود دعم للماك** و سوف تعمل معك.
 
 ## لواقط وايف فاي خارجية \(USB\) :
 
@@ -227,5 +227,5 @@ sudo chown -R root:wheel /L*/E*; sudo chmod -R 755 /L*/E*; sudo kextcache -i /
 
 ## بقية الكيكست :
 
-هناك الكثير من الكيكستات وتعتمد على حسب الجهاز مثل الابتوبات هناك كيكستات للبطاريه واضائه الكيبورد و العديد من الكيكستات الاخرى التي تعتمد على جهازك هنا في هاكنتوش بالعربي نحاول ارشفة جميع الكيكستات في ارشيف الهاكنتوش  وما وظيفتها مع رابط التحميل لاكن تحتاج بحث كبير منك 
+هناك الكثير من الكيكستات وتعتمد على حسب الجهاز مثل الابتوبات هناك كيكستات للبطارية واضائه الكيبورد و العديد من الكيكستات الاخرى التي تعتمد على جهازك هنا في هاكنتوش العرب نحاول ارشفة جميع الكيكستات هنا وما وظيفتها مع رابط التحميل لاكن تحتاج بحث كبير منك خاصه لو كنت على لابتوب.
 
