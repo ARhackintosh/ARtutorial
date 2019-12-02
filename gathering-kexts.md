@@ -12,12 +12,12 @@ description: التعريفات الاساسيه للنظام
 
 ## **كيكستات اساسيه**
 
-طبعا [Virtualsmc.kext](https://github.com/acidanthera/VirtualSMC/releases) **أساسي يقنع النظام ان هذا  جهاز ماك**
+طبعا [Virtualsmc.kext](https://github.com/acidanthera/VirtualSMC/releases) **أساسي يقنع النظام ان هذا جهاز ماك**
 
-**ايضا** [NullCPUPowerManagement.kext ](https://github.com/corpnewt/NullCPUPowerManagement)ضروري بحيث نظام الماك لايدعم تحكم بطاقه معالجات amd   
+**ايضا** [NullCPUPowerManagement.kext ](https://github.com/corpnewt/NullCPUPowerManagement)ضروري بحيث نظام الماك لايدعم تحكم بطاقه معالجات amd  
 \(تحميل يكون من clone or download\)
 
-وسوف نحتاج AppleMCEReporterDisabler.kext بحيث AppleMCEReporter قد يسبب KP 
+وسوف نحتاج AppleMCEReporterDisabler.kext بحيث AppleMCEReporter قد يسبب KP
 
 ## الايثرنت Ethernet :
 
@@ -37,7 +37,7 @@ description: التعريفات الاساسيه للنظام
 
 ## مداخل \(USB\) :
 
-راح تحتاج[ USBinjectAll,kext](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/) 
+راح تحتاج[ USBinjectAll,kext](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/)
 
 في **10.11** ابل وضعت **حد 15 مدخل USB** **على كل USB Controller** يتبين ان 15 عدد كافي حتى يتبين لك ان كل مدخل **USB3** **يحسب كمدخلان.**
 
@@ -49,7 +49,7 @@ description: التعريفات الاساسيه للنظام
 
 ## الصوت \(Sound\) :
 
-بالنسبة **للصوت** هناك تعريفين [VoodoHDA.Kext](https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V14) يعمل مباشره بدون اي تدخل لاكن [Applealc.Kext](https://github.com/acidanthera/AppleALC) و الكيكست المرافق [Lilu.kext](https://github.com/acidanthera/lilu/releases) إذا  كان كرت الصوت عندك موجود في هاذه [القائمه](https://github.com/acidanthera/applealc/wiki/supported-codecs) راح يعطيك جوده افضل لاكن راح تحتاج خطوات اضافيه موجوده [هنا\(انجليزي\)](https://kb.hackintoshisfun.ml/clover/post-installation/posty#audio)
+بالنسبة **للصوت** هناك تعريفين [VoodoHDA.Kext](https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V14) يعمل مباشره بدون اي تدخل لاكن [Applealc.Kext](https://github.com/acidanthera/AppleALC) و الكيكست المرافق [Lilu.kext](https://github.com/acidanthera/lilu/releases) إذا كان كرت الصوت عندك موجود في هاذه [القائمه](https://github.com/acidanthera/applealc/wiki/supported-codecs) راح يعطيك جوده افضل لاكن راح تحتاج خطوات اضافيه موجوده [هنا\(انجليزي\)](https://kb.hackintoshisfun.ml/clover/post-installation/posty#audio)
 
 ## واي فاي وبلوتوث Wi-Fi / Bluetooth :
 
@@ -120,7 +120,7 @@ description: التعريفات الاساسيه للنظام
 * Intel® Wireless WiFi Link 5150AGN
 
 {% hint style="danger" %}
-إذا  كنت ناوي تغير كرت الواي فاي **انتبه** من **BIOS** جهازك هل به **Whitelist** تعمله شركات مثل **HP** و **Lenovo** مقال يشرح ما هي [هنا](https://www.thewindowsclub.com/bios-whitelist)
+إذا كنت ناوي تغير كرت الواي فاي **انتبه** من **BIOS** جهازك هل به **Whitelist** تعمله شركات مثل **HP** و **Lenovo** مقال يشرح ما هي [هنا](https://www.thewindowsclub.com/bios-whitelist)
 {% endhint %}
 
 ### تعريفات تحتاجها لتعريف الكروت المدعومة :
@@ -207,11 +207,7 @@ sudo chown -R root:wheel /L*/E*; sudo chmod -R 755 /L*/E*; sudo kextcache -i /
     </tr>
   </thead>
   <tbody></tbody>
-</table>| TRENDnet N150 Micro | EDIMAX N300 | TL-WN823N v3 | TL-WN722N v3 | - | - | - | - |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-
-
-| - | - | TL-WN821N v6 | - | - | - | - | - |
+</table>| - | - | TL-WN821N v6 | - | - | - | - | - |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 
 
