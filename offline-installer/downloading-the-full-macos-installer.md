@@ -6,23 +6,23 @@ description: اول خطوه هي تنزل النظام
 
 بعد تحميلك اداه تنزيل الماك[ gibmacos](https://github.com/corpnewt/gibMacOS) عنطريق الضغط على زر clone or download وثم اختار Download ZIP
 
-![&#x627;&#x62E;&#x62A;&#x627;&#x631; Download ZIP](.gitbook/assets/image%20%2822%29.png)
+![&#x627;&#x62E;&#x62A;&#x627;&#x631; Download ZIP](../.gitbook/assets/image%20%2822%29.png)
 
 بعد ما يتم التحميل نفك الضغط و بعدها نفتح الملف ونختار gibMacOS.bat
 
-![](.gitbook/assets/image%20%2868%29.png)
+![](../.gitbook/assets/image%20%2868%29.png)
 
 في حاله عدم وجود بايثون 3 على حهازك البرنامج سيطلب منك تحميله اكتب y للموافقه
 
-![](.gitbook/assets/image%20%2881%29.png)
+![](../.gitbook/assets/image%20%2881%29.png)
 
 البرنامج يرتب النسخ **بحسب وقت اصدارها** ابل ايضا تحدث الاصدارات القديمه نحن نريد اصدار 10.15 كاتلينا وهو اخر اصدار من الماك وفي هاذه الحاله تم رفع تحديث امني لي الاصدار الذي قبله فظهر في الاعلى اعلى من الاصدار الاخير من الماك لذا سوف نختار رقم 2
 
-![](.gitbook/assets/image%20%2855%29.png)
+![](../.gitbook/assets/image%20%2855%29.png)
 
 ثم سيقوم البرنامج ببدء التنزيل
 
-![](.gitbook/assets/image%20%2827%29.png)
+![](../.gitbook/assets/image%20%2827%29.png)
 
 {% hint style="info" %}
 سرعه التنزيل تعتمد على سرعه الانترنت الخاص بك
@@ -31,23 +31,23 @@ description: اول خطوه هي تنزل النظام
 سوف تظهر قائمه الملفات التي تم تنزيلها بنجاح واذا لم يوجد اي ملف تحت failed مبروك لقد تم تنزيل النسخه بنجاح تحت File saved to  
 يوجد موقع حفظ الملف سوف نحتاجه في الخطوه القادميه
 
-![](.gitbook/assets/image%20%2815%29.png)
+![](../.gitbook/assets/image%20%2815%29.png)
 
 ## تحميل نسخ اقدم
 
 اذا كنت تحتاج نسخ اقدم مثل لو كان لديك كرت انفيديا اضغط M في الصفحه الرئيسيه ثم اكتب رقم النسخه بهاذه الحاله سوف تكون 10.13
 
-![](.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
 سيقوم البرنامج بتحميل قائمه الاصدارات المتوفره
 
-![](.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2825%29.png)
 
 سوف تظهر اختيارات جديده نختار اعلى اختيار من الاصدار المطلوب بهاذه الحاله MacOS High Sierra
 
-![](.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 ثم البرنامج سيقوم بتنزيل النسخه مقسمه على 11 ملف
 
-![](.gitbook/assets/image%20%2846%29.png)
+![](../.gitbook/assets/image%20%2846%29.png)
 
