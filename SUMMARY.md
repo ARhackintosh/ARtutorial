@@ -5,13 +5,17 @@
 * [\(Kext\) اختيار التعريفات](gathering-kexts.md)
 * [اختيار الكونفق الصحيح\(config\)](config-setup/README.md)
   * [\(laptop config\)للابتوبات](config-setup/laptops.md)
-* [تحميل الماك](downloading-macos.md)
-* [نسخ الماك](macos-installer.md)
+* [نسخ الماك](online-or-offline.md)
 
-## تثبيت الماك <a id="creating-usb-installer"></a>
+## تثبيت بدون انترنت <a id="offline-installer"></a>
 
-* [تثبيت مع الانترنت](creating-usb-installer/online-installer.md)
-* [التثبيت بدون انترنت](creating-usb-installer/offline-installer.md)
+* [تحميل الماك](offline-installer/downloading-the-full-macos-installer.md)
+* [التثبيت بدون انترنت](offline-installer/offline-installation.md)
+
+## تثبيت مع الانترنت <a id="online-installer"></a>
+
+* [تنزيل الماك](online-installer/downloading-online-recovery.md)
+* [تثبيت مع الانترنت](online-installer/online-installation.md)
 
 ## بعد نسخ الماك <a id="after-copying-the-installer"></a>
 

@@ -11,7 +11,7 @@
 | سريع في التثبيت | بطيء في التثبيت \(ساعتين او اكثر\) |
 | ينصح فيها للابتوبات التي لايوجد لها تعرف او لايوجد فيها مدخل  lan او اذا لم يكن لديك اتصال دائم بالانترنت او اذا كان سرعه النت لديك بطيئه | ينصح فيه للكمبيوتر  او المكتبي الابتوبات التي فيها مدخل lan وتعريف متوافر ولديك سرعه انترنت جيده |
 
-{% page-ref page="creating-usb-installer/online-installer.md" %}
+{% page-ref page="online-installer/online-installation.md" %}
 
-{% page-ref page="creating-usb-installer/offline-installer.md" %}
+{% page-ref page="offline-installer/offline-installation.md" %}
 
