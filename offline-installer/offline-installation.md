@@ -1,6 +1,6 @@
 # التثبيت بدون انترنت
 
-سوف نحتاج الى
+سوف نحتاج إلى
 
 سكربت **PackAppWin.py** من مطور **doesprintfwork** تحميل [من هنا](https://github.com/doesprintfwork/MakeInstallmacOS)
 
@@ -13,7 +13,7 @@
 
 برنامج **Paragon partion manger \(ppm\)** المخصص لتغير حجم اقسام الفلاش [التحميل من هنا](https://www.paragon-software.com/free/pm-express/#)
 
-اول نبدا مع سكربت نذهب الى ملف الذي تم تحميله ثم ننسخ سكربت packappwin.py الى ملف تنزيل الماك والذي سيكون في نفس ملف الموجود فيه اداه gibmacos ثم `macOS Downloads/publicrelase` ثم بعدها اذهب الى ملف الماك الذي نزلته وضع سكربت packappwin.py في نفس الملف
+اول نبدا مع سكربت نذهب إلى ملف الذي تم تحميله ثم ننسخ سكربت packappwin.py إلى ملف تنزيل الماك والذي سيكون في نفس ملف الموجود فيه اداه gibmacos ثم `macOS Downloads/publicrelase` ثم بعدها اذهب إلى ملف الماك الذي نزلته وضع سكربت packappwin.py في نفس الملف
 
 ![](../.gitbook/assets/image%20%2845%29.png)
 
@@ -21,7 +21,7 @@
 
 ![](../.gitbook/assets/image%20%2854%29.png)
 
-ثم بعدها اذهب الى هاذا المكان `C:\Users\USERNAME\AppData\Local\Programs\Python` استبدل USERNAME باسم حسابك على الويندوز ستجد ملف داخله افتح الملف وستجد البرنامج python.exe ثم اختار open او فتح
+ثم بعدها اذهب إلى هاذا المكان `C:\Users\USERNAME\AppData\Local\Programs\Python` استبدل USERNAME باسم حسابك على الويندوز ستجد ملف داخله افتح الملف وستجد البرنامج python.exe ثم اختار open أو فتح
 
 ![](../.gitbook/assets/image%20%2871%29.png)
 
@@ -35,17 +35,17 @@
 
 ننتقل لbdu
 
-نذهب الى option/configuration/checknow للبحث عن اخر اصدار عن الكلوفر
+نذهب إلى option/configuration/checknow للبحث عن اخر اصدار عن الكلوفر
 
 ثم بعدها اختار ال usb الخاص فيك ثم اضغط format **\(سوف نفرمت الفلاش تاكد من نسخ جميع الملفات!!\)**
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Le58xqzAwHioaNemfml%2F-LhVhPnzA4e86uCEV81a%2F-LhViriAJ70BK5y8gFUm%2Fezgif-4-b59bb851e67a.gif?alt=media&token=0acc35ae-1161-44d2-921d-42b730c204fa)
 
-1. ثم اذهب الى **tools/Extract HFS from dmg file**
+1. ثم اذهب إلى **tools/Extract HFS from dmg file**
 
 ![](../.gitbook/assets/image%20%2837%29.png)
 
-2.اختار ملف BaseSystem.dmg من ملف تنزيلات الماك من برنامج gibmacos ثم اختار فتح او open
+2.اختار ملف BaseSystem.dmg من ملف تنزيلات الماك من برنامج gibmacos ثم اختار فتح أو open
 
 ![](../.gitbook/assets/image%20%2865%29.png)
 
@@ -61,7 +61,7 @@
 
 4.hfs على سطح المكتب
 
-الان نرجع الى bdu ثم اضغط على علامه الزائد بجانب ال usb  
+الان نرجع إلى bdu ثم اضغط على علامه الزائد بجانب ال usb  
 ثم اختار part 2
 
 ![](../.gitbook/assets/image%20%2873%29.png)
@@ -72,7 +72,7 @@
 
 ## Paragon Partion Manger
 
-الان سوف نحتاج الى تغير حجم قسم الماك
+الان سوف نحتاج إلى تغير حجم قسم الماك
 
 نفتح البرنامج ثم بعدها اختار القسم الثاني من الفلاش الذي حجمه 1.87gb
 
@@ -92,8 +92,8 @@
 
 ## نقل الكونفق والكيكست
 
-بعد اغلاق البرنامج ستلاحظ وجود USB باسم CLOVER اختارها ثم اذهب الى ملف ال EFI ثم CLOVER استبدل الكونفق الموجود بالخاص بجهازك بعد معالجته من برنامج GenSMBIOS **اذا كان جهازك مكتبي**  
-**اما للابتوبات فضع ملف الكونفق مباشره بعد تغير الاسم الى config.plist**
+بعد اغلاق البرنامج ستلاحظ وجود USB باسم CLOVER اختارها ثم اذهب إلى ملف ال EFI ثم CLOVER استبدل الكونفق الموجود بالخاص بجهازك بعد معالجته من برنامج GenSMBIOS **اذا كان جهازك مكتبي**  
+**اما للابتوبات فضع ملف الكونفق مباشره بعد تغير الاسم إلى config.plist**
 
 ![](../.gitbook/assets/image%20%2814%29.png)
 
@@ -106,7 +106,7 @@
 
 ## كاتلينا فما فوق 10.15+
 
-في اصادر 10.15 من الماك سنحتاج الى خطوه اضافيه بحيث ابل وضعت شرط لي استخدام اجهزه EC فا يجب خداع النظام حتى يتم الاقلاع بحيث سيتم تعديل ال DSDT لاضافه اجهزه EC وهميه
+في اصادر 10.15 من الماك سنحتاج إلى خطوه اضافيه بحيث ابل وضعت شرط لي استخدام اجهزه EC فا يجب خداع النظام حتى يتمالإقلاع بحيث سيتم تعديل ال DSDT لاضافه اجهزه EC وهميه
 
 سوف نستخدم اداه SSDTtime من IOIIIO نفتح الاداه عبر ملف SSDTTIME.bat
 
@@ -119,12 +119,12 @@
 
 ![](../.gitbook/assets/image%20%2824%29.png)
 
-بعدها نذهب الى ملف Results يوجد بنفس الملف الي توجد به الاداه  
+بعدها نذهب إلى ملف Results يوجد بنفس الملف الي توجد به الاداه  
 سوف تجد ملف SSDT-EC.aml
 
 ![](../.gitbook/assets/image%20%2849%29.png)
 
-انسخ الملف ثم اذهب الى ال usb ثم الى EFI/CLOVER/  
+انسخ الملف ثم اذهب إلى ال usb ثم إلى EFI/CLOVER/  
 ثم  ملف ACPI
 
 ![](../.gitbook/assets/image%20%2863%29.png)
