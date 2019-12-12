@@ -125,11 +125,11 @@
 ![](../.gitbook/assets/image%20%2849%29.png)
 
 انسخ الملف ثم اذهب إلى ال usb ثم إلى EFI/CLOVER/  
-ثم  ملف ACPI
+ثم ملف ACPI
 
 ![](../.gitbook/assets/image%20%2863%29.png)
 
-ثم  ملف Patched
+ثم ملف Patched
 
 ![](../.gitbook/assets/image%20%2829%29.png)
 
