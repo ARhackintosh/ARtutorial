@@ -1,6 +1,7 @@
 # \(laptop config\)للابتوبات
 
-بالنسبة للابتوبات سوف نعتمد على كونفقات جاهزه من المطور **Rehabman** اولا تقوم بتحمل الملف من جيت هب [هنا](https://github.com/RehabMan/OS-X-Clover-Laptop-Config)
+بعض الابتوبات قد تكون مشهوره لدرجه ان يكون لها ملف efi جاهز او كونفق وقائمه كيكستات جاهزه ابحث اولا   
+اذا لم تجد كونفق لجهازك سوف نستخدم  كونفقات جاهزه من المطور **Rehabman** اولا تقوم بتحمل الملف من جيت هب [هنا](https://github.com/RehabMan/OS-X-Clover-Laptop-Config)
 
 {% hint style="info" %}
 طريقه التنزيل من موقع جيت هب هي من زر clone or download ثم اختيار download Zip
