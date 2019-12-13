@@ -120,7 +120,7 @@
 
 هذا ضروري لإصلاح **WIFI** على العديد من بطاقات **Broadcom** ، بينما لا تحتاجه جميع الكروت ، هو مطلوب بشكل عام عند استخدام بطاقات لاسلكية غير مصنوعة من **Apple** . لديه وظيفة إضافية لتشغيل تعريفات كروت **Broadcom** القديمة في إصدارات أحدث من الماك
 
-#### **تعريف** [**BrcmPatchRAM**](https://github.com/RehabMan/OS-X-BrcmPatchRAM) **:**
+#### **تعريف** [**BrcmPatchRAM**](https://github.com/the-darkvoid/BrcmPatchRAM/releases) **:**
 
 مطلوب لجميع البطاقات اللاسلكية غير المصنوعة من **Apple**
 
