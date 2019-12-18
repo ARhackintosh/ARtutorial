@@ -8,15 +8,15 @@ description: اول خطوه هي تنزل النظام
 
 بعد تحميلك اداه تنزيل الماك[ gibmacos](https://github.com/corpnewt/gibMacOS) عنطريق الضغط على زر clone or download وثم اختار Download ZIP
 
-![&#x627;&#x62E;&#x62A;&#x627;&#x631; Download ZIP](../.gitbook/assets/image%20%2822%29.png)
+![&#x627;&#x62E;&#x62A;&#x627;&#x631; Download ZIP](../.gitbook/assets/image%20%2827%29.png)
 
 بعد ما يتم التحميل نفك الضغط و بعدها نفتح الملف ونختار gibMacOS.bat
 
-![](../.gitbook/assets/image%20%2868%29.png)
+![](../.gitbook/assets/image%20%2883%29.png)
 
 في حاله عدم وجود بايثون 3 على حهازك البرنامج سيطلب منك تحميله اكتب y للموافقه
 
-![](../.gitbook/assets/image%20%2881%29.png)
+![](../.gitbook/assets/image%20%2897%29.png)
 
 بعدها نقوم باختيار r للحصول على نسخ الريكوفري
 
@@ -45,7 +45,7 @@ description: اول خطوه هي تنزل النظام
 
 سيقوم البرنامج بتحميل قائمه الاصدارات المتوفره
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2830%29.png)
 
 سوف تظهر اختيارات جديده نختار اعلى اختيار من الاصدار المطلوب بهاذه الحالة MacOS High Sierra
 
