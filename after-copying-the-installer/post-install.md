@@ -22,11 +22,11 @@
 
 الان نذهب الى الاعدادات \(ايقونتها تشبه اعدادات الايفون\) وثم نختار security &privacy او بالعربي تكون الامن والخصوصيه
 
-![](../.gitbook/assets/image%20%2869%29.png)
+![](../.gitbook/assets/image%20%2884%29.png)
 
 ثم بعدها نقوم باختيار open anyway او الفتح على كل حال
 
-![](../.gitbook/assets/image%20%2866%29.png)
+![](../.gitbook/assets/image%20%2880%29.png)
 
 نختار نعم لتاكيد فتح البرنامج
 
@@ -34,11 +34,11 @@
 
 نختار continue 
 
-![](../.gitbook/assets/image%20%2858%29.png)
+![](../.gitbook/assets/image%20%2870%29.png)
 
 عندما تصل installiton type تاكد من اسم وحده التخزين يطابق بما سميتها اثناء تثبيت الماك في هاذه الحاله macos
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2825%29.png)
 
 واكمل التثبيت
 
@@ -50,7 +50,7 @@
 
 ثم عندم يفتح البرنامج نختار mount efi ثم بعدها ابحث عن وحده التخزين الخاصه بك **وتاكد من اسمها** ثم بعدها ثم اضغط على mount pratition
 
-![](../.gitbook/assets/image%20%2853%29.png)
+![](../.gitbook/assets/image%20%2865%29.png)
 
 ثم بعدها نختار open partition  
 
