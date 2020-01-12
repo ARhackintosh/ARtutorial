@@ -1,5 +1,7 @@
 # \(Kext\) اختيار التعريفات
 
+## ايش التعريفات \(Kext\) الي أحتاجها ؟
+
 الموضوع يختلف على حسب الجهاز طبعا بحيث يعتمد على القطع الموجودة في المذربورد
 
 **التعريفات الأساسية موجوده في أرشيف** **ال Kexts** [من هنا](https://kextarchive.هاكنتوش.com/) **بحيث** **سيكون مكتوب وظيفه كل Kext مع رابط التحميل**
@@ -14,15 +16,16 @@
 
 ا [SmallTreeIntel82576.zip](https://drive.google.com/file/d/0B5Txx3pb7pgcOG5lSEF2VzFySWM/view?usp=sharing) مخصص لتعريف كرت انتل I211-AT
 
-**ا** [intelmausiEthernet.kext](https://github.com/Mieze/IntelMausiEthernet) يعمل مع معظم كروت الشبكه الحديثه من انتل
+**ا** [intellectualism.kext](https://github.com/Mieze/IntelMausiEthernet) يعمل مع معظم كروت الشبكه الحديثه من انتل [**التحميل من هنا**](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455134&cid=FE4038DA929BFB23)\*\*\*\*
 
 ا [appleintelE1000e.kext ](https://sourceforge.net/projects/osx86drivers/files/Kext/Snow_or_Above/AppleIntelE1000e.kext.zip/download)يعمل مع كروت الشبكه القديمه من انتل مشكلتها قد تسبب KP مع الاجهزه الجديده
 
-ا [AtherosE2200Ethernet.kext ](https://github.com/Mieze/AtherosE2200Ethernet)- يعمل مع معظم كروت Atheros و KIller
+ا [AtherosE2200Ethernet.kext ](https://github.com/Mieze/AtherosE2200Ethernet)- يعمل مع معظم كروت Atheros و KIller [**التحميل من هنا**](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455105&cid=FE4038DA929BFB23)\*\*\*\*
 
-ا [RealteakRTL8111.kext](https://github.com/Mieze/RTL8111_driver_for_OS_X) يعمل مع كروت Realteak بسرعه 1GB/s
+ا [RealteakRTL8111.kext](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases) يعمل مع كروت Realteak بسرعه 1GB/s
 
-ا [RealtekRTL8100.kext](https://github.com/Mieze/RealtekRTL8100) يعمل مع كروت Realtek بسرعه 10-100mb/s
+ا [RealtekRTL8100.kext](https://github.com/Mieze/RealtekRTL8100) يعمل مع كروت Realtek بسرعه 10 -100mb/s [**التحميل من هنا** ](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455140&cid=FE4038DA929BFB23)  
+
 
 ## مداخل \(USB\) :
 
@@ -40,11 +43,11 @@
 
 ## الصوت \(Sound\) :
 
-بالنسبه **للصوت** راح تحتاج [Applealc.Kext](https://github.com/acidanthera/AppleALC) و الكيكست المرافق [Lilu.kext](https://github.com/acidanthera/lilu/releases) اذا كان كرت الصوت عندك موجود في هاذه [القائمه](https://github.com/acidanthera/applealc/wiki/supported-codecs) اذا كان كرتك غير موجود هناك تعريف بديل [VoodoHDA.Kext](https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V14) مع دعم اوسع
+بالنسبه **للصوت** راح تحتاج [Applealc.Kext](https://github.com/acidanthera/AppleALC/releases) و الكيكست المرافق [Lilu.kext](https://github.com/acidanthera/lilu/releases) اذا كان كرت الصوت عندك موجود في هاذه [القائمه](https://github.com/acidanthera/applealc/wiki/supported-codecs) اذا كان كرتك غير موجود هناك تعريف بديل [VoodoHDA.Kext](https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V14/releases) مع دعم اوسع
 
 ## واي فاي وبلوتوث Wi-Fi / Bluetooth :
 
-ابل دعمها لكروت **الواي فاي والبلوتوث** ضعيف جدا بحيث كروت **Intel و RealTek** غير مدعومه بشكل كامل أما **Atheros** مدعومه جزئيا بينما كروت **Broadcom** هي الكروت الأكثر دعما بحيت فيها من يتعرف تلقائي [**OOB**](https://arhackintoush.gitbook.io/gibinstall/#akhtsarat-sytm-astkhdamha-athnaa-alshrh) ومنها من تحتاج بعض الكيكست.
+ابل دعمها لكروت **الواي فاي والبلوتوث** ضعيف جدا بحيث كروت **Intel و RealTek** غير مدعومه بشكل كامل أما **Atheros** مدعومه جزئيا بينما كروت **Broadcom** هي الكروت الأكثر دعما بحيت فيها من يتعرف تلقائي **OOB** ومنها من تحتاج بعض الكيكست.
 
 ### كروت مدعومة :
 
@@ -116,7 +119,7 @@
 
 ### تعريفات تحتاجها لتعريف الكروت المدعومة :
 
-#### **تعريف** [**AirportBrcmFixup**](https://github.com/acidanthera/AirportBrcmFixup) **:**
+#### **تعريف** [**AirportBrcmFixup**](https://github.com/acidanthera/AirportBrcmFixup/releases) **:**
 
 هذا ضروري لإصلاح **WIFI** على العديد من بطاقات **Broadcom** ، بينما لا تحتاجه جميع الكروت ، هو مطلوب بشكل عام عند استخدام بطاقات لاسلكية غير مصنوعة من **Apple** . لديه وظيفة إضافية لتشغيل تعريفات كروت **Broadcom** القديمة في إصدارات أحدث من الماك
 
@@ -126,9 +129,9 @@
 
 #### **تعريف** [**BrcmBluetoothInjector**](https://github.com/RehabMan/OS-X-BrcmPatchRAM) **:**
 
-يستخدم لتشغيل كرت **BCM20702** ، غير ضروري لباقي الكروت يتطلب لبناءالتعريف من كود المصدر
+يستخدم لتشغيل كرت **BCM20702** ، [**التحميل من هنا**](https://bitbucket.org/RehabMan/os-x-brcmpatchram/downloads/)\*\*\*\*
 
-#### **تعريف** [**BT4LEContinuityFixup**](https://github.com/acidanthera/BT4LEContinuityFixup) **:**
+#### **تعريف** [**BT4LEContinuityFixup**](https://github.com/acidanthera/BT4LEContinuityFixup/releases) **:**
 
 يستعمل لحل مشاكل **التزامن \(Continuity\)** التي تسمح بتشغيل :
 
@@ -173,7 +176,7 @@ sudo chown -R root:wheel /L*/E*; sudo chmod -R 755 /L*/E*; sudo kextcache -i /
 
 ### اليكم تعريف بعض لواقط **WIFI** المعروفة دات شرائح **Realtek :**
 
-#### تعريف [Wireless-USB-Adapter-Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover)
+#### تعريف [Wireless-USB-Adapter-Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover/releases)
 
 #### يعمل على العديد من اللواقط منها :
 
@@ -198,9 +201,9 @@ sudo chown -R root:wheel /L*/E*; sudo chmod -R 755 /L*/E*; sudo kextcache -i /
     </tr>
   </thead>
   <tbody></tbody>
-</table>#### تعريف [USB Wireless Utility](https://github.com/chris1111/USB-Wireless-Utility)
+</table>#### تعريف [USB Wireless Utility](https://github.com/chris1111/USB-Wireless-Utility/releases)
 
-تماما مثل [Wireless-USB-Adapter-Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover) ، يسمح **WIFI-Dlink** بدعم عدد لا بأس به من بطاقات **Mediatek / Ralink** ، لكن نظرًا لكونه تطبيق **32bit** غير معتمد على **أنظمة AMD** هناك إصدار أحدث **Catalina** يعتمد على **64bit** وهو الأفضل لأنظمة **AMD** أيضًا: [WIFI-Dlink Catalina-Panel](https://github.com/chris1111/WIFI-Dlink-Catalina-Panel)
+تماما مثل [Wireless-USB-Adapter-Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover) ، يسمح **WIFI-Dlink** بدعم عدد لا بأس به من بطاقات **Mediatek / Ralink** ، لكن نظرًا لكونه تطبيق **32bit** غير معتمد على **أنظمة AMD** هناك إصدار أحدث **Catalina** يعتمد على **64bit** وهو الأفضل لأنظمة **AMD** أيضًا: [**WIFI-Dlink Catalina-Panel**](https://github.com/chris1111/WIFI-Dlink-Catalina-Panel-V2/releases)\*\*\*\*
 
 * **RT3572 , RT3072 , RT3070 , RT3573 , MT7610 , MT7610 , MT7610 , RT5370**
 

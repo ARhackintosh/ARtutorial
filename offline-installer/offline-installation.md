@@ -15,19 +15,19 @@
 
 اول نبدا مع سكربت نذهب إلى ملف الذي تم تحميله ثم ننسخ سكربت packappwin.py إلى ملف تنزيل الماك والذي سيكون في نفس ملف الموجود فيه اداه gibmacos ثم `macOS Downloads/publicrelase` ثم بعدها اذهب إلى ملف الماك الذي نزلته وضع سكربت packappwin.py في نفس الملف
 
-![](../.gitbook/assets/image%20%2856%29.png)
+![](../.gitbook/assets/image%20%2899%29.png)
 
 ثم نفتح السكربت اذا قال لك اختار البرنامج الذي سوف تستخدمه لفتح السكربت اختار اظهر زياده من البرامج ثم البحث عن البرنامج في هذا الكمبيوتر
 
-![](../.gitbook/assets/image%20%2866%29.png)
+![](../.gitbook/assets/image%20%28115%29.png)
 
 ثم بعدها اذهب إلى هاذا المكان `C:\Users\USERNAME\AppData\Local\Programs\Python` استبدل USERNAME باسم حسابك على الويندوز ستجد ملف داخله افتح الملف وستجد البرنامج python.exe ثم اختار open أو فتح
 
-![](../.gitbook/assets/image%20%2886%29.png)
+![](../.gitbook/assets/image-86.png)
 
 بعد ما يفتح ال cmd نختار p
 
-![](../.gitbook/assets/image%20%2892%29.png)
+![](../.gitbook/assets/image-92.png)
 
 بعد انتهاء السكربت سوف تلاحظ وجود ملف جديد يسمى SharedSupport
 
@@ -43,19 +43,19 @@
 
 1. ثم اذهب إلى **tools/Extract HFS from dmg file**
 
-![](../.gitbook/assets/image%20%2846%29.png)
+![](../.gitbook/assets/image%20%2884%29.png)
 
 2.اختار ملف BaseSystem.dmg من ملف تنزيلات الماك من برنامج gibmacos ثم اختار فتح أو open
 
-![](../.gitbook/assets/image%20%2879%29.png)
+![](../.gitbook/assets/image%20%28141%29.png)
 
 ثم اختار سطح المكتب كمكان لحفظ الملف
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](../.gitbook/assets/image%20%2870%29.png)
 
 بعد ذلك البرنامج سيتسخدم 7zip لاستخراج الملف
 
-![](../.gitbook/assets/image%20%2872%29.png)
+![](../.gitbook/assets/image%20%28128%29.png)
 
 بعدها سوف تجد ملف
 
@@ -64,7 +64,7 @@
 الان نرجع إلى bdu ثم اضغط على علامه الزائد بجانب ال usb  
 ثم اختار part 2
 
-![](../.gitbook/assets/image%20%2889%29.png)
+![](../.gitbook/assets/image-89.png)
 
 ثم اضغط على زر restore  
 بعدها نختار ملف الذي تم استخراجه \(4.hfs\)  
@@ -76,11 +76,11 @@
 
 نفتح البرنامج ثم بعدها اختار القسم الثاني من الفلاش الذي حجمه 1.87gb
 
-![](../.gitbook/assets/image%20%2859%29.png)
+![](../.gitbook/assets/image%20%28103%29.png)
 
 ثم بعدها اجعل حجم ال newvolume اكبر ما يمكن وثم اضغط change now
 
-![](../.gitbook/assets/image%20%2888%29.png)
+![](../.gitbook/assets/image-88.png)
 
 ## transmac
 
@@ -88,21 +88,21 @@
 
 ثم نقوم بسحب ملف SharedSupport من ملف الماك ملف macOS Base System/instal macOS Catalina.app/Contents داخل برنامج Transmac
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 ## نقل الكونفق والكيكست
 
 بعد اغلاق البرنامج ستلاحظ وجود USB باسم CLOVER اختارها ثم اذهب إلى ملف ال EFI ثم CLOVER استبدل الكونفق الموجود بالخاص بجهازك بعد معالجته من برنامج GenSMBIOS **اذا كان جهازك مكتبي**  
 **اما للابتوبات فضع ملف الكونفق مباشره بعد تغير الاسم إلى config.plist**
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2833%29.png)
 
 بعدها افتح ملف kexts ثم others الكيكست تظهر كملفات في الويندوز احذف الكيكست الموجود مسبقا FakeSMC.kext واستبدله ب virtualsmc  
 اذا قمت بتنزيل كيكستات سوف تلاحظ انها مضغوطه قم بفك الضغط ثم ضع الملف الذي ينتهي ب .kext في الملف others
 
 **مثال** لkext موجوده في ملف Other
 
-![&#x645;&#x62B;&#x627;&#x644;](../.gitbook/assets/image%20%2855%29.png)
+![&#x645;&#x62B;&#x627;&#x644;](../.gitbook/assets/image%20%2898%29.png)
 
 ## كاتلينا فما فوق 10.15+
 
@@ -112,28 +112,28 @@
 
 نختار رقم 4 لاستخراج DSDT من المذربورد
 
-![](../.gitbook/assets/image%20%2858%29.png)
+![](../.gitbook/assets/image%20%28101%29.png)
 
 الان الاداه سوف تختار ملف ال DSDT التي استخرجته  
 اختار رقم 2 FakeEC حتى نضيف التعديلات الازمه
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2854%29.png)
 
 بعدها نذهب إلى ملف Results يوجد بنفس الملف الي توجد به الاداه  
 سوف تجد ملف SSDT-EC.aml
 
-![](../.gitbook/assets/image%20%2860%29.png)
+![](../.gitbook/assets/image%20%28104%29.png)
 
 انسخ الملف ثم اذهب إلى ال usb ثم إلى EFI/CLOVER/  
 ثم ملف ACPI
 
-![](../.gitbook/assets/image%20%2877%29.png)
+![](../.gitbook/assets/image%20%28139%29.png)
 
 ثم ملف Patched
 
-![](../.gitbook/assets/image%20%2835%29.png)
+![](../.gitbook/assets/image%20%2866%29.png)
 
 داخل ملف Patched ضع ملف SSDT-EC.aml
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2875%29.png)
 
