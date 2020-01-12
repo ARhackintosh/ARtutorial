@@ -1,8 +1,33 @@
 # شرح الكامل لتثبيت الهاكنتوش من مجتمع هاكنتوش بالعربي
 
-### اهلا بك في شرح تثبيت الهاكنتوش من مجتمع [هاكنتوش بالعربي](https://هاكنتوش.com) شرح مفتوح المصدر محدث ومستمر
+### اهلا بك في شرح تثبيت الهاكنتوش من مجتمع [هاكنتوش بالعربي](https://هاكنتوش.com) اول و اكبر شرح عربي للهاكنتوش مفتوح المصدر 
 
-### **الاصدار الحالي ه**و V1.0 بإمكانك رؤية سجل التغييرات من ال repository الخاص بالشرح على موقع github [من هنا](https://github.com/ARhackintosh/ARtutorial/releases)  او حتى اقتراح تغييرات او التبليغ عن مشاكل اوالمساعدة في اضافة ميزات في الشرح !
+### **الاصدار الحالي ه**و V1.1 بإمكانك رؤية سجل التغييرات من ال repository الخاص بالشرح على موقع github [من هنا](https://github.com/ARhackintosh/ARtutorial/releases)  او حتى اقتراح تغييرات او التبليغ عن مشاكل اوالمساعدة في اضافة ميزات في الشرح !
+
+{% hint style="success" %}
+**V1.1-Catalina**
+
+تصحيح ترتيب الصور في صفحه AMD
+
+اضافه خيار التحميل مباشره لكيكست: 
+
+  
+-RealtekRTL8100  
+-AtherosE2200Ethernet  
+-intelmausiethernet
+
+تغير روابط الكيكست حتى تتجه الى صفحه release مباشره:
+
+  
+-RealtekRTL8111  
+-Applealc   
+-voodooHDA  
+-Wireless-USB-Adapter-Clover   
+-USB Wireless Utility   
+-WIFI-Dlink Catalina-Panel  
+-AirportBrcmFixup  
+-BT4LEContinuityFixup
+{% endhint %}
 
 {% hint style="success" %}
 **V1.0-Catalina** 

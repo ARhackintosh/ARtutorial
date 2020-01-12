@@ -3,7 +3,7 @@
 بالنسبه للكونفق راح يكون هناك كونفقات جاهزه من [هنا ](https://github.com/AMD-OSX/AMD_Vanilla)  
 كل الي عليك تنزل الملف
 
-![](.gitbook/assets/image%20%2814%29.png)
+![](.gitbook/assets/image%20%28106%29.png)
 
 بعد فك الضغط راح تلاقي ملفات :
 
@@ -16,13 +16,13 @@
 
 ثم افتح ملف GenSMBIOS.bat
 
-![](.gitbook/assets/image%20%2851%29.png)
+![](.gitbook/assets/image%20%2887%29.png)
 
 البرنامج يحتاج بايثون 3 اكتب y ليقم بتحميله
 
-![](.gitbook/assets/image%20%2897%29.png)
+![](.gitbook/assets/image%20%2836%29.png)
 
-![&#x627;&#x644;&#x642;&#x627;&#x626;&#x645;&#x647; &#x627;&#x644;&#x631;&#x626;&#x64A;&#x633;&#x64A;&#x647;](.gitbook/assets/image%20%2811%29.png)
+![&#x627;&#x644;&#x642;&#x627;&#x626;&#x645;&#x647; &#x627;&#x644;&#x631;&#x626;&#x64A;&#x633;&#x64A;&#x647;](.gitbook/assets/image%20%28112%29.png)
 
 اول شي نكتب رقم 1 ونضغط انتر لتنزيل الملفات الاساسيه
 
@@ -32,23 +32,23 @@
 
 نسحب ملف الكونفق إلى ال cmd
 
-![](.gitbook/assets/image%20%2882%29.png)
+![](.gitbook/assets/image%20%2843%29.png)
 
 سوف يظهر مكان الملف بعد سحبه لل cmd اضغط انتر
 
-![](.gitbook/assets/image%20%2868%29.png)
+![](.gitbook/assets/image%20%2894%29.png)
 
 سوف يطهر لك البرنامج الاشياء التي سيتم التعديل عليها في الكونفق اكتب y وثم اضغط على زر انتر
 
-![](.gitbook/assets/image%20%2873%29.png)
+![](.gitbook/assets/image%20%2828%29.png)
 
 سوف يظهر في اعلى البرنامج مكان ملف الكونفق الذي تم اختياره
 
-![](.gitbook/assets/image%20%2878%29.png)
+![](.gitbook/assets/image%20%28143%29.png)
 
 الان نختار رقم 3
 
-![](.gitbook/assets/image%20%281%29.png)
+![](.gitbook/assets/image%20%2867%29.png)
 
 نكتب imacpro1,1
 
