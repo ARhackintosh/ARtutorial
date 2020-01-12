@@ -11,50 +11,50 @@ description: اول خطوه هي تنزل النظام
 الان بعد ما نفتح البرنامج راح يظهر عندنا في الاعلى اجهزه تخزين وجود كلمه \(removable\) يعني يمكن فصله عن الجهاز مثل USB وسيتم ذكر اسم الشركه المصنعه وسعه ال USB يجب التاكد منها.  
 تحت ال USB راح نلاقي ال Partions او اقسام ال USB الان **راح نفرمت ال USB** ا**ذا كان عندك اي معلومات مهمه انسخها قبل ما تفرمت**
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/image%20%281%29.png)
 
 الان نكتب الرقك المكتوب بجانب ال USB في هذا الحال رقم 1 وبعدها بفراغ اكتب r5092 وهو اصدار الكلوفر الاخير الذي يعمل مع التثبيت بالانترنت الاصادرات التي بعده تواجه مشاكل
 
-![](../.gitbook/assets/image%20%2840%29.png)
+![](../.gitbook/assets/image%20%2876%29.png)
 
 بعد ما نضغط زر انتر سوف ينبهنا البرنامج انه سيتم فرمته ال USB بالكامل بعد التاكد من ملفاتك اكتب y واضغط انتر
 
-![](../.gitbook/assets/image%20%2841%29.png)
+![](../.gitbook/assets/image%20%2877%29.png)
 
 بعد الفرمته الاساسيه البرنامج سوف يطلب موقع النظام في نفس الملف الخاص ب اداه gibmacos افتح ملف MacOS Downloads  
 ثم publicrelease ثم افتح ملف النظام الذي نزلته من البرنامج الاول \(gibMacOS\) في هذه الحاله 10.15 macOS Catalina
 
-![](../.gitbook/assets/image%20%2881%29.png)
+![](../.gitbook/assets/image%20%28146%29.png)
 
 افتح الملف وانسخ موقعه وضعه في ال CMD ثم اضغط زر انتر
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2863%29.png)
 
 الان سوف يبدء البرنامج بعمليه النسخ **تعتمد على سرعه ال USB الخاص فيك**
 
-![](../.gitbook/assets/image%20%2862%29.png)
+![](../.gitbook/assets/image%20%28108%29.png)
 
 ايضا البرنامج سيقوم بتنزيل الكلوفر و تثبيته على ال USB
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2846%29.png)
 
 بعد الانتهاء اغلق البرنامج
 
-![](../.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%2824%29.png)
 
 بعد اغلاق البرنامج ستلاحظ وجود USB باسم CLOVER اختارها ثم اذهب الى ملف ال EFI ثم CLOVER استبدل الكونفق الموجود بالخاص بجهازك بعد معالجته من برنامج GenSMBIOS **اذا كان جهازك مكتبي  
 اما للابتوبات فضع ملف الكونفق مباشره بعد تغير الاسم الى config.plist**
 
-![](../.gitbook/assets/image%20%2848%29.png)
+![](../.gitbook/assets/image%20%2888%29.png)
 
 بعدها افتح ملف kexts ثم others الكيكست تظهر كاملفات في الويندوز احذف الكيكست الموجود مسبقا FakeSMC.kext واستبدله ب virtualsmc  
 وبعد فك الضغط ضع الملف الذي ينتهي ب .kext في الملف others
 
 **مثال** لkext موجوده في ملف Other
 
-![](../.gitbook/assets/image%20%2819%29.png)
+![](../.gitbook/assets/image%20%2840%29.png)
 
-### كاتلينا فما فوق 10.15+
+## كاتلينا فما فوق 10.15+
 
 في اصادر 10.15 من الماك سنحتاج الى خطوه اضافيه بحيث ابل وضعت شرط لي استخدام اجهزه EC فا يجب خداع النظام حتى يتم الاقلاع بحيث سيتم تعديل ال DSDT لاضافه اجهزه EC وهميه
 
@@ -62,28 +62,28 @@ description: اول خطوه هي تنزل النظام
 
 نختار رقم 4 لاستخراج DSDT من المذربورد
 
-![](../.gitbook/assets/image%20%2849%29.png)
+![](../.gitbook/assets/image%20%2889%29.png)
 
 الان الاداه سوف تختار ملف ال DSDT التي استخرجته  
 اختار رقم 2 FakeEC حتى نضيف التعديلات الازمه
 
-![](../.gitbook/assets/image%20%2844%29.png)
+![](../.gitbook/assets/image%20%2880%29.png)
 
 بعدها نذهب الى ملف Results يوجد بنفس الملف الي توجد به الاداه  
 سوف تجد ملف SSDT-EC.aml
 
-![](../.gitbook/assets/image%20%2898%29.png)
+![](../.gitbook/assets/image-98.png)
 
 انسخ الملف ثم اذهب الى ال usb ثم الى EFI/CLOVER/  
 ثم انشء ملف ACPI
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2845%29.png)
 
 ثم انشء ملف Patched
 
-![](../.gitbook/assets/image%20%2887%29.png)
+![](../.gitbook/assets/image-87.png)
 
 داخل ملف Patched ضع ملف SSDT-EC.aml
 
-![](../.gitbook/assets/image%20%2875%29.png)
+![](../.gitbook/assets/image%20%28135%29.png)
 
