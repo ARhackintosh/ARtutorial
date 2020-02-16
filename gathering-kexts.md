@@ -21,17 +21,21 @@ description: التعريفات الاساسيه للنظام
 
 ## الايثرنت Ethernet :
 
-بالنسبة للشبكه راح نعتمد على **السلك وليس الواي فاي**
+{% hint style="info" %}
+**في حاله وجود عده نسخ من الكيكست دائما قم بتنزيل نسخه ال RELEASE**
+{% endhint %}
+
+بالنسبة للشبكه راح نعتمد على **Ethernet\(السلك\)** **وليس الواي فاي**
 
 ا [SmallTreeIntel82576.zip](https://drive.google.com/file/d/0B5Txx3pb7pgcOG5lSEF2VzFySWM/view?usp=sharing) مخصص لتعريف كرت انتل I211-AT
 
-**ا** [intelmausiEthernet.kext](https://github.com/Mieze/IntelMausiEthernet) يعمل مع معظم كروت الشبكة الحديثه من انتل [**التحميل من هنا**](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455134&cid=FE4038DA929BFB23)\*\*\*\*
+**ا** [intellMausiEthernet.kext ](https://github.com/acidanthera/IntelMausi/releases)يعمل مع معظم كروت الشبكه الحديثه من انتل 
 
 ا [appleintelE1000e.kext ](https://sourceforge.net/projects/osx86drivers/files/Kext/Snow_or_Above/AppleIntelE1000e.kext.zip/download)يعمل مع كروت الشبكة القديمه من انتل مشكلتها قد تسبب KP مع الاجهزه الجديده
 
 ا [AtherosE2200Ethernet.kext ](https://github.com/Mieze/AtherosE2200Ethernet)- يعمل مع معظم كروت Atheros وkiller [**التحميل من هنا**](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455105&cid=FE4038DA929BFB23)\*\*\*\*
 
-ا [RealteakRTL8111.kext](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases) يعمل مع كروت Realteak بسرعه 1GB/s
+ا [RealtekRTL8111.kext](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases) يعمل مع كروت Realteak بسرعه 1GB/s
 
 ا [RealtekRTL8100.kext](https://github.com/Mieze/RealtekRTL8100) يعمل مع كروت Realtek بسرعه10-100mb/s  [**التحميل من هنا** ](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455140&cid=FE4038DA929BFB23)  
 
@@ -42,15 +46,16 @@ description: التعريفات الاساسيه للنظام
 
 في **10.11** ابل وضعت **حد 15 مدخل USB** **على كل USB Controller** يتبين ان 15 عدد كافي حتى يتبين لك ان كل مدخل **USB3** **يحسب كمدخلان.**
 
-**على** **مذربوردات ryzen مداخل USB3** و **USB 2** يتم التحكم بها من **XHCI controllrer** وبما ان كل **مدخل USB3 يحسب 2 يمكن الوصول الحد بسهوله** لاكن **ممكن يتم تحويل مداخل USB2 إلى ال** **EHCI Controller** باستخدام كيكست [FakePCIID.kext](https://bitbucket.org/RehabMan/os-x-fake-pci-id) **\(تشتغل على بعض المذربوردات فقط\)** وتشيل الضغط عن **XHCI Controller**
+**على** **مذربوردات ryzen مداخل USB3** و **USB 2** يتم التحكم بها من **XHCI controllrer** وبما ان كل **مدخل USB3 يحسب 2 يمكن الوصول الحد بسهوله** لاكن **ممكن يتم تحويل مداخل USB2 إلى ال** **EHCI Controller** باستخدام كيكست [FakePCIID.kext](https://bitbucket.org/RehabMan/os-x-fake-pci-id) **\(تشتغل على بعض المذربوردات فقط\)** وتشيل الضغط عن **XHCI Controller**   
+ او يمكن تعطيل حد ال 15 مدخل عنطريق تعديل الكونفق بعد تثبيت النظام [**الخطوات هنا \(انجليزي\)**](https://hackintosher.com/forums/thread/list-of-hackintosh-usb-port-limit-patches-10-15-updated.467/) ****
 
 ## كرت الشاشة \(GPU\) :
 
-بالنسبة **لكرت الشاشة** راح تحتاج [Whatevergreen.kext](https://github.com/acidanthera/WhateverGreen/releases) و الكيكست المرافق[ Lilu.kext](https://github.com/vit9696/Lilu/releases) بحيث استبدلو عدة **kexts** منها **Shiki** و **NvidiaGraphicsFixup** **وغيرها**
+بالنسبة **لكرت الشاشة** راح تحتاج [Whatevergreen.kext](https://github.com/acidanthera/WhateverGreen/releases) وهو اضافه لكيكست[ Lilu.kext](https://github.com/vit9696/Lilu/releases) بحيث استبدلو عدة **kexts** منها **Shiki** و **NvidiaGraphicsFixup** **وغيرها**
 
 ## الصوت \(Sound\) :
 
-بالنسبة **للصوت** هناك تعريفين [VoodoHDA.Kext](https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V14/releases) يعمل مباشره بدون اي تدخل لاكن [Applealc.Kext](https://github.com/acidanthera/AppleALC/releases) و الكيكست المرافق [Lilu.kext](https://github.com/acidanthera/lilu/releases) إذا كان كرت الصوت عندك موجود في هاذه [القائمه](https://github.com/acidanthera/applealc/wiki/supported-codecs) راح يعطيك جوده افضل لاكن راح تحتاج خطوات اضافيه موجوده [هنا\(انجليزي\)](https://kb.hackintoshisfun.ml/clover/post-installation/posty#audio)
+بالنسبة **للصوت** هناك تعريفين [VoodoHDA.Kext](https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V14/releases) يعمل مباشره بدون اي تدخل لاكن [Applealc.Kext](https://github.com/acidanthera/AppleALC/releases) وهو ايضا عباره عن اضافه ل [Lilu.kext](https://github.com/acidanthera/lilu/releases) إذا كان كرت الصوت عندك موجود في هاذه [القائمه](https://github.com/acidanthera/applealc/wiki/supported-codecs) **راح يعطيك جوده افضل** لاكن راح تحتاج خطوات اضافيه موجوده [هنا\(انجليزي\)](https://kb.hackintoshisfun.ml/clover/post-installation/posty#audio)
 
 ## واي فاي وبلوتوث Wi-Fi / Bluetooth :
 
