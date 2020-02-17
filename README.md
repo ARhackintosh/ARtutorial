@@ -22,7 +22,13 @@
 اضافه رابط لطريقه التخلص من حد 15 مدخل usbinjectall
 
 توضيح اضافات كيكست lilu
+
+**V1.2.1-Catalina**
+
+تصحيح رابط قائمه الكروت المدعومه
 {% endhint %}
+
+
 
 {% hint style="success" %}
 **V1.1-Catalina**
