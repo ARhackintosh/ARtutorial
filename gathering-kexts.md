@@ -17,7 +17,7 @@ description: التعريفات الاساسيه للنظام
 **ايضا** [NullCPUPowerManagement.kext ](https://github.com/corpnewt/NullCPUPowerManagement) [**التحميل من هنا**](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455158&cid=FE4038DA929BFB23) ضروري بحيث نظام الماك لايدعم تحكم بطاقه معالجات amd  
 \(تحميل يكون من clone or download\)
 
-وسوف نحتاج AppleMCEReporterDisabler.kext بحيث AppleMCEReporter قد يسبب KP
+وسوف نحتاج AppleMCEReporterDisabler.kext بحيث AppleMCEReporter قد يسبب KP \(موجود في ملف الكونفق ثم ملف extra\)
 
 ## الايثرنت Ethernet :
 
@@ -52,6 +52,10 @@ description: التعريفات الاساسيه للنظام
 ## كرت الشاشة \(GPU\) :
 
 بالنسبة **لكرت الشاشة** راح تحتاج [Whatevergreen.kext](https://github.com/acidanthera/WhateverGreen/releases) وهو اضافه لكيكست[ Lilu.kext](https://github.com/vit9696/Lilu/releases) بحيث استبدلو عدة **kexts** منها **Shiki** و **NvidiaGraphicsFixup** **وغيرها**
+
+{% hint style="info" %}
+\*\*\*\*[**رابط تعريفات كروت انفيديا \(هاي سييرا\)**](https://www.tonymacx86.com/nvidia-drivers/)\*\*\*\*
+{% endhint %}
 
 ## الصوت \(Sound\) :
 
@@ -225,5 +229,5 @@ sudo chown -R root:wheel /L*/E*; sudo chmod -R 755 /L*/E*; sudo kextcache -i /
 
 ## بقية الكيكست :
 
-هناك الكثير من الكيكستات وتعتمد على حسب الجهاز مثل الابتوبات هناك كيكستات للبطارية واضائه الكيبورد و العديد من الكيكستات الاخرى التي تعتمد على جهازك هنا في هاكنتوش بالعربي نحاول ارشفة جميع الكيكستات في ارشيف الهاكنتوش وما وظيفتها مع رابط التحميل لاكن تحتاج بحث كبير منك لتعرف اي كيكست تحتاج
+هناك الكثير من الكيكستات وتعتمد على حسب الجهاز مثل الابتوبات هناك كيكستات للبطارية واضائه الكيبورد و العديد من الكيكستات الاخرى التي تعتمد على جهازك هنا في هاكنتوش بالعربي نحاول ارشفة جميع الكيكستات[ **في ارشيف الكيكست**](https://kextarchive.هاكنتوش.com/) وما وظيفتها مع رابط التحميل لاكن تحتاج بحث كبير منك لتعرف اي كيكست تحتاج
 

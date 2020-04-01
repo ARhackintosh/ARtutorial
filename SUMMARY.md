@@ -1,9 +1,9 @@
 # Table of contents
 
-* [شرح الكامل لتثبيت الهاكنتوش من مجتمع هاكنتوش بالعربي](README.md)
+* [الشرح الكامل لتثبيت الهاكنتوش من مجتمع هاكنتوش بالعربي](README.md)
 * [البداية](start.md)
 * [\(Kext\) اختيار التعريفات](gathering-kexts.md)
-* [اختيار الكونفق الصحيح\(config\)](config-setup.md)
+* [\(config\) اختيار الكونفق الصحيح](config-setup.md)
 * [تحميل الماك](downloading-macos.md)
 * [usb نقل الماك الى](copying-macos-to-the-usb.md)
 

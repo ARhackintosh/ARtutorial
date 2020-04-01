@@ -64,7 +64,7 @@
 
 ### كرت الشاشة :
 
-### [**هنا قائمه الكروت المدعومه كامله**](http://هاكنتوش.com/threads/%D9%82%D8%A7%D8%A6%D9%85%D9%87-%D8%A7%D9%84%D9%83%D8%B1%D9%88%D8%AA-%D8%A7%D9%84%D9%85%D8%AF%D8%B9%D9%88%D9%85%D9%87-%D9%81%D9%8A-%D9%83%D8%A7%D8%AA%D9%84%D9%8A%D9%86%D8%A7.2/#post-4)\*\*\*\*
+### \*\*\*\*[**هنا قائمه الكروت المدعومه كامله**](https://forum.هاكنتوش.com/threads/qa-mx-alkrut-almdyumx-fi-katlina.2/)\*\*\*\*
 
 بالنسبة لكروت الشاشة فكروت **AMD** هي افضل خيار لانها مدعومه **بشكل مباشر من النظام** ابتعد عن كروت **XFX** لانها تواجه احيانا بعض المشاكل ابل تدعم بشكل رسمي هاذي الكروت
 
@@ -106,15 +106,26 @@
 
 ## الاحتيجات :
 
-أداة تنزيل الماك ونسخه \(GibmacOS\) من المطور الرهيب **corpnewt** تحميل من [هنا](https://github.com/corpnewt/gibMacOS)
+أداة تنزيل الماك ونسخه \(**GibmacOS**\) من المطور الرهيب **corpnewt** تحميل من [**هنا**](https://github.com/corpnewt/gibMacOS)\*\*\*\*
 
-ايضا سوف نحتاج اداه السيريل للماك \(GenSMbios\) من نفس المطور تحملها من [هنا ](https://github.com/corpnewt/GenSMBIOS)
+ايضا سوف نحتاج اداه السيريل للماك \(**GenSMbios**\) من نفس المطور تحملها من [**هنا** ](https://github.com/corpnewt/GenSMBIOS)\*\*\*\*
 
-اداه SSDTime المعدله من مطور **IOIIIO** **تحتاجه فقط لكاتلينا وفوق** تحميل من [هنا](https://github.com/IOIIIO/SSDTTime)
+اداه **SSDTime  تحتاجه فقط لكاتلينا وفوق** تحميل من [**هنا**](https://github.com/corpnewt/SSDTTime)\*\*\*\*
+
+سكربت **PackAppWin.py** من مطور **doesprintfwork** تحميل ****[**من هنا**](https://github.com/doesprintfwork/MakeInstallmacOS)\*\*\*\*
 
 {% hint style="info" %}
 التحميل من الروابط في الاعلى يكون من زر Clone or download ثم اختار download zip ثم انشئ ملف تفك في ضغط الملفات
 {% endhint %}
+
+برنامج **\(bdu\) Boot Disk Utility** البرنامج الذي سوف نستخدمه لحرق الماك ونسخ الملفات الضروريه لل **usb**  
+تحميل يكون من علامه الحفظ اخر الموقع _\*\*_[من هنا](http://cvad-mac.narod.ru/index/bootdiskutility_exe/0-5)
+
+سوف تحتاج برنامج **7zip** بديل مفتوح المصدار افضل من winrar يجب ان يكون مثبت في `C:\Program Files (x86)\7zip` تحميل **من** [**هنا**](https://www.7-zip.org/)\*\*\*\*
+
+برنامج **transmac** لنقل الملفات لل usb تحميل [**من هنا**](https://www.acutesystems.com/scrtm.htm) ****\(**حمل tmsetup.exe**\)
+
+برنامج **Paragon partion manger \(ppm\)** المخصص لتغير حجم اقسام الفلاش [التحميل من هنا](https://www.paragon-software.com/free/pm-express/#)
 
 يو اس بي **\(USB\)** مساحته **8GB** و أكثر
 
@@ -124,7 +135,7 @@
 
 **شويه صبر وعزم واحتراف في البحث على الانترنت**
 
-### الدعم :
+## الدعم :
 
 سنوفر الدعم **للطريقه الرسميه فقط لن نقدم الدعم لنسخ معدله** مثل ~~**Zone**~~ والنسخ الجاهزه مثل ~~**Olarila**~~ ايضا سنتجنب برامج **توني ماك** \(**unibeast** و **multibeast**\) قدر المستطاع بسبب انها **مغلقه المصدر** ونقص بعض الاشياء الاساسيه في الكونفق التي قد تؤدي الى حجب حساب ال **iCloud** المرتبط بالهاكنتوش وعيوب [اخرى](https://github.com/khronokernel/Tonymcx86-stance)
 

@@ -1,17 +1,6 @@
 # usb نقل الماك الى
 
-سوف نحتاج الى
-
-سكربت **PackAppWin.py** من مطور **doesprintfwork** تحميل [من هنا](https://github.com/doesprintfwork/MakeInstallmacOS)
-
-برنامج **\(bdu\) Boot Disk Utility** البرنامج الذي سوف نستخدمه لحرق الماك ونسخ الملفات الضروريه لل **usb**  
-تحميل يكون من علامه الحفظ اخر الموقع _\*\*_[من هنا](http://cvad-mac.narod.ru/index/bootdiskutility_exe/0-5)
-
-سوف تحتاج برنامج **7zip** بديل مفتوح المصدار افضل من winrar يجب ان يكون مثبت في `C:\Program Files (x86)\7zip` تحميل من [هنا](https://www.7-zip.org/)
-
-برنامج **transmac** لنقل الملفات لل usb تحميل [من هنا](https://www.acutesystems.com/scrtm.htm) \(حمل tmsetup.exe\)
-
-برنامج **Paragon partion manger \(ppm\)** المخصص لتغير حجم اقسام الفلاش [التحميل من هنا](https://www.paragon-software.com/free/pm-express/#)
+## Packappwin.py
 
 اول نبدا مع سكربت نذهب الى ملف الذي تم تحميله ثم ننسخ سكربت packappwin.py الى ملف تنزيل الماك والذي سيكون في نفس ملف الموجود فيه اداه gibmacos ثم `macOS Downloads/publicrelase` ثم بعدها اذهب الى ملف الماك الذي نزلته وضع سكربت packappwin.py في نفس الملف
 
@@ -105,11 +94,11 @@
 
 ![&#x645;&#x62B;&#x627;&#x644;](.gitbook/assets/image%20%2819%29.png)
 
-## كاتلينا فما فوق 10.15+
+## كاتلينا فما فوق 10.15+ \(SSDTTime\)
 
 في اصادر 10.15 من الماك سنحتاج الى خطوه اضافيه بحيث ابل وضعت شرط لي استخدام اجهزه EC فا يجب خداع النظام حتى يتم الاقلاع بحيث سيتم تعديل ال DSDT لاضافه اجهزه EC وهميه
 
-سوف نستخدم اداه SSDTtime من IOIIIO نفتح الاداه عبر ملف SSDTTIME.bat
+سوف نستخدم اداه SSDTtime نفتح الاداه عبر ملف SSDTTIME.bat
 
 نختار رقم 4 لاستخراج DSDT من المذربورد
 
