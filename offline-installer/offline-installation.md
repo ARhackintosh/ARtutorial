@@ -1,6 +1,6 @@
 # التثبيت بدون انترنت
 
-سوف نحتاج إلى
+## برامج اضافية
 
 سكربت **PackAppWin.py** من مطور **doesprintfwork** تحميل [من هنا](https://github.com/doesprintfwork/MakeInstallmacOS)
 
@@ -12,6 +12,8 @@
 برنامج **transmac** لنقل الملفات لل usb تحميل [من هنا](https://www.acutesystems.com/scrtm.htm) \(حمل tmsetup.exe\)
 
 برنامج **Paragon partion manger \(ppm\)** المخصص لتغير حجم اقسام الفلاش [التحميل من هنا](https://www.paragon-software.com/free/pm-express/#)
+
+## PackAppwin.py
 
 اول نبدا مع سكربت نذهب إلى ملف الذي تم تحميله ثم ننسخ سكربت packappwin.py إلى ملف تنزيل الماك والذي سيكون في نفس ملف الموجود فيه اداه gibmacos ثم `macOS Downloads/publicrelase` ثم بعدها اذهب إلى ملف الماك الذي نزلته وضع سكربت packappwin.py في نفس الملف
 
@@ -104,11 +106,11 @@
 
 ![&#x645;&#x62B;&#x627;&#x644;](../.gitbook/assets/image%20%2898%29.png)
 
-## كاتلينا فما فوق 10.15+
+## كاتلينا فما فوق 10.15+ \(SSDTTime\)
 
 في اصادر 10.15 من الماك سنحتاج إلى خطوه اضافيه بحيث ابل وضعت شرط لي استخدام اجهزه EC فا يجب خداع النظام حتى يتمالإقلاع بحيث سيتم تعديل ال DSDT لاضافه اجهزه EC وهميه
 
-سوف نستخدم اداه SSDTtime من IOIIIO نفتح الاداه عبر ملف SSDTTIME.bat
+سوف نستخدم اداه SSDTtime نفتح الاداه عبر ملف SSDTTIME.bat
 
 نختار رقم 4 لاستخراج DSDT من المذربورد
 
