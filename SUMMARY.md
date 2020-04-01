@@ -1,9 +1,9 @@
 # Table of contents
 
-* [شرح الكامل لتثبيت الهاكنتوش من مجتمع هاكنتوش بالعربي](README.md)
+* [الشرح الكامل لتثبيت الهاكنتوش من مجتمع هاكنتوش بالعربي](README.md)
 * [البداية](start.md)
 * [\(Kext\) اختيار التعريفات](gathering-kexts.md)
-* [اختيار الكونفق الصحيح\(config\)](config-setup/README.md)
+* [\(config\)اختيار الكونفق الصحيح](config-setup/README.md)
   * [\(laptop config\)للابتوبات](config-setup/laptops.md)
 * [نسخ الماك](online-or-offline.md)
 
