@@ -17,11 +17,11 @@
 
 اول نبدا مع سكربت نذهب إلى ملف الذي تم تحميله ثم ننسخ سكربت packappwin.py إلى ملف تنزيل الماك والذي سيكون في نفس ملف الموجود فيه اداه gibmacos ثم `macOS Downloads/publicrelase` ثم بعدها اذهب إلى ملف الماك الذي نزلته وضع سكربت packappwin.py في نفس الملف
 
-![](../.gitbook/assets/image%20%2899%29.png)
+![](../.gitbook/assets/image%20%28101%29.png)
 
 ثم نفتح السكربت اذا قال لك اختار البرنامج الذي سوف تستخدمه لفتح السكربت اختار اظهر زياده من البرامج ثم البحث عن البرنامج في هذا الكمبيوتر
 
-![](../.gitbook/assets/image%20%28115%29.png)
+![](../.gitbook/assets/image%20%28117%29.png)
 
 ثم بعدها اذهب إلى هاذا المكان `C:\Users\USERNAME\AppData\Local\Programs\Python` استبدل USERNAME باسم حسابك على الويندوز ستجد ملف داخله افتح الملف وستجد البرنامج python.exe ثم اختار open أو فتح
 
@@ -45,19 +45,19 @@
 
 1. ثم اذهب إلى **tools/Extract HFS from dmg file**
 
-![](../.gitbook/assets/image%20%2884%29.png)
+![](../.gitbook/assets/image%20%2886%29.png)
 
 2.اختار ملف BaseSystem.dmg من ملف تنزيلات الماك من برنامج gibmacos ثم اختار فتح أو open
 
-![](../.gitbook/assets/image%20%28141%29.png)
+![](../.gitbook/assets/image%20%28143%29.png)
 
 ثم اختار سطح المكتب كمكان لحفظ الملف
 
-![](../.gitbook/assets/image%20%2870%29.png)
+![](../.gitbook/assets/image%20%2872%29.png)
 
 بعد ذلك البرنامج سيتسخدم 7zip لاستخراج الملف
 
-![](../.gitbook/assets/image%20%28128%29.png)
+![](../.gitbook/assets/image%20%28130%29.png)
 
 بعدها سوف تجد ملف
 
@@ -78,7 +78,7 @@
 
 نفتح البرنامج ثم بعدها اختار القسم الثاني من الفلاش الذي حجمه 1.87gb
 
-![](../.gitbook/assets/image%20%28103%29.png)
+![](../.gitbook/assets/image%20%28105%29.png)
 
 ثم بعدها اجعل حجم ال newvolume اكبر ما يمكن وثم اضغط change now
 
@@ -104,7 +104,7 @@
 
 **مثال** لkext موجوده في ملف Other
 
-![&#x645;&#x62B;&#x627;&#x644;](../.gitbook/assets/image%20%2898%29.png)
+![&#x645;&#x62B;&#x627;&#x644;](../.gitbook/assets/image%20%28100%29.png)
 
 ## كاتلينا فما فوق 10.15+ \(SSDTTime\)
 
@@ -114,28 +114,28 @@
 
 نختار رقم 4 لاستخراج DSDT من المذربورد
 
-![](../.gitbook/assets/image%20%28101%29.png)
+![](../.gitbook/assets/image%20%28103%29.png)
 
 الان الاداه سوف تختار ملف ال DSDT التي استخرجته  
 اختار رقم 2 FakeEC حتى نضيف التعديلات الازمه
 
-![](../.gitbook/assets/image%20%2854%29.png)
+![](../.gitbook/assets/image%20%2856%29.png)
 
 بعدها نذهب إلى ملف Results يوجد بنفس الملف الي توجد به الاداه  
 سوف تجد ملف SSDT-EC.aml
 
-![](../.gitbook/assets/image%20%28104%29.png)
+![](../.gitbook/assets/image%20%28106%29.png)
 
 انسخ الملف ثم اذهب إلى ال usb ثم إلى EFI/CLOVER/  
 ثم ملف ACPI
 
-![](../.gitbook/assets/image%20%28139%29.png)
+![](../.gitbook/assets/image%20%28141%29.png)
 
 ثم ملف Patched
 
-![](../.gitbook/assets/image%20%2866%29.png)
+![](../.gitbook/assets/image%20%2868%29.png)
 
 داخل ملف Patched ضع ملف SSDT-EC.aml
 
-![](../.gitbook/assets/image%20%2875%29.png)
+![](../.gitbook/assets/image%20%2877%29.png)
 
