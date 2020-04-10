@@ -8,7 +8,7 @@ description: اول خطوه هي تنزل النظام
 
 بعد تحميلك اداه تنزيل الماك[ gibmacos](https://github.com/corpnewt/gibMacOS) عنطريق الضغط على زر clone or download وثم اختار Download ZIP
 
-![&#x627;&#x62E;&#x62A;&#x627;&#x631; Download ZIP](../.gitbook/assets/image%20%2851%29.png)
+![&#x627;&#x62E;&#x62A;&#x627;&#x631; Download ZIP](../.gitbook/assets/image%20%2853%29.png)
 
 بعد ما يتم التحميل نفك الضغط و بعدها نفتح الملف ونختار gibMacOS.bat
 
@@ -45,7 +45,7 @@ description: اول خطوه هي تنزل النظام
 
 سيقوم البرنامج بتحميل قائمه الاصدارات المتوفره
 
-![](../.gitbook/assets/image%20%2855%29.png)
+![](../.gitbook/assets/image%20%2857%29.png)
 
 سوف تظهر اختيارات جديده نختار اعلى اختيار من الاصدار المطلوب بهاذه الحالة MacOS High Sierra
 
