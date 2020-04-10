@@ -4,11 +4,11 @@
 
 اول نبدا مع سكربت نذهب الى ملف الذي تم تحميله ثم ننسخ سكربت packappwin.py الى ملف تنزيل الماك والذي سيكون في نفس ملف الموجود فيه اداه gibmacos ثم `macOS Downloads/publicrelase` ثم بعدها اذهب الى ملف الماك الذي نزلته وضع سكربت packappwin.py في نفس الملف
 
-![](.gitbook/assets/image%20%2857%29.png)
+![](.gitbook/assets/image%20%2859%29.png)
 
 ثم نفتح السكربت اذا ظهر لك اختيار البرنامج الذي سوف تستخدمه لفتح السكربت اختار اظهر زياده من البرامج ثم البحث عن البرنامج في هذا الكمبيوتر
 
-![](.gitbook/assets/image%20%28122%29.png)
+![](.gitbook/assets/image%20%28124%29.png)
 
 ثم بعدها اذهب الى هاذا المكان `C:\Users\USERNAME\AppData\Local\Programs\Python` استبدل USERNAME باسم حسابك على الويندوز ستجد ملف داخله افتح الملف وستجد البرنامج python.exe ثم اختار open او فتح
 
@@ -16,7 +16,7 @@
 
 بعد ما يفتح ال cmd نختار p
 
-![](.gitbook/assets/image%20%2861%29.png)
+![](.gitbook/assets/image%20%2863%29.png)
 
 
 
@@ -34,11 +34,11 @@
 
 1. ثم اذهب الى **tools/Extract HFS from dmg file**
 
-![](.gitbook/assets/image%20%28110%29.png)
+![](.gitbook/assets/image%20%28112%29.png)
 
 2.اختار ملف BaseSystem.dmg من ملف تنزيلات الماك من برنامج gibmacos ثم اختار فتح او open
 
-![](.gitbook/assets/image%20%28145%29.png)
+![](.gitbook/assets/image%20%28147%29.png)
 
 ثم اختار سطح المكتب كمكان لحفظ الملف
 
@@ -46,7 +46,7 @@
 
 بعد ذلك البرنامج سيتسخدم 7zip لاستخراج الملف
 
-![](.gitbook/assets/image%20%28132%29.png)
+![](.gitbook/assets/image%20%28134%29.png)
 
 بعدها سوف تجد ملف
 
@@ -71,7 +71,7 @@
 
 ثم بعدها اجعل حجم ال newvolume اكبر ما يمكن وثم اضغط change now
 
-![](.gitbook/assets/image%20%28127%29.png)
+![](.gitbook/assets/image%20%28129%29.png)
 
 ## transmac
 
@@ -79,13 +79,13 @@
 
 ثم نقوم بسحب ملف SharedSupport من ملف الماك ملف macOS Base System/instal macOS Catalina.app/Contents داخل برنامج Transmac
 
-![](.gitbook/assets/image%20%28121%29.png)
+![](.gitbook/assets/image%20%28123%29.png)
 
 ## نقل الكونفق والكيكست
 
 بعد اغلاق البرنامج ستلاحظ وجود USB باسم CLOVER اختارها ثم اذهب الى ملف ال EFI ثم CLOVER استبدل الكونفق الموجود بالخاص بجهازك بعد معالجته من برنامج GenSMBIOS 
 
-![](.gitbook/assets/image%20%2883%29.png)
+![](.gitbook/assets/image%20%2885%29.png)
 
 بعدها افتح ملف kexts ثم others الكيكست تظهر كملفات في الويندوز احذف الكيكست الموجود مسبقا FakeSMC.kext واستبدله ب virtualsmc  
 وبعد فك الضغط ضع الملف الذي ينتهي ب .kext في الملف others
@@ -102,7 +102,7 @@
 
 نختار رقم 4 لاستخراج DSDT من المذربورد
 
-![](.gitbook/assets/image%20%28130%29.png)
+![](.gitbook/assets/image%20%28132%29.png)
 
 الان الاداه سوف تختار ملف ال DSDT التي استخرجته  
 اختار رقم 2 FakeEC حتى نضيف التعديلات الازمه
@@ -112,18 +112,18 @@
 بعدها نذهب الى ملف Results يوجد بنفس الملف الي توجد به الاداه  
 سوف تجد ملف SSDT-EC.aml
 
-![](.gitbook/assets/image%20%2844%29.png)
+![](.gitbook/assets/image%20%2845%29.png)
 
 انسخ الملف ثم اذهب الى ال usb ثم الى EFI/CLOVER/  
 ثم ملف ACPI
 
-![](.gitbook/assets/image%20%2896%29.png)
+![](.gitbook/assets/image%20%2898%29.png)
 
 ثم ملف Patched
 
-![](.gitbook/assets/image%20%28116%29.png)
+![](.gitbook/assets/image%20%28118%29.png)
 
 داخل ملف Patched ضع ملف SSDT-EC.aml
 
-![](.gitbook/assets/image%20%28136%29.png)
+![](.gitbook/assets/image%20%28138%29.png)
 
