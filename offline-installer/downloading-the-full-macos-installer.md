@@ -4,7 +4,7 @@ description: اول خطوه هي تنزل النظام
 
 # تحميل الماك
 
-بعد تحميلك اداه تنزيل الماك[ gibmacos](https://github.com/corpnewt/gibMacOS) عنطريق الضغط على زر clone or download وثم اختار Download ZIP
+بعد تحميلك اداه تنزيل الماك[ gibmacos](https://github.com/corpnewt/gibMacOS) عن طريق الضغط على زر clone or download وثم اختار Download ZIP
 
 ![&#x627;&#x62E;&#x62A;&#x627;&#x631; Download ZIP](../.gitbook/assets/image%20%2853%29.png)
 
