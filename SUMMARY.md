@@ -9,7 +9,7 @@
 
 ## تثبيت بدون انترنت <a id="offline-installer"></a>
 
-* [تحميل الماك](offline-installer/downloading-the-full-macos-installer.md)
+* [تنزيل الماك](offline-installer/downloading-the-full-macos-installer.md)
 * [التثبيت بدون انترنت](offline-installer/offline-installation.md)
 
 ## تثبيت مع الانترنت <a id="online-installer"></a>
