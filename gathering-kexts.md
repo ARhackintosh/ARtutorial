@@ -217,7 +217,9 @@ sudo chown -R root:wheel /L*/E*; sudo chmod -R 755 /L*/E*; sudo kextcache -i /
     </tr>
   </thead>
   <tbody></tbody>
-</table>#### تعريف [USB Wireless Utility](https://github.com/chris1111/USB-Wireless-Utility/releases)
+</table>
+
+#### تعريف [USB Wireless Utility](https://github.com/chris1111/USB-Wireless-Utility/releases)
 
 تماما مثل [Wireless-USB-Adapter-Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover/releases) ، يسمح **WIFI-Dlink** بدعم عدد لا بأس به من بطاقات **Mediatek / Ralink** ، لكن نظرًا لكونه تطبيق **32bit** غير معتمد على **أنظمة AMD** هناك إصدار أحدث **Catalina** يعتمد على **64bit** وهو الأفضل لأنظمة **AMD** أيضًا: [**WIFI-Dlink Catalina-Panel**](https://github.com/chris1111/WIFI-Dlink-Catalina-Panel-V2/releases)\*\*\*\*
 
