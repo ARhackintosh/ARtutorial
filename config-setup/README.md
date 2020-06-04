@@ -65,7 +65,7 @@
 
 ال SMbios يختلف على حسب جيل المعالج
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 **القائمة للمكتبي فقط**
 {% endhint %}
 

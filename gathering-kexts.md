@@ -174,7 +174,7 @@ sudo chown -R root:wheel /L*/E*; sudo chmod -R 755 /L*/E*; sudo kextcache -i /
 
 بشكل عام **افضل حل للواي فاي والبلوتوث هو كرت خارجي** مع تعريف من الشركه مثل **TP-Link** وغيرها من الشركات التي تعطي USB واي فاي **تاكد من وجود دعم للماك** و سوف تعمل معك.
 
-## لواقط وايف فاي خارجية \(USB\) :
+## لواقط WI-FI خارجية \(USB\) :
 
 يبقى هادا هو الحل الاخير أمام العديد من مستخدمي الهاكنتوش لتشغيل **WIFI** على أجهزتهم نظرا لاستحالة تغيير الكرت الداخلي أو لفقدان الضمان من أجهزتهم.
 
@@ -187,40 +187,229 @@ sudo chown -R root:wheel /L*/E*; sudo chmod -R 755 /L*/E*; sudo kextcache -i /
 
 ومع كل هذه المشكلات يبقى من الصعب للغاية التوصية بلاقط لاسلكي USB ولكن لا يزال هناك أمل :
 
-### اليكم تعريف بعض لواقط **WIFI** المعروفة دات شرائح **Realtek :**
+{% hint style="warning" %}
+هذه التعريفات ليست ملف KEXT بل هي ملف pkg \(شبيه بملف exe على ويندوز\) تستخدمها بعد التثيبت فقط ولا تضعها في الكلوفر ابدا
+{% endhint %}
 
-#### تعريف [Wireless-USB-Adapter-Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover/releases)
+### اليكم تعريف بعض لواقط **WIFI** المعروفة ذات شرائح **Realtek :**
+
+#### تعريف\(برنامج\) [Wireless-USB-Adapter-Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover/releases)
 
 #### يعمل على العديد من اللواقط منها :
-
-| **RTL8188CUS** | **RTL8192CU** | **RTL8192EU** | **RTL8188EUS** | **RTL8811AU** | **RTL8812BU** | **RTL8814AU** | **RTL8812AU** |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Asus USB-N 10 Nano/N150</th>
-      <th style="text-align:left">EDIMAX- EW-7722UTn V2</th>
-      <th style="text-align:left">TL-WN823N v2</th>
-      <th style="text-align:left">TL-WN725N v3</th>
-      <th style="text-align:left">Archer T2U NANO</th>
-      <th style="text-align:left">Archer T4U V3</th>
-      <th style="text-align:left">Archer T9UH V2</th>
-      <th style="text-align:left">
-        <p>Linksys</p>
-        <p>WUSB6300</p>
+      <th style="text-align:center"><b>&#x627;&#x644;&#x643;&#x631;&#x648;&#x62A; &#x627;&#x644;&#x644;&#x64A; &#x64A;&#x62F;&#x639;&#x645;&#x647;&#x627; &#x627;&#x644;&#x62A;&#x639;&#x631;&#x64A;&#x641;</b>
       </th>
     </tr>
   </thead>
-  <tbody></tbody>
-</table>#### تعريف [USB Wireless Utility](https://github.com/chris1111/USB-Wireless-Utility/releases)
+  <tbody>
+    <tr>
+      <td style="text-align:center">
+        <p>ASUS_USB-N10E_92CU</p>
+        <p>ASUS_USB-N13_92CU</p>
+        <p>ASUS_USB-N10_92CU</p>
+        <p>ASUS_1870_8812BU</p>
+        <p>ASUS_USB-N10E_92CU</p>
+        <p>ASUS_USB-N10_92CU</p>
+        <p>ASUS_USB-N13_92CU</p>
+        <p>ASUS_USB-AC53_8812BU</p>
+        <p>ASUS_USB-AC55B1_8812BU</p>
+        <p>ASUS_USB-AC56_8812AU</p>
+        <p>ASUS_USB-AC55_8812BU</p>
+        <p>ASUS_USB-AC68ALL_8814AU</p>
+        <p>ASUS_USB-AC68CE_8814AU</p>
+        <p>ASUS_USB-AC68FCC_8814AU</p>
+        <p>AboCom_8178_92CU</p>
+        <p>AboCom_0811_8811AU</p>
+        <p>AboCom_8189_92CU</p>
+        <p>AboCom_92EU</p>
+        <p>AboCom_88EU</p>
+        <p>AboCom_AC_8812AU</p>
+        <p>AboCom_AC_8812AU</p>
+        <p>Actiontec_8811AU</p>
+        <p>AirTies_Air2520_8811AU</p>
+        <p>AirTies_Air2525_8811AU</p>
+        <p>AboCom_8178_92CU</p>
+        <p>AboCom_8189_92CU</p>
+        <p>Actiontec_8105_SingleBand_8811AU</p>
+        <p>Actiontec_8108_DualBand_8811AU</p>
+        <p>Amigo_92CU</p>
+        <p>Amigo_92CU</p>
+        <p>AzureWave_92CU</p>
+        <p>Belkin_1004_92CU</p>
+        <p>Belkin_1102_92CU</p>
+        <p>Belkin_2102_92CU</p>
+        <p>Belkin_2103_92CU</p>
+        <p>Belkin_92DUVS_1105</p>
+        <p>Belkin_92DUVS_110A</p>
+        <p>Belkin_92DUVS_120A</p>
+        <p>Belkin_F9L1106_v2_8812AU</p>
+        <p>Belkin_F9L1106v2_8812AU</p>
+        <p>Buffallo_25D_8812AU</p>
+        <p>Buffallo_433DM_8811AU</p>
+        <p>Buffallo_WI_U2_433DHP_8811AU</p>
+        <p>Buffallo_WLP_U2_433DHP_8811AU</p>
+        <p>Compare-8010_92CU</p>
+        <p>Compare-8011_92CU</p>
+        <p>Corega_92CU</p>
+        <p>DLink_DWA121_92CU</p>
+        <p>DLink_DWA123_92CU</p>
+        <p>DLink_DWA131B1_92CU</p>
+        <p>DLink_DWA132_92CU</p>
+        <p>DLink_DWA133_92CU</p>
+        <p>DLink_DWA123_88EU</p>
+        <p>DLink_DWA125_88EU</p>
+        <p>DLink_DWA131C1_92EU</p>
+        <p>DLink_DWA131E_92EU</p>
+        <p>DLink_DWA171_8812AU</p>
+        <p>DLink_DWA182B1_8812AU</p>
+        <p>DLink_DWA182_8812AU</p>
+        <p>DLink_DWA192_8814AU</p>
+        <p>DLink_GO_USB_N150_88EU</p>
+        <p>ELECOM_WDC300SU2S_92CU</p>
+        <p>ELECOM_8811AU</p>
+        <p>ELECOM_WDB433SU2M_8811AU</p>
+        <p>ELECOM_WDC1300DU3_8814AU</p>
+        <p>ELECOM_WDC1300SU3_8814AU</p>
+        <p>ELECOM_WDC150SU2M_88EU</p>
+        <p>ELECOM_WDC433DU2_8812AU</p>
+        <p>ELECOM_WDC433SU2M2_8811AU</p>
+        <p>EDIMAX- EW-7722UTn V2</p>
+        <p>EDIMAX N300</p>
+        <p>EDIMAX EW-7811Un</p>
+        <p>Edimax_AC1750_8814AU</p>
+        <p>Edimax_AC1750_A834_8814AU</p>
+        <p>Edimax_AC600_8812AU</p>
+        <p>Edimax_EW-7611ULB_8723BU</p>
+        <p>Edimax_EW-7811UAC_8812AU</p>
+        <p>Edimax_EW-7822UAC_8812AU</p>
+        <p>Edimax_EW-7822ULC_8812AU</p>
+        <p>Edimax_GLP_8812AU</p>
+        <p>Edimax_7811_92CU</p>
+        <p>Edimax_7822_92CU</p>
+        <p>Feixun_90_92CU</p>
+        <p>Feixun_91_92CU</p>
+        <p>EnGenius_AC_8812AU</p>
+        <p>HP_92CU</p>
+        <p>Hawking_HWDN3_92CU</p>
+        <p>Hawking_HWUN4_92CU</p>
+        <p>Hercules_HWUm300_92CU</p>
+        <p>Hercules_HWUp150_92CU</p>
+        <p>Hawking_8812AU</p>
+        <p>Hawking_HW7ACU_8812AU</p>
+        <p>IO_DATA_AC433UM_8812AU</p>
+        <p>O_DATA_WN-AC867U_8812AU</p>
+        <p>Infocus_INA-LCKEY_8812AU</p>
+        <p>IO_DATA_92CU</p>
+        <p>Linksys_WUSB6300_8812AU</p>
+        <p>Logitec_92CU</p>
+        <p>Loopcomm_ACA1_8812AU</p>
+        <p>Netgear_A7000</p>
+        <p>Netgear_N300MA_92CU</p>
+        <p>Netgear_WNA1000M_92CU</p>
+        <p>Netgear_WNA3100M_92CU</p>
+        <p>Netgear_A6100_8812AU</p>
+        <p>Netgear_A6200v2_8812AU</p>
+        <p>PCI_BT-Micro3H2X_92CU</p>
+        <p>PCI_GW_USEco300_92CU</p>
+        <p>PCI_GW_USLight_92CU</p>
+        <p>PCI_GW_USNano2_92CU</p>
+        <p>PCI_GW_USValue_EZ_92CU</p>
+        <p>PCI_SW_WF02-AD15_92CU</p>
+        <p>PCI_GW-300S_92EU</p>
+        <p>PCI_GW-450S_8812AU</p>
+        <p>PCI_GW-900D_8812AU</p>
+        <p>Proxim_USB-9100_8812AU</p>
+        <p>RTL8188CTV</p>
+        <p>RTL8188CTV_0A8A</p>
+        <p>RTL8188CTV_8011</p>
+        <p>RTL8188CU</p>
+        <p>RTL8188CUS_1E1E</p>
+        <p>RTL8188CUS_2E2E</p>
+        <p>RTL8188CUS_5088</p>
+        <p>RTL8188CUS_Combo</p>
+        <p>RTL8188CUS_Combo_AFF8</p>
+        <p>RTL8188CUS_Combo_AFFB</p>
+        <p>RTL8188CUS_Combo_AFFC</p>
+        <p>RTL8188CUS_Solo</p>
+        <p>RTL8188CUS_VL</p>
+        <p>RTL8188CUS_solo_AFF7</p>
+        <p>RTL8188CUS_solo_AFF9</p>
+        <p>RTL8188CUS_solo_AFFA</p>
+        <p>RTL8188RU</p>
+        <p>RTL8188RU_Netcore</p>
+        <p>RTL8192CU</p>
+        <p>RTL8192CU_8177</p>
+        <p>RTL8192CU_8178</p>
+        <p>RTL8192DU_VS</p>
+        <p>RTL8188EU</p>
+        <p>RTL8188EU_ETV</p>
+        <p>RTL8188EU_VAU</p>
+        <p>RTL8192EU</p>
+        <p>RTL8192EU-2</p>
+        <p>RTL8811AU</p>
+        <p>RTL8812AU</p>
+        <p>RTL8812AU-VL</p>
+        <p>RTL8812AU-VN</p>
+        <p>RTL8812AU-VS</p>
+        <p>RTL8814AU</p>
+        <p>Sitecom_WL365_92CU</p>
+        <p>Sitecom_WLA1001v1_92CU</p>
+        <p>Sitecom_WLA2102_92CU</p>
+        <p>Sitecom_WLA4001_92CU</p>
+        <p>Sitecom_WLA1100_88EU</p>
+        <p>Sitecom_WLA2104_8812AU</p>
+        <p>Sitecom_WLA7100_8812AU</p>
+        <p>Sitecom_WLA8100_8814AU</p>
+        <p>TPLink-Archer_T2U_NANO</p>
+        <p>TL-WN823Nv3</p>
+        <p>TL-WN725Nv3</p>
+        <p>TL-WN723Nv3</p>
+        <p>TL-WN722Nv3</p>
+        <p>TL-WN821Nv6</p>
+        <p>TPLink_92CU</p>
+        <p>TPLink_821v5_92EU</p>
+        <p>TPLink_822v4_92EU</p>
+        <p>TPLink_823v2_92EU</p>
+        <p>TPLink_8812AU_1</p>
+        <p>TPLink_8812AU_2</p>
+        <p>TPLink_8812AU_3</p>
+        <p>TPLink_88EUSU</p>
+        <p>TPLink_T4UH_8812AU</p>
+        <p>TPLink_T4U_8812AU</p>
+        <p>TPLink_T9UH_8814AU</p>
+        <p>TRENDnet N150 Micro</p>
+        <p>Trendnet_624D_92CU</p>
+        <p>Trendnet_648B_92CU</p>
+        <p>Trendnet_92DUVS</p>
+        <p>TrendNet_TEW804B_8812AU</p>
+        <p>TrendNet_TEW805B_8812AU</p>
+        <p>TrendNet_TEW809UB_8814AU</p>
+        <p>Western_AC_8812AU</p>
+        <p>ZyXEL_AC_8812AU</p>
+        <p>ZyXEL_92CU</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-تماما مثل [Wireless-USB-Adapter-Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover) ، يسمح **WIFI-Dlink** بدعم عدد لا بأس به من بطاقات **Mediatek / Ralink** ، لكن نظرًا لكونه تطبيق **32bit** غير معتمد على **أنظمة AMD** هناك إصدار أحدث **Catalina** يعتمد على **64bit** وهو الأفضل لأنظمة **AMD** أيضًا: [**WIFI-Dlink Catalina-Panel**](https://github.com/chris1111/WIFI-Dlink-Catalina-Panel-V2/releases)\*\*\*\*
+{% hint style="warning" %}
+#### لا تنسى عمل هذه الخطوة على ملف config.plist حتى يشتغل معك التعريف
+{% endhint %}
 
-* **RT3572 , RT3072 , RT3070 , RT3573 , MT7610 , MT7610 , MT7610 , RT5370**
+![config.plist](.gitbook/assets/image%20%28139%29.png)
 
-  **RT2870 , RT3071 , RT2770 , RT3573 , RT5572 , RT3573 , RT3573 , RT5572 , RT3572**
+#### تعريف\(برنامج\) [Wireless-Ralink-Panel-Utility](https://github.com/chris1111/Wireless-Ralink-Panel-Utility/releases)
+
+تماما مثل التعريف السابق ، يدعم هاذا التعريف عدد لا بأس به من بطاقات **Dlink /** **Mediatek / Ralink** و يشتغل من  اصدار ماك **10.6.8** الى أحدت نظام **كاتالينا** **10.15.4** 
+
+* **RT3572 , RT3072 , RT3070 , RT3573 , MT7610 , MT7610 , MT7610**
+
+  **RT5370 , RT2870 , RT3071 , RT2770 , RT3573 , RT5572 , RT3573**
+
+  **RT3573 , RT5572 , RT3572**
 
 ## بقية الكيكست :
 
