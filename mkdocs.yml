@@ -1,0 +1,15 @@
+site_name: شرح تثبيت هاكنتوش بالعربي
+repo_url: https://github.com/arhackintosh/artutorial
+site_description: اول و اكبر شرح عربي للهاكنتوش
+site_author: ARhackintosh
+copyright: gplV3
+plugins:
+  - autolinks
+theme:
+  name: material
+  language: ar
+  font: false
+  palette:
+    scheme: slate
+    primary: deep purple
+    accent: indigo
