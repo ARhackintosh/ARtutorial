@@ -34,105 +34,10 @@
 تعديل قائمة اللواقط المدعومة
 {% endhint %}
 
-{% hint style="success" %}
-**V1.3-Cataina**
-
-اضافه رابط تعريفات كروت انفيديا على High Sierra
-
-تغير نسخه SSDTTime من ioiiio الى نسخة corpnewt
-
-وضع جميع المتطلبات لقسم AMD في صفحه البداية
-
-ترتيب عنواين افضل في صفحه تثبيت مع انترنت
-
-تغير ازرار في صفحه نسخ الماك لتوجهك للقسم بدل لصفحه التثبيت مباشرة
-
-اضافه تفاصيل اكثر في صفحه نسخ الماك
-
-اضافه رابط ارشيف الكيكست في اخر سطر من صفحه اختيار التعريفات
-
-اضافه رابط قسم حلول الهاكنتوش في المنتدى
-
-\*\*\*\*[**قائمه التغيرات كامله من هنا**](https://هاكنتوش.com/?p=220)\*\*\*\*
-
-**V1.3.1-Catalina**
-
--اضافه رابط شرح تثبيت تعريفات انفيديا في صفحه بعد التثبيت
-
--الغاء متطلب استخدام كلوفر اصدار r5092 للتثبيت مع انترنت
-{% endhint %}
-
-{% hint style="success" %}
-**V1.2-Catalina**
-
-تصحيح اسم كيكست intelmausiethernet 
-
-استبدال نسخه mieze بنسخه acidanthera
-
-اضافه تنبيه تنزيل نسخه Release من الكيكستات
-
-اضافه زر نقل بين صفحه intel و amd
-
-تغير وصف usbinjectall.kext بحيث يصبح مطلوب لجميع الاجهزه
-
-اضافه رابط لطريقه التخلص من حد 15 مدخل usbinjectall
-
-توضيح اضافات كيكست lilu
-
-**V1.2.1-Catalina**
-
-تصحيح رابط قائمه الكروت المدعومه
-{% endhint %}
-
-
-
-{% hint style="success" %}
-**V1.1-Catalina**
-
-**تصحيح ترتيب الصور في صفحه AMD التي تسبب فيها موقع gitbook**
-
-اضافه عنوان :ايش التعريفات \(Kext\) الي أحتاجها ؟ الى صفحه انتل
-
-اضافه خيار التحميل مباشره لكيكست: 
-
-  
--RealtekRTL8100  
--AtherosE2200Ethernet  
--intelmausiethernet  
--BrcmPatchRAM
-
-تغير روابط الكيكست حتى تتجه الى صفحه release مباشره:
-
-
-
--RealtekRTL8111  
--Applealc   
--voodooHDA  
--Wireless-USB-Adapter-Clover   
--USB Wireless Utility   
--WIFI-Dlink Catalina-Panel  
--AirportBrcmFixup  
--BT4LEContinuityFixup
-{% endhint %}
-
-{% hint style="success" %}
-**V1.0-Catalina** 
-
-اول اصدار من شرح هاكنتوش بالعربي !
-
--مجهز لاصدار catalina 10.15  
--يدعم معالجات انتل من الجيل الثالث فما فوق  
--يدعم معالجات AMD من سلسله FX فما فوق على الكمبيوتر المكتبي فقط  
--يدعم اصدار 10.15.1\(19B88\) لمعالجات AMD   
--يدعم الثبيت ب offline installer او باستخدام الريكوفري \(انتل فقط\)   
--لايحتاج الى ماك وهمي  
--يدعم عمليه باتش ال FAKEEC في ال SSDT من اجل اصدار 10.15   
--نستخدم هذه الادوات Gibmacos , GenSMbios ,PPM17 , Transamc ,packmacos , SSDTtime,BDU -نستخدم بوت لودر 
-{% endhint %}
 
 ##  المصادر وفريق المتطوعين
 
-الكاتب الاساسي : فارس رحماني \([fareszr](https://هاكنتوش.com/members/fareszr.2/)\)  
+الكاتب الاساسي : fareszr \([fareszr](https://هاكنتوش.com/members/fareszr.2/)\)  
 المدقق اللغوي : بهاء الدين \([b.wdgt/bahaedin](https://هاكنتوش.com/members/bahaedin.3/)\)  
 المدقق اللغوي :  ليون \([the\_lion\#](https://هاكنتوش.com/members/the_lion.12/)\)
 
