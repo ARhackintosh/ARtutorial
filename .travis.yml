@@ -22,4 +22,4 @@ deploy: # Deploy documentation to Github in the gh_pages branch
     skip_cleanup: true
     github_token: $github_token
     on:
-        branch: dev
+        branch: v2-dev
