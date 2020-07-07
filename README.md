@@ -5,15 +5,16 @@
 
 ![status](https://api.travis-ci.com/ARhackintosh/ARtutorial.svg?branch=v2-dev)
 
-مرخص تحت:
+**مرخص تحت**:
 
 <img src="https://topologic.app/wp-content/uploads/2019/01/AGPLv3-Logo.png"  width="250">
 
 
-اهلا بكم في قسم الاصدار القادم (v2) من شرح تثبيت الهاكنتوش
+اهلا بكم في قسم الاصدار الثاني (v2) من شرح تثبيت الهاكنتوش
 هذا الجزء (branch) هو للتطوير 
 بحيث نقوم بعمل جميع التغييرات واختبارها ثم دفعها الى العامه production
-سيتم انشاء branch منفصل عندما ينتهي التطوير
+سيتم انشاء branch production عندما تنتهي مرحلة التطوير
+
 ## بنيه الشرح
 الشرح مبني على برنامج [mkdocs](https://github.com/mkdocs/mkdocs/)
 مع ثيم [material](https://pypi.org/project/mkdocs-material/)
@@ -27,5 +28,11 @@
 2. [critc](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#critic)
 3. [Details](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#details)
 
-جميع التغييرات يتم بنائهامن Travis ثم دفعها الى github pages
+جميع التغييرات يتم بنائها من [Travis](travis-ci.com) ثم دفعها الى github pages
+
 </div>
+
+**رابط الشرح**:
+
+https://tutorial.هاكنتوش.com
+
