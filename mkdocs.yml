@@ -7,10 +7,6 @@ copyright: https://github.com/ARhackintosh/ARtutorial/blob/intel/LICENSE
 plugins:
   - autolinks
   - search # necessary for search to work
-  - minify:
-      minify_html: true
-  - git-revision-date-localized:
-      type: timeago
 theme:
   name: material
   language: ar
