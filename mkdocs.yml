@@ -21,3 +21,10 @@ theme:
     scheme: slate
     primary: deep purple
     accent: indigo
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: رابط
+  - pymdownx.details
+  - pymdownx.critic
