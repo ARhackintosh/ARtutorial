@@ -28,10 +28,10 @@ deploy: # Deploy documentation to Github in the gh_pages branch
         branch: v2-dev
 
 after_success:
-  - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
-  - chmod +x send.sh
-  - ./send.sh success $WEBHOOK_URL
+  - wget https://raw.githubusercontent.com/fareszr/travis-ci-discord-webhook/master/send2.sh
+  - chmod +x send2.sh
+  - ./send2.sh success $WEBHOOK_URL
 after_failure:
-  - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
-  - chmod +x send.sh
-  - ./send.sh failure $WEBHOOK_URL
+  - wget https://raw.githubusercontent.com/fareszr/travis-ci-discord-webhook/master/send2.sh
+  - chmod +x send2.sh
+  - ./send2.sh failure $WEBHOOK_URL
