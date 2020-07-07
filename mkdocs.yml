@@ -1,10 +1,15 @@
 site_name: شرح تثبيت هاكنتوش بالعربي
 repo_url: https://github.com/arhackintosh/artutorial
-site_description: اول و اكبر شرح عربي للهاكنتوش
+site_description: اول و اكبر شرح عربي متفوح المصدر لتثبيت الهاكنتوش
 site_author: ARhackintosh
-copyright: gplV3
+copyright: https://github.com/ARhackintosh/ARtutorial/blob/intel/LICENSE
 plugins:
   - autolinks
+  - search # necessary for search to work
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: timeago
 theme:
   name: material
   language: ar
