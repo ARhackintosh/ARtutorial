@@ -4,9 +4,7 @@ repo_url: https://github.com/arhackintosh/artutorial
 site_description: اول و اكبر شرح عربي مفتوح المصدر لتثبيت الهاكنتوش
 site_author: ARhackintosh
 copyright: https://github.com/ARhackintosh/ARtutorial/blob/intel/LICENSE
-plugins:
-  - autolinks
-  - search # necessary for search to work
+
 theme:
   name: material
   language: ar
