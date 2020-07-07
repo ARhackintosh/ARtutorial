@@ -9,6 +9,8 @@ install:
     - pip install mkdocs # Install the required dependencies
     - pip install git+https://github.com/midnightprioriem/mkdocs-autolinks-plugin
     - pip install mkdocs-material
+    - pip install mkdocs-minify-plugin
+    - pip install mkdocs-git-revision-date-localized-plugin
 
 script: true # Skip script (Don't use this if one already exists)
 
