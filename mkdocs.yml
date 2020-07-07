@@ -1,10 +1,9 @@
 site_name: شرح تثبيت هاكنتوش بالعربي
-site_url: tutorial.xn--mgbg4a8cpdl.com
+site_url: https://tutorial.xn--mgbg4a8cpdl.com
 repo_url: https://github.com/arhackintosh/artutorial
 site_description: اول و اكبر شرح عربي مفتوح المصدر لتثبيت الهاكنتوش
 site_author: ARhackintosh
-copyright: https://github.com/ARhackintosh/ARtutorial/blob/intel/LICENSE
-
+copyright: [AGPLV3](https://github.com/ARhackintosh/ARtutorial/blob/intel/LICENSE)
 
 theme:
   name: material
