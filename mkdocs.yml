@@ -18,9 +18,9 @@ theme:
   name: material
   language: ar
   font: false
-  favicon: img/favicon.ico
-  logo: img/logo.png
-  repo: fontawesome/brands/git-alt
+  favicon: ./img/favicon.ico
+  logo: ./img/logo.png
+  repo: fontawesome/brands/github
   features:
     - tabs
   palette:
@@ -30,7 +30,7 @@ theme:
   
 extra:
   social:
-    - icon: fontawesome/brands/github-alt
+    - icon: fontawesome/brands/github
       link: https://github.com/ARhackintosh
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/arhackintosh
