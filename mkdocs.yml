@@ -1,4 +1,4 @@
-site_name: شرح تثبيت هاكنتوش بالعربي
+site_name: شرح تثبيت الهاكنتوش من مجتمع هاكنتوش بالعربي
 site_url: https://tutorial.xn--mgbg4a8cpdl.com
 site_author: مجتمع هاكنتوش بالعربي
 repo_name: ARhackintosh/ARtutorial
@@ -19,8 +19,9 @@ theme:
   language: ar
   font: false
   favicon: ./img/favicon.ico
-  logo: ./img/logo.png
-  repo: fontawesome/brands/github
+  icon:
+    logo: ./img/logo.png
+    repo: fontawesome/brands/github
   features:
     - tabs
   palette:
