@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: dev-CI
+name: dev-Build
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -35,18 +35,18 @@ jobs:
         python -m pip install --upgrade pip setuptools
         python -m pip install -U pip wheel
         python -m pip install -r requirements.txt
-    - name: Cache node modules
+    - name: Cache pip files
       uses: actions/cache@v2
       env:
-        cache-name: cache-pip-files
+        cache-name: pip-reg
       with:
         path: $HOME/.cache/pip
         key: pip-reg
     - name: mkdocs build and push
       run: |
-        git config user.name "dev-CI"
-        git config user.email "41898282+dev-CI@users.noreply.github.com"
+        git config user.name "dev-build"
+        git config user.email "41898282+dev-build@users.noreply.github.com"
         git remote add gh-token "https://github.com/arhackintosh/artutorial.git"
         git fetch gh-token && git fetch gh-token gh-pages:gh-pages
-        python -m mkdocs gh-deploy --clean -m "Deployed docs (${GITHUB_SHA:0:7})" --remote-name gh-token
+        python -m mkdocs gh-deploy --clean --verbose -m "بناء الموقع (${GITHUB_SHA:0:7})" --remote-name gh-token
         git push gh-token gh-pages
