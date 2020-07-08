@@ -44,3 +44,11 @@ jobs:
         git fetch gh-token && git fetch gh-token gh-pages:gh-pages
         python -m mkdocs gh-deploy --clean --verbose -m "dev-tutorial deploy (${GITHUB_SHA:0:7})" --remote-name gh-token
         git push gh-token gh-pages
+
+    - name: Cache pip files
+      uses: actions/cache@v2
+      env:
+        cache-name: pip-reg
+      with:
+        path: $HOME/.cache/pip
+        key: pip-reg
