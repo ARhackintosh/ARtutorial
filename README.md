@@ -2,6 +2,7 @@
   
 ## (v2)شرح تثبيت الهاكنتوش من [هاكنتوش بالعربي](هاكنتوش.com)
 
+![dev-Build](https://github.com/ARhackintosh/ARtutorial/workflows/dev-Build/badge.svg)
 
 **مرخص تحت**:
 
