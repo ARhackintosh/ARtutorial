@@ -1,10 +1,10 @@
 site_name: شرح تثبيت هاكنتوش بالعربي
 site_url: https://tutorial.xn--mgbg4a8cpdl.com
 site_author: هاكنتوش بالعربي
-site_description: اول و اكبر شرح عربي مفتوح المصدر لتثبيت الهاكنتوش
 repo_name: ARhackintosh/ARtutorial
 repo_url: https://github.com/arhackintosh/artutorial
 copyright: مرخص تحت AGPLV3
+site_description: اول و اكبر شرح عربي مفتوح المصدر لتثبيت الهاكنتوش
 
 plugins:
   - autolinks
