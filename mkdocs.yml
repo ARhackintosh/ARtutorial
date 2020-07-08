@@ -1,6 +1,6 @@
 site_name: شرح تثبيت هاكنتوش بالعربي
 site_url: https://tutorial.xn--mgbg4a8cpdl.com
-site_author: 'هاكنتوش بالعربي'
+site_author: هاكنتوش بالعربي
 site_description: اول و اكبر شرح عربي مفتوح المصدر لتثبيت الهاكنتوش
 repo_name: ARhackintosh/ARtutorial
 repo_url: https://github.com/arhackintosh/artutorial
@@ -18,6 +18,8 @@ theme:
   name: material
   language: ar
   font: false
+  features:
+    - tabs
   palette:
     scheme: slate
     primary: deep purple
