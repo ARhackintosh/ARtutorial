@@ -18,9 +18,9 @@ theme:
   name: material
   language: ar
   font: false
-  favicon: ./img/favicon.ico
+  logo: img/logo.png
+  favicon: img/favicon.ico
   icon:
-    logo: ./img/logo.png
     repo: fontawesome/brands/github
   features:
     - tabs
