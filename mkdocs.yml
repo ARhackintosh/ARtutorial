@@ -19,7 +19,7 @@ theme:
   language: ar
   font: false
   logo: ./img/logo.png
-  favicon: ./img/favicon.ico
+  favicon: ./img/logo.png
   icon:
     repo: fontawesome/brands/github
   features:
