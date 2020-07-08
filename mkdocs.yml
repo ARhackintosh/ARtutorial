@@ -22,8 +22,6 @@ theme:
     scheme: slate
     primary: deep purple
     accent: indigo
-  features:
-    - tabs
   
 
 markdown_extensions:
