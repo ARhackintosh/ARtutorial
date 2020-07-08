@@ -45,7 +45,7 @@ jobs:
     - name: mkdocs build and push
       run: |
         git config user.name "dev-CI"
-        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config user.email "41898282+dev-CI@users.noreply.github.com"
         git remote add gh-token "https://github.com/arhackintosh/artutorial.git"
         git fetch gh-token && git fetch gh-token gh-pages:gh-pages
         python -m mkdocs gh-deploy --clean -m "Deployed docs (${GITHUB_SHA:0:7})" --remote-name gh-token
