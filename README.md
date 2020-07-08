@@ -3,8 +3,6 @@
 ## (v2)شرح تثبيت الهاكنتوش من [هاكنتوش بالعربي](هاكنتوش.com)
 
 
-![status](https://api.travis-ci.com/ARhackintosh/ARtutorial.svg?branch=v2-dev)
-
 **مرخص تحت**:
 
 <img src="https://topologic.app/wp-content/uploads/2019/01/AGPLv3-Logo.png"  width="250">
