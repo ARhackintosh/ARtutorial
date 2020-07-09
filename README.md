@@ -1,6 +1,6 @@
 <div dir="rtl">
   
-## (v2)شرح تثبيت الهاكنتوش من [هاكنتوش بالعربي](هاكنتوش.com)
+## (v2)الاصدار الثاني من شرح تثبيت الهاكنتوش من [هاكنتوش بالعربي](هاكنتوش.com)
 
 ![dev-Build](https://github.com/ARhackintosh/ARtutorial/workflows/dev-Build/badge.svg)
 
@@ -16,10 +16,10 @@
 
 ## الميزات المخطط اضافتها
 - دعم ماك Big Sur
-- اضافه دعم اوبن كور
+- اضافه دعم [opencore](https://github.com/acidanthera/OpenCorePkg)
 - استخدام الكونفق الجديد لمعالجات amd
 - محاوله تقليل عدد البرامج المستخدمة
-- تركيز اكبر على الابتوبت(نحتاج متطوعين لهم خبره)
+- تركيز اكبر على الابتوبات(نحتاج متطوعين لهم خبره)
 - قسم للاسئلة الشائعة
 * [x] نقل الشرح الى موقعنا
 
@@ -40,7 +40,7 @@
 5. [Tasklist](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#tasklist)
 6. [MagicLink](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#magiclink)
 
-جميع التغييرات يتم بنائها من dev-ci ثم دفعها الى github pages
+جميع التغييرات يتم بنائها من dev-build ثم دفعها الى github pages
 
 </div>
 
