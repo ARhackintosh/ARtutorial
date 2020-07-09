@@ -46,10 +46,11 @@ nav:
       - 'تنزيل النظام': 'offline-installer/downloading-the-full-macos-installer'
       - 'نسخ النظام': 'offline-installer/offline-usb-setup'
     - تثبيت مع انترنت:
-      - تنزيل النظام: './online-installer/downloading-online-recovery'
-      - نسخ النظام: './offline-installer/online-usb-setup'
+      - تنزيل النظام: 'online-installer/downloading-online-recovery'
+      - نسخ النظام: 'online-installer/online-usb-setup'
     - 'بعد نسخ الماك':
-      - 'الاقلاع': 'booting.md'
+      - 'الاقلاع': 'after-copying-the-installer/booting.md'
+      - بعد التثبيت: 'after-copying-the-installer/post-install'
 
 
 
