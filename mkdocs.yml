@@ -42,12 +42,12 @@ nav:
     - اختيار الكونفق:
       - كمبيوتر مكتبي: 'docs/config-setup/desktops.md'
       - لابتوب: 'docs/config-setup/laptops.md'
-    - تثبيت بدون انترنت:
-      - تنزيل النظام: 'docs/offline-installer/downloading-the-full-macos-installer.md'
-      - نسخ النظام: 'docs/offline-installer/offline-usb-setup.md'
-    - تثبيت مع انترنت:
-      - تنزيل النظام: 'docs/online-installer/downloading-online-recovery.md'
-      - نسخ النظام: 'docs/offline-installer/online-usb-setup.md'
+    - 'تثبيت بدون انترنت':
+      - 'تنزيل النظام': 'docs/offline-installer/downloading-the-full-macos-installer.md'
+      - 'نسخ النظام': 'docs/offline-installer/offline-usb-setup.md'
+    - 'تثبيت مع انترنت':
+      - 'تنزيل النظام': 'docs/online-installer/downloading-online-recovery.md'
+      - 'نسخ النظام': 'docs/offline-installer/online-usb-setup.md'
     - بعد نسخ الماك : 'docs/after-copying-the-installer'
 
 
