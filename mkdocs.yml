@@ -35,6 +35,15 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/arhackintosh
 
+nav:
+    - شرح تثبيت الهاكنتوش من هاكنتوش بالعربي: 'index.md'
+    - 'start.md'
+    - 'gathering-kexts.md'
+    - اختيار الكونفق: '/config-setup'
+    - تثبيت بدون انترنت: '/offline-installer'
+    - تثبيت مع انترنت: '/online-installer'
+    - بعد نسخ الماك : '/after-copying-the-installer'
+
 
 markdown_extensions:
   - admonition
