@@ -26,7 +26,7 @@
 
 ## بنيه الشرح
 الشرح مبني على برنامج [mkdocs](https://github.com/mkdocs/mkdocs/)
-مع ثيم [material](https://pypi.org/project/mkdocs-material/)
+مع ثيم [material](https://github.com/squidfunk/mkdocs-material)
 
 الشرح مكتوب بصيغه markdown
 اذا كنت لا تعرف طريقه الكتابه بصيغه markdown اتبع هذا [الشرح](https://academy.hsoub.com/apps/productivity/%D9%83%D9%8A%D9%81-%D8%AA%D9%83%D8%AA%D8%A8-%D8%A8%D8%B5%D9%8A%D8%BA%D8%A9-%D9%85%D8%A7%D8%B1%D9%83%D8%AF%D8%A7%D9%88%D9%86-%D8%A8%D8%A8%D8%B3%D8%A7%D8%B7%D8%A9-r290/) 
