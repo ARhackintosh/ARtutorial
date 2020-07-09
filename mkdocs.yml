@@ -46,8 +46,8 @@ nav:
       - 'تنزيل النظام': 'docs/offline-installer/downloading-the-full-macos-installer.md'
       - 'نسخ النظام': 'docs/offline-installer/offline-usb-setup.md'
     - تثبيت مع انترنت:
-      - تنزيل النظام: docs/online-installer/downloading-online-recovery.md
-      - نسخ النظام: docs/offline-installer/online-usb-setup.md
+      - تنزيل النظام: online-installer/downloading-online-recovery.md
+      - نسخ النظام: offline-installer/online-usb-setup.md
     - 'بعد نسخ الماك':
       - 'الاقلاع': 'docs/after-copying-the-installer/booting.md'
 
