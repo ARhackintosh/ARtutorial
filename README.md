@@ -40,7 +40,7 @@
 5. [Tasklist](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#tasklist)
 6. [MagicLink](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#magiclink)
 
-جميع التغييرات يتم بنائها من [Travis](travis-ci.com) ثم دفعها الى github pages
+جميع التغييرات يتم بنائها من dev-ci ثم دفعها الى github pages
 
 </div>
 
