@@ -12,7 +12,7 @@ plugins:
   - minify:
       minify_html: true
   - git-revision-date-localized:
-      type: date
+      type: timeago
 
 theme:
   name: material
@@ -23,12 +23,11 @@ theme:
   icon:
     repo: fontawesome/brands/github
   features:
-    - tabs
+    - instant
   palette:
     scheme: slate
     primary: deep purple
     accent: indigo
-  
 extra:
   social:
     - icon: fontawesome/brands/github
