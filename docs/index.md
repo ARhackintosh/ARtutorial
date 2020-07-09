@@ -15,15 +15,16 @@
 ##  المصادر وفريق المتطوعين
 
 الكاتب الاساسي : [fareszr](https://هاكنتوش.com/members/fareszr.2/) 
+
 المدقق اللغوي : بهاء الدين \([b.wdgt/bahaedin](https://هاكنتوش.com/members/bahaedin.3/)\)  
 
 الشروحات التي سيتم بناء الشرح عليها :
 
-شرح @dortania لتثبيت الهاكنتوش مع اوبن كور
+شرح dortania لتثبيت الهاكنتوش مع اوبن كور
 https://dortania.github.io/OpenCore-Desktop-Guide
 
-شرح موقع @AMD-OSX لتثبيت الماك مع اوبن كور 
+شرح موقع AMD-OSX لتثبيت الماك مع اوبن كور 
 https://vanilla.amd-osx.com/
 
-شرح @CoKell-Projects لتثبيت الهاكنتوش مع رايزن
+شرح CoKelly-Projects لتثبيت الهاكنتوش مع رايزن
 https://github.com/CoKelly-Projects/ModernHackintosh
