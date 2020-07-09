@@ -37,20 +37,20 @@ extra:
 
 nav:
     - شرح تثبيت الهاكنتوش من هاكنتوش بالعربي: 'index.md'
-    - البداية: 'start'
-    - اختيار التعريفات(kex): 'gathering-kexts'
+    - البداية: 'start.md'
+    - اختيار التعريفات(kex): 'gathering-kexts.md'
     - اختيار الكونفق:
-      - 'كمبيوتر مكتبي': 'config-setup/desktops'
-      - 'لابتوب': 'config-setup/laptops'
+      - 'كمبيوتر مكتبي': 'config-setup/desktops.md'
+      - 'لابتوب': 'config-setup/laptops.md'
     - 'تثبيت بدون انترنت':
-      - 'تنزيل النظام': 'offline-installer/downloading-the-full-macos-installer'
-      - 'نسخ النظام': 'offline-installer/offline-usb-setup'
+      - 'تنزيل النظام': 'offline-installer/downloading-the-full-macos-installer.md'
+      - 'نسخ النظام': 'offline-installer/offline-usb-setup.md'
     - تثبيت مع انترنت:
-      - تنزيل النظام: 'online-installer/downloading-online-recovery'
-      - نسخ النظام: 'online-installer/online-usb-setup'
+      - تنزيل النظام: 'online-installer/downloading-online-recovery.md'
+      - نسخ النظام: 'online-installer/online-usb-setup.md'
     - 'بعد نسخ الماك':
       - 'الاقلاع': 'after-copying-the-installer/booting.md'
-      - بعد التثبيت: 'after-copying-the-installer/post-install'
+      - بعد التثبيت: 'after-copying-the-installer/post-install.md'
 
 
 
