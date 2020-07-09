@@ -36,20 +36,20 @@ extra:
       link: https://twitter.com/arhackintosh
 
 nav:
-    - شرح تثبيت الهاكنتوش من هاكنتوش بالعربي: 'docs/index.md'
-    - 'docs/start.md'
-    - 'docs/gathering-kexts.md'
+    - شرح تثبيت الهاكنتوش من هاكنتوش بالعربي: 'index.md'
+    - 'start.md'
+    - 'gathering-kexts.md'
     - اختيار الكونفق:
-      - 'كمبيوتر مكتبي': 'docs/config-setup/desktops.md'
-      - 'لابتوب': 'docs/config-setup/laptops.md'
+      - 'كمبيوتر مكتبي': 'desktops.md'
+      - 'لابتوب': 'laptops.md'
     - 'تثبيت بدون انترنت':
-      - 'تنزيل النظام': 'docs/offline-installer/downloading-the-full-macos-installer.md'
-      - 'نسخ النظام': 'docs/offline-installer/offline-usb-setup.md'
+      - 'تنزيل النظام': 'downloading-the-full-macos-installer.md'
+      - 'نسخ النظام': 'offline-usb-setup.md'
     - تثبيت مع انترنت:
-      - تنزيل النظام: online-installer/downloading-online-recovery.md
-      - نسخ النظام: offline-installer/online-usb-setup.md
+      - تنزيل النظام: 'downloading-online-recovery.md'
+      - نسخ النظام: 'online-usb-setup.md'
     - 'بعد نسخ الماك':
-      - 'الاقلاع': 'docs/after-copying-the-installer/booting.md'
+      - 'الاقلاع': 'booting.md'
 
 
 
