@@ -39,9 +39,15 @@ nav:
     - شرح تثبيت الهاكنتوش من هاكنتوش بالعربي: 'docs/index.md'
     - 'docs/start.md'
     - 'docs/gathering-kexts.md'
-    - اختيار الكونفق: 'docs/config-setup'
-    - تثبيت بدون انترنت: 'docs/offline-installer'
-    - تثبيت مع انترنت: 'docs/online-installer'
+    - اختيار الكونفق:
+      - كمبيوتر مكتبي: 'docs/config-setup/desktops.md'
+      - لابتوب: 'docs/config-setup/laptops.md'
+    - تثبيت بدون انترنت:
+      - تنزيل النظام: 'docs/offline-installer/downloading-the-full-macos-installer.md'
+      - نسخ النظام: 'docs/offline-installer/offline-usb-setup.md'
+    - تثبيت مع انترنت:
+      - تنزيل النظام: 'docs/online-installer/downloading-online-recovery.md'
+      - نسخ النظام: 'docs/offline-installer/online-usb-setup.md'
     - بعد نسخ الماك : 'docs/after-copying-the-installer'
 
 
