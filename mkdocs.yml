@@ -36,13 +36,13 @@ extra:
       link: https://twitter.com/arhackintosh
 
 nav:
-    - شرح تثبيت الهاكنتوش من هاكنتوش بالعربي: 'index.md'
-    - 'start.md'
-    - 'gathering-kexts.md'
-    - اختيار الكونفق: '/config-setup'
-    - تثبيت بدون انترنت: '/offline-installer'
-    - تثبيت مع انترنت: '/online-installer'
-    - بعد نسخ الماك : '/after-copying-the-installer'
+    - شرح تثبيت الهاكنتوش من هاكنتوش بالعربي: 'docs/index.md'
+    - 'docs/start.md'
+    - 'docs/gathering-kexts.md'
+    - اختيار الكونفق: 'docs/config-setup'
+    - تثبيت بدون انترنت: 'docs/offline-installer'
+    - تثبيت مع انترنت: 'docs/online-installer'
+    - بعد نسخ الماك : 'docs/after-copying-the-installer'
 
 
 markdown_extensions:
