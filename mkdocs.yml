@@ -18,8 +18,8 @@ theme:
   name: material
   language: ar
   font: false
-  logo: ./img/logo.png
-  favicon: ./img/logo.png
+  logo: img/logo.png
+  favicon: img/favicon.ico
   icon:
     repo: fontawesome/brands/github
   features:
