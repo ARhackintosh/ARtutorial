@@ -35,6 +35,9 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/arhackintosh
 
+extra_css:
+  - extra.css
+
 nav:
     - شرح تثبيت الهاكنتوش من هاكنتوش بالعربي: 'index.md'
     - البداية: 'start.md'
@@ -64,3 +67,4 @@ markdown_extensions:
   - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
+  - attr_list
