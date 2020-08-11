@@ -25,9 +25,10 @@
 * [x] نقل الشرح الى موقعنا
 
 ## حاله الشرح:
-يتم حاليا البحث عن برنامج يمكن استخراج ملفات pkg على نظام ويندوز. لان 7zip لايقوم باظهار جميع الملفات الضرورية
+تم اتخاذ قرار الاعتماد على ماك وهمي  للتثبيت الكامل على الاقل
+لان لايمكن تكبير حجم اقسام apfs على ويندوز 
+وحاليا نجرب الماك الوهمي وطريقه التثبيت لبدء بالكتابه
 
-بينما على لينكس(Pop OS! و اوبنتو) يمكنك فك الضغط بشكل صحيح
 
 ## بنيه الشرح
 الشرح مبني على برنامج [mkdocs](https://github.com/mkdocs/mkdocs/)
@@ -44,6 +45,7 @@
 4. [Tabbed](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#tabbed)
 5. [Tasklist](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#tasklist)
 6. [MagicLink](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#magiclink)
+7. [css مخصص](./docs/extra.css)
 
 جميع التغييرات يتم بنائها من dev-build ثم دفعها الى github pages
 
