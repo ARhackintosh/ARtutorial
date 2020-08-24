@@ -54,6 +54,7 @@
 5. [Tasklist](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#tasklist)
 6. [MagicLink](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#magiclink)
 7. [css مخصص](./docs/extra.css)
+8. [Caret, Mark & Tilde](https://squidfunk.github.io/mkdocs-material/reference/formatting/#caret-mark-tilde)
 
 جميع التغييرات يتم بنائها من dev-build ثم دفعها الى github pages
 
