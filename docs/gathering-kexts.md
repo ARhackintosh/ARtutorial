@@ -8,8 +8,12 @@
 
 ## كيكستات اساسية
 
-طبعا [Virtualsmc.kext](https://github.com/acidanthera/VirtualSMC/releases) **أساسي يقنع النظام ان هذا جهاز ماك**
-
+* [Virtualsmc.kext](https://github.com/acidanthera/VirtualSMC/releases) 
+	* يقوم هذا الكيكست بمحاكاه قطعه ال ==SMC== في اجهزه الماك **بدونه لن يقلع النظام**
+	* هناك بديل وهو Fakesmc بشكل عام هو كيكست اقدم وبتقنيات اقل, ينصح باستخدامه على **الاجهزه القديمه فقط**.
+	
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
+	* كيكست مسؤول عن عمل باتشات في النظام, العديد من الكيكستات تعتمد عليه مثل virtualsmc,AppleALC,WhateverGreen وغيرها, بدونه لن تعمل.
 ## الايثرنت Ethernet :
 
 {% hint style="info" %}
