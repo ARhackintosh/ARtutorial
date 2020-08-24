@@ -65,15 +65,24 @@
 - [RealtekRTL8100.kext](https://github.com/Mieze/RealtekRTL8100) [**التحميل من هنا**](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455140&cid=FE4038DA929BFB23)
 	- يعمل مع كروت Realtek بسرعه 10mbit/s-100mbit/s.
 
-## مداخل (USB)
+## USB
 
-راح تحتاج[ USBinjectAll,kext](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/) بحيث يقوم هذا الكيكست بتفعيل كل مداخل ال usb وتوجيهها الى chipset الخاص بالمذربورد ليتعامل معها النظام
-
-في **10.11** ابل وضعت **حد 15 مدخل USB** **على كل USB Controller** يتبين ان 15 عدد كافي حتى يتبين لك ان كل مدخل **USB3** **يحسب كمدخلان.**
-
-**على** **مذربوردات الجيل السادس فما فوق** **مداخل USB3** و **USB 2** يتم التحكم بها من **XHCI controllrer** وبما ان كل **مدخل USB3 يحسب 2 يمكن الوصول الحد بسهوله** لاكن يمكن تعطيل حد ال 15 مدخل عنطريق تعديل الكونفق بعد تثبيت النظام [**الخطوات هنا \(انجليزي\)**](https://hackintosher.com/forums/thread/list-of-hackintosh-usb-port-limit-patches-10-15-updated.467/)\*\*\*\*
-
-\*\*\*\*
+- [USBinjectAll.kext](https://github.com/Sniki/OS-X-USB-Inject-All/releases)
+	-  يستخدم لتفعيل وحدات تحكم مداخل ال USB من انتل بدون الحاجه لتحديدها في ال acpi.
+	- ليس ضروري على الجيل السادس فما فوق(**مذربوردات asrock مازالت تحتاجه**)
+	- **لا يعمل على معالجات AMD**
+- [XHCI-unsupported.kext](https://github.com/RehabMan/OS-X-USB-Inject-All)
+	- ضروري لوحدات التحكم الغير مدعومه من النظام بشكل مباشر
+	- معالجات AMD لاتحتاج هذا الكيكست
+	- طريقه تحميل الكيكست هي ضغط على code ثم download zip ثم داخل المف ستجد ملف الكيكست 
+	- مذربوردات تحتاج هذا الكيكست:
+		- H370
+		- B360
+		- H310
+		- Z390(غير ضروري لموهافي او احدث)
+		- X79
+		- X99
+		- مذربوردات AsRock(مذربوردات انتل, **بستثناء Z490**)
 
 ## كرت الشاشة \(GPU\) :
 
