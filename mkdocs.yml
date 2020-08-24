@@ -42,7 +42,7 @@ extra_css:
 nav:
     - شرح تثبيت الهاكنتوش من هاكنتوش بالعربي: 'index.md'
     - البداية: 'start.md'
-    - اختيار التعريفات(kex): 'gathering-kexts.md'
+    - اختيار التعريفات(kext): 'gathering-kexts.md'
     - اختيار الكونفق:
       - 'كمبيوتر مكتبي': 'config-setup/desktops.md'
       - 'لابتوب': 'config-setup/laptops.md'
