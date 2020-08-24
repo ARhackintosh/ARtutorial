@@ -17,7 +17,8 @@ plugins:
 theme:
   name: material
   language: ar
-  font: false
+  font:
+    text: Tajawal
   logo: img/logo.png
   favicon: img/logo.png
   icon:
