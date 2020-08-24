@@ -35,30 +35,37 @@
 	
 ## الايثرنت Ethernet :
 
-{% hint style="info" %}
-**في حاله وجود عده نسخ من الكيكست دائما قم بتنزيل ملف ال RELEASE ولا تحمل ملفات ال source** 
-{% endhint %}
-
-بالنسبه للشبكه راح نعتمد على Ethernet\(السلك\) **وليس الواي فاي**
-
-ا [SmallTreeIntel82576.zip](https://drive.google.com/file/d/0B5Txx3pb7pgcOG5lSEF2VzFySWM/view?usp=sharing) مخصص لتعريف كرت انتل I211-AT
-
-**ا** [intellMausiEthernet.kext ](https://github.com/acidanthera/IntelMausi/releases)يعمل مع معظم كروت الشبكه الحديثه من انتل 
-
-ا [appleintelE1000e.kext ](https://sourceforge.net/projects/osx86drivers/files/Kext/Snow_or_Above/AppleIntelE1000e.kext.zip/download)يعمل مع كروت الشبكه القديمه من انتل مشكلتها قد تسبب KP مع الاجهزه الجديده
-
-ا [AtherosE2200Ethernet.kext ](https://github.com/Mieze/AtherosE2200Ethernet)- يعمل مع معظم كروت Atheros و KIller [**التحميل من هنا**](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455105&cid=FE4038DA929BFB23)\*\*\*\*
-
-ا [RealteakRTL8111.kext](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases) يعمل مع كروت Realtek بسرعه 1GB/s
-
-ا [RealtekRTL8100.kext](https://github.com/Mieze/RealtekRTL8100) يعمل مع كروت Realtek بسرعه 10 -100mb/s [**التحميل من هنا** ](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455140&cid=FE4038DA929BFB23)
+???+ info "معلومة"
+	**في حاله وجود عده نسخ من الكيكست دائما قم بتنزيل ملف ال RELEASE ولا تحمل ملفات ال source** 
 
 
+الان بشكل اساسي سنستخدم ال Ethernet (السلك) للانترنت لان ال Wi-Fi لايعمل دائما.
 
-  
+يجب ان تعرف نوع كرت Ethernet الخاص بك حتى تعرف تثبت اي تعريف. يمكنك ان تعرف نوع الكرت اما من برنامج [hwinfo](https://www.hwinfo.com/) او من موقع الشركه المصنعه للجهاز او المذبورد.
 
+- [IntelMausi.kext](https://github.com/acidanthera/IntelMausi/releases)
+	- مطلوب لمعظم كروت شبكه انتل الحديثه, يدعم  82578, 82579, i217, i218 و intel i219.
 
-## مداخل \(USB\) :
+- [SmallTreeIntel82576.kext](https://github.com/khronokernel/SmallTree-I211-AT-patch/releases)
+	- كيكست مخصص لتعريف كروت انتل i211 وهو مبني على كيكست smalltree مع باتش لاضافه دعم i211
+	- معظم مذربوردات  ryzen التي تستخدم كروت انتل تحتاج هذا الكيكست
+
+- [AtherosE2200Ethernet](https://github.com/Mieze/AtherosE2200Ethernet/releases)
+
+	- كيكست مخصص لتعريف كروت Atheros و Killer
+
+- [LucyRTL8125Ethernet](https://github.com/Mieze/LucyRTL8125Ethernet) [**التحميل من هنا**](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21493866&cid=FE4038DA929BFB23)
+
+	- مخصص للعمل مع كروت Realtek الحديثه التي تعمل بسرعه 2.5gbit/s
+
+	
+- [RealteakRTL8111.kext](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases)
+	- مخصص لكروت Realtek التي تعمل بسرعه Gigabit
+
+- [RealtekRTL8100.kext](https://github.com/Mieze/RealtekRTL8100) [**التحميل من هنا**](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455140&cid=FE4038DA929BFB23)
+	- يعمل مع كروت Realtek بسرعه 10mbit/s-100mbit/s.
+
+## مداخل (USB)
 
 راح تحتاج[ USBinjectAll,kext](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/) بحيث يقوم هذا الكيكست بتفعيل كل مداخل ال usb وتوجيهها الى chipset الخاص بالمذربورد ليتعامل معها النظام
 
