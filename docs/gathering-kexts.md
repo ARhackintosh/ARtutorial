@@ -8,11 +8,11 @@
 
 ## كيكستات اساسية
 
-* [Virtualsmc.kext](https://github.com/acidanthera/VirtualSMC/releases) 
+* [Virtualsmc.kext](https://هاكنتوش.com/virtualsmc-kext/) 
 	* يقوم هذا الكيكست بمحاكاه قطعه ال ==SMC== في اجهزه الماك **بدونه لن يقلع النظام**
 	* هناك بديل وهو Fakesmc بشكل عام هو كيكست اقدم وبتقنيات اقل, ينصح باستخدامه على **الاجهزه القديمه فقط**.
 	
-* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [Lilu.kext](https://هاكنتوش.com/lilu-kext/)
 	* كيكست مسؤول عن عمل باتشات في النظام, العديد من الكيكستات تعتمد عليه مثل virtualsmc,AppleALC,WhateverGreen وغيرها, بدونه لن تعمل.
 
 ## اضافات VirtualSMC
@@ -43,14 +43,14 @@
 
 يجب ان تعرف نوع كرت Ethernet الخاص بك حتى تعرف تثبت اي تعريف. يمكنك ان تعرف نوع الكرت اما من برنامج [hwinfo](https://www.hwinfo.com/) او من موقع الشركه المصنعه للجهاز او المذبورد.
 
-- [IntelMausi.kext](https://github.com/acidanthera/IntelMausi/releases)
+- [IntelMausi.kext](https://هاكنتوش.com/intelmausiethernet-kext/)
 	- مطلوب لمعظم كروت شبكه انتل الحديثه, يدعم  82578, 82579, i217, i218 و intel i219.
 
-- [SmallTreeIntel82576.kext](https://github.com/khronokernel/SmallTree-I211-AT-patch/releases)
+- [SmallTreeIntel82576.kext](https://هاكنتوش.com/smalltree-i211-at-patch-kext/)
 	- كيكست مخصص لتعريف كروت انتل i211 وهو مبني على كيكست smalltree مع باتش لاضافه دعم i211
 	- معظم مذربوردات  ryzen التي تستخدم كروت انتل تحتاج هذا الكيكست
 
-- [AtherosE2200Ethernet](https://github.com/Mieze/AtherosE2200Ethernet/releases)
+- [AtherosE2200Ethernet](https://هاكنتوش.com/atherose2200ethernet-kext/)
 
 	- كيكست مخصص لتعريف كروت Atheros و Killer
 
@@ -59,10 +59,10 @@
 	- مخصص للعمل مع كروت Realtek الحديثه التي تعمل بسرعه 2.5gbit/s
 
 	
-- [RealteakRTL8111.kext](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases)
+- [RealteakRTL8111.kext](https://هاكنتوش.com/realtekrtl8111-kext/)
 	- مخصص لكروت Realtek التي تعمل بسرعه Gigabit
 
-- [RealtekRTL8100.kext](https://github.com/Mieze/RealtekRTL8100) [**التحميل من هنا**](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455140&cid=FE4038DA929BFB23)
+- [RealtekRTL8100.kext](https://هاكنتوش.com/realtekrtl8100-kext/)
 	- يعمل مع كروت Realtek بسرعه 10mbit/s-100mbit/s.
 
 ## USB
@@ -71,7 +71,7 @@
 	-  يستخدم لتفعيل وحدات تحكم مداخل ال USB من انتل بدون الحاجه لتحديدها في ال acpi.
 	- ليس ضروري على الجيل السادس فما فوق(**مذربوردات asrock مازالت تحتاجه**)
 	- **لا يعمل على معالجات AMD**
-- [XHCI-unsupported.kext](https://github.com/RehabMan/OS-X-USB-Inject-All)
+- [XHCI-unsupported.kext](https://هاكنتوش.com/usbinjectall-kext/)
 	- ضروري لوحدات التحكم الغير مدعومه من النظام بشكل مباشر
 	- معالجات AMD لاتحتاج هذا الكيكست
 	- طريقه تحميل الكيكست هي ضغط على code ثم download zip ثم داخل المف ستجد ملف الكيكست 
@@ -86,21 +86,21 @@
 
 ## كورت الشاشة (GPUs) :
 
-- [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases)
+- [WhateverGreen](https://هاكنتوش.com/whatevergreen-kext/)
 	- يقوم بعمل مهام الباتش لل DRM و تفعيل الاصلاحات في Freamebuffer الخ, كل كروت الشاشه تستفيد من هذا الكيكست.
 	- ملف ==SSDT-PLNF.dsl== المرفق مع الكيكست **يستخدم مع الابتوبات و اجهزه الكل في واحد(كمبيوتر داخل الشاشه) فقط**
 
-???+ hint "ملحوظه"
+???+ tip "ملحوظه"
 	[**رابط تعريفات انفيديا \(هاي سييرا\)**](https://www.tonymacx86.com/nvidia-drivers/)
 
 
 ## الصوت (Sound) :
 
-- [Applealc.Kext](https://github.com/acidanthera/AppleALC/releases)
+- [Applealc.Kext](https://هاكنتوش.com/applealc-kext/)
 	- يستخدم لعمل باتش ل AppleHDA وهو المسؤول عن تفعيل كرت الصوت داخل الجهاز, اجهزه رايزن قد لايعمل معها المايكروفون
 	- يجب ان يكون كرت الصوت الخاص بك موجود في هذه [القائمه](https://github.com/acidanthera/applealc/wiki/supported-codecs)
 
-- [VoodoHDA](https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15/releases)
+- [VoodoHDA](https://هاكنتوش.com/voodoohda-kext/)
 	- هذا تعريف بديل وهو ليس كيكست بل برنامج تثبته بعد تثبيت النظام, يقدم دعم اوسع, اذا كان كرتك لايعمل مع AppleALC استخدم هذا. يجب حذف Applealc قبل استخدامه وجودته اسوء بفرق كبير عن applealc
 	- قد يحل مشكله المايكروفون على معالجات Ryzen 
 	
@@ -111,7 +111,7 @@
 		- MacPro6,1
 		- MacPRO7,1
 		- iMacPro1,1
-- [NVMeFix](https://github.com/acidanthera/NVMeFix/releases)
+- [NVMeFix](https://هاكنتوش.com/nvmefix-kext/)
 	- يقوم بحل مشاكل تحكم بالطاقه و التهيئة على nvme لم يتم تصنيعها من ابل.
 	- يحتاج ماك موهاي(10.14) او احدث حتى يعمل.
 
