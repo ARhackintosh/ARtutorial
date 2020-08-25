@@ -84,13 +84,15 @@
 		- X99
 		- مذربوردات AsRock(مذربوردات انتل, **بستثناء Z490**)
 
-## كرت الشاشة \(GPU\) :
+## كورت الشاشة (GPUs) :
 
-بالنسبه **لكرت الشاشة** راح تحتاج تعريف [Whatevergreen.kext](https://github.com/acidanthera/WhateverGreen/releases) و هو اضافه لكيكست[ Lilu.kext](https://github.com/vit9696/Lilu/releases) بحيث استبدلو عدة **kexts** منها **Shiki** و **NvidiaGraphicsFixup** **وغيرها**
+- [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases)
+	- يقوم بعمل مهام الباتش لل DRM و تفعيل الاصلاحات في Freamebuffer الخ, كل كروت الشاشه تستفيد من هذا الكيكست.
+	- ملف ==SSDT-PLNF.dsl== المرفق مع الكيكست **يستخدم مع الابتوبات و اجهزه الكل في واحد(كمبيوتر داخل الشاشه) فقط**
 
-{% hint style="info" %}
-\*\*\*\*[**رابط تعريفات انفيديا \(هاي سييرا\)**](https://www.tonymacx86.com/nvidia-drivers/)\*\*\*\*
-{% endhint %}
+???+ hint "ملحوظه"
+	[**رابط تعريفات انفيديا \(هاي سييرا\)**](https://www.tonymacx86.com/nvidia-drivers/)
+
 
 ## الصوت \(Sound\) :
 
