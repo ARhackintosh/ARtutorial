@@ -103,6 +103,19 @@
 - [VoodoHDA](https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15/releases)
 	- هذا تعريف بديل وهو ليس كيكست بل برنامج تثبته بعد تثبيت النظام, يقدم دعم اوسع, اذا كان كرتك لايعمل مع AppleALC استخدم هذا. يجب حذف Applealc قبل استخدامه وجودته اسوء بفرق كبير عن applealc
 	- قد يحل مشكله المايكروفون على معالجات Ryzen 
+	
+## كيكستات اضافيه
+- AppleMCEReporterDisabler(مرفق مع كونفق AMD)
+	- كيكست يحل مشكله التوقف عن  AppleMCEReporter في كاتلينا وما بعد.
+	- يؤثر على Smbios الاتيه:
+		- MacPro6,1
+		- MacPRO7,1
+		- iMacPro1,1
+- [NVMeFix](https://github.com/acidanthera/NVMeFix/releases)
+	- يقوم بحل مشاكل تحكم بالطاقه و التهيئة على nvme لم يتم تصنيعها من ابل.
+	- يحتاج ماك موهاي(10.14) او احدث حتى يعمل.
+
+
 
 ## واي فاي وبلوتوث Wi-Fi / Bluetooth :
 
