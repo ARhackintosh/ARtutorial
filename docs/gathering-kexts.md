@@ -94,10 +94,14 @@
 	[**رابط تعريفات انفيديا \(هاي سييرا\)**](https://www.tonymacx86.com/nvidia-drivers/)
 
 
-## الصوت \(Sound\) :
+## الصوت (Sound) :
 
-بالنسبه **للصوت** راح تحتاج تعريف [Applealc.Kext](https://github.com/acidanthera/AppleALC/releases) و وهو اضافه اخرى لكيكست [Lilu.kext](https://github.com/acidanthera/lilu/releases) \(تحتاجهم الاثنين\) اذا كان كرت الصوت عندك موجود في هاذه [القائمه](https://github.com/acidanthera/applealc/wiki/supported-codecs)   
-اذا كان كرتك غير موجود هناك تعريف بديل [VoodoHDA.Kext](https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V14/releases) مع دعم اوسع
+- [Applealc.Kext](https://github.com/acidanthera/AppleALC/releases)
+	- يستخدم لعمل باتش ل AppleHDA وهو المسؤول عن تفعيل كرت الصوت داخل الجهاز, اجهزه رايزن قد لايعمل معها المايكروفون
+	- يجب ان يكون كرت الصوت الخاص بك موجود في هذه [القائمه](https://github.com/acidanthera/applealc/wiki/supported-codecs)
+
+- [VoodoHDA](https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V14/releases)
+	- هذا تعريف بديل وهو ليس كيكست بل برنامج تثبته بعد تثبيت النظام, يقدم دعم اوسع, اذا كان كرتك لايعمل مع AppleALC استخدم هذا.
 
 ## واي فاي وبلوتوث Wi-Fi / Bluetooth :
 
