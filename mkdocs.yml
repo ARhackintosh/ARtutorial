@@ -44,7 +44,9 @@ nav:
     - البداية: 'start.md'
     - اختيار التعريفات(kext): 'gathering-kexts.md'
     - اختيار الكونفق:
-      - 'كمبيوتر مكتبي': 'config-setup/desktops.md'
+      - كمبيوتر مكتبي :
+        - 'انتل': 'config-setup/intel.md'
+        - 'AMD': 'config-setup/AMD.md'
       - 'لابتوب': 'config-setup/laptops.md'
     - 'تثبيت بدون انترنت':
       - 'تنزيل النظام': 'offline-installer/downloading-the-full-macos-installer.md'
