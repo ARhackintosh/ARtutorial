@@ -44,10 +44,11 @@ nav:
     - البداية: 'start.md'
     - اختيار التعريفات(kext): 'gathering-kexts.md'
     - اختيار الكونفق:
-      - كمبيوتر مكتبي :
-        - 'انتل': 'config-setup/intel.md'
-        - 'AMD': 'config-setup/AMD.md'
-      - 'لابتوب': 'config-setup/laptops.md'
+      - انتل (مكتبي):
+        - 'جيل الثالث' : 'config-setup/3rd-gen.md'
+      - 'AMD(مكتبي)': 'config-setup/AMD.md'
+      - لابتوبات:
+        - 'جيل الثالث' : 'config-setup/laptops/3rd-gen.md'
     - 'تثبيت بدون انترنت':
       - 'تنزيل النظام': 'offline-installer/downloading-the-full-macos-installer.md'
       - 'نسخ النظام': 'offline-installer/offline-usb-setup.md'
