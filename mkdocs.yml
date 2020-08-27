@@ -44,7 +44,7 @@ nav:
     - البداية: 'start.md'
     - اختيار التعريفات(kext): 'gathering-kexts.md'
     - اختيار الكونفق:
-      - 'Intel(Pc):
+      - 'Intel(Pc)':
         - 'جيل الثالث' : 'config-setup/3rd-gen.md'
       - 'Ryzen(PC)': 'config-setup/AMD.md'
       - 'Intel(Laptop)':
