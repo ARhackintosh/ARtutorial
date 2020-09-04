@@ -45,8 +45,9 @@ nav:
     - اختيار التعريفات(kext): 'gathering-kexts.md'
     - اختيار الكونفق:
       - 'Intel(Pc)':
-        - 'جيل الثالث' : 'config-setup/3rd-gen.md'
-      - 'Ryzen(Pc)': 'config-setup/AMD.md'
+        - 'الجيل الثالث' : 'config-setup/3rd-gen.md'
+        - 'الجيل الرابع' : 'config-setup/4rd-gen.md'
+    - 'Ryzen(Pc)': 'config-setup/AMD.md'
       - 'Intel(Laptop)':
         - 'جيل الثالث' : 'config-setup/laptops/3rd-gen.md'
     - 'تثبيت بدون انترنت':
