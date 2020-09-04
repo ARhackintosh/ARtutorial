@@ -46,7 +46,7 @@ nav:
     - اختيار الكونفق:
       - 'Intel(Pc)':
         - 'الجيل الثالث' : 'config-setup/3rd-gen.md'
-        - 'الجيل الرابع' : 'config-setup/4rd-gen.md'
+        - 'الجيل الرابع' : 'config-setup/4th-gen.md'
     - 'Ryzen(Pc)': 'config-setup/AMD.md'
       - 'Intel(Laptop)':
         - 'جيل الثالث' : 'config-setup/laptops/3rd-gen.md'
