@@ -43,7 +43,8 @@ nav:
     - شرح تثبيت الهاكنتوش من هاكنتوش بالعربي: 'index.md'
     - البداية: 'start.md'
     - اختيار التعريفات(kext): 'gathering-kexts.md'
-    - اختيار الكونفق:
+    - 'الكونفق': 'config.md'
+    - تجهيز الكونفق:
       - 'Intel(Pc)':
         - 'الجيل الثالث' : 'config-setup/3rd-gen.md'
         - 'الجيل الرابع' : 'config-setup/4th-gen.md'
