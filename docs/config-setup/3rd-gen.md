@@ -3,12 +3,16 @@
 - دعم بيج سر غير مؤكد للكرت المدمج
 
 
-إذا كنت تريد طريقه انشاء الكونفق يدويا ولك معرفه بالغه الانجليزي [هنا ](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-per-hardware/ivy-bridge)رابط يشرح كيفيه انشاء الكونفق للجيل الثالث إلى الجيل التاسع
+إذا كنت تريد طريقه انشاء الكونفق يدويا ولك معرفه باللغه الانجليزي [هنا ](https://dortania.github.io/OpenCore-Install-Guide/config.plist/ivy-bridge.html#starting-point)رابط يشرح كيفيه انشاء الكونفق للجيل الثالث
 
-بالنسبة للكونفق راح يكون هناك كونفقات جاهزه من [هنا ](https://github.com/corpnewt/Hackintosh-Guide)  
-كل الي عليك تنزل الملف
+لكن لنختصر عمليه عمل  الكونفقات قمنا داخل مجتمع هاكنتوش بالعربي بعمل عينه من الكونفقات داخلها الاعدادات الاساسية لكل جيل ,بحيث نقلل عدد الاعدادات التي يحتاج لتغييرها المستخدم.
 
-![](../.gitbook/assets/image%20%2814%29.png)
+**[رابط التحميل](https://github.com/ARhackintosh/OC-Configs)**
+
+???+ tip "ملحوظه"
+     لتنزيل الكونفقات قم بالضغط على code ثم Download zip وسوف يحمل كامل المشروع داخل ملف مضغوط
+    
+    ![](/img/Github-zip.png)
 
 بعدها تروح ملف Configs
 
