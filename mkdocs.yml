@@ -57,6 +57,7 @@ nav:
       - 'Ryzen(Pc)': 'config-setup/AMD.md'
       - 'Intel(Laptop)':
         - 'جيل الثالث' : 'config-setup/laptops/3rd-gen.md'
+        - 'جيل الرابع' : 'config-setup/laptops/4td-gen.md'
     - 'تثبيت بدون انترنت':
       - 'تنزيل النظام': 'offline-installer/downloading-the-full-macos-installer.md'
       - 'نسخ النظام': 'offline-installer/offline-usb-setup.md'
