@@ -32,3 +32,6 @@ a.md-logo img {
     border: none;
 }
 
+.md-typeset .admonition, .md-typeset details {
+    font-size: 15px;
+    }
