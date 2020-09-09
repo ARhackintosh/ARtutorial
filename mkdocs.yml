@@ -67,9 +67,6 @@ nav:
         - 'الجيل الثامن' : 'config-setup/laptops/8th-gen.md'
         - 'الجيل التاسع' : 'config-setup/laptops/9th-gen.md'
         - 'الجيل العاشر' : 'config-setup/laptops/10th-gen.md'
-    - تثبيت مع انترنت:
-      - تنزيل النظام: 'online-installer/downloading-online-recovery.md'
-      - نسخ النظام: 'online-installer/online-usb-setup.md'
     - 'بعد نسخ الماك':
       - 'الاقلاع': 'after-copying-the-installer/booting.md'
       - بعد التثبيت: 'after-copying-the-installer/post-install.md'
