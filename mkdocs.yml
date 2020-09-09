@@ -64,9 +64,9 @@ nav:
         - 'الجيل الثامن' : 'config-setup/laptops/8th-gen.md'
         - 'الجيل التاسع' : 'config-setup/laptops/9th-gen.md'
         - 'الجيل العاشر' : 'config-setup/laptops/10th-gen.md'
-    - 'تثبيت بدون انترنت':
-      - 'تنزيل النظام': 'offline-installer/downloading-the-full-macos-installer.md'
-      - 'نسخ النظام': 'offline-installer/offline-usb-setup.md'
+    - 'نسخ النظام':
+      - 'بيج سر': 'offline-installer/downloading-the-full-macos-installer.md'
+      - 'كاتلينا او اقدم': 'offline-installer/offline-usb-setup.md'
     - تثبيت مع انترنت:
       - تنزيل النظام: 'online-installer/downloading-online-recovery.md'
       - نسخ النظام: 'online-installer/online-usb-setup.md'
