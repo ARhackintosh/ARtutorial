@@ -45,6 +45,10 @@
 الشرح مكتوب بصيغه markdown
 اذا كنت لا تعرف طريقه الكتابه بصيغه markdown اتبع هذا [الشرح](https://academy.hsoub.com/apps/productivity/%D9%83%D9%8A%D9%81-%D8%AA%D9%83%D8%AA%D8%A8-%D8%A8%D8%B5%D9%8A%D8%BA%D8%A9-%D9%85%D8%A7%D8%B1%D9%83%D8%AF%D8%A7%D9%88%D9%86-%D8%A8%D8%A8%D8%B3%D8%A7%D8%B7%D8%A9-r290/) 
 
+ايضا ننصح بستخدام [المحرر رمز](https://ramz.netlify.app/) لتحرير الشرح لدعمه اللغه العربيه وصيغه markdown
+
+**تاكد من حذف ``<div dir="rtl">`` من بعض الملفات**
+
 بالاضافه الى بعض الخصائص الاضافيه مثل
 
 1. [Admonition](https://squidfunk.github.io/mkdocs-material/extensions/admonition/)
