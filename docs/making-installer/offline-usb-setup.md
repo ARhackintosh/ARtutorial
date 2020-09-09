@@ -1,17 +1,62 @@
-# التثبيت بدون انترنت
+# تثبيت كاتلينا او اقدم
 
-## برامج اضافية
+## برامج
 
-سكربت **PackAppWin.py** من مطور **doesprintfwork** تحميل [من هنا](https://github.com/doesprintfwork/MakeInstallmacOS)
+- أداة تنزيل الماك ونسخه **[GibmacOS](https://github.com/corpnewt/gibMacOS)** من المطور الرهيب **corpnewt**
 
-برنامج **\(bdu\) Boot Disk Utility** البرنامج الذي سوف نستخدمه لحرق الماك ونسخ الملفات الضروريه لل **usb**  
-تحميل يكون من علامه الحفظ اخر الموقع _\*\*_[من هنا](http://cvad-mac.narod.ru/index/bootdiskutility_exe/0-5)
+- ايضا سوف نحتاج اداه السيريل للماك **[GenSMbios](https://github.com/corpnewt/GenSMBIOS)** من نفس المطور
 
-سوف تحتاج برنامج **7zip** بديل مفتوح المصدار افضل من winrar يجب ان يكون مثبت في `C:\Program Files (x86)\7zip` تحميل من [هنا](https://www.7-zip.org/)
+- اداه **[SSDTTime](https://github.com/IOIIIO/SSDTTime)** من نفس مطور تحتاجه فقط **لكاتلينا وفوق**
 
-برنامج **transmac** لنقل الملفات لل usb تحميل [من هنا](https://www.acutesystems.com/scrtm.htm) \(حمل tmsetup.exe\)
+- سكربت **[PackAppWin.py](https://github.com/doesprintfwork/MakeInstallmacOS)** من مطور **doesprintfwork** 
 
-برنامج **Paragon partion manger \(ppm\)** المخصص لتغير حجم اقسام الفلاش [التحميل من هنا](https://www.paragon-software.com/free/pm-express/#)
+- برنامج **[(bdu) Boot Disk Utility](http://cvad-mac.narod.ru/index/bootdiskutility_exe/0-5)** البرنامج الذي سوف نستخدمه لحرق الماك ونسخ الملفات الضروريه لل **usb**  
+تحميل يكون من علامه الحفظ اخر الموقع
+
+- سوف تحتاج برنامج **[7zip](https://www.7-zip.org/)** بديل مفتوح المصدار افضل من winrar يجب ان يكون مثبت في `C:\Program Files (x86)\7zip` 
+- برنامج **transmac** لنقل الملفات لل usb تحميل [من هنا](https://www.acutesystems.com/scrtm.htm) (حمل tmsetup.exe)
+
+- برنامج **Paragon partion manger (ppm)** المخصص لتغير حجم اقسام الفلاش [التحميل من هنا](https://www.paragon-software.com/free/pm-express/#)
+
+## تنزيل الماك
+
+بعد ما يتم تنزيل اداة gibmacos نفك الضغط و بعدها نفتح الملف ونختار gibMacOS.bat
+
+![](/img/gibMacOS.png#zoom)
+
+في حاله عدم وجود بايثون 3 على حهازك البرنامج سيطلب منك تحميله اكتب y للموافقه
+
+![](/img/no-python.png#zoom)
+
+البرنامج يرتب النسخ **بحسب وقت اصدارها** ابل ايضا تحدث الاصدارات القديمه نحن نريد اصدار 10.15 كاتلينا وهو اخر اصدار من الماك وفي هاذه الحالة تم رفع تحديث امني لي الإصدار الذي قبله فظهر في الاعلى اعلى من الإصدار الاخير من الماك لذا سوف نختار رقم 2
+
+![](/img/system-list.png#zoom)
+
+ثم سيقوم البرنامج ببدء التنزيل
+
+![](/img/g-download.png#zoom)
+
+???+ info "معلومة"
+    سرعه التنزيل تعتمد على سرعه الانترنت الخاص بك
+
+سوف تظهر قائمه الملفات التي تم تنزيلها بنجاح واذا لم يوجد اي ملف تحت failed مبروك لقد تم تنزيل النسخة بنجاح تحت File saved to  
+يوجد موقع حفظ الملف سوف نحتاجه في الخطوة القادمه
+
+![](/img/g-done.png#zoom)
+
+### تحميل نسخ اقدم
+
+اذا كنت تحتاج نسخ اقدم مثل لو كان لديك كرت انفيديا اضغط M في الصفحة الرئيسيه ثم اكتب رقم النسخة بهاذه الحالة سوف تكون 10.13
+
+![](/img/old-ver.png)
+
+سوف تظهر اختيارات جديده نختار اعلى اختيار من الإصدار المطلوب بهاذه الحالة MacOS High Sierra
+
+![](/img/g-old-list.png#zoom)
+
+ثم البرنامج سيقوم بتنزيل النسخة مقسمه على 11 ملف
+
+![](/img/g-download.png#zoom)
 
 ## PackAppwin.py
 
@@ -138,4 +183,6 @@
 داخل ملف Patched ضع ملف SSDT-EC.aml
 
 ![](../.gitbook/assets/image%20%2839%29%20%281%29.png)
+
+
 
