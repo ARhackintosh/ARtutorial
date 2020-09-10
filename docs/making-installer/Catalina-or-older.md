@@ -66,12 +66,17 @@
 
 ![](/img/Catalina-or-older/packappwin-paste.png)
 
-ثم نقوم بفتح السكربت, في حاله ظهور كيفيه فتح الملف اختار بحث عن برنامج اخر في هذا الكمبيوتر.
-![](../.gitbook/assets/image%20%2866%29.png)
+ثم قم بفتح السكربت
 
-ثم بعدها اذهب إلى هاذا المكان `C:\Users\USERNAME\AppData\Local\Programs\Python` استبدل USERNAME باسم حسابك على الويندوز ستجد ملف داخله افتح الملف وستجد البرنامج python.exe ثم اختار open أو فتح
+??? info "في حاله ظهور كيفيه فتح الملف."
+    
+     اختار بحث عن برنامج اخر في هذا الكمبيوتر
+    
+    ![](/img/Catalina-or-older/select-app.png)
 
-![](../.gitbook/assets/image%20%2886%29%20%281%29.png)
+    ثم بعدها اذهب إلى `C:\Users\%USERNAME%\AppData\Local\Programs\Python` ستجد ملف داخله افتحه, ثم ستجد البرنامج python.exe ثم اختار open أو فتح 
+
+    ![](/img/Catalina-or-older/select-python.png)
 
 بعد ما يفتح ال cmd نختار p
 
