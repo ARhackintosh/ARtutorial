@@ -22,7 +22,7 @@
 
 بعد ما يتم تنزيل اداة gibmacos نفك الضغط و بعدها نفتح الملف ونختار gibMacOS.bat
 
-![](/img/gibMacOS.png#zoom)
+![](/img/Catalina-or-older/gibMacOS.png#zoom)
 
 في حاله عدم وجود بايثون 3 على حهازك البرنامج سيطلب منك تحميله اكتب y للموافقه
 
@@ -30,11 +30,11 @@
 
 البرنامج يرتب النسخ **بحسب وقت اصدارها** ابل ايضا تحدث الاصدارات القديمه نحن نريد اصدار 10.15 كاتلينا وهو اخر اصدار من الماك وفي هاذه الحالة تم رفع تحديث امني لي الإصدار الذي قبله فظهر في الاعلى اعلى من الإصدار الاخير من الماك لذا سوف نختار رقم 2
 
-![](/img/system-list.png#zoom)
+![](/img/Catalina-or-older/system-list.png#zoom)
 
 ثم سيقوم البرنامج ببدء التنزيل
 
-![](/img/g-download.png#zoom)
+![](/img/Catalina-or-older/g-download.png#zoom)
 
 ???+ info "معلومة"
     سرعه التنزيل تعتمد على سرعه الانترنت الخاص بك
@@ -42,21 +42,21 @@
 سوف تظهر قائمه الملفات التي تم تنزيلها بنجاح واذا لم يوجد اي ملف تحت failed مبروك لقد تم تنزيل النسخة بنجاح تحت File saved to  
 يوجد موقع حفظ الملف سوف نحتاجه في الخطوة القادمه
 
-![](/img/g-done.png#zoom)
+![](/img/Catalina-or-older/g-done.png#zoom)
 
 ### تحميل نسخ اقدم
 
 اذا كنت تحتاج نسخ اقدم مثل لو كان لديك كرت انفيديا اضغط M في الصفحة الرئيسيه ثم اكتب رقم النسخة بهاذه الحالة سوف تكون 10.13
 
-![](/img/old-ver.png)
+![](/img/Catalina-or-older/old-ver.png#zoom)
 
 سوف تظهر اختيارات جديده نختار اعلى اختيار من الإصدار المطلوب بهاذه الحالة MacOS High Sierra
 
-![](/img/g-old-list.png#zoom)
+![](/img/Catalina-or-older/g-old-list.png#zoom)
 
 ثم البرنامج سيقوم بتنزيل النسخة مقسمه على 11 ملف
 
-![](/img/g-download.png#zoom)
+![](/img/Catalina-or-older/g-download.png#zoom)
 
 ## PackAppwin.py
 
