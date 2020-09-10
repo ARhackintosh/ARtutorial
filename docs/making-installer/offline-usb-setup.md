@@ -14,9 +14,9 @@
 تحميل يكون من علامه الحفظ اخر الموقع
 
 - سوف تحتاج برنامج **[7zip](https://www.7-zip.org/)** بديل مفتوح المصدار افضل من winrar يجب ان يكون مثبت في `C:\Program Files (x86)\7zip` 
-- برنامج **transmac** لنقل الملفات لل usb تحميل [من هنا](https://www.acutesystems.com/scrtm.htm) (حمل tmsetup.exe)
+- برنامج **[Paragon Hfs windows(PHW)](https://www.paragon-software.com/home/hfs-windows/)** لنقل الملفات لل usb
 
-- برنامج **Paragon partion manger (ppm)** المخصص لتغير حجم اقسام الفلاش [التحميل من هنا](https://www.paragon-software.com/free/pm-express/#)
+- برنامج **[Paragon partion manger (PPM)](https://www.paragon-software.com/free/pm-express/#)** المخصص لتغير حجم اقسام الفلاش
 
 ## تنزيل الماك
 
@@ -183,6 +183,7 @@
 داخل ملف Patched ضع ملف SSDT-EC.aml
 
 ![](../.gitbook/assets/image%20%2839%29%20%281%29.png)
+
 
 
 
