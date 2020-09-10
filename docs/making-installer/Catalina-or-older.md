@@ -78,11 +78,11 @@
 
     ![](/img/Catalina-or-older/select-python.png)
 
-بعد ما يفتح ال cmd نختار p
+بعد فتح السكربت قم بختيار P
 
-![](../.gitbook/assets/image%20%2892%29.png)
+![](/img/Catalina-or-older/menu.png)
 
-بعد انتهاء السكربت سوف تلاحظ وجود ملف جديد يسمى SharedSupport
+بعد انتهاء السكربت سوف تلاحظ وجود ملف جديد يسمى SharedSupport فهو يحتوي على الملفات الناقصه للتثبيت بدون الحاجه الى انترنت, سنستخدمه لاحقا.
 
 ## BootDisk Utility
 
