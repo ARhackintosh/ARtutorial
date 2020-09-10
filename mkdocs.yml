@@ -44,7 +44,7 @@ nav:
     - البداية: 'start.md'
     - نسخ النظام:
       - 'بيج سر' : 'making-installer/Big-sur.md'
-      - 'كاتلينا او اقدم' : 'making-installer/offline-usb-setup.md'
+      - 'كاتلينا او اقدم' : 'making-installer/Catalina-or-older.md'
     - اختيار التعريفات(kext): 'gathering-kexts.md'
     - 'الكونفق': 'config.md'
     - تجهيز الكونفق:
