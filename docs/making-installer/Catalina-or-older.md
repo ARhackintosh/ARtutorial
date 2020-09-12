@@ -10,7 +10,7 @@
 
 - سكربت **[PackAppWin.py](https://github.com/doesprintfwork/MakeInstallmacOS)** من مطور **doesprintfwork** 
 
-- برنامج **[(bdu) Boot Disk Utility](http://cvad-mac.narod.ru/index/bootdiskutility_exe/0-5)** البرنامج الذي سوف نستخدمه لحرق الماك ونسخ الملفات الضروريه لل **usb**  
+- برنامج **[(bdu) Boot Disk Utility](http://cvad-mac.narod.ru/index/bootdiskutility_exe/0-5)** البرنامج الذي سوف نستخدمه لحرق الماك ونسخ الملفات الضروريه لل **usb**
 تحميل يكون من علامه الحفظ اخر الموقع
 
 - سوف تحتاج برنامج **[7zip](https://www.7-zip.org/)** بديل مفتوح المصدار افضل من winrar يجب ان يكون مثبت في `C:\Program Files (x86)\7zip` 
@@ -39,7 +39,7 @@
 ???+ info "معلومة"
     سرعه التنزيل تعتمد على سرعه الانترنت الخاص بك
 
-سوف تظهر قائمه الملفات التي تم تنزيلها بنجاح واذا لم يوجد اي ملف تحت failed مبروك لقد تم تنزيل النسخة بنجاح تحت File saved to  
+سوف تظهر قائمه الملفات التي تم تنزيلها بنجاح واذا لم يوجد اي ملف تحت failed مبروك لقد تم تنزيل النسخة بنجاح تحت File saved to
 يوجد موقع حفظ الملف سوف نحتاجه في الخطوة القادمه
 
 ![](/img/Catalina-or-older/g-done.png#zoom)
@@ -128,13 +128,22 @@
 بعد ذلك ستفتح نافذه جديدة, قم بتغيير حجم New volume size الى اكبر شيء ممكن, **تاكد ان اسم القسم ==macOS Base System==**), بعد ذلك قم بالضغط على Change now
 ![](/img/Catalina-or-older/PPM-Resize.png)
 
-## transmac
+## Paragon HFS+ For Windows
 
-الان ياتي دور برنامج Transmac افتح البرنامج كمشرف \(adminstartor\)
+???+ Warning "تنبيه"
+	اذا لم تقم بعمل اعاده تشغيل لجهازك بعد تثبيت Paragon HFS+ الرجاء عمل اعادة تشغيل للتاكد من عمل البرنامج بشكل صحيح.
 
-ثم نقوم بسحب ملف SharedSupport من ملف الماك ملف macOS Base System/instal macOS Catalina.app/Contents داخل برنامج Transmac
+من المفترض ان تلاقي usb في مستكشف الملفات تحت اسم macOS Base System او OS X Base System
 
-![](../.gitbook/assets/image%20%286%29%20%281%29.png)
+??? info "في حالة عدم ظهور ال usb"
+	قم بفتح برنامج PHW وبعد ذلك اختار ال usb ثم mount 
+	![](/img/Catalina-or-older/PHW-Mount.png)
+
+افتح ال usb (او القسم) ثم توجه الى  `Install macOS xxx.app/Contents`  وقم بلصق ملف Sharedsupport الذي انشئناه مع سكربت packappwin.py, بحيث تصبح الملفات بهذا الشكل 
+
+![](/img/Catalina-or-older/USB-paste.png)
+
+
 
 ## نقل الكونفق والكيكست
 
