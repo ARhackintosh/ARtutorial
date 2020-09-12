@@ -125,7 +125,7 @@
 اولا افتح البرنامج ثم ابحث عن القسم بالحجم الاكبر (**حجمه حوالي 1.87GB**) ثم قم بالضغط على **Move or Resize**
 ![](/img/Catalina-or-older/PPM-select.png)
 
-بعد ذلك ستفتح نافذه جديدة, قم بتغيير حجم New volume size الى اكبر شيء ممكن, **تاكد ان اسم القسم ==macOS Base System==**), بعد ذلك قم بالضغط على Change now
+بعد ذلك ستفتح نافذه جديدة, قم بتغيير حجم New volume size الى اكبر شيء ممكن, **تاكد ان اسم القسم ==macOS Base System== او ==OS X Base System==**), بعد ذلك قم بالضغط على Change now
 ![](/img/Catalina-or-older/PPM-Resize.png)
 
 ## Paragon HFS+ For Windows
