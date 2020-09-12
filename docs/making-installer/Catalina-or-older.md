@@ -86,42 +86,37 @@
 
 ## BootDisk Utility
 
-ننتقل لbdu
+اولا نذهب الى اعدادات البرنامج الموجوده في **Options ثم Configuration**
 
-نذهب إلى option/configuration/checknow للبحث عن اخر اصدار عن الكلوفر
+ثم نتاكد ان اعدادات البرنامج كالاتي
 
-ثم بعدها اختار ال usb الخاص فيك ثم اضغط format **\(سوف نفرمت الفلاش تاكد من نسخ جميع الملفات!!\)**
+![](/img/Catalina-or-older/BDU-Config.png#zoom)
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Le58xqzAwHioaNemfml%2F-LhVhPnzA4e86uCEV81a%2F-LhViriAJ70BK5y8gFUm%2Fezgif-4-b59bb851e67a.gif?alt=media&token=0acc35ae-1161-44d2-921d-42b730c204fa)
+???+ info "معلومة"
+	هذه الاعدادات تقوم بتعطيل تنزيل الكلوفر التلقائي لان البرنامج للاسف مازال لا يدعم اوبن كور.
 
-1. ثم اذهب إلى **tools/Extract HFS from dmg file**
 
-![](../.gitbook/assets/image%20%2846%29.png)
+1. ثم اذهب إلى **tools/Extract HFS from dmg file**.
 
-2.اختار ملف BaseSystem.dmg من ملف تنزيلات الماك من برنامج gibmacos ثم اختار فتح أو open
+![](/img/Catalina-or-older/BDU-Extract.png#zoom)
 
-![](../.gitbook/assets/image%20%2879%29.png)
+2.اختار ملف ==BaseSystem.dmg== من ملف تنزيلات الماك من برنامج gibmacos ثم اختار **فتح أو open**.
 
-ثم اختار سطح المكتب كمكان لحفظ الملف
+![](/img/Catalina-or-older/BDU-Basesystemdmg.png#zoom)
 
-![](../.gitbook/assets/image%20%2837%29.png)
+ثم بعد ذلك قم بختيار سطح المكتب كمكان نحفظ فيه الملف او اي مكان اخر الموضوع راجع لك.
 
-بعد ذلك البرنامج سيتسخدم 7zip لاستخراج الملف
+![](/img/Catalina-or-older/BDU-Desktop.png#zoom)
 
-![](../.gitbook/assets/image%20%2872%29.png)
+بعدها سوف تجد ملف 4.hfs على سطح المكتب
 
-بعدها سوف تجد ملف
+الان نعود إلى bdu ثم نضغط على علامه الزائد بجانب ال usb, ثم اختار part 2
 
-4.hfs على سطح المكتب
+![](/img/Catalina-or-older/BDU-USB.png#zoom)
 
-الان نرجع إلى bdu ثم اضغط على علامه الزائد بجانب ال usb  
-ثم اختار part 2
-
-![](../.gitbook/assets/image%20%2889%29.png)
-
-ثم اضغط على زر restore  
-بعدها نختار ملف الذي تم استخراجه \(4.hfs\)  
-ثم اضغط ok وانتظر حتى يتم نقل الملفات
+ثم اضغط على زر restore
+ 
+بعدها نختار ملف الذي تم استخراجه (4.hfs), ثم اضغط ok ثم انتظر حتى يتم نقل الملفات
 
 ## Paragon Partion Manger
 
