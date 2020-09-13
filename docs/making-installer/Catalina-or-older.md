@@ -123,10 +123,10 @@
 بعد نسخ الملف ستلاحظ ان حجم القسم هو حوالي 1.87GB وهو غير كافي ابدا لبقيه ملفات النظام الاخرى, لذلك سنحتاج الى برنامج PPM حتى نقوم بتغير حجم القسم (**Partition**)
 
 اولا افتح البرنامج ثم ابحث عن القسم بالحجم الاكبر (**حجمه حوالي 1.87GB**) ثم قم بالضغط على **Move or Resize**
-![](/img/Catalina-or-older/PPM-select.png)
+![](/img/Catalina-or-older/PPM-select.png#zoom)
 
 بعد ذلك ستفتح نافذه جديدة, قم بتغيير حجم New volume size الى اكبر شيء ممكن, **تاكد ان اسم القسم ==macOS Base System== او ==OS X Base System==**), بعد ذلك قم بالضغط على Change now
-![](/img/Catalina-or-older/PPM-Resize.png)
+![](/img/Catalina-or-older/PPM-Resize.png#zoom)
 
 ## Paragon HFS+ For Windows
 
@@ -137,11 +137,11 @@
 
 ??? info "في حالة عدم ظهور ال usb"
 	قم بفتح برنامج PHW وبعد ذلك اختار ال usb ثم mount 
-	![](/img/Catalina-or-older/PHW-Mount.png)
+	![](/img/Catalina-or-older/PHW-Mount.png#zoom)
 
 افتح ال usb (او القسم) ثم توجه الى  `Install macOS xxx.app/Contents`  وقم بلصق ملف Sharedsupport الذي انشئناه مع سكربت packappwin.py, بحيث تصبح الملفات بهذا الشكل 
 
-![](/img/Catalina-or-older/USB-paste.png)
+![](/img/Catalina-or-older/USB-paste.png#zoom)
 
 
 
