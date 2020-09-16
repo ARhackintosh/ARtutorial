@@ -135,55 +135,54 @@
 
 ابل دعمها لكروت **الواي فاي والبلوتوث** ضعيف جدا بحيث كروت **Intel و RealTek** غير مدعومه بشكل كامل أما **Atheros** مدعومه جزئيا بينما كروت **Broadcom** هي الكروت الأكثر دعما بحيت فيها من يتعرف تلقائي **OOB** ومنها من تحتاج بعض الكيكست.
 
-### قائمة الكروت المدعومه والغير مدعومة :
+### قائمة الكروت المدعومه والغير مدعومة
 
-* BCM94360CD
-* BCM94331CD
-* BCM94360CS2
-* BCM94352Z
-* BCM94350ZAE
+??? info "الكروت المدعومة"
 
-**High Sierra :**
+	* BCM94360CD
+	* BCM94331CD
+	* BCM94360CS2
+	* BCM94352Z
+	* BCM94350ZAE
 
-* BCM943224
-* AR9285
-* AR9287
-* AR9280
-* AR9380
+	**High Sierra :**
 
-### كروت غير مدعومة :
+	* BCM943224
+	* AR9285
+	* AR9287
+	* AR9280
+	* AR9380
 
-**Wireless AC**
+??? info "الكروت الغير مدعومة"
 
-- Intel® Wireless-AC 9560
-- Intel® Dual Band Wireless-AC 8260
-- Intel® Dual Band Wireless-AC 7260
+	**Wireless AC**
 
-**Wireless N**
+	- Intel® Wireless-AC 9560
+	- Intel® Dual Band Wireless-AC 8260
+	- Intel® Dual Band Wireless-AC 7260
 
-- Intel® Dual Band Wireless-N 7265
-- Intel® Wireless-N 7265
-- Intel® Dual Band Wireless-N 7260
-- Intel® Wireless-N 7260
-- Intel® Centrino® Advanced-N 6230
-- Intel® Centrino® Wireless-N 1030
-- Intel® Centrino® Wireless-N 130
-- Intel® Centrino® Advanced-N 6235
-- Intel® Centrino® Wireless-N 135
-- Intel® Centrino® Wireless-N 105
-- Intel® Centrino® Wireless-N 2200
-- Intel® Centrino® Wireless-N 2230
-- Intel® Centrino® Wireless-N 1000
-- Intel® Centrino® Advanced-N 6205
-- Intel® Centrino® Wireless-N 100
-- Intel® Centrino® Wireless-N + WiMAX 6150
-- Intel® Centrino® Advanced-N + WiMAX 6250
-- Intel® Centrino® Ultimate-N 6300
-- Intel® Centrino® Advanced-N 6200
-- Intel® Wireless WiFi Link 5100AGN
-- Intel® Wireless WiFi Link 5300AGN
-- Intel® Wireless WiFi Link 5350AGN
-- Intel® Wireless WiFi Link 5150AGN
+	**Wireless N**
+
+	- Intel® Dual Band Wireless-N 7265
+	- Intel® Wireless-N 7265
+	- Intel® Dual Band Wireless-N 7260
+	- Intel® Wireless-N 7260
+	- Intel® Centrino® Advanced-N 6230
+	- Intel® Centrino® Wireless-N 1030
+	- Intel® Centrino® Wireless-N 130
+	- Intel® Centrino® Advanced-N 6235
+	- Intel® Centrino® Wireless-N 135
+	- Intel® Centrino® Wireless-N 105
+	- Intel® Centrino® Wireless-N 2200
+	- Intel® Centrino® Wireless-N 2230
+	- Intel® Centrino® Wireless-N 1000
+	- Intel® Centrino® Advanced-N 6205
+	- Intel® Centrino® Wireless-N 100
+	- Intel® Centrino® Wireless-N + WiMAX 6150
+	- Intel® Centrino® Advanced-N + WiMAX 6250
+	- Intel® Centrino® Ultimate-N 6300
+	- Intel® Centrino® Advanced-N 6200
+	- Intel® Wireless WiFi Link 5100AGN
 
 ???+ Warning "تنبية"
 	اذا كنت تفكر بتغير كرت الواي فاي الخاص بك على جهاز من تصنيع oem (لابتوبات وكمبيوترات مبنية مسبقا) **انتبه** من **BIOS** جهازك  بحيث هناك احتمال وجود **Whitelist** لسماح لكروت معينه فقط بالعمل, اشهر  الشركات التي تستخدم هذا الطريقه  هي **HP** و **Lenovo** **مقال يشرحها [هنا](https://www.thewindowsclub.com/bios-whitelist)**
