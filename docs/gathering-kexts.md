@@ -185,9 +185,8 @@
 - Intel® Wireless WiFi Link 5350AGN
 - Intel® Wireless WiFi Link 5150AGN
 
-{% hint style="danger" %}
-اذا كنت ناوي تغير كرت الواي فاي **انتبه** من **BIOS** جهازك هل به **Whitelist** تعمله شركات مثل **HP** و **Lenovo** مقال يشرح ما هي [هنا](https://www.thewindowsclub.com/bios-whitelist)
-{% endhint %}
+???+ Warning "تنبية"
+	اذا كنت تفكر بتغير كرت الواي فاي الخاص بك على جهاز من تصنيع oem (لابتوبات وكمبيوترات مبنية مسبقا) **انتبه** من **BIOS** جهازك  بحيث هناك احتمال وجود **Whitelist** لسماح لكروت معينه فقط بالعمل, اشهر  الشركات التي تستخدم هذا الطريقه  هي **HP** و **Lenovo** **مقال يشرحها [هنا](https://www.thewindowsclub.com/bios-whitelist)**
 
 ### تعريفات تحتاجها لتعريف الكروت المدعومة :
 
