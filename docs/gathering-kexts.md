@@ -190,18 +190,66 @@
 
 ### تعريفات تحتاجها لتعريف الكروت المدعومة
 
-#### تعريف [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup/releases)
+#### تعريف [Itwlm](https://github.com/OpenIntelWireless/itlwm/releases)
+تعريف مخصص لكروت انتل الحديث وهو اول تعريف يفتح الطريقه لدعم كروت واي فاي انتل على الماك
+التعريف مقسم الى قسمين ==itwlm.kext== و ==itwlmx.kext== الفرق ان ==itwlmx.kext== هو مخصص للكروت التي تدعم WI-FI 6
+
+???+ Tip "ملحوظة"
+	 حتى تعرف اذا كان كرتك مدعوم ام لا قم بتنزيل برنامج hwinfo, من داخله ستعرف ال device id الخاص بالكرت واذا كان مدعوم من التعريف
+
+??? info "قائمة الكروت المدعومة(itwlm)" 
+	 الصيغة: PCI ID(اسم الكرت)
+	itwlm.kext
+	
+	|PCI ID|اسم الكرت|
+	|------|-------|
+	|0x08b1|AC 7260|
+	|0x08b2|AC 7260|
+	|0x08b3|AC 3160|
+	|0x08b4|AC 3160|
+	|0x095a|AC 7265|
+	|0x095b|AC 7265|
+	|0x3165|AC 3165|
+	|0x3165|AC 3165|
+	|0x3166|AC 3165|
+	|0x24f3|AC 8260|
+	|0x24f4|AC 8260|
+	|0x24f5|AC 4165|
+	|0x24f6|AC 4165|
+	|0x24fb|AC 3168|
+	|0x24fd|AC 8265|
+	|0x2526|AC 9260|
+	|0x9df0|AC 9560|
+	|0xa370|AC 9560|
+	|0x31DC|AC 9560|
+	|0x30DC|AC 9560|
+	|0x271C|AC 9560|
+	|0x271B|AC 9560|
+	|0x42a4|AC 9462|
+	|0x00a0|AC 9462|
+	|0x00a4|AC 9462|
+	|0x02a0|AC 9462|
+	|0x02a4|AC 9462|
+	|0x40a4|AC 9462|
+	|0x0060|AC 9461|
+	|0x0064|AC 9461|
+	|0x0260|AC 9461|
+	|0x0264|AC 9461|
+	
+
+
+#### تعريف [AirportBrcmFixup](https://هاكنتوش.com/airportbrcmfixup-kext/)
 
 هذا ضروري لإصلاح **WIFI** على العديد من بطاقات **Broadcom** ، بينما لا تحتاجه جميع الكروت ، هو مطلوب بشكل عام عند استخدام بطاقات لاسلكية غير مصنوعة من **Apple** . لديه وظيفة إضافية لتشغيل تعريفات كروت **Broadcom** القديمة في إصدارات أحدث من الماك
 
-#### تعريف [BrcmPatchRAM](https://github.com/the-darkvoid/BrcmPatchRAM/releases) 
+#### تعريف [BrcmPatchRAM](https://هاكنتوش.com/brcmpatchram-kext/) 
 
 مطلوب لجميع البطاقات اللاسلكية غير المصنوعة من **Apple**
 
 #### تعريف [BrcmBluetoothInjector](https://هاكنتوش.com/brcmpatchram-kext/) 
 
 يستخدم لتشغيل كرت **BCM20702**
-#### تعريف [BT4LEContinuityFixup](https://github.com/acidanthera/BT4LEContinuityFixup/releases)
+#### تعريف [BT4LEContinuityFixup](https://هاكنتوش.com/bt4lecontinuityfixup-kext/)
 
 ???+ Warning "تنبية"
 	**عامةً غير ضروري, تجنبو استخدامه ان لاحظتم وجود مشكل مع الكرت**
@@ -214,7 +262,7 @@
 * Apple Watch Unlock
 
 
-#### تعريف [AirPortAtheros40](https://github.com/khronokernel/Wifi-Buyers-Guide/blob/master/AirPortAtheros40.kext.zip)
+#### تعريف [AirPortAtheros40](https://هاكنتوش.com/airportatheros40-kext/)
 
 هدا الكيكست مطلوب **لكل كروت Atheros** التي تم **رفع الدعم عنها في اصدار \(Mojave 10.14\)**
 
