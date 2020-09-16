@@ -131,11 +131,11 @@
 		- VoodooI2CFTE اضافه دعم تراك باد FTE1001
 		- VoodooI2CUPDDEngine اضافه دعم تعريفات Touchbase 
 
-## واي فاي وبلوتوث Wi-Fi / Bluetooth :
+## واي فاي وبلوتوث Wi-Fi / Bluetooth
 
 ابل دعمها لكروت **الواي فاي والبلوتوث** ضعيف جدا بحيث كروت **Intel و RealTek** غير مدعومه بشكل كامل أما **Atheros** مدعومه جزئيا بينما كروت **Broadcom** هي الكروت الأكثر دعما بحيت فيها من يتعرف تلقائي **OOB** ومنها من تحتاج بعض الكيكست.
 
-### كروت مدعومة :
+### قائمة الكروت المدعومه والغير مدعومة :
 
 * BCM94360CD
 * BCM94331CD
@@ -188,32 +188,33 @@
 ???+ Warning "تنبية"
 	اذا كنت تفكر بتغير كرت الواي فاي الخاص بك على جهاز من تصنيع oem (لابتوبات وكمبيوترات مبنية مسبقا) **انتبه** من **BIOS** جهازك  بحيث هناك احتمال وجود **Whitelist** لسماح لكروت معينه فقط بالعمل, اشهر  الشركات التي تستخدم هذا الطريقه  هي **HP** و **Lenovo** **مقال يشرحها [هنا](https://www.thewindowsclub.com/bios-whitelist)**
 
-### تعريفات تحتاجها لتعريف الكروت المدعومة :
+### تعريفات تحتاجها لتعريف الكروت المدعومة
 
-#### **تعريف** [**AirportBrcmFixup**](https://github.com/acidanthera/AirportBrcmFixup/releases) **:**
+#### تعريف [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup/releases)
 
 هذا ضروري لإصلاح **WIFI** على العديد من بطاقات **Broadcom** ، بينما لا تحتاجه جميع الكروت ، هو مطلوب بشكل عام عند استخدام بطاقات لاسلكية غير مصنوعة من **Apple** . لديه وظيفة إضافية لتشغيل تعريفات كروت **Broadcom** القديمة في إصدارات أحدث من الماك
 
-#### **تعريف** [**BrcmPatchRAM**](https://github.com/the-darkvoid/BrcmPatchRAM/releases) **:**
+#### تعريف [BrcmPatchRAM](https://github.com/the-darkvoid/BrcmPatchRAM/releases) 
 
 مطلوب لجميع البطاقات اللاسلكية غير المصنوعة من **Apple**
 
-#### **تعريف** [**BrcmBluetoothInjector**](https://github.com/RehabMan/OS-X-BrcmPatchRAM) **:**
+#### تعريف [BrcmBluetoothInjector](https://هاكنتوش.com/brcmpatchram-kext/) 
 
-يستخدم لتشغيل كرت **BCM20702** ، [**التحميل من هنا**](https://bitbucket.org/RehabMan/os-x-brcmpatchram/downloads/)\*\*\*\*
+يستخدم لتشغيل كرت **BCM20702**
+#### تعريف [BT4LEContinuityFixup](https://github.com/acidanthera/BT4LEContinuityFixup/releases)
 
-#### **تعريف** [**BT4LEContinuityFixup**](https://github.com/acidanthera/BT4LEContinuityFixup/releases) **:**
+???+ Warning "تنبية"
+	**عامةً غير ضروري, تجنبو استخدامه ان لاحظتم وجود مشكل مع الكرت**
 
-يستعمل لحل مشاكل **التزامن \(Continuity\)** التي تسمح بتشغيل :
+يستعمل لحل مشاكل **التزامن (Continuity)** التي تسمح بتشغيل :
 
 * Handoff
 * Instant Hotspot
 * New Airdrop
 * Apple Watch Unlock
 
-**عامة غير ضروري تجنبو استخدامه ان لاحظتم وجود مشكل مع الكرت**
 
-#### **تعريف** [**AirPortAtheros40**](https://github.com/khronokernel/Wifi-Buyers-Guide/blob/master/AirPortAtheros40.kext.zip) **:**
+#### تعريف [AirPortAtheros40](https://github.com/khronokernel/Wifi-Buyers-Guide/blob/master/AirPortAtheros40.kext.zip)
 
 هدا الكيكست مطلوب **لكل كروت Atheros** التي تم **رفع الدعم عنها في اصدار \(Mojave 10.14\)**
 
@@ -222,7 +223,7 @@
 * AR9280
 * AR9380
 
-لتنصيبه يجب نسخه على هذا المسار : **Library/Extensions** لا تلصقه هنا **\*\***~~**System/Library/Extensions**~~\*\*
+لتنصيبه يجب نسخه على هذا المسار : **Library/Extensions** لا تلصقه هنا ~~**System/Library/Extensions**~~
 
 تم انسخ هدا الامر على **Terminal**
 
