@@ -250,8 +250,13 @@
 	|0x3DF0|AC 9462|
 	|0x06F0|AX201|
 	
+#### برنامج [Heliport](https://github.com/OpenIntelWireless/HeliPort/releases)
+برنامج مرافق لتعريف [itwlm](#itwlm) وهو عبارة عن واجهه للتحكم بالكرت للاتصال بشبكات الواي فاي الظاهره
 
 
+???+ Tip "ملحوظة"
+	يعمل مع ==itwlm.kext== و ==itwlmx.kext==
+	
 #### تعريف [AirportBrcmFixup](https://هاكنتوش.com/airportbrcmfixup-kext/)
 
 هذا ضروري لإصلاح **WIFI** على العديد من بطاقات **Broadcom** ، بينما لا تحتاجه جميع الكروت ، هو مطلوب بشكل عام عند استخدام بطاقات لاسلكية غير مصنوعة من **Apple** . لديه وظيفة إضافية لتشغيل تعريفات كروت **Broadcom** القديمة في إصدارات أحدث من الماك
