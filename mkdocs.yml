@@ -45,8 +45,9 @@ nav:
     - نسخ النظام:
       - 'بيج سر' : 'making-installer/Big-sur.md'
       - 'كاتلينا او اقدم' : 'making-installer/Catalina-or-older.md'
-    - اختيار التعريفات(kext): 'gathering-kexts.md'
-    - 'الكونفق': 'config.md'
+    - تجهيز قسم ال EFI:
+      - اختيار التعريفات(kext): 'EFI-setup/gathering-kexts.md'
+      - 'الكونفق': 'EFI-setup/config.md'
     - تجهيز الكونفق:
       - 'Intel(Pc)':
         - 'الجيل الثالث' : 'config-setup/3rd-gen.md'
