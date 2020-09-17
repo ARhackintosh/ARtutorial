@@ -520,15 +520,17 @@ sudo chown -R root:wheel /L*/E*; sudo chmod -R 755 /L*/E*; sudo kextcache -i /
 	  </tbody>
 	</table>
 
-#### تعريف\(برنامج\) [Wireless-Ralink-Panel-Utility](https://github.com/chris1111/Wireless-Ralink-Panel-Utility/releases)
+#### تعريف(برنامج) [Wireless-Ralink-Panel-Utility](https://github.com/chris1111/Wireless-Ralink-Panel-Utility/releases)
 
-تماما مثل التعريف السابق ، يدعم هاذا التعريف عدد لا بأس به من بطاقات **Dlink /** **Mediatek / Ralink** و يشتغل من  اصدار ماك **10.6.8** الى أحدت نظام **كاتالينا** **10.15.4** 
+تماما مثل التعريف السابق ، يدعم هاذا التعريف عدد لا بأس به من بطاقات **Dlink /** **Mediatek / Ralink** و يشتغل من  اصدار ماك **10.6.8** الى **كاتالينا** **10.15.4** **لم يتم اختباره على بيج سر**
 
-* **RT3572 , RT3072 , RT3070 , RT3573 , MT7610 , MT7610 , MT7610**
+??? Info "قائمة الكروت المدعومة"
 
-  **RT5370 , RT2870 , RT3071 , RT2770 , RT3573 , RT5572 , RT3573**
+	  **RT3572 , RT3072 , RT3070 , RT3573 , MT7610 , MT7610 , MT7610**
 
-  **RT3573 , RT5572 , RT3572**
+	  **RT5370 , RT2870 , RT3071 , RT2770 , RT3573 , RT5572 , RT3573**
+
+	  **RT3573 , RT5572 , RT3572**
 
 ## بقية الكيكست :
 
