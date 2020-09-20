@@ -21,3 +21,10 @@
 توجه الى ``EFI/OC/Tools`` وقم بحذف جميع الملفات الا ==OpenShell.efi== لانه يساعد على حل المشاكل في الاقلاع
 
 ![](/img/Opencore/tools.png)
+
+???+ Warning "تنبيه"
+	توضع ملفات الكيكست(`kext.`) في ``EFI/OC/Kexts``
+	
+	ملفات ال ACPI (`.aml`) في `EFI/OC/ACPI`
+	
+	واخيرا تعريفات الفريموير(`efi.`) في `EFI/OC/ACPI`
