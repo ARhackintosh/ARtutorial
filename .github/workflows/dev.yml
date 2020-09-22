@@ -42,7 +42,7 @@ jobs:
         git config user.email "41898282+dev-build@users.noreply.github.com"
         git remote add gh-token "https://github.com/ARhackintosh/ARtutorial.git"
         git fetch gh-token && git fetch gh-token gh-pages:gh-pages
-        python -m mkdocs gh-deploy --clean --verbose -m "dev-tutorial deploy (${GITHUB_SHA:0:7})" --remote-name gh-token
+        python -m mkdocs gh-deploy --clean --verbose -m "dev-Build deploy (${GITHUB_SHA:0:7})" --remote-name gh-token
         git push gh-token gh-pages
 
     - name: Cache pip files
