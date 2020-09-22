@@ -48,7 +48,7 @@ nav:
     - تجهيز قسم ال EFI:
       - 'نقل ملفات اوبن كور': 'EFI-setup/Opencore.md'
       - 'ACPI': 'EFI-setup/ACPI.md'
-      - اختيار التعريفات(kext): 'EFI-setup/gathering-kexts.md'
+      - اختيار التعريفات | Kext: 'EFI-setup/gathering-kexts.md'
       - 'الكونفق': 'EFI-setup/config.md'
     - تجهيز الكونفق:
       - 'Intel(Pc)':
