@@ -1,6 +1,6 @@
 # ACPI
 
-## ما هو ال ACPI?
+## ما هو ال ACPI؟
 
 كما ذكرنا سابقا فملفات ال ACPI هي اشبه بخريطه الكمبيوتر للنظام, وبما ان الماك غير مدعوم على اجهزه الكمبيوتر بشكل رسمي سوف نحتاج الى التعديل على هذه الخريطه.
 الملفات المبنية على هذا المعيار هي (Differentiated System Description Table)==DSDT== وهي الخريطة الاساسية التي تحتوي على الكنترولرات المدمجة  (embedded controllers) ساعه النظام و انوية المعالج وغيرها.
@@ -66,5 +66,21 @@
 | الجيل العاشر 10nm (Ice Lake) | ^^ | ^^ | ^^ | ^^ | ^^ | [SSDT-RHUB](https://dortania.github.io/Getting-Started-With-ACPI/Universal/rhub.html) | ^^ |
 
 
+### CPU-PM.aml
+
+???+ Warning "تنبية"
+	هذا الكيكست يتم عمله بعد تثبيت النظام.
+
+هذا الكيكست يقوم بتفعيل التحكم بالطاقه على معالجات الجيل الثاني(**غير مدعومة**) و الجيل الثالث على الابتوبات.
+
+سوف تحتاج الى سكربت [ssdtPRGen](https://github.com/Piker-Alpha/ssdtPRGen.sh) لعمل الملف
+
+![](/img/EFI-setup/ssdtPRGen.png)
+
+بعد انتهاء عمل البرنامج ستجد ملف SSDT.aml موجود في `/Users/your-name>/Library/ssdtPRGen/ssdt.dsl`
+
+ يمكنك ايجاده بسهوله بختصار Cmd+Shift+G ثم لصق`~/Library/ssdtPRGen/`
+
+بعد ذلك ننصحك بتغيير اسم الملف الى SSDT-pm.aml حتى تجده بشكل اسهل.
 
 
