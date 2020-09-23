@@ -28,11 +28,6 @@
 
 	- ال ==NVRAM== هي مساحه تخزين داخل اجهزه للماك تسجل فيها اعدادات النظام المؤقته مثل سطوع الشاشه,علو الصوت,اعدادات الوقت وغيرها, وهي موجوده في الماك فقط وقد تحتاج الى تعديل بعض الاشياء اذا لم تعمل تلقائيا.
 
-
-
-
-
-
 ## Pc
 
 | **الجيل** | **المعالج** | **EC** | **AWAC** | **NVRAM** | **USB** |
@@ -46,6 +41,16 @@
 | الجيل العاشر (Comet Lake) | ^^ | ^^ | ^^ | N/A | [SSDT-RHUB](https://dortania.github.io/Getting-Started-With-ACPI/Universal/rhub.html) |
 | AMD Ryzen (17h) | [SSDT-CPUR for B550](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-CPUR.aml) | ^^ | N/A | ^^ | N/A |
 
+- Backlight
+	- كيكستات تستخدم لتصحيح التحكم بسطوع الشاشة في النظام.
+	
+- I2C Trackpad
+	- كيكستات تستخدم لتفعيل تعريف VoodooI2C لتعريف تراك بادات تستخدم هذا البروتكول.
+	
+- IRQ 
+	- يستخدم لتصحيح بعض التعارضات داخل ال DSDT, يستخدم للابتوبات بشكل عام.
+	- اجهزه من الجيل السادس فما فوق من النادر ان تعاني من هذه المشكله, هذه الSSDT موجهه بشكل اكبر للجيل الخامس او اقدم.
+	
 ## Laptop
 
 | **الجيل** | **المعالج** | **EC** | **Backlight** | **I2C Trackpad** | **AWAC** | **USB** | **IRQ** |
@@ -59,3 +64,7 @@
 | الجيل التاسع (Coffee Lake) | ^^ | ^^ | ^^ | ^^ | [SSDT-AWAC](https://dortania.github.io/Getting-Started-With-ACPI/Universal/awac.html) | ^^ | ^^ |
 |   الجيل العاشر 14nm+ (Comet Lake) | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ |
 | الجيل العاشر 10nm (Ice Lake) | ^^ | ^^ | ^^ | ^^ | ^^ | [SSDT-RHUB](https://dortania.github.io/Getting-Started-With-ACPI/Universal/rhub.html) | ^^ |
+
+
+
+
