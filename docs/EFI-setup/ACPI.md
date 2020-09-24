@@ -118,7 +118,7 @@
 
 بعد ذلك قم بتحميل (**قم بالضغط على زر download**) [SSDT-USBX.aml](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/SSDT-USBX.aml) وضعه في ملف ال ACPI.
 
-### SSDT-PLUG
+### SSDT-PLUG.aml
 
 - ماذا يعمل هذا ال SSDT؟
 
