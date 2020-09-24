@@ -78,7 +78,7 @@
 
 سوف تحتاج الى سكربت [ssdtPRGen](https://github.com/Piker-Alpha/ssdtPRGen.sh) لعمل الملف
 
-![](/img/EFI-setup/ssdtPRGen.png)
+![](/img/EFI-setup/ACPI/ssdtPRGen.png)
 
 بعد انتهاء عمل البرنامج ستجد ملف SSDT.aml موجود في `/Users/your-name>/Library/ssdtPRGen/ssdt.aml`
 
