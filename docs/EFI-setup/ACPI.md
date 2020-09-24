@@ -201,3 +201,18 @@
 
 
 قم بتحميل (**قم بالضغط على زر download**) [SSDT-RHUB.aml](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-RHUB.aml) وضعه في ملف ال ACPI.
+
+### SSDT-PNLF.aml
+
+- ماذا يعمل هذا ال SSDT؟
+
+	يقوم بحل مشكله التحكم بسطوع شاشه على الابتوبات.
+
+- [SSDT-PNLF.aml](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-PNLF.aml)
+	
+	يعمل لكل الاجهزه تحت الجيل الثامن.
+
+- [SSDT-PNLF-CFL.aml](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-PNLF-CFL.aml)
+	
+	مخصص للجيل الثامن فما فوق.
+	
