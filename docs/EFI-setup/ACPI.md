@@ -139,12 +139,15 @@
 
 ### SSDT-B550-CPUR.aml
 - ماذا يعمل هذا ال SSDT؟
+
 	هذا SSDT ضروري لكل مذربوردات B550 من AMD.
 
 حمله من [هنا](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-CPUR.aml)(**قم بالضغط على زر download**) ثم قم بوضعه بملف ACPI
 
 ### SSDT-AWAC.aml
+
 - ماذا يعمل هذا ال SSDT؟
+
 	يقوم بحل مشكله ساعه AWAC المزيد من التفاصيل [هنا](#_1)
 ??? info "قائمة المذربوردات التي تحتاج هذا ال SSDT"
 	* B360
@@ -174,6 +177,7 @@
 
 ### SSDT-PMC.aml
 - ماذا يعمل هذا ال SSDT؟
+
 	هذا ال SSDT يقوم بحل مشاكل NVRAM على مذربوردات فئه 300 من انتل (بستثناء Z370) 
 
 سوف تحتاج الى سكربت [SSDTTime](https://github.com/corpnewt/SSDTTime)
@@ -189,3 +193,11 @@
 
 بعد ذلك ستجد `SSDT-PMC.aml` موجود في ملف جديد اسمه Results موجود داخل موقع البرنامج على جهازك.
 
+### SSDT-RHUB.aml
+
+- ماذا يعمل هذا ال SSDT؟
+
+	يقوم بحل مشكله بعض المذربوردات من فئه 400(asus و ASRock لاتعاني من هذه المشكله, msi غير مؤكد) كسرت قواعد ال ACPI وتسبب مشاكل في اقلاع الماك.
+
+
+قم بتحميل (**قم بالضغط على زر download**) [SSDT-RHUB.aml](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-RHUB.aml) وضعه في ملف ال ACPI.
