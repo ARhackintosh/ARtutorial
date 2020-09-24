@@ -113,4 +113,23 @@
 
 بعد ذلك قم بتحميل (**قم بالضغط على زر download**) [SSDT-USBX.aml](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/SSDT-USBX.aml) وضعه في ملف ال ACPI.
 
+### SSDT-PLUG
+
+- ماذا يعمل هذا ال SSDT؟
+
+	يقوم هذا الSSDT بتفعيل التحكم بطاقه المعالج من الماك للجيل الرابع فما فوق من معالجات انتل.
+
+سوف تحتاج الى سكربت [SSDTTime](https://github.com/corpnewt/SSDTTime)
+
+??? info "طريقه تحميل السكربت"
+	تحمل السكربت بالضغط على زر Code ثم Download ZIP لتحميل السكربت كامل 
+	![](/img/Github-zip.png)
+
+![](/img/EFI-setup/ACPI/dumb-dsdt.png)
+
+بعد فتح السكربت قم بختيار رقم 7 حتى ناخذ ال DSDT الاساسي.
+ثم اختار رقم 3 
+
+بعد ذلك ستجد `SSDT-PLUG.aml` موجود في ملف جديد اسمه Results موجود في موقع البرنامج على جهازك.
+
 
