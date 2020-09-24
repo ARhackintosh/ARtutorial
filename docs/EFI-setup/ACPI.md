@@ -105,4 +105,12 @@
 
 بعد ذلك ستجد الSSDT موجود في ملف جديد اسمه Results موجود في موقع البرنامج على جهازك.
 
+### SSDT-USBX.aml
+
+هذا ال SSDT ضروري للجيل السادس فما فوق من معالجات انتل ومعالجات Ryzen.
+
+**ستحتاج الى عمل [SSDT-EC.aml](#ssdt-ecaml) اولا**
+
+بعد ذلك قم بتحميل (**قم بالضغط على زر download**) [SSDT-USBX.aml](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/SSDT-USBX.aml) وضعه في ملف ال ACPI.
+
 
