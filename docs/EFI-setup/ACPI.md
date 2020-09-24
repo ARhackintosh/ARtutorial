@@ -65,7 +65,7 @@
 |   الجيل العاشر 14nm+ (Comet Lake) | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ |
 | الجيل العاشر 10nm (Ice Lake) | ^^ | ^^ | ^^ | ^^ | ^^ | [SSDT-RHUB](https://dortania.github.io/Getting-Started-With-ACPI/Universal/rhub.html) | ^^ |
 
-???+ Waning "تنبية"
+???+ Warning "تنبية"
 	جميع ملفات ال SSDT التي تنتهي ب `aml.` او `dsl.` توضع في EFI/OC/ACPI
 
 
@@ -86,5 +86,23 @@
 
 بعد ذلك ننصحك بتغيير اسم الملف الى SSDT-pm.aml حتى تجده بشكل اسهل.
 
+
+### SSDT-EC.aml
+
+هذا ال SSDT يقوم بعمل  EC مزيف للاصدار كاتلينا(10.15+) فما فوق, لان النظام لا يعمل بدونها.
+
+سوف تحتاج الى سكربت [SSDTTime](https://github.com/corpnewt/SSDTTime)
+
+??? info "طريقه تحميل السكربت"
+	تحمل السكربت بالضغط على زر Code ثم Download ZIP لتحميل السكربت كامل 
+	![](/img/Github-zip.png)
+
+![](/img/EFI-setup/ACPI/dumb-dsdt.png)
+
+بعد فتح السكربت قم بختيار رقم 7 حتى ناخذ ال DSDT الاساسي.
+
+بعد ذلك اختار رقم 2 اذا كان جهازك مكتبي و رقم 3 اذا كان جهازك لابتوب.
+
+بعد ذلك ستجد الSSDT موجود في ملف جديد اسمه Results موجود في موقع البرنامج على جهازك.
 
 
