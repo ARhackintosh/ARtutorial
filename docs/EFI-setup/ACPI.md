@@ -215,4 +215,22 @@
 - [SSDT-PNLF-CFL.aml](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-PNLF-CFL.aml)
 	
 	مخصص للجيل الثامن فما فوق.
+
+### SSDT-GPI0.aml
+
+- ماذا يعمل هذا ال SSDT؟
 	
+	يقوم هذا ال SSDT بتجهيز خريطه الجهاز حتى يتم تعريف التراك باد بستخدام [Voodoi2c](https://tutorial.هاكنتوش.com/EFI-setup/gathering-kexts/#_3)
+
+حمله من [هنا](حمله من [هنا](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-CPUR.aml)(**قم بالضغط على زر download**) ثم قم بوضعه بملف ACPI
+
+بعد ذلك قم باضافه هذه الاعدادت على الكونفق في  config.plist -> ACPI -> Patch
+
+| Comment | String | Change _OSI to XOSI |
+| :--- | :--- | :--- |
+| Enabled | Boolean | YES |
+| Count | Number | 0 |
+| Limit | Number | 0 |
+| Find | Data | 5f4f5349 |
+| Replace | Data | 584f5349 |
+
