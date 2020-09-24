@@ -65,22 +65,26 @@
 |   الجيل العاشر 14nm+ (Comet Lake) | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ | ^^ |
 | الجيل العاشر 10nm (Ice Lake) | ^^ | ^^ | ^^ | ^^ | ^^ | [SSDT-RHUB](https://dortania.github.io/Getting-Started-With-ACPI/Universal/rhub.html) | ^^ |
 
+???+ Waning "تنبية"
+	جميع ملفات ال SSDT التي تنتهي ب `aml.` او `dsl.` توضع في EFI/OC/ACPI
+
 
 ### CPU-PM.aml
 
 ???+ Warning "تنبية"
 	هذا ال SSDT يتم عمله بعد تثبيت النظام.
 
-هذا الكيكست يقوم بتفعيل التحكم بالطاقه على معالجات الجيل الثاني(**غير مدعومة**) و الجيل الثالث على الابتوبات.
+هذا الSSDT يقوم بتفعيل التحكم بالطاقه على معالجات الجيل الثاني(**غير مدعومة**) و الجيل الثالث على الابتوبات.
 
 سوف تحتاج الى سكربت [ssdtPRGen](https://github.com/Piker-Alpha/ssdtPRGen.sh) لعمل الملف
 
 ![](/img/EFI-setup/ssdtPRGen.png)
 
-بعد انتهاء عمل البرنامج ستجد ملف SSDT.aml موجود في `/Users/your-name>/Library/ssdtPRGen/ssdt.dsl`
+بعد انتهاء عمل البرنامج ستجد ملف SSDT.aml موجود في `/Users/your-name>/Library/ssdtPRGen/ssdt.aml`
 
  يمكنك ايجاده بسهوله بختصار Cmd+Shift+G ثم لصق`~/Library/ssdtPRGen/`
 
 بعد ذلك ننصحك بتغيير اسم الملف الى SSDT-pm.aml حتى تجده بشكل اسهل.
+
 
 
