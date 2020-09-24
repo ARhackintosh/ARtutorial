@@ -234,3 +234,23 @@
 | Find | Data | 5f4f5349 |
 | Replace | Data | 584f5349 |
 
+### SSDT-HPET.aml
+
+- ماذا يعمل هذا ال SSDT؟
+	
+	يقوم هذا الSSDT بحل مشاكل تعارض IRQ في خرائط ال DSDT, وهو ضروري للابتوبات.
+
+سوف تحتاج الى سكربت [SSDTTime](https://github.com/corpnewt/SSDTTime)
+
+??? info "طريقه تحميل السكربت"
+	تحمل السكربت بالضغط على زر Code ثم Download ZIP لتحميل السكربت كامل 
+	![](/img/Github-zip.png)
+
+![](/img/EFI-setup/ACPI/dumb-dsdt.png)
+
+بعد فتح السكربت قم بختيار رقم 7 حتى ناخذ ال DSDT الاساسي.
+
+بعد ذلك اختار رقم 1.
+
+بعد ذلك ستجد الSSDT موجود في ملف جديد اسمه Results موجود في موقع البرنامج على جهازك.
+
