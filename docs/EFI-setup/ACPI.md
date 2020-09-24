@@ -42,10 +42,10 @@
 | AMD Ryzen (17h) | [SSDT-CPUR for B550](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-CPUR.aml) | ^^ | N/A | ^^ | N/A |
 
 - Backlight
-	- كيكستات تستخدم لتصحيح التحكم بسطوع الشاشة في النظام.
+	- SSDTs تستخدم لتصحيح التحكم بسطوع الشاشة في النظام.
 	
 - I2C Trackpad
-	- كيكستات تستخدم لتفعيل تعريف VoodooI2C لتعريف تراك بادات تستخدم هذا البروتكول.
+	- SSDTs تستخدم لتفعيل تعريف VoodooI2C لتعريف تراك بادات تستخدم هذا البروتكول.
 	
 - IRQ 
 	- يستخدم لتصحيح بعض التعارضات داخل ال DSDT, يستخدم للابتوبات بشكل عام.
