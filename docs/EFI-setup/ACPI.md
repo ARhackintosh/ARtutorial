@@ -137,6 +137,9 @@
 
 بعد ذلك ستجد `SSDT-PLUG.aml` موجود في ملف جديد اسمه Results موجود في موقع البرنامج على جهازك.
 
+### SSDT-B550-CPUR.aml
+- ماذا يعمل هذا ال SSDT؟
+	هذا SSDT ضروري لكل مذربوردات B550 من AMD.
 
-
+حمله من [هنا](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-CPUR.aml)(**قم بالضغط على زر download**) ثم قم بوضعه بملف ACPI
 
