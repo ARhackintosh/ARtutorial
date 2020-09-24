@@ -143,3 +143,32 @@
 
 حمله من [هنا](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-CPUR.aml)(**قم بالضغط على زر download**) ثم قم بوضعه بملف ACPI
 
+### SSDT-AWAC.aml
+- ماذا يعمل هذا ال SSDT؟
+	يقوم بحل مشكله ساعه AWAC المزيد من التفاصيل [هنا](#_1)
+??? info "قائمة المذربوردات التي تحتاج هذا ال SSDT"
+	* B360
+	* B365
+	* H310
+	* H370
+	* Z370 (مذربوردات Gigabyte و Asrock مع بايوسات جديدة.)
+	* Z390
+	* B460
+	* Z490
+	* 400 series (الجيل العاشر, يشمل Z490)
+	* 495 series (جيل عاشر نسخه 10nm(Comet lake))
+
+سوف تحتاج الى سكربت [SSDTTime](https://github.com/corpnewt/SSDTTime)
+
+??? info "طريقه تحميل السكربت"
+	تحمل السكربت بالضغط على زر Code ثم Download ZIP لتحميل السكربت كامل 
+	![](/img/Github-zip.png)
+
+![](/img/EFI-setup/ACPI/dumb-dsdt.png)
+
+بعد فتح السكربت قم بختيار رقم 7 حتى ناخذ ال DSDT الاساسي.
+ثم اختار رقم 6 
+
+بعد ذلك ستجد `SSDT-AWAC.aml` او `SSDT-RTC0.aml` على حسب جهازك, موجود في ملف جديد اسمه Results موجود داحل موقع البرنامج على جهازك.
+
+
