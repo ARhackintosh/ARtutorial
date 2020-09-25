@@ -47,8 +47,8 @@ nav:
       - 'كاتلينا او اقدم' : 'making-installer/Catalina-or-older.md'
     - تجهيز قسم ال EFI:
       - 'نقل ملفات اوبن كور': 'EFI-setup/Opencore.md'
-      - 'ACPI': 'EFI-setup/ACPI.md'
       - اختيار التعريفات | Kext: 'EFI-setup/gathering-kexts.md'
+      - 'ACPI': 'EFI-setup/ACPI.md'
       - 'الكونفق': 'EFI-setup/config.md'
     - تجهيز الكونفق:
       - 'Intel(Pc)':
