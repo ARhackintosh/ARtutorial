@@ -62,8 +62,8 @@
 | الجيل السابع (Kaby Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC-USBX](#ssdt-usbxaml) | [SSDT-PNLF](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | - | - | - |
 | الجيل الثامن (Coffee Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC-USBX](#ssdt-usbxaml) | [SSDT-PNLF-CFL](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | - | - | - |
 | الجيل التاسع (Coffee Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC-USBX](#ssdt-usbxaml) | [SSDT-PNLF-CFL](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | [SSDT-AWAC](#ssdt-awacaml) | - | - |
-|   الجيل العاشر 14nm+ (Comet Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC-USBX](#ssdt-usbxaml) | [SSDT-PNLF-CFL](#ssdt-pnlfaml)| [SSDT-GPI0](#ssdt-gpi0aml) | [SSDT-AWAC](#ssdt-awacaml) | - | - |
-| الجيل العاشر 10nm (Ice Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC-USBX](#ssdt-usbxaml) | [SSDT-PNLF-CFL](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | [SSDT-AWAC](#ssdt-awacaml) | [SSDT-RHUB](#ssdt-rhubaml) | - |
+| الجيل العاشر (Comet Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC-USBX](#ssdt-usbxaml) | [SSDT-PNLF-CFL](#ssdt-pnlfaml)| [SSDT-GPI0](#ssdt-gpi0aml) | [SSDT-AWAC](#ssdt-awacaml) | - | - |
+| الجيل العاشر (Ice Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC-USBX](#ssdt-usbxaml) | [SSDT-PNLF-CFL](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | [SSDT-AWAC](#ssdt-awacaml) | [SSDT-RHUB](#ssdt-rhubaml) | - |
 
 ???+ Warning "تنبية"
 	جميع ملفات ال SSDT التي تنتهي ب `aml.` او `dsl.` توضع في EFI/OC/ACPI
