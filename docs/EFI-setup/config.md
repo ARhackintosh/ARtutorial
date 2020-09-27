@@ -18,7 +18,20 @@
      لتنزيل الكونفقات قم بالضغط على code ثم Download zip وسوف يحمل كامل المشروع داخل ملف مضغوط ثم قم بتغيير اسم الملف الى config.plist 
     
     ![](/img/Github-zip.png)
-    
+
+ملفات الكونفق التي يجب تحميلها
+
+مكتبي:
+
+| اسم الجيل | السلسة | اسم الملف |
+| :--- | :--- | :--- |
+| [3-Ivy Bridge](../config.plist/ivy-bridge.md) | 3XXX | [3rdgen-ivy-bridge.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/3rdgen-ivy-bridge.plist)  |
+| [4-Haswell](../config.plist/haswell.md) | 4XXX | [4thgen-Haswell.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/4thgen-Haswell.plist) |
+| [6-Skylake](../config.plist/skylake.md) | 6XXX | [6thgen-Skylake.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/6thgen-Skylake.plist) |
+| [7-Kaby Lake](../config.plist/kaby-lake.md) | 7XXX | [7thgen-Kaby-lake.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/7thgen-Kaby-lake.plist) |
+| [8/9-Coffee Lake](../config.plist/coffee-lake.md) | 8XXX-9XXX | [8th-9thgen-Coffeelake.plist.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/8th-9thgen-Coffeelake.plist) |
+| [10-Comet Lake](../config.plist/comet-lake.md) | 10XXX | [10thgen-Comet-lake.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/10thgen-Comet-lake.plist) |
+
 
 ## البرامج
 
