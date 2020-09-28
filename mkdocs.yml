@@ -24,7 +24,7 @@ theme:
   icon:
     repo: fontawesome/brands/github
   features:
-    - instant
+    - navigation.instant
   palette:
     scheme: slate
     primary: deep purple
