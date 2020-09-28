@@ -35,6 +35,7 @@ jobs:
         python -m pip install --upgrade pip setuptools
         python -m pip install -U pip wheel
         python -m pip install -r requirements.txt
+        pip show mkdocs-material
 
     - name: mkdocs build and push
       run: |
