@@ -36,15 +36,15 @@ Laptop
 
 | اسم الجيل | السلسة | اسم الملف |
 | :--- | :--- | :--- |
-| [3-Ivy Bridge](../config.plist/ivy-bridge.md) | 3XXX | [3rdgen-laptops.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/laptops/3rdgen-laptops.plist)  |
-| [4-Haswell](../config.plist/haswell.md) | 4XXX | [4thgen-laptops.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/laptops/4thgen-laptops.plist) |
-| [5-Broadwell](../config.plist/haswell.md) | 5XXX | [5thgen-laptops.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/laptops/5thgen-laptops.plist) |
-| [6-Skylake](../config.plist/skylake.md) | 6XXX | [6thgen-laptops.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/laptops/6thgen-laptops.plist) |
-| [7-Kaby Lake](../config.plist/kaby-lake.md) | 7XXX | [7thgen-laptops.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/laptops/7thgen-laptops.plist) |
-| [8-Coffee Lake](../config.plist/coffee-lake.md) | 8XXX | [8th-9thgen-Coffeelake.plist.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/laptops/8thgen-laptops.plist) |
-| [9-Coffee Lake](../config.plist/coffee-lake.md) | 9XXX | [9thgen(or comet-lake)-laptops.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/laptops/9thgen(or comet-lake)-laptops.plist) |
-| [10-Comet Lake](../config.plist/comet-lake.md) | 10XXX | [9thgen(or comet-lake)-laptops.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/laptops/9thgen(or comet-lake)-laptops.plist) |
-| [10-ice Lake](../config.plist/comet-lake.md) | 10XXG | [10thgen-laptops.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/laptops/10thgen-laptops.plist) |
+| [3-Ivy Bridge](/config-setup/laptops/3rd-gen/) | 3XXX | [3rdgen-laptops.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/laptops/3rdgen-laptops.plist)  |
+| [4-Haswell](/config-setup/laptops/4th-gen/) | 4XXX | [4thgen-laptops.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/laptops/4thgen-laptops.plist) |
+| [5-Broadwell](/config-setup/laptops/5th-gen/) | 5XXX | [5thgen-laptops.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/laptops/5thgen-laptops.plist) |
+| [6-Skylake](/config-setup/laptops/6th-gen/) | 6XXX | [6thgen-laptops.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/laptops/6thgen-laptops.plist) |
+| [7-Kaby Lake](/config-setup/laptops/7th-gen/) | 7XXX | [7thgen-laptops.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/laptops/7thgen-laptops.plist) |
+| [8-Coffee Lake](/config-setup/laptops/8th-gen/) | 8XXX | [8th-9thgen-Coffeelake.plist.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/laptops/8thgen-laptops.plist) |
+| [9-Coffee Lake](/config-setup/laptops/9th-gen/) | 9XXX | [9thgen(or comet-lake)-laptops.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/laptops/9thgen(or comet-lake)-laptops.plist) |
+| [10-Comet Lake](/config-setup/laptops/comet-lake/) | 10XXX | [9thgen(or comet-lake)-laptops.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/laptops/9thgen(or comet-lake)-laptops.plist) |
+| [10-ice Lake](/config-setup/laptops/ice-lake/) | 10XXG | [10thgen-laptops.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/laptops/10thgen-laptops.plist) |
 
 ## البرامج
 
