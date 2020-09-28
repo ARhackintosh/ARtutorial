@@ -21,7 +21,7 @@
 
 ملفات الكونفق التي يجب تحميلها
 
-مكتبي:
+Pc
 
 | اسم الجيل | السلسة | اسم الملف |
 | :--- | :--- | :--- |
@@ -32,7 +32,7 @@
 | [8/9-Coffee Lake](../config.plist/coffee-lake.md) | 8XXX-9XXX | [8th-9thgen-Coffeelake.plist.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/8th-9thgen-Coffeelake.plist) |
 | [10-Comet Lake](../config.plist/comet-lake.md) | 10XXX | [10thgen-Comet-lake.plist](https://github.com/ARhackintosh/OC-Configs/blob/master/10thgen-Comet-lake.plist) |
 
-لابتوب:
+Laptop
 
 | اسم الجيل | السلسة | اسم الملف |
 | :--- | :--- | :--- |
