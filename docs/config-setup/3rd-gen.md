@@ -86,7 +86,7 @@
 
 - `MacPro6,1` بيج سر فما فوق.
 
-![](/img/config-setup/ssdttime.png)
+![](/img/config-setup/gensmbios.png)
 
 يتم نقل الارقام بالشكل الاتي للكونفق:
 
