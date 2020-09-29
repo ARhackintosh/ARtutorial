@@ -102,6 +102,9 @@
 
 ## الصوت | Sound
 
+???+ Warning "تنبيه"
+	يرجى استخدام تعريف واحد فقط.
+
 - [Applealc.Kext](https://هاكنتوش.com/applealc-kext/)
 	- يستخدم لعمل باتش ل AppleHDA وهو المسؤول عن تفعيل كرت الصوت داخل الجهاز, اجهزه رايزن قد لايعمل معها المايكروفون
 	- يجب ان يكون كرت الصوت الخاص بك موجود في هذه [القائمه](https://github.com/acidanthera/applealc/wiki/supported-codecs)
