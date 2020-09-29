@@ -94,3 +94,14 @@
 - `Serial` يتم نسخه الى  Generic -> SystemSerialNumber.
 - `Board Serial` يتم نسخه الى  Generic -> MLB.
 - `SmUUID` يتم نسخه الى  Generic -> Generic -> SystemUUID.
+
+## UEFI
+
+### Quriks
+
+???+ info "اذا كان لديك جهاز HP"
+	يجب عليك تفعيل UnblockFsConnect
+	
+	| العنوان | مفعل | وصف |
+	| :--- | :--- | :--- |
+	| UnblockFsConnect | True | ضروري لمذربوردات HP |
