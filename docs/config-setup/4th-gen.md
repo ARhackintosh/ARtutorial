@@ -26,4 +26,21 @@
 	| 04001204 | يستخدم لكروت انتل المدمجه في الجيل الرابع على ال PC في حاله استخدامها لعمليات حسابيه فقط بدون عرض الشاشه |
 	| 07002216 | يستخدم لكروت انتل المدمجة الخاصه بالجيل الخامس على ال PC |
 
+## Kernel
 
+### Quirks
+
+![](/img/config-setup/kernel-quirks.png)
+
+???+ info "Quirks"
+	اعدادات مخصصه للكيرنل.
+	
+	| العنوان | مفعل | وصف |
+	| :--- | :--- | :--- |
+	| AppleCpuPmCfgLock | True | غير ضروري اذا تم تعطيل `CFG-Lock` في البايوس |
+	| AppleXcpmCfgLock | True | غير ضروري اذا تم تعطيل `CFG-Lock` في البايوس |
+	| DisableIOMapper | True | غير ضروري اذا تم تعطيل `VT-D` في البايوس |
+	| LapicKernelPanic | False | اجهزه HP ستحتاج تفعيل هذا الاعداد |
+	| PanicNoKextDump | True | |
+	| PowerTimeoutKernelPanic | True | |
+	| XhciPortLimit | True | |
