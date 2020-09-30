@@ -36,6 +36,7 @@
 ![](/img/config-setup/kernel-quirks.png)
 
 ???+ info "Quirks"
+	اعدادات مخصصه للكيرنل.
 	
 	| العنوان | مفعل | وصف |
 	| :--- | :--- | :--- |
