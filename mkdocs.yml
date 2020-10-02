@@ -51,7 +51,7 @@ nav:
       - 'ACPI': 'EFI-setup/ACPI.md'
       - 'الكونفق': 'EFI-setup/config.md'
     - تجهيز الكونفق:
-      - 'Intel(Pc)':
+      - 'Intel(PC)':
         - 'الجيل الثالث' : 'config-setup/3rd-gen.md'
         - 'الجيل الرابع و الخامس' : 'config-setup/4th-gen.md'
         - 'الجيل السادس' : 'config-setup/6th-gen.md'
@@ -59,7 +59,7 @@ nav:
         - 'الجيل الثامن' : 'config-setup/8th-gen.md' 
         - 'الجيل التاسع' : 'config-setup/9th-gen.md' 
         - 'الجيل العاشر' : 'config-setup/10th-gen.md'
-      - 'Ryzen(Pc)': 'config-setup/AMD.md'
+      - 'Ryzen(PC)': 'config-setup/AMD.md'
       - 'Intel(Laptop)':
         - 'الجيل الثالث' : 'config-setup/laptops/3rd-gen.md'
         - 'الجيل الرابع' : 'config-setup/laptops/4th-gen.md'
