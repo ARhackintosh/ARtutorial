@@ -53,8 +53,7 @@ nav:
     - تجهيز الكونفق:
       - 'Intel(Pc)':
         - 'الجيل الثالث' : 'config-setup/3rd-gen.md'
-        - 'الجيل الرابع' : 'config-setup/4th-gen.md'
-        - 'الجيل الخامس' : 'config-setup/5th-gen.md' 
+        - 'الجيل الرابع و الخامس' : 'config-setup/4th-gen.md'
         - 'الجيل السادس' : 'config-setup/6th-gen.md'
         - 'الجيل السابع' : 'config-setup/7th-gen.md'
         - 'الجيل الثامن' : 'config-setup/8th-gen.md' 
