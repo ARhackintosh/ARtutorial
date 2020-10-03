@@ -84,3 +84,28 @@
 	| **nvda_drv_vrl=1** | ضروري لتفعيل تعريفات انفيديا على فئة GTX 9xx و 10xx على سييرا وهاي سييرا |
 	| **-wegnoegpu** | يستخدم لتعطيل جميع الكروت الخارجيه, مفيد بحاله اذا كان كرتك المنفصل غير مدعوم من النظام مثل كروت انفيديا الحديثة. |
 
+## PlatformInfo
+
+![](/img/config-setup/propertree-platforminfo.png)
+
+هنا نقوم بوضع معلومات الجهاز مثل نوعه و السيريال ورقم اللوحة وغيرها, سنستخدم برنامج [GenSMBios](https://github.com/corpnewt/GenSMBIOS)
+
+بعد تشغيل البرنامج اضغط رقم 1 لتنزيل الملفات الضرورية.
+
+بعدها اضغط رقم 3 لتوليد معلومات الجهاز
+
+بالنسبه للموديل الجهاز (SMBIOS) هناك خيارين للجيل الثامن:
+
+- `iMac18,1` اذا كنت تريد استخدام الكرت المدمج لعرض الشاشة
+
+- `iMac18,3` اذا كنت ستسخدم كرت منفصل لعرض الشاشة
+
+![](/img/config-setup/gensmbios.png)
+
+يتم نقل الارقام بالشكل الاتي للكونفق:
+
+- `Type` يتم نسخه الى Generic -> SystemProductName.
+- `Serial` يتم نسخه الى  Generic -> SystemSerialNumber.
+- `Board Serial` يتم نسخه الى  Generic -> MLB.
+- `SmUUID` يتم نسخه الى  Generic -> Generic -> SystemUUID.
+
