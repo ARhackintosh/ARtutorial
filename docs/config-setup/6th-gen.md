@@ -107,7 +107,7 @@
 
 ## UEFI
 
-### Quriks
+### Quirks
 
 ???+ info "اذا كان لديك جهاز HP"
 	يجب عليك تفعيل UnblockFsConnect
