@@ -33,6 +33,9 @@
 	| framebuffer-patch-enable | Data | 01000000 | |
 	| framebuffer-stolenmem | Data | 00003001 | |
 
+	**مثال** للاعدادت في الكونفق
+	
+	![](/img/config-setup/deviceproperties-example.png)
 ## Booter
 
 ### Quirks
