@@ -46,3 +46,22 @@
 	| :--- | :--- | :--- |
 	| ProtectUefiServices | True | اذا كان لديك مذربورد z390 ستحتاجه. |
 
+## Kernel
+
+### Quirks
+
+![](/img/config-setup/kernel-quirks.png)
+
+???+ info "Quirks"
+	اعدادات مخصصه للكيرنل.
+	
+	| العنوان | مفعل | وصف |
+	| :--- | :--- | :--- |
+	| AppleCpuPmCfgLock | True | غير ضروري اذا تم تعطيل `CFG-Lock` في البايوس |
+	| AppleXcpmCfgLock | True | غير ضروري اذا تم تعطيل `CFG-Lock` في البايوس |
+	| DisableIOMapper | True | غير ضروري اذا تم تعطيل `VT-D` في البايوس |
+	| LapicKernelPanic | False | اجهزه HP ستحتاج تفعيل هذا الاعداد |
+	| PanicNoKextDump | True | |
+	| PowerTimeoutKernelPanic | True | |
+	| XhciPortLimit | True | |
+
