@@ -56,7 +56,7 @@ nav:
         - 'الجيل الرابع و الخامس' : 'config-setup/4th-gen.md'
         - 'الجيل السادس' : 'config-setup/6th-gen.md'
         - 'الجيل السابع' : 'config-setup/7th-gen.md'
-        - 'الجيل الثامن' : 'config-setup/8th-gen.md' 
+        - 'الجيل الثامن والتاسع' : 'config-setup/8th-gen.md' 
         - 'الجيل التاسع' : 'config-setup/9th-gen.md' 
         - 'الجيل العاشر' : 'config-setup/10th-gen.md'
       - 'Ryzen(PC)': 'config-setup/AMD.md'
