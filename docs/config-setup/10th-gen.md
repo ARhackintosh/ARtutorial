@@ -36,3 +36,13 @@
 	**مثال** للاعدادت في الكونفق
 	
 	![](/img/config-setup/deviceproperties-example.png)
+
+## Booter
+
+### Quirks
+
+???+ info "الاعدادات"
+	| العنوان | مفعل | وصف |
+	| :--- | :--- | :--- |
+	| ProtectUefiServices | True | اذا كان لديك مذربورد z390 ستحتاجه. |
+
