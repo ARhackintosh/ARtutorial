@@ -1,7 +1,7 @@
 # الجيل العاشر
 | الدعم | الاصدار |
 | :--- | :--- |
-| بداية الدعم على الماك | macOS 10.13, High Sierra |
+| بداية الدعم على الماك | macOS 10.15, Catalina |
 
 انشاء الكونفق يدويا ولك معرفه باللغه الانجليزية [هنا ](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html)رابط يشرح كيفيه انشاء الكونفق للجيل العاشر
 
