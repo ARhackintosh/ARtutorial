@@ -32,3 +32,12 @@
 	| AAPL,ig-platform-id | Data | 07009B3E | |
 	| framebuffer-patch-enable | Data | 01000000 | |
 	| framebuffer-stolenmem | Data | 00003001 | |
+
+## Booter
+
+### Quirks
+
+???+ info "الاعدادات"
+	| العنوان | مفعل | وصف |
+	| :--- | :--- | :--- |
+	| ProtectUefiServices | True | اذا كان لديك مذربورد z390 ستحتاجه. |
