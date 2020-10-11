@@ -6,7 +6,7 @@
 
 **مرخص تحت**:
 
-<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ar"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ar"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>
 
 اهلا بكم في قسم الاصدار الثاني (v2) من شرح تثبيت الهاكنتوش
 هذا الجزء (branch) هو للتطوير 
