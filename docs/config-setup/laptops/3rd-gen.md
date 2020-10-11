@@ -4,3 +4,4 @@
 | بداية الدعم على الماك | OS X 10.7, Lion |
 | ملحوظة | كرت الشاشه المدمج لم يتم تاكيد دعمه في macOS 11(big sur) |
 
+إذا كنت تريد طريقه انشاء الكونفق يدويا ولك معرفه باللغه الانجليزي [هنا ](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/ivy-bridge.html)رابط يشرح كيفيه انشاء الكونفق للجيل الثالث لللابتوبات
