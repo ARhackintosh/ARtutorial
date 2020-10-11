@@ -1,30 +1,32 @@
 <div dir="rtl">
   
-## (v2)الاصدار الثاني من شرح تثبيت الهاكنتوش من [هاكنتوش بالعربي](هاكنتوش.com)
+# (v2)الاصدار الثاني من شرح تثبيت الهاكنتوش من [هاكنتوش بالعربي](هاكنتوش.com)
 
 ![dev-Build](https://github.com/ARhackintosh/ARtutorial/workflows/dev-Build/badge.svg)
 
 **مرخص تحت**:
 
-<img src="https://topologic.app/wp-content/uploads/2019/01/AGPLv3-Logo.png"  width="250">
-
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ar"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
 
 اهلا بكم في قسم الاصدار الثاني (v2) من شرح تثبيت الهاكنتوش
 هذا الجزء (branch) هو للتطوير 
 بحيث نقوم بعمل جميع التغييرات واختبارها ثم دفعها الى العامه production
 سيتم انشاء branch production عندما تنتهي مرحلة التطوير
 
+
 ## الميزات المخطط اضافتها
+
 - دعم ماك Big Sur
 - اضافه دعم [opencore](https://github.com/acidanthera/OpenCorePkg)
 - استخدام الكونفق الجديد لمعالجات amd
 - محاوله تقليل عدد البرامج المستخدمة
 - تركيز اكبر على الابتوبات(نحتاج متطوعين لهم خبره)
 - قسم للاسئلة الشائعة
-- دعم لينكس؟
+- دعم لينكس
 * [x] نقل الشرح الى موقعنا
 
 ## حاله الشرح:
+
 بعد اعاده البحث في شروط ابل, اتضح ان حتى الماك الوهمي يكسر القوانين
 
 ولايوجد فعلا اي طريقه لاتكسر الشروط لتثبيت ماك بيج سر لانه لايمكن تثبيت النظام مباشره من ويندوز
@@ -39,7 +41,8 @@
 
 
 ## بنيه الشرح
-الشرح مبني على برنامج [mkdocs](https://github.com/mkdocs/mkdocs/)
+
+الشرح مبني على برنامج[mkdocs](https://github.com/mkdocs/mkdocs/)
 مع ثيم [material](https://github.com/squidfunk/mkdocs-material)
 
 الشرح مكتوب بصيغه markdown
