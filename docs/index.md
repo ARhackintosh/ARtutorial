@@ -2,6 +2,12 @@
 
 ![](img/logo.png#center)
 
+<div align="center">
+
+<h2>تم بناء الشرح على اصدار اوبن كور 0.6.2</h2>
+
+</div>
+
 ### الاصدار الثاني من الشرح حاليا تحت التطوير يرجى استخدام الاصدار [الاول](https://arhackintosh.gitbook.io/artutorial/) حتى تنتهي عمليه التطوير 
     
 ## الميزات المخطط اضافتها
@@ -18,7 +24,7 @@
 
 الكاتب الاساسي : [fareszr](https://هاكنتوش.com/members/fareszr.2/) 
 
-المدقق اللغوي : بهاء الدين \([b.wdgt/bahaedin](https://هاكنتوش.com/members/bahaedin.3/)\)  
+المدقق اللغوي : بهاء الدين ([b.wdgt/bahaedin](https://هاكنتوش.com/members/bahaedin.3/))
 
 الشروحات التي سيتم بناء الشرح عليها :
 
