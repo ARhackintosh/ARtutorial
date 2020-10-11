@@ -4,7 +4,7 @@ site_author: مجتمع هاكنتوش بالعربي
 repo_name: ARhackintosh/ARtutorial
 repo_url: https://github.com/arhackintosh/artutorial
 copyright: حقوق هذا العمل محفوطه لهاكنتوش بالعربي تحت CC BY-NC-SA 4.0
-site_description: اول و اكبر شرح عربي مفتوح المصدر لتثبيت الهاكنتوش
+site_description: تريد تثبيت الهاكنتوش؟ شرح هاكنتوش مجتمع هاكنتوش بالعربي هو اول واكبر شرح عربي لتثبيت الهاكنتوش باللغه العربية.
 
 plugins:
   - autolinks
