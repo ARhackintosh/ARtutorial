@@ -100,3 +100,41 @@
 	| **agdpmod=pikera** | يستخدم لتعطيل board id على كروت navi(RX 5xxx) بدونه ستواجهه شاشة سوداء, لاتستخدمة على كروت من نوع اخر. |
 	| **nvda_drv_vrl=1** | ضروري لتفعيل تعريفات انفيديا على فئة GTX 9xx و 10xx على سييرا وهاي سييرا |
 	| **-wegnoegpu** | يستخدم لتعطيل جميع الكروت الخارجيه, مفيد بحاله اذا كان كرتك المنفصل غير مدعوم من النظام مثل كروت انفيديا الحديثة. **تمت اضافته سابقا**|
+
+### Delete
+
+**مخصص فقط للاجهزه التي لاتعمل فيها ال  ==NVRAM==**
+
+- LegacyEnable: TRUE
+	- يقوم بتخزين اعدادت ال nvram في ملف nvram.plist لمحاكاه دعم nvram
+- LegacyOverwrite: TRUE
+	- يسمح بتفعيل الاعدادات الموجوده في nvram.plist
+
+## PlatformInfo
+
+![](/img/config-setup/propertree-platforminfo.png)
+
+هنا نقوم بوضع معلومات الجهاز مثل نوعه و السيريال ورقم اللوحة وغيرها, سنستخدم برنامج [GenSMBios](https://github.com/corpnewt/GenSMBIOS)
+
+بعد تشغيل البرنامج اضغط رقم 1 لتنزيل الملفات الضرورية.
+
+بعدها اضغط رقم 3 لتوليد معلومات الجهاز
+
+بالنسبه للموديل الجهاز (SMBIOS) هناك اختيارين للجيل الثالث:
+igpu = كرت شاشه مدمج dgpu = كرت منفصل
+
+| SMBIOS | نوع المعالج | نوع كرت الشاشة | حجم الشاشة |
+| :--- | :--- | :--- | :--- |
+| MacBookAir5,1 | ثنائي النواه 17w | iGPU: HD 4000 | 11" |
+| MacBookAir5,2 | ثنائي النواه 17w | iGPU: HD 4000 | 13" |
+| MacBookPro10,1 | رباعي النواه 45w | iGPU: HD 4000 + dGPU: GT650M | 15" |
+| MacBookPro10,2 | ثنائي النواه 35w(فئه عليا) | iGPU: HD 4000 | 13" |
+
+![](/img/config-setup/gensmbios.png)
+
+يتم نقل الارقام بالشكل الاتي للكونفق:
+
+- `Type` يتم نسخه الى Generic -> SystemProductName.
+- `Serial` يتم نسخه الى  Generic -> SystemSerialNumber.
+- `Board Serial` يتم نسخه الى  Generic -> MLB.
+- `SmUUID` يتم نسخه الى  Generic -> Generic -> SystemUUID.
