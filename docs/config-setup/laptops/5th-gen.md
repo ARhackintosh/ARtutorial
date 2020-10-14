@@ -92,3 +92,37 @@
 	- يقوم بتخزين اعدادت ال nvram في ملف nvram.plist لمحاكاه دعم nvram
 - LegacyOverwrite: TRUE
 	- يسمح بتفعيل الاعدادات الموجوده في nvram.plist
+	
+	## PlatformInfo
+
+![](/img/config-setup/propertree-platforminfo.png)
+
+هنا نقوم بوضع معلومات الجهاز مثل نوعه و السيريال ورقم اللوحة وغيرها, سنستخدم برنامج [GenSMBios](https://github.com/corpnewt/GenSMBIOS)
+
+بعد تشغيل البرنامج اضغط رقم 1 لتنزيل الملفات الضرورية.
+
+بعدها اضغط رقم 3 لتوليد معلومات الجهاز
+
+بالنسبه للموديل الجهاز (SMBIOS) هناك عده اختيارات للجيل الرابع على الابتوبات:
+igpu = كرت شاشه مدمج dgpu = كرت منفصل
+
+| SMBIOS | نوع المعالج | نوع كرت الشاشة | حجم الشاشة |
+| :--- | :--- | :--- | :--- |
+| MacBook8,1 | ثنائي النواه 7w(فئه منخفضه) | iGPU: HD 5300 | 12" |
+| MacBookAir7,1 | ثنائي النواه 15w | iGPU: HD 6000 | 11" |
+| MacBookAir7,2 | ثنائي النواه 15w | iGPU: HD 6000 | 13" |
+| MacBookPro12,1 | ثنائي النواه 28w(فئه عليا) | iGPU: Iris 6100 | 13" |
+| MacBookPro11,2 | رباعي النواه 45w | iGPU: Iris Pro 5200 | 15" |
+| MacBookPro11,3 | رباعي النواه 45w | iGPU: Iris Pro 5200 + dGPU: GT750M | 15" |
+| MacBookPro11,4 | رباعي النواه 45w | iGPU: Iris Pro 5200 | 15" |
+| MacBookPro11,5 | رباعي النواه 45w | iGPU: Iris Pro 5200 + dGPU: R9 M370X | 15" |
+
+![](/img/config-setup/gensmbios.png)
+
+يتم نقل الارقام بالشكل الاتي للكونفق:
+
+- `Type` يتم نسخه الى Generic -> SystemProductName.
+- `Serial` يتم نسخه الى  Generic -> SystemSerialNumber.
+- `Board Serial` يتم نسخه الى  Generic -> MLB.
+- `SmUUID` يتم نسخه الى  Generic -> Generic -> SystemUUID.
+
