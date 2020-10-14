@@ -55,3 +55,22 @@
 	| framebuffer-con1-enable | Number | 1 | سيسمح لنا بعمل باتشات(تعديلات) حتى نقوم بتشغل المداخل الخارجيه |
 	| framebuffer-con1-alldata | Number | 4 | |
 	| framebuffer-portcount | Data | 02050000 00040000 07040000 03040000 00040000 81000000 04060000 00040000 81000000 | تعريف المداخل |
+	
+## Kernel
+
+### Quirks
+
+![](/img/config-setup/kernel-quirks.png)
+
+???+ info "Quirks"
+	اعدادات مخصصه للكيرنل.
+	
+	| العنوان | مفعل | وصف |
+	| :--- | :--- | :--- |
+	| AppleCpuPmCfgLock | True | غير ضروري اذا تم تعطيل `CFG-Lock` في البايوس |
+	| AppleXcpmCfgLock | True | غير ضروري اذا تم تعطيل `CFG-Lock` في البايوس |
+	| DisableIOMapper | True | غير ضروري اذا تم تعطيل `VT-D` في البايوس |
+	| LapicKernelPanic | False | اجهزه HP ستحتاج تفعيل هذا الاعداد |
+	| PanicNoKextDump | True | |
+	| PowerTimeoutKernelPanic | True | |
+	| XhciPortLimit | True | |
