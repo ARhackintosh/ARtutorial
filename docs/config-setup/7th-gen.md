@@ -27,12 +27,12 @@
 	
 	ايضا اذا كنت تستخدم**الكرت المدمج لعرض الشاشه** ستحتاج الى اضافه اعدادت اضافيه :
 
-	| عنوان  | النوع | القيمة | ملاحظة |
-	| :--- | :--- | :--- | :--- |
-	| AAPL,ig-platform-id | Data | 00001259 | |
-	| framebuffer-patch-enable | Data | 01000000 | |
-	| framebuffer-stolenmem | Data | 00003001 | |
-	| framebuffer-fbmem | Data | 00009000 | اذا لا يوجد خيار تحديد رام الكرت في البايوس |
+	| عنوان  | النوع | القيمة |
+	| :--- | :--- | :--- |
+	| AAPL,ig-platform-id | Data | 00001259 |
+	| framebuffer-patch-enable | Data | 01000000 |
+	| framebuffer-stolenmem | Data | 00003001 |
+
 	
 	**مثال** للاعدادت في الكونفق
 	
