@@ -93,7 +93,7 @@
 - LegacyOverwrite: TRUE
 	- يسمح بتفعيل الاعدادات الموجوده في nvram.plist
 	
-	## PlatformInfo
+## PlatformInfo
 
 ![](/img/config-setup/propertree-platforminfo.png)
 
