@@ -67,7 +67,7 @@ nav:
         - 'الجيل السابع' : 'config-setup/laptops/7th-gen.md'
         - 'الجيل الثامن' : 'config-setup/laptops/8th-gen.md'
         - 'الجيل التاسع' : 'config-setup/laptops/9th-gen.md'
-        - 'Comet lake' : 'config-setup/laptops/comet-lake.md'
+        - 'comet lake' : 'config-setup/laptops/comet-lake.md'
         - 'ice lake' : 'config-setup/laptops/ice-lake.md'
     - 'بعد نسخ الماك':
       - 'الاقلاع': 'after-copying-the-installer/booting.md'
