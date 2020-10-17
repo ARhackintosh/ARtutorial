@@ -56,3 +56,23 @@
 	| framebuffer-con1-enable | Data | 01000000 |
 	| framebuffer-con1-alldata | Data | 01050A00 00080000 87010000 03060A00 00040000 87010000 FF000000 01000000 20000000 |
 	
+## Kernel
+
+### Quirks
+
+![](/img/config-setup/kernel-quirks.png)
+
+???+ info "Quirks"
+	اعدادات مخصصه للكيرنل.
+	
+	| العنوان | مفعل | وصف |
+	| :--- | :--- | :--- |
+	| AppleCpuPmCfgLock | True | غير ضروري اذا تم تعطيل `CFG-Lock` في البايوس |
+	| AppleXcpmCfgLock | True | غير ضروري اذا تم تعطيل `CFG-Lock` في البايوس |
+	| DisableIOMapper | True | غير ضروري اذا تم تعطيل `VT-D` في البايوس |
+	| LapicKernelPanic | False | اجهزه HP ستحتاج تفعيل هذا الاعداد |
+	| PanicNoKextDump | True | |
+	| PowerTimeoutKernelPanic | True | |
+	| XhciPortLimit | True | |
+
+	
