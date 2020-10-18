@@ -109,3 +109,15 @@ igpu = كرت شاشه مدمج dgpu = كرت منفصل
 - `Board Serial` يتم نسخه الى  Generic -> MLB.
 - `SmUUID` يتم نسخه الى  Generic -> Generic -> SystemUUID.
 
+## UEFI
+
+### Quirks
+
+???+ info "اذا كان لديك جهاز HP"
+	يجب عليك تفعيل UnblockFsConnect
+	
+	| العنوان | مفعل | وصف |
+	| :--- | :--- | :--- |
+	| UnblockFsConnect | True | ضروري لمذربوردات HP |
+
+
