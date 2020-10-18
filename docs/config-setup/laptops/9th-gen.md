@@ -4,7 +4,7 @@
 | [Coffee lake](https://en.wikipedia.org/wiki/Coffee_Lake) بداية الدعم على الماك | macOS 10.13, High Sierra |
 | [Comet lake](https://en.wikipedia.org/wiki/Comet_Lake_(microprocessor)) بداية الدعم على الماك | macOS 10.15, Catalina |
 
-إذا كنت تريد طريقه انشاء الكونفق يدويا ولك معرفه باللغه الانجليزي [هنا ](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html)رابط يشرح كيفيه انشاء الكونفق للجيل التاسع  لللابتوبات
+إذا كنت تريد طريقه انشاء الكونفق يدويا ولك معرفه باللغه الانجليزي [هنا ](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html)رابط يشرح كيفيه انشاء الكونفق للجيل التاسع و العاشر(cometlake) لللابتوبات
 
 **هذه الصفحة معدة على اساس انك تستخدم كونفقات هاكنتوش بالعربي**
 
@@ -104,7 +104,7 @@
 
 بعدها اضغط رقم 3 لتوليد معلومات الجهاز
 
-بالنسبه للموديل الجهاز (SMBIOS) هناك عده اختيارات للجيل الثامن على الابتوبات:
+بالنسبه للموديل الجهاز (SMBIOS) هناك عده اختيارات للجيل الثامن و العاشر(cometlake) على الابتوبات:
 igpu = كرت شاشه مدمج dgpu = كرت منفصل
 
 | SMBIOS | نوع المعالج | نوع كرت الشاشة | حجم الشاشة | Touch ID(البصمة) |
