@@ -94,3 +94,31 @@
 - LegacyOverwrite: TRUE
 	- يسمح بتفعيل الاعدادات الموجوده في nvram.plist
 
+## PlatformInfo
+
+![](/img/config-setup/propertree-platforminfo.png)
+
+هنا نقوم بوضع معلومات الجهاز مثل نوعه و السيريال ورقم اللوحة وغيرها, سنستخدم برنامج [GenSMBios](https://github.com/corpnewt/GenSMBIOS)
+
+بعد تشغيل البرنامج اضغط رقم 1 لتنزيل الملفات الضرورية.
+
+بعدها اضغط رقم 3 لتوليد معلومات الجهاز
+
+بالنسبه للموديل الجهاز (SMBIOS) هناك عده اختيارات للجيل الثامن على الابتوبات:
+igpu = كرت شاشه مدمج dgpu = كرت منفصل
+
+| SMBIOS | نوع المعالج | نوع كرت الشاشة | حجم الشاشة | Touch ID(البصمة) |
+| :--- | :--- | :--- | :--- | :--- |
+| MacBookPro16,1 | رسادسي و ثماني النواه 45w | iGPU: UHD 630 + dGPU: 5300/5500M | 15" | نعم |
+| MacBookPro16,3 | رباعي النواه 15w | iGPU: Iris 645 | 13" | نعم |
+| MacBookPro16,4 | سداسي و ثماني النواه 45w | iGPU: UHD 630 + dGPU: 5600M | 15" | نعم |
+
+![](/img/config-setup/gensmbios.png)
+
+يتم نقل الارقام بالشكل الاتي للكونفق:
+
+- `Type` يتم نسخه الى Generic -> SystemProductName.
+- `Serial` يتم نسخه الى  Generic -> SystemSerialNumber.
+- `Board Serial` يتم نسخه الى  Generic -> MLB.
+- `SmUUID` يتم نسخه الى  Generic -> Generic -> SystemUUID.
+
