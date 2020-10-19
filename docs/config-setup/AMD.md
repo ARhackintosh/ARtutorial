@@ -32,3 +32,10 @@
 	| SyncRuntimePermissions | True | |
 
 
+## DeviceProperties
+
+هذا القسم مخصص لتعريف الكروت المدمجه في معالجات انتل(`PciRoot(0x0)/Pci(0x2,0x0)`).وكروت الصوت (`PciRoot(0x0)/Pci(0x1b,0x0)`)
+
+كروت الصوت سنقوم بتعريفها بستخدام bootarg
+
+لذلك قم بحذف جميع خيار PciRoot.
