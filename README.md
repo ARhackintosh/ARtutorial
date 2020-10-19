@@ -1,6 +1,6 @@
 <div dir="rtl">
   
-# (v2)الاصدار الثاني من شرح تثبيت الهاكنتوش من [هاكنتوش بالعربي](هاكنتوش.com)
+# (v2)الاصدار الثاني من شرح تثبيت الهاكنتوش من [هاكنتوش بالعربي](https://هاكنتوش.com)
 
 ![dev-Build](https://github.com/ARhackintosh/ARtutorial/workflows/dev-Build/badge.svg)
 
