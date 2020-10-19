@@ -12,6 +12,23 @@
 
 تاكد من الحصول على ملف [Sample.plist من داخل الاوبن كور](/EFI-setup/config/#_3/)
 
-##ACPI
+## ACPI
 هذا القسم مخصص لاضافه ملفات ال [==SSDT==](/start/#_10) ونحن قمنا باضافتها [سابقا](/config/#acpi),
 فلذلك لا يوجد اي تعديل ضروري في هذا القسم.
+
+## Booter
+
+### Quirks
+
+???+ info "Quirks"
+	اعدادات مخصصه لباتشات Boot.efi و تصليحات الفريموير.
+	
+	| العنوان | مفعل | وصف |
+	| :--- | :--- | :--- |
+	| DevirtualizeMmio | False | مذربوردات TRx40 تحتاج لهذا الخيار |
+	| EnableWriteUnprotector | False | |
+	| RebuildAppleMemoryMap | True | |
+	| SetupVirtualMap | True | مذربوردات B550,A520,TRx40 يجب ان تعطل هذا الخيار, ايضا مذربوردات X570 مع بايوس محدث.  |
+	| SyncRuntimePermissions | True | |
+
+
