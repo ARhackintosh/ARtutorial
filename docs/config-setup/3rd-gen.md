@@ -20,6 +20,7 @@
 ![](/img/config-setup/3rd-gen/6-series-mobo.png)
 
 ???+ info "PciRoot(0x0)/Pci(0x16,0x0)"
+	هذا القسم مخصص لتحديد باتشات ال Framebuffer لكيكست [WhateverGreen](/EFI-setup/gathering-kexts#gpus)
 
 	اذا كانت لديك مذربورد من الفئة السادسة(H61, B65, Q65, P67, H67, Q67, Z68) ستحتاج الى تغيير رقم جهاز ال IMEI حتى يكون مدعوم,
 	قم باضافه الاتي تحت Add
