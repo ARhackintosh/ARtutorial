@@ -90,7 +90,7 @@
 		- X99
 		- مذربوردات AsRock(مذربوردات انتل, **بستثناء Z490**)
 
-## كرووت الشاشة | GPUs
+## كروت الشاشة | GPUs
 
 - [WhateverGreen](https://هاكنتوش.com/whatevergreen-kext/)
 	- يقوم بعمل مهام الباتش لل DRM و تفعيل الاصلاحات في Freamebuffer الخ, كل كروت الشاشه تستفيد من هذا الكيكست. **ويجب تنزيله للمساعده بتعريف الكروت**
@@ -277,18 +277,6 @@
 - **تعريف [BrcmBluetoothInjector](https://هاكنتوش.com/brcmpatchram-kext/)**
 
 	يستخدم لتشغيل كرت **BCM20702**
-- تعريف [BT4LEContinuityFixup](https://هاكنتوش.com/bt4lecontinuityfixup-kext/)
-
-	???+ Warning "تنبية"
-		**عامةً غير ضروري, تجنبو استخدامه ان لاحظتم وجود مشكل مع الكرت**
-
-	يستعمل لحل مشاكل **التزامن (Continuity)** التي تسمح بتشغيل :
-
-	* Handoff
-	* Instant Hotspot
-	* New Airdrop
-	* Apple Watch Unlock
-
 
 - **تعريف [AirPortAtheros40](https://هاكنتوش.com/airportatheros40-kext/)**
 
