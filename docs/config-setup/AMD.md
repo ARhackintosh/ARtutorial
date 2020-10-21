@@ -12,6 +12,8 @@
 
 تاكد من الحصول على ملف [Sample.plist من داخل الاوبن كور](/EFI-setup/config/#_3/)
 
+وستحتاج سكربت [AMDVanillaPatches](https://github.com/corpnewt/AMDVanillaPatches) ليقوم باضافه اخر باتشات معالجات amd للكونفق الخاص بك تلقائيا (حمله من زر code)
+
 ## ACPI
 هذا القسم مخصص لاضافه ملفات ال [==SSDT==](/start/#_10) ونحن قمنا باضافتها [سابقا](/config/#acpi),
 فلذلك لا يوجد اي تعديل ضروري في هذا القسم.
