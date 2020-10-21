@@ -68,9 +68,9 @@ nav:
         - 'الجيل الثامن' : 'config-setup/laptops/8th-gen.md'
         - 'الجيل التاسع و comet lake' : 'config-setup/laptops/9th-gen.md'
         - 'ice lake' : 'config-setup/laptops/ice-lake.md'
-    - 'بعد نسخ الماك':
-      - 'الاقلاع': 'after-copying-the-installer/booting.md'
-      - بعد التثبيت: 'after-copying-the-installer/post-install.md'
+    - 'تثبيت الماك':
+      - 'الاقلاع': 'Installation/booting.md'
+      - بعد التثبيت: 'Installation/post-install.md'
 
 
 
