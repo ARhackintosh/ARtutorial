@@ -54,3 +54,17 @@
 	| العنوان | مفعل | وصف |
 	| :--- | :--- | :--- |
 	| DummyPowerManagement | True | يقوم بتعطيل التحكم بطاقه المعالج من النظام على المعالجات الغير مدعومه مثل AMD |
+
+### Quirks
+
+![](/img/config-setup/kernel-quirks.png)
+
+???+ info "Quirks"
+	اعدادات مخصصه للكيرنل.
+	
+	| العنوان | مفعل |
+	| :--- | :--- |
+	| PanicNoKextDump | True |
+	| PowerTimeoutKernelPanic | True |
+	| XhciPortLimit | True |
+
