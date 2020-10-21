@@ -18,7 +18,7 @@
 ![](/img/config-setup/deviceproperties.png)
 
 ???+ info "PciRoot(0x0)/Pci(0x2,0x0)"
-	هذا القسم مخصص لتحديد باتشات ال Framebuffer لكيكست [WhateverGreen](/EFI-setup/gathering-kexts.md#gpus)
+	هذا القسم مخصص لتحديد باتشات ال Framebuffer لكيكست [WhateverGreen](/EFI-setup/gathering-kexts#gpus)
 
 	| AAPL,ig-platform-id | وصف |
 	| :--- | :--- |
