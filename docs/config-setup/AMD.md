@@ -68,3 +68,30 @@
 	| PowerTimeoutKernelPanic | True |
 	| XhciPortLimit | True |
 
+## Misc
+
+### Debug
+
+???+ info "Debug"
+	هذه اعدادات هامه لحل مشاكل الاقلاع في الاوبن كور(سنغير كل شيء الا displayDelay)
+	
+	| العنوان | مفعل |
+	| :--- | :--- |
+	| AppleDebug | True |
+	| ApplePanic | True |
+	| DisableWatchDog | True |
+	| Target | 67 |
+
+### Security
+
+???+ info "Debug"
+	هذه اعدادات هامه لحل مشاكل الاقلاع في الاوبن كور(سنغير كل شيء الا displayDelay)
+	
+	| عنوان  | النوع | القيمة | ملاحظة |
+	| :--- | :--- | :--- | :--- |
+	| AllowNvramReset | Boolean | YES | |
+	| AllowSetDefault | Boolean | YES | |
+	| ScanPolicy | Number | 0 | |
+	| SecureBootModel | String | Default | يرجى نسخ الكلمه ولصقها كما هي, في حاله استخدام كرت انفيديا او اراده تعطيل Secure boot اكتب `Disabled` |
+	| Vault | String | Optional | هذه ايضا كلمه,يجب وضعها كالمكتوب بالظبط. |
+
