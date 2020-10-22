@@ -20,7 +20,7 @@
 * [x] نقل الشرح الى موقعنا
 
 
-## المصادر وفريق المتطوعين
+## فريق المتطوعين
 
 الكاتب الاساسي : [fareszr](https://هاكنتوش.com/members/fareszr.2/) 
 
@@ -28,13 +28,12 @@
 
 المدقق اللغوي : عبد الله علي [Abdullah Ali](https://forum.هاكنتوش.com/members/abdullah-ali.48/)
 
-الشروحات التي سيتم بناء الشرح عليها :
+## المصادر
 
-شرح dortania لتثبيت الهاكنتوش مع اوبن كور
-https://dortania.github.io/OpenCore-Desktop-Guide
+تم بناء الشرح على شرح [Dortania](https://github.com/dortania) المخصص لتثبيت الهاكنتوش مع اوبن كور, شكر خاص لفريق دورتانيا :
 
-شرح موقع AMD-OSX لتثبيت الماك مع اوبن كور 
-https://vanilla.amd-osx.com/
+https://dortania.github.io/OpenCore-Install-Guide/
 
-شرح CoKelly-Projects لتثبيت الهاكنتوش مع رايزن
-https://github.com/CoKelly-Projects/ModernHackintosh
+ايضا شكر خاص لفريق [AMDOSX](https://amd-osx.com/) لان بدونهم لن يكون دعم معالجات AMD ممكن.
+
+اخيرا شكرا للمطور السكربتات الاساسيه التي سهلت العديد من المهمات في الهاكنتوش وهو [CorpNewt](https://github.com/corpnewt)
