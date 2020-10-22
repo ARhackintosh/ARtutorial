@@ -30,34 +30,20 @@ chmod +x MountEFI.command
 
 قم بحذف ملف الEFI الموجود سابقا واستبدله بالخاص بالاوبن كور.
 
-## تثبيت clover
+## استبدال نسخه اوبن كور DEBUG ب RELEASE
 
-الان نبدا مع تثبيت الكلوفر بعد تنزيل البرنامج وفتحه سوف يظهر لنا تعذر فتح البرنامج لانه من مطور غير موثق
+نسخه ال RELEASE هي الافضل للاستخدام اليومي, بينما DEBUG مخصصه لحل المشاكل.
 
-![](../.gitbook/assets/screen-shot-2019-11-26-at-6.48.16-pm.png)
+من اجل تحويل النسخ كل الذي عليك هو تنزيل نسخه ال RELEASE ثم استبدل الملفات الاتيه:
 
-الان نذهب الى الاعدادات \(ايقونتها تشبه اعدادات الايفون\) وثم نختار security &privacy او بالعربي تكون الامن والخصوصيه
-
-![](../.gitbook/assets/image%20%2884%29.png)
-
-ثم بعدها نقوم باختيار open anyway او الفتح على كل حال
-
-![](../.gitbook/assets/image%20%2880%29.png)
-
-نختار نعم لتاكيد فتح البرنامج
-
-![](../.gitbook/assets/screen-shot-2019-11-26-at-6.49.00-pm.png)
-
-نختار continue
-
-![](../.gitbook/assets/image%20%2870%29.png)
-
-عندما تصل installiton type تاكد من اسم وحده التخزين يطابق بما سميتها اثناء تثبيت الماك في هاذه الحاله macos
-
-![](../.gitbook/assets/image%20%2825%29.png)
-
-واكمل التثبيت
-
+  * EFI/BOOT/
+    * `BOOTx64.efi`
+  * EFI/OC/Bootstrap/
+    * `Bootstrap.efi`
+  * EFI/OC/Drivers/
+    * `OpenRuntime.efi`
+  * EFI/OC/
+    * `OpenCore.efi`
 ## برنامج clover configurator \(cc\)
 
 الان نبدا مع برنامج cc
