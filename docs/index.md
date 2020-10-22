@@ -20,11 +20,13 @@
 * [x] نقل الشرح الى موقعنا
 
 
-##  المصادر وفريق المتطوعين
+## المصادر وفريق المتطوعين
 
 الكاتب الاساسي : [fareszr](https://هاكنتوش.com/members/fareszr.2/) 
 
-المدقق اللغوي : بهاء الدين ([b.wdgt/bahaedin](https://هاكنتوش.com/members/bahaedin.3/))
+مختص تعريفات الواي فاي : بهاء الدين ([b.wdgt/bahaedin](https://هاكنتوش.com/members/bahaedin.3/))
+
+المدقق اللغوي : عبد الله علي [Abdullah Ali](https://forum.هاكنتوش.com/members/abdullah-ali.48/)
 
 الشروحات التي سيتم بناء الشرح عليها :
 
