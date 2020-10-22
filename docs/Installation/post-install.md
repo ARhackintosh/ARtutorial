@@ -38,14 +38,14 @@ chmod +x MountEFI.command
 
 من اجل تحويل النسخ كل الذي عليك هو تنزيل نسخه ال RELEASE ثم استبدل الملفات الاتيه:
 
-  * EFI/BOOT/
-    * `BOOTx64.efi`
-  * EFI/OC/Bootstrap/
-    * `Bootstrap.efi`
-  * EFI/OC/Drivers/
-    * `OpenRuntime.efi`
-  * EFI/OC/
-    * `OpenCore.efi`
+- EFI/BOOT/
+	- `BOOTx64.efi`
+- EFI/OC/Bootstrap/
+	- `Bootstrap.efi`
+- EFI/OC/Drivers/
+	- `OpenRuntime.efi`
+- EFI/OC/
+	- `OpenCore.efi`
 
 ???+ Tip "ملحوظة"
 	**اذا نجحت في تثبيت الماك فضلا قم بتفح موضوع في قسم [تم التثبيت](https://forum.هاكنتوش.com/forums/success/) داخل المجتمع واكتب في العنوان نوع الجهاز واصدار الماك, ثم ضع رابط ملف ال EFI, هذا سيساعد الناس التي تمتلك نفس الجهاز وتسرع من عمليه التثبيت, في حاله وجود اي مشكله يرجى كتابتها في الموضوع**
@@ -65,9 +65,9 @@ chmod +x MountEFI.command
 
 **`NVRAM -> Add -> 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14`**:
 
-* UIScale
+- UIScale
 	- `01`: دقه عاديه
-- `02`: لتفعيل دقه HIDPI و ضروري لعمل FireVault على الشاشات الصغيرة
+	- `02`: لتفعيل دقه HIDPI و ضروري لعمل FireVault على الشاشات الصغيرة
 
 - `Misc -> Debug -> Target`: 3
 	- يستخدم لتحديد درجه تسجيل الاخطاء في اوبن كور [خيارات اكثر هنا](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/debug.html)
@@ -85,9 +85,9 @@ chmod +x MountEFI.command
 
 اما الاوبن الكور فالتحديثات تصدر **اول اثنين من كل شهر** ويجب عليك استبدال الملفات الاتيه:
 
-* `EFI/BOOT/BOOTx64.efi`
-  * `EFI/OC/OpenCore.efi`
-  * `EFI/OC/Drivers/OpenRuntime`
+- `EFI/BOOT/BOOTx64.efi`
+	- `EFI/OC/OpenCore.efi`
+	- `EFI/OC/Drivers/OpenRuntime`
  يستحسن ايضا اعاده بناء الكونفق بنائا على السامبل الجديد, نعمل ان نحدث كونفقات هاكنتوش بالعربي والشرح شهريا ايضا.
 
 ## نصائح عامه في الهاكنتوش
