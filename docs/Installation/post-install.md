@@ -63,9 +63,12 @@ chmod +x MountEFI.command
 **`NVRAM -> Add -> 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14`**:
 
 * UIScale
-  - `01`: دقه عاديه
-  - `02`: لتفعيل دقه HIDPI و ضروري لعمل FireVault على الشاشات الصغيرة
- 
+	- `01`: دقه عاديه
+- `02`: لتفعيل دقه HIDPI و ضروري لعمل FireVault على الشاشات الصغيرة
+
+- `Misc -> Debug -> Target`: 3
+	- يستخدم لتحديد درجه تسجيل الاخطاء في اوبن كور [خيارات اكثر هنا](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/debug.html)
+
 
 **`UEFI -> Output`**:
 
