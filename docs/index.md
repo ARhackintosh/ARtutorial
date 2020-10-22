@@ -29,9 +29,6 @@
 
 المدقق اللغوي : عبد الله علي [Abdullah Ali](https://forum.هاكنتوش.com/members/abdullah-ali.48/)
 
-مختص تعريفات الواي فاي : بهاء الدين ([b.wdgt/bahaedin](https://هاكنتوش.com/members/bahaedin.3/))
-
-
 ## المصادر
 
 تم بناء الشرح على شرح [Dortania](https://github.com/dortania) المخصص لتثبيت الهاكنتوش مع اوبن كور, شكر خاص لفريق دورتانيا :
