@@ -15,6 +15,8 @@
 
 **التحميل من هنا**(اضافه الرابط عندما ينتهي تطوير الشرح)
 
+md5 checksum: 1204541d73988903816ca6bec9e29578
+
 ### Balena Etcher
 بعد تثبيت البرنامج وفتحة قم بالضغط  Flash from file
 ![](/img/Big-sur/balena-menu.png)
