@@ -37,8 +37,8 @@ extra:
       link: https://twitter.com/arhackintosh
 
 extra_css:
-  - extra.css
-
+  - extra/extra.css
+  
 nav:
     - الرئيسية: 'index.md'
     - البداية: 'start.md'
