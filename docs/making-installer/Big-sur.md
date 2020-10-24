@@ -18,7 +18,9 @@
 في هاكنتوش بالعربي بسبب عدم وجود اي بديل اخر سنقوم بعمل ملف dmg مجهزه مسبقا يحتوي على ماك بيج سر خام بدون اي نوع من التعديل,
 سنحاول تحديث الرابط كل فتره
 
-[**التحميل من هنا**](https://1drv.ms/u/s!AgnzUi0bsqLHqhGYagT50Pyri6Gh?e=kgwnqS)
+[**التحميل من هنا**](http://www.mediafire.com/file/crbuenfl20f53zw/ARhackintoshBSb10.dmg/file)
+
+الاصدار المرفوع: [macOS Big sur Beta 10](https://forum.هاكنتوش.com/threads/abl-tsdr-albita-10-mn-mak-big-sr-llmturin.85/#post-378), 2020-10-24
 
 md5 checksum: 1204541d73988903816ca6bec9e29578
 
