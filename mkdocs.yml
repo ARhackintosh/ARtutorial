@@ -23,8 +23,6 @@ theme:
   favicon: img/logo.png
   icon:
     repo: fontawesome/brands/github
-  features:
-    - navigation.instant
   palette:
     scheme: slate
     primary: deep purple
