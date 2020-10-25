@@ -31,3 +31,47 @@ img[src*="#no-border"] {
 a.md-logo img {
     border: none;
 }
+
+@font-face {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Tajawal ExtraLight'), local('Tajawal-ExtraLight'), url(https://xn--mgbg4a8cpdl.com/wp-content/themes/fonts/Tajawal-ExtraLight.woff2) format('woff2'),
+        url(https://xn--mgbg4a8cpdl.com/wp-content/themes/fonts/Tajawal-ExtraLight.ttf) format('truetype');
+  }
+  /* arabic */
+  @font-face {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Tajawal Light'), local('Tajawal-Light'), url(https://xn--mgbg4a8cpdl.com/wp-content/themes/fonts/Tajawal-Light.woff2) format('woff2'),
+        url(https://xn--mgbg4a8cpdl.com/wp-content/themes/fonts/Tajawal-Light.ttf) format('truetype');
+}
+  /* arabic */
+  @font-face {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Tajawal'), local('Tajawal-Regular'), url(https://xn--mgbg4a8cpdl.com/wp-content/themes/fonts/Tajawal-Regular.woff2) format('woff2'),
+        url(https://xn--mgbg4a8cpdl.com/wp-content/themes/fonts/Tajawal-Regular.ttf) format('truetype');
+  }
+  /* arabic */
+  @font-face {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Tajawal Medium'), local('Tajawal-Medium'), url(https://xn--mgbg4a8cpdl.com/wp-content/themes/fonts/Tajawal-Medium.woff2) format('woff2'),
+        url(https://xn--mgbg4a8cpdl.com/wp-content/themes/fonts/Tajawal-Medium.ttf) format('truetype');
+  }
+  /* arabic */
+  @font-face {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Tajawal Bold'), local('Tajawal-Bold'), url(https://xn--mgbg4a8cpdl.com/wp-content/themes/fonts/Tajawal-Bold.woff2) format('woff2'),
+        url(https://xn--mgbg4a8cpdl.com/wp-content/themes/fonts/Tajawal-Bold.ttf) format('truetype');
+  }
+
+  body, input {
+    font-family: "Tajawal", -apple-system, Helvetica, Arial, sans-serif;
+  }  

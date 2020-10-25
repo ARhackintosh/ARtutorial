@@ -18,8 +18,7 @@ theme:
   name: material
   custom_dir: overrides
   language: ar
-  font:
-    text: Tajawal
+  font: false
   logo: img/logo.png
   favicon: img/logo.png
   icon:
