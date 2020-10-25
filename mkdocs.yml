@@ -73,7 +73,6 @@ nav:
 
 
 markdown_extensions:
-  - meta
   - admonition
   - toc:
       permalink: true
