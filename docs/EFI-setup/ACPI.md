@@ -222,7 +222,7 @@
 	
 	يقوم هذا ال SSDT بتجهيز خريطه الجهاز حتى يتم تعريف التراك باد بستخدام [Voodoi2c](https://tutorial.هاكنتوش.com/EFI-setup/gathering-kexts/#_3)
 
-حمله من [هنا](حمله من [هنا](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-CPUR.aml)(**قم بالضغط على زر download**) ثم قم بوضعه بملف ACPI
+حمله من [هنا](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-CPUR.aml)(**قم بالضغط على زر download**) ثم قم بوضعه بملف ACPI
 
 بعد ذلك قم باضافه هذه الاعدادت على الكونفق في  config.plist -> ACPI -> Patch
 
