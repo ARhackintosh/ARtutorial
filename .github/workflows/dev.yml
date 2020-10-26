@@ -6,10 +6,10 @@ name: dev-Build
 # events but only for the master branch
 on:
   push:
-    paths: 
-      - 'docs/**'
-      - 'mkdocs.yml'
-      - 'images/**'
+    # paths: 
+    #   - 'docs/**'
+    #   - 'mkdocs.yml'
+    #   - 'images/**'
     branches: [ v2-dev ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -35,14 +35,17 @@ jobs:
         python -m pip install -r requirements.txt
         pip show mkdocs-material
 
+    # - name: mkdocs build and push
+    #   run: |
+    #     git config user.name "dev-build"
+    #     git config user.email "41898282+dev-build@users.noreply.github.com"
+    #     git remote add gh-token "https://github.com/ARhackintosh/ARtutorial.git"
+    #     git fetch gh-token && git fetch gh-token gh-pages:gh-pages
+    #     python -m mkdocs gh-deploy -d ./dev --clean --verbose -m "dev-Build deploy (${GITHUB_SHA:0:7})" --remote-name gh-token 
+    #     git push gh-token gh-pages
+
     - name: mkdocs build and push
-      run: |
-        git config user.name "dev-build"
-        git config user.email "41898282+dev-build@users.noreply.github.com"
-        git remote add gh-token "https://github.com/ARhackintosh/ARtutorial.git"
-        git fetch gh-token && git fetch gh-token gh-pages:gh-pages
-        python -m mkdocs gh-deploy -d ./dev --clean --verbose -m "dev-Build deploy (${GITHUB_SHA:0:7})" --remote-name gh-token 
-        git push gh-token gh-pages
+      run: mkdocs gh-deploy --clean --verbose -m "dev-Build deploy (${GITHUB_SHA:0:7})" -d ./dev
 
     - name: Cache pip files
       uses: actions/cache@v2
