@@ -51,7 +51,7 @@ jobs:
         git remote add gh-token "https://github.com/ARhackintosh/ARtutorial.git"
         git fetch gh-token && git fetch gh-token gh-pages:gh-pages
         mkdocs build --clean --verbose -d ./dev 
-        git add ./dev
+        git add -A
         git commit -m "dev-Build deploy (${GITHUB_SHA:0:7})"
         git push gh-token gh-pages
 
