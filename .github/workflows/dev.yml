@@ -45,7 +45,7 @@ jobs:
     #     git push gh-token gh-pages
 
     - name: mkdocs build and push
-      run: mkdocs gh-deploy --clean --verbose -m "dev-Build deploy (${GITHUB_SHA:0:7})" -d ./dev
+      run: mkdocs gh-deploy --clean --verbose -m "dev-Build deploy (${GITHUB_SHA:0:7})" -d ./dev --force
 
     - name: Cache pip files
       uses: actions/cache@v2
