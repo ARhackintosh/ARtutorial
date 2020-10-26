@@ -14,8 +14,6 @@ plugins:
   - git-revision-date-localized:
       type: timeago
 
-site_dir: './dev'
-
 theme:
   name: material
   custom_dir: overrides
