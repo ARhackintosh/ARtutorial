@@ -97,6 +97,8 @@
 
 **تاكد من اختيار ال usb ثم الضغط على زر format حتى نقوم بفرمته ال usb بشكل صحيح**
 
+![](/img/Catalina-or-older/bdu-format.png)
+
 1. ثم اذهب إلى **tools/Extract HFS from dmg file**.
 
 ![](/img/Catalina-or-older/BDU-Extract.png#zoom)
