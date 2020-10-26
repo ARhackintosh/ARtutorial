@@ -71,7 +71,8 @@ nav:
     - 'تثبيت الماك':
       - 'الاقلاع': 'Installation/booting.md'
       - بعد التثبيت: 'Installation/post-install.md'
-
+    - 'مجتمع هاكنتوش بالعربي': 'https://forum.هاكنتوش.com'
+    - 'نسخة التطوير': '/dev'
 
 
 markdown_extensions:
