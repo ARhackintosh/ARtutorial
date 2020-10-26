@@ -6,8 +6,6 @@ repo_url: https://github.com/arhackintosh/artutorial
 copyright: حقوق هذا العمل محفوطه لهاكنتوش بالعربي تحت CC BY-NC-SA 4.0
 site_description: شرح هاكنتوش من هاكنتوش بالعربي هو اول واكبر شرح عربي لتثبيت الهاكنتوش مع دعم اوبن كور باللغه العربية.
 
-edit_uri: '/dev'
-
 plugins:
   - autolinks
   - search # necessary for search to work
