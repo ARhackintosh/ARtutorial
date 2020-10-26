@@ -34,7 +34,7 @@
 	| framebuffer-stolenmem | Data | 00003001 |  |
 	| framebuffer-fbmem | Data | 00009000 |  |
 	
-	اذا كان لديك كرت **UHD620** على معالج [Coffee lake](https://en.wikipedia.org/wiki/Coffee_Lake  تحتاج الى اضافه:
+	اذا كان لديك كرت **UHD620** على معالج [Coffee lake](https://en.wikipedia.org/wiki/Coffee_Lake)  تحتاج الى اضافه:
 
 	| عنوان  | النوع | القيمة | ملاحظة |
 	| :--- | :--- | :--- | :--- |
