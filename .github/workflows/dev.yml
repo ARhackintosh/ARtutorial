@@ -48,9 +48,8 @@ jobs:
       run: |
         git config user.name "dev-build"
         git config user.email "41898282+dev-build@users.noreply.github.com"
-        mkdocs build --clean --verbose -d ./dev
-        git checkout gh-pages
-        git add ./dev
+        mkdocs build --clean --verbose -d ./site/dev
+        git add ./site
         git commit -m "dev-Build deploy (${GITHUB_SHA:0:7})"
         git push
 
