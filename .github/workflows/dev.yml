@@ -48,7 +48,11 @@ jobs:
       run: |
         git config user.name "dev-build"
         git config user.email "41898282+dev-build@users.noreply.github.com"
-        mkdocs gh-deploy --clean --verbose -m "dev-Build deploy (${GITHUB_SHA:0:7})" -d ./site/dev --force
+        mkdocs build --clean --verbose -d ./dev
+        git checkout gh-pages
+        git add ./dev
+        git commit -m "dev-Build deploy (${GITHUB_SHA:0:7})"
+        git push
 
     - name: Cache pip files
       uses: actions/cache@v2
