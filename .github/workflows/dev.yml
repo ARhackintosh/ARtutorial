@@ -44,11 +44,20 @@ jobs:
     #     python -m mkdocs gh-deploy -d ./dev --clean --verbose -m "dev-Build deploy (${GITHUB_SHA:0:7})" --remote-name gh-token 
     #     git push gh-token gh-pages
 
+    # - name: mkdocs build and push
+    #   run: |
+    #     git config user.name "dev-build"
+    #     git config user.email "41898282+dev-build@users.noreply.github.com"
+    #     mkdocs build --clean --verbose -d ./docs/dev
+    #     git add ./docs
+    #     git commit -m "dev-Build deploy (${GITHUB_SHA:0:7})"
+    #     git push
+
     - name: mkdocs build and push
       run: |
         git config user.name "dev-build"
         git config user.email "41898282+dev-build@users.noreply.github.com"
-        mkdocs build --clean --verbose -d ./docs/dev
+        mkdocs build --clean --verbose -d ./docs
         git add ./docs
         git commit -m "dev-Build deploy (${GITHUB_SHA:0:7})"
         git push
