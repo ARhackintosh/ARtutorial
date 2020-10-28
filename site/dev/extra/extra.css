@@ -1,0 +1,77 @@
+img {
+    height: auto;
+    width: auto;
+    transition: transform ease-in-out 0.3s;
+}
+
+img[src*="#shadow"] {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img:active[src*="#zoom"] {
+    cursor: zoom-out;
+    transform: scale(2.0);
+}
+
+img[src*="#zoom"] {
+    cursor: zoom-in;
+}
+
+img[src*="#center"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img[src*="#no-border"] {
+    border: 0px;
+    width: 200px;
+}
+
+a.md-logo img {
+    border: none;
+}
+
+@font-face {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Tajawal ExtraLight'), local('Tajawal-ExtraLight'), url('/extra/Tajawal-ExtraLight.woff2') format('woff2'),
+        url('/extra/Tajawal-ExtraLight.ttf') format('truetype');
+  }
+  /* arabic */
+  @font-face {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Tajawal Light'), local('Tajawal-Light'), url('/extra/Tajawal-Light.woff2') format('woff2'),
+        url('/extra/Tajawal-Light.ttf') format('truetype');
+}
+  /* arabic */
+  @font-face {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Tajawal'), local('Tajawal-Regular'), url('/extra/Tajawal-Regular.woff2') format('woff2'),
+        url('/extra/Tajawal-Regular.ttf') format('truetype');
+  }
+  /* arabic */
+  @font-face {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Tajawal Medium'), local('Tajawal-Medium'), url('/extra/Tajawal-Medium.woff2') format('woff2'),
+        url('/extra/Tajawal-Medium.ttf') format('truetype');
+  }
+  /* arabic */
+  @font-face {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Tajawal Bold'), local('Tajawal-Bold'), url('/extra/Tajawal-Bold.woff2') format('woff2'),
+        url('/extra/Tajawal-Bold.ttf') format('truetype');
+  }
+
+  body, input {
+    font-family: "Tajawal", -apple-system, Helvetica, Arial, sans-serif;
+  }  
