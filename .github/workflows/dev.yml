@@ -53,14 +53,14 @@ jobs:
     #     git commit -m "dev-Build deploy (${GITHUB_SHA:0:7})"
     #     git push
 
-    - name: mkdocs build and push
+    - name: mkdocs build
+        run: mkdocs build --clean --verbose 
+
+    - name: ghp-import
       run: |
         git config user.name "dev-build"
         git config user.email "41898282+dev-build@users.noreply.github.com"
-        mkdocs build --clean --verbose -d ./docs
-        git add ./docs
-        git commit -m "dev-Build deploy (${GITHUB_SHA:0:7})"
-        git push
+        ghp import -m dev-Build deploy (${GITHUB_SHA:0:7}) -p site
 
     - name: Cache pip files
       uses: actions/cache@v2
