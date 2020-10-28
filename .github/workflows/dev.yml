@@ -35,14 +35,14 @@ jobs:
         python -m pip install -r requirements.txt
         pip show mkdocs-material
 
-    # - name: mkdocs build and push
-    #   run: |
-    #     git config user.name "dev-build"
-    #     git config user.email "41898282+dev-build@users.noreply.github.com"
-    #     git remote add gh-token "https://github.com/ARhackintosh/ARtutorial.git"
-    #     git fetch gh-token && git fetch gh-token gh-pages:gh-pages
-    #     python -m mkdocs gh-deploy -d ./dev --clean --verbose -m "dev-Build deploy (${GITHUB_SHA:0:7})" --remote-name gh-token 
-    #     git push gh-token gh-pages
+    - name: mkdocs build and push
+      run: |
+        git config user.name "dev-build"
+        git config user.email "41898282+dev-build@users.noreply.github.com"
+        git remote add gh-token "https://github.com/ARhackintosh/ARtutorial.git"
+        git fetch gh-token && git fetch gh-token gh-pages:gh-pages
+        python -m mkdocs gh-deploy -d ./dev --clean --verbose -m "dev-Build deploy (${GITHUB_SHA:0:7})" --remote-name gh-token 
+        git push gh-token gh-pages
 
     # - name: mkdocs build and push
     #   run: |
@@ -54,7 +54,7 @@ jobs:
     #     git push
 
     - name: mkdocs build
-        run: mkdocs build --clean --verbose 
+      run: mkdocs build --clean --verbose 
 
     - name: ghp-import
       run: |
