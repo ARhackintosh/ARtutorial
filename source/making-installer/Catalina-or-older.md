@@ -6,8 +6,6 @@
 
 - ايضا سوف نحتاج اداه السيريل للماك **[GenSMbios](https://github.com/corpnewt/GenSMBIOS)** من نفس المطور
 
-- اداه **[SSDTTime](https://github.com/IOIIIO/SSDTTime)** من نفس مطور تحتاجه فقط **لكاتلينا وفوق**
-
 - سكربت **[PackAppWin.py](https://github.com/doesprintfwork/MakeInstallmacOS)** من مطور **doesprintfwork** 
 
 - برنامج **[(bdu) Boot Disk Utility](http://cvad-mac.narod.ru/index/bootdiskutility_exe/0-5)** البرنامج الذي سوف نستخدمه لحرق الماك ونسخ الملفات الضروريه لل **usb**
