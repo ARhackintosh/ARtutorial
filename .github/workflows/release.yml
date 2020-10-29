@@ -6,7 +6,7 @@ name: Release-Build
 # events but only for the master branch
 on:
     release:
-        branches: [ v2-dev ]
+      branches: [ v2-dev ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
