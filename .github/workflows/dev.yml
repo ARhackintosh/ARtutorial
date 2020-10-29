@@ -9,7 +9,7 @@ on:
     paths: 
       - 'source/**'
       - 'mkdocs.yml'
-      - '.github/workflows'
+      - '.github/workflows/**'
       - 'requirements.txt'
       - 'overrides/**'
     branches: [ v2-dev ]
