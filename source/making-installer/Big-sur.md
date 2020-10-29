@@ -20,18 +20,27 @@
 
 md5 checksum: 1204541d73988903816ca6bec9e29578
 
-### Balena Etcher
-بعد تثبيت البرنامج وفتحة قم بالضغط  Flash from file
-![](/img/Big-sur/balena-menu.png)
+## BootDisk Utility
 
-بعد ذلك قم بختيار ملف الماك الذي قمت بتنزيله
-![](/img/Big-sur/balena-select.png)
+اولا نذهب الى اعدادات البرنامج الموجوده في **Options ثم Configuration**
 
-بعد ذلك قم بختيار ال usb الخاص بك
-![](/img/Big-sur/balena-usb.png)
+ثم نتاكد ان اعدادات البرنامج كالاتي
 
-بعد ذلك قم بالضغط على زر فلاش والبرنامج سيقوم بنسخ النظام الى ال USB وبعد اتمام النسخ سيقوم بالتاكد من سلامة الملفات.
-![](/img/Big-sur/balena-flashing.png)
+![](/img/Big-sur/BDU-Config.png#zoom)
 
-في حالة نجاح النسخ ونجاح فحص الملفات ستظهر معك الصوره الاتيه
-![](/img/Big-sur/balena-complete.png)
+???+ info "معلومة"
+	هذه الاعدادات تقوم بتعطيل تنزيل الكلوفر التلقائي لان البرنامج للاسف مازال لا يدعم اوبن كور.
+
+**تاكد من اختيار ال usb ثم الضغط على زر format حتى نقوم بفرمته ال usb بشكل صحيح**
+
+![](/img/Big-sur/bdu-format.png)
+
+الان نبدء بنسخ اللنظام 
+
+اختار القسم الثاني (الاكبر) من ال USB ثم اضغط restore
+
+![](/img/Big-sur/BDU-restore.png)
+
+بعد قم بالتاكد انك حددت نوع الملفات الى **كل الملفات او all files** ثم اختار ملف الDMG الذي تم تحميله
+
+![](/img/Big-sur/BDU-select.jpg)
