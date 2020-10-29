@@ -58,6 +58,7 @@ jobs:
 
     - name: ghp-import
       run: |
+        git pull
         git config user.name "dev-build"
         git config user.email "41898282+dev-build@users.noreply.github.com"
         ghp-import -m "dev-Build deploy (${GITHUB_SHA:0:7})" -p site
