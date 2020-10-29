@@ -6,10 +6,12 @@ name: dev-Build
 # events but only for the master branch
 on:
   push:
-    # paths: 
-    #   - 'docs/**'
-    #   - 'mkdocs.yml'
-    #   - 'images/**'
+    paths: 
+      - 'source/**'
+      - 'mkdocs.yml'
+      - '.github/workflows'
+      - 'requirements.txt'
+      - 'overrides/**'
     branches: [ v2-dev ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
