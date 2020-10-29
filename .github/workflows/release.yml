@@ -35,11 +35,11 @@ jobs:
       run: mkdocs build --clean --verbose 
 
     - name: ghp-import
-    run: |
-      git pull
-      git config user.name "Release-Build"
-      git config user.email "41898282+Release-Build@users.noreply.github.com"
-      ghp-import -m "Release-Build deploy (${GITHUB_SHA:0:7})" -p site
+      run: |
+        git pull
+        git config user.name "Release-Build"
+        git config user.email "41898282+Release-Build@users.noreply.github.com"
+        ghp-import -m "Release-Build deploy (${GITHUB_SHA:0:7})" -p site
 
     - name: Cache pip files
       uses: actions/cache@v2
