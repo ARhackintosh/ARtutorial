@@ -13,6 +13,8 @@ on:
       - 'requirements.txt'
       - 'overrides/**'
     branches: [ v2-dev ]
+    pull_request:
+      branches: [ v2-dev ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
