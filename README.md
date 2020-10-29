@@ -8,11 +8,12 @@
 
 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ar"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>
 
-اهلا بكم في قسم الاصدار الثاني (v2) من شرح تثبيت الهاكنتوش
-هذا الجزء (branch) هو للتطوير 
-بحيث نقوم بعمل جميع التغييرات واختبارها ثم دفعها الى العامه production
-سيتم انشاء branch production عندما تنتهي مرحلة التطوير
+اهلا بكم في مصدر الاصدار الثاني (v2) من شرح تثبيت الهاكنتوش
+هنا نقوم بعمل جميع التعديلات على الشرح.
+التعديلات يتم تطبيقها بشكل مباشر على [نسخه التطوير](https://tutorial.هاكنتوش.com/dev) وفي حاله عمل اصدار (release) سيتم دفعها للعامة (نسخه التطوير قد تحذف في حاله اصدار جديد)
+نرحب بأي تعديلات من pull request للمزيد من التفاصيل تاكد من رؤيه [CONTRIBUTING.md](./CONTRIBUTING.md)
 
+التعديلات يتم بنائها من dev-Build لنسخة التطوير ام النسخة الثابته يتم بنائها من Release-Build
 
 ## ميزات الاصدار الثاني:
 
