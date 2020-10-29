@@ -31,14 +31,15 @@ jobs:
         python -m pip install -r requirements.txt
         pip show mkdocs-material
 
-    - name: mkdocs build and push
-      run: |
-        git config user.name "Release-build"
-        git config user.email "41898282+dev-build@users.noreply.github.com"
-        git remote add gh-token "https://github.com/ARhackintosh/ARtutorial.git"
-        git fetch gh-token && git fetch gh-token gh-pages:gh-pages
-        python -m mkdocs gh-deploy --clean --verbose -m "Release-Build deploy (${GITHUB_SHA:0:7})" --remote-name gh-token
-        git push gh-token gh-pages
+    - name: mkdocs build
+      run: mkdocs build --clean --verbose 
+
+    - name: ghp-import
+    run: |
+      git pull
+      git config user.name "Release-Build"
+      git config user.email "41898282+Release-Build@users.noreply.github.com"
+      ghp-import -m "Release-Build deploy (${GITHUB_SHA:0:7})" -p site
 
     - name: Cache pip files
       uses: actions/cache@v2
