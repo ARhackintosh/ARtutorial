@@ -58,7 +58,7 @@ jobs:
     #     git push
 
     - name: mkdocs build
-      run: mkdocs build --clean --verbose -d ./site/dev
+      run: mkdocs build --clean --verbose
 
     - name: ghp-import
       run: |
