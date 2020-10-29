@@ -58,11 +58,12 @@ jobs:
     #     git push
 
     - name: mkdocs build
-      run: mkdocs build --clean --verbose
+      run: mkdocs build --clean --verbose -d site/dev
 
     - name: ghp-import
       run: |
         git pull
+        git clone https://github.com/ARhackintosh/ARtutorial--branch gh-pages --single-branch site
         git config user.name "dev-build"
         git config user.email "41898282+dev-build@users.noreply.github.com"
         ghp-import -m "dev-Build deploy (${GITHUB_SHA:0:7})" -p site
