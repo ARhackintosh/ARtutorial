@@ -39,5 +39,3 @@ https://dortania.github.io/OpenCore-Install-Guide/
 ايضا شكر خاص لفريق [AMDOSX](https://amd-osx.com/) لان بدونهم لن يكون دعم معالجات AMD ممكن.
 
 اخيرا شكرا للمطور السكربتات الاساسيه التي سهلت العديد من المهمات في الهاكنتوش وهو [CorpNewt](https://github.com/corpnewt)
-
-تجربة
