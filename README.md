@@ -2,7 +2,7 @@
   
 # (v2)الاصدار الثاني من شرح تثبيت الهاكنتوش من [هاكنتوش بالعربي](https://هاكنتوش.com)
 
-![dev-Build](https://github.com/ARhackintosh/ARtutorial/workflows/dev-Build/badge.svg)
+![dev-Build](https://github.com/ARhackintosh/ARtutorial/workflows/dev-Build/badge.svg) ![Release-Build](https://github.com/ARhackintosh/ARtutorial/workflows/Release-Build/badge.svg)
 
 **مرخص تحت**:
 
@@ -13,7 +13,7 @@
 التعديلات يتم تطبيقها بشكل مباشر على [نسخه التطوير](https://tutorial.هاكنتوش.com/dev) وفي حاله عمل اصدار (release) سيتم دفعها للعامة (نسخه التطوير قد تحذف في حاله اصدار جديد)
 نرحب بأي تعديلات من pull request للمزيد من التفاصيل تاكد من رؤيه [CONTRIBUTING.md](./CONTRIBUTING.md)
 
-التعديلات يتم بنائها من dev-Build لنسخة التطوير ام النسخة الثابته يتم بنائها من Release-Build
+التعديلات يتم بنائها من dev-Build لنسخة التطوير ام النسخة الثابته يت]م بنائها من Release-Build
 
 ## ميزات الاصدار الثاني:
 
