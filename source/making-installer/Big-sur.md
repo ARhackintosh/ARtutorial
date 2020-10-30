@@ -16,7 +16,7 @@
 
 [**التحميل من هنا**](http://www.mediafire.com/file/udnkypavohfoyqa/ARhackintosh(BSb10).dmg/file)
 
-الاصدار المرفوع: [macOS Big sur Beta 10](https://forum.هاكنتوش.com/threads/abl-tsdr-albita-10-mn-mak-big-sr-llmturin.85/#post-378), 2020-10-24
+الاصدار المرفوع: [macOS Big sur 11.0.1 Beta 1](https://forum.هاكنتوش.com/threads/abl-tsdr-txhdith-11-0-1-algdid-bxhalx-bita-mn-mak-big-sr-llmturin.87/), 2020-10-30
 
 md5 checksum: 1204541d73988903816ca6bec9e29578
 
