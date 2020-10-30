@@ -35,13 +35,13 @@ jobs:
         python -m pip install -r requirements.txt
         pip show mkdocs-material
 
-    - name: mkdocs build
-      run: mkdocs build --clean --verbose 
-
     - name: git 
       run: |
         ls
         git pull https://github.com/ARhackintosh/ARtutorial
+
+    - name: mkdocs build
+      run: mkdocs build --clean --verbose 
 
     - name: ghp-import
       run: |
