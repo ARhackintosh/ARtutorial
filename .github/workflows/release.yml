@@ -37,10 +37,7 @@ jobs:
 
     - name: git 
       run: |
-        ls
         git pull https://github.com/ARhackintosh/ARtutorial
-        git checkout gh-pages
-        git pull
 
     - name: mkdocs build
       run: mkdocs build --clean --verbose 
@@ -49,7 +46,7 @@ jobs:
       run: |
         git config user.name "Release-Build"
         git config user.email "41898282+Release-Build@users.noreply.github.com"
-        ghp-import -m "Release-Build deploy (${GITHUB_SHA:0:7})" -p site
+        ghp-import -m "Release-Build deploy (${GITHUB_SHA:0:7})" -p site -f
 
     - name: Cache pip files
       uses: actions/cache@v2
