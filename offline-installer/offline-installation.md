@@ -1,5 +1,9 @@
 # التثبيت بدون انترنت
 
+## تم اصدار نسخه جديدة من الشرح, يرجى [استخدام الاصدار الجديد](https://tutorial.هاكنتوش.com) لانه انتهى دعم هذا الاصدار. 
+
+## [​رابط الشرح الجديد](https://tutorial.هاكنتوش.com)
+
 ## برامج اضافية
 
 سكربت **PackAppWin.py** من مطور **doesprintfwork** تحميل [من هنا](https://github.com/doesprintfwork/MakeInstallmacOS)

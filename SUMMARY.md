@@ -1,6 +1,7 @@
 # Table of contents
 
 * [الشرح الكامل لتثبيت الهاكنتوش من مجتمع هاكنتوش بالعربي](README.md)
+* [رابط الشرح الجديد](https://tutorial.هاكنتوش.com)
 * [البداية](start.md)
 * [\(Kext\) اختيار التعريفات](gathering-kexts.md)
 * [\(config\)اختيار الكونفق الصحيح](config-setup/README.md)
