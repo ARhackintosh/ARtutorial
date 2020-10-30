@@ -60,7 +60,7 @@ jobs:
     - name: get release files
       run: |
         git clone https://github.com/ARhackintosh/ARtutorial --branch gh-pages --single-branch site --depth 1
-        rm -rf ./ARtutorial/site/.git
+        rm -rf ./site/.git
 
     - name: mkdocs build
       run: mkdocs build --clean --verbose -d site/dev
