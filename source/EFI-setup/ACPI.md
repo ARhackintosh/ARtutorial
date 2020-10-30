@@ -57,9 +57,9 @@
 
 | **الجيل** | **المعالج** | **EC** | **Backlight** | **I2C Trackpad** | **AWAC** | **USB** | **IRQ** |
 | :-------: | :-----: | :----: | :-----------: | :--------------: | :------: | :-----: | :-----: |
-| الجيل الثالث (Ivy Bridge) | [CPU-PM](#cpu-pmaml) (بعد تثبيث النظام) | [SSDT-EC](#ssdt-ecamll) | [SSDT-PNLF](#ssdt-pnlfaml) | - | - | - | [SSDT-HPET](#ssdt-hpetaml) |
-| الجيل الرابع(Haswell)  | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecamll) | [SSDT-PNLF](#ssdt-pnlfaml)| [SSDT-GPI0](#ssdt-gpi0aml) | - | - | [SSDT-HPET](#ssdt-hpetaml) |
-| الجيل الخامس (Broadwell)| [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecamll) | [SSDT-PNLF](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | - | - | [SSDT-HPET](#ssdt-hpetaml) |
+| الجيل الثالث (Ivy Bridge) | [CPU-PM](#cpu-pmaml) (بعد تثبيث النظام) | [SSDT-EC](#ssdt-ecaml) | [SSDT-PNLF](#ssdt-pnlfaml) | - | - | - | [SSDT-HPET](#ssdt-hpetaml) |
+| الجيل الرابع(Haswell)  | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-PNLF](#ssdt-pnlfaml)| [SSDT-GPI0](#ssdt-gpi0aml) | - | - | [SSDT-HPET](#ssdt-hpetaml) |
+| الجيل الخامس (Broadwell)| [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-PNLF](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | - | - | [SSDT-HPET](#ssdt-hpetaml) |
 | الجيل السادس (Skylake)  | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC-USBX](#ssdt-usbxaml) | [SSDT-PNLF](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | - | - | - |
 | الجيل السابع (Kaby Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC-USBX](#ssdt-usbxaml) | [SSDT-PNLF](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | - | - | - |
 | الجيل الثامن (Coffee Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC-USBX](#ssdt-usbxaml) | [SSDT-PNLF-CFL](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | - | - | - |
