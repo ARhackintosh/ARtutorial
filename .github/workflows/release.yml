@@ -38,10 +38,12 @@ jobs:
     - name: mkdocs build
       run: mkdocs build --clean --verbose 
 
+    - name: git 
+      run: |
+      git pull https://github.com/ARhackintosh/ARtutorial gh-pages
+
     - name: ghp-import
       run: |
-        git checkout gh-pages
-        git pull https://github.com/ARhackintosh/ARtutorial gh-pages
         git config user.name "Release-Build"
         git config user.email "41898282+Release-Build@users.noreply.github.com"
         ghp-import -m "Release-Build deploy (${GITHUB_SHA:0:7})" -p site
