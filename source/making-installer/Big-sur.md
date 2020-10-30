@@ -14,7 +14,7 @@
 في هاكنتوش بالعربي بسبب عدم وجود اي بديل اخر سنقوم بعمل ملف dmg مجهزه مسبقا يحتوي على ماك بيج سر خام بدون اي نوع من التعديل,
 سنحاول تحديث الرابط كل فتره
 
-[**التحميل من هنا**](http://www.mediafire.com/file/udnkypavohfoyqa/ARhackintosh(BSb10).dmg/file)
+[**التحميل من هنا**](http://www.mediafire.com/file/k06cpi1f621o3mt/ARhackintosh(11.0.1B1).dmg/file)
 
 الاصدار المرفوع: [macOS Big sur 11.0.1 Beta 1](https://forum.هاكنتوش.com/threads/abl-tsdr-txhdith-11-0-1-algdid-bxhalx-bita-mn-mak-big-sr-llmturin.87/), 2020-10-30
 
