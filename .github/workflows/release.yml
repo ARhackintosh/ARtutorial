@@ -41,7 +41,7 @@ jobs:
     - name: git 
       run: |
         ls
-        git pull https://github.com/ARhackintosh/ARtutorial gh-pages
+        git pull https://github.com/ARhackintosh/ARtutorial
 
     - name: ghp-import
       run: |
