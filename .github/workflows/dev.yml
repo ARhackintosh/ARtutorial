@@ -63,7 +63,7 @@ jobs:
         rm -rf ./site/.git
 
     - name: mkdocs build
-      run: mkdocs build --clean --verbose -d site/dev
+      run: mkdocs build --clean --verbose 
 
     # - name: mkdocs build into root 
     #   run : mkdocs build --clean --verbose
@@ -73,7 +73,7 @@ jobs:
         git pull
         git config user.name "dev-build"
         git config user.email "41898282+dev-build@users.noreply.github.com"
-        ghp-import -m "dev-Build deploy (${GITHUB_SHA:0:7})" -p site
+        ghp-import -m "dev-Build deploy (${GITHUB_SHA:0:7})" -p site --prefix=dev
 
     - name: Cache pip files
       uses: actions/cache@v2
