@@ -7,6 +7,10 @@ name: Release-Build
 on:
     release:
       branches: [ v2-dev ]
+    push:
+      paths:
+        - '.github/workflows/release.yml'
+      branches: [ v2-dev ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
