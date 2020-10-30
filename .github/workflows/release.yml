@@ -40,6 +40,7 @@ jobs:
 
     - name: git 
       run: |
+        ls
         git pull https://github.com/ARhackintosh/ARtutorial gh-pages
 
     - name: ghp-import
