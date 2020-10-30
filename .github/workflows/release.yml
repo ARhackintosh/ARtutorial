@@ -39,6 +39,8 @@ jobs:
       run: |
         ls
         git pull https://github.com/ARhackintosh/ARtutorial
+        git checkout gh-pages
+        git pull
 
     - name: mkdocs build
       run: mkdocs build --clean --verbose 
