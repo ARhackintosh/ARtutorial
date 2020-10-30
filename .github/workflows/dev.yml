@@ -62,8 +62,11 @@ jobs:
         git clone https://github.com/ARhackintosh/ARtutorial --branch gh-pages --single-branch site --depth 1
         rm -rf ./site/.git
 
-    - name: mkdocs build
-      run: mkdocs build --clean --verbose -d site/dev
+    # - name: mkdocs build
+    #   run: mkdocs build --clean --verbose -d site/dev
+
+    - name: mkdocs build into root 
+      run : mkdocs build --clean --verbose
 
     - name: ghp-import
       run: |
