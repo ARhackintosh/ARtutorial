@@ -4,6 +4,10 @@ description: التعريفات الاساسيه للنظام
 
 # \(Kext\) اختيار التعريفات
 
+## تم اصدار نسخه جديدة من الشرح, يرجى [استخدام الاصدار الجديد](https://tutorial.هاكنتوش.com) لانه انتهى دعم هذا الاصدار. 
+
+## [​رابط الشرح الجديد](https://tutorial.هاكنتوش.com)
+
 ## ايش التعريفات \(Kext\) الي أحتاجها ؟
 
 الموضوع يختلف على حسب الجهاز طبعا بحيث يعتمد على القطع الموجودة في المذربورد
@@ -22,14 +26,14 @@ description: التعريفات الاساسيه للنظام
 ## الايثرنت Ethernet :
 
 {% hint style="info" %}
-**في حاله وجود عده نسخ من الكيكست دائما قم بتنزيل نسخه ال  RELEASE ولا تحمل ملفات source**
+**في حاله وجود عده نسخ من الكيكست دائما قم بتنزيل نسخه ال RELEASE ولا تحمل ملفات source**
 {% endhint %}
 
 بالنسبة للشبكه راح نعتمد على **Ethernet\(السلك\)** **وليس الواي فاي**
 
 ا [SmallTreeIntel82576.zip](https://drive.google.com/file/d/0B5Txx3pb7pgcOG5lSEF2VzFySWM/view?usp=sharing) مخصص لتعريف كرت انتل I211-AT
 
-**ا** [intellMausiEthernet.kext ](https://github.com/acidanthera/IntelMausi/releases)يعمل مع معظم كروت الشبكه الحديثه من انتل 
+**ا** [intellMausiEthernet.kext ](https://github.com/acidanthera/IntelMausi/releases)يعمل مع معظم كروت الشبكه الحديثه من انتل
 
 ا [appleintelE1000e.kext ](https://sourceforge.net/projects/osx86drivers/files/Kext/Snow_or_Above/AppleIntelE1000e.kext.zip/download)يعمل مع كروت الشبكة القديمه من انتل مشكلتها قد تسبب KP مع الاجهزه الجديده
 
@@ -37,8 +41,7 @@ description: التعريفات الاساسيه للنظام
 
 ا [RealtekRTL8111.kext](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases) يعمل مع كروت Realteak بسرعه 1GB/s
 
-ا [RealtekRTL8100.kext](https://github.com/Mieze/RealtekRTL8100) يعمل مع كروت Realtek بسرعه10-100mb/s  [**التحميل من هنا** ](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455140&cid=FE4038DA929BFB23)  
-
+ا [RealtekRTL8100.kext](https://github.com/Mieze/RealtekRTL8100) يعمل مع كروت Realtek بسرعه10-100mb/s [**التحميل من هنا** ](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21455140&cid=FE4038DA929BFB23)
 
 ## مداخل \(USB\) :
 
@@ -47,7 +50,7 @@ description: التعريفات الاساسيه للنظام
 في **10.11** ابل وضعت **حد 15 مدخل USB** **على كل USB Controller** يتبين ان 15 عدد كافي حتى يتبين لك ان كل مدخل **USB3** **يحسب كمدخلان.**
 
 **على** **مذربوردات ryzen مداخل USB3** و **USB 2** يتم التحكم بها من **XHCI controllrer** وبما ان كل **مدخل USB3 يحسب 2 يمكن الوصول الحد بسهوله**  
- يمكن تعطيل حد ال 15 مدخل عنطريق تعديل الكونفق بعد تثبيت النظام [**الخطوات هنا \(انجليزي\)**](https://hackintosher.com/forums/thread/list-of-hackintosh-usb-port-limit-patches-10-15-updated.467/) ****
+يمكن تعطيل حد ال 15 مدخل عنطريق تعديل الكونفق بعد تثبيت النظام [**الخطوات هنا \(انجليزي\)**](https://hackintosher.com/forums/thread/list-of-hackintosh-usb-port-limit-patches-10-15-updated.467/) _\*\*_
 
 ## كرت الشاشة \(GPU\) :
 
@@ -200,17 +203,16 @@ sudo chown -R root:wheel /L*/E*; sudo chmod -R 755 /L*/E*; sudo kextcache -i /
 
 #### يعمل على العديد من اللواقط منها :
 
-
 <table>
   <thead>
     <tr>
-      <th style="text-align:center"><b>&#x627;&#x644;&#x643;&#x631;&#x648;&#x62A; &#x627;&#x644;&#x644;&#x64A; &#x64A;&#x62F;&#x639;&#x645;&#x647;&#x627; &#x627;&#x644;&#x62A;&#x639;&#x631;&#x64A;&#x641;</b>
+      <th style="text-align:left"><b>&#x627;&#x644;&#x643;&#x631;&#x648;&#x62A; &#x627;&#x644;&#x644;&#x64A; &#x64A;&#x62F;&#x639;&#x645;&#x647;&#x627; &#x627;&#x644;&#x62A;&#x639;&#x631;&#x64A;&#x641;</b>
       </th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:center">
+      <td style="text-align:left">
         <p>ASUS_USB-N10E_92CU</p>
         <p>ASUS_USB-N13_92CU</p>
         <p>ASUS_USB-N10_92CU</p>
@@ -399,7 +401,6 @@ sudo chown -R root:wheel /L*/E*; sudo chmod -R 755 /L*/E*; sudo kextcache -i /
   </tbody>
 </table>
 
-
 {% hint style="warning" %}
 #### لا تنسى عمل هذه الخطوة على ملف config.plist حتى يشتغل معك التعريف
 {% endhint %}
@@ -408,14 +409,13 @@ sudo chown -R root:wheel /L*/E*; sudo chmod -R 755 /L*/E*; sudo kextcache -i /
 
 #### تعريف\(برنامج\) [Wireless-Ralink-Panel-Utility](https://github.com/chris1111/Wireless-Ralink-Panel-Utility/releases)
 
-ماما مثل التعريف السابق ، يدعم هاذا التعريف عدد لا بأس به من بطاقات **Dlink /** **Mediatek / Ralink** و يشتغل من  اصدار ماك **10.6.8** الى أحدت نظام **كاتالينا** **10.15.4** 
+ماما مثل التعريف السابق ، يدعم هاذا التعريف عدد لا بأس به من بطاقات **Dlink /** **Mediatek / Ralink** و يشتغل من اصدار ماك **10.6.8** الى أحدت نظام **كاتالينا** **10.15.4**
 
 * **RT3572 , RT3072 , RT3070 , RT3573 , MT7610 , MT7610 , MT7610**
 
   **RT5370 , RT2870 , RT3071 , RT2770 , RT3573 , RT5572 , RT3573**
 
   **RT3573 , RT5572 , RT3572**
-
 
 ## بقية الكيكست :
 
