@@ -72,6 +72,9 @@ nav:
       - بعد التثبيت: 'Installation/post-install.md'
     - 'مجتمع هاكنتوش بالعربي': 'https://forum.هاكنتوش.com'
     - 'نسخة التطوير': '/dev'
+    - 'تيليجرام': 'https://t.me/arhackintosh'
+    - 'دسكورد': 'https://discord.gg/mNMtceb'
+
 
 
 markdown_extensions:
