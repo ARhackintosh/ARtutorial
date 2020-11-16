@@ -26,7 +26,7 @@
 
 ## فريق المتطوعين
 
-الكاتب الاساسي : [fareszr](https://هاكنتوش.com/members/fareszr.2/) 
+الكاتب الاساسي : [fareszr](https://forum.هاكنتوش.com/members/fareszr.2/) 
 
 المدقق اللغوي : عبد الله علي [Abdullah Ali](https://forum.هاكنتوش.com/members/abdullah-ali.48/)
 
