@@ -16,9 +16,11 @@
 
 [**التحميل من هنا**](http://www.mediafire.com/file/k06cpi1f621o3mt/ARhackintosh(11.0.1B1).dmg/file)
 
-الاصدار المرفوع: [macOS Big sur 11.0.1](https://forum.هاكنتوش.com/threads/rsmia-abl-tsdr-macos-11-big-sur-lagxz-almak.98/), 2020-11-16
+الاصدار المرفوع: [macOS Big sur 11.0.1](https://forum.هاكنتوش.com/threads/rsmia-abl-tsdr-macos-11-big-sur-lagxz-almak.98/)
 
-md5 checksum: 1204541d73988903816ca6bec9e29578
+تاريخ الرفع: 2020-11-16
+
+md5 checksum: 86588c32c89cb40848f286f4fcb8a0ba
 
 ## BootDisk Utility
 
