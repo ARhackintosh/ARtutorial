@@ -76,7 +76,7 @@
 
 ## USB
 
-- [USBinjectAll.kext](https://github.com/Sniki/OS-X-USB-Inject-All/releases)
+- [USBinjectAll.kext](https://هاكنتوش.com/usbinjectall-kext/)
 	-  يستخدم لتفعيل وحدات تحكم(controllers) ال USB من انتل بدون الحاجه لتحديدها في ال acpi.
 	- ليس ضروري على الجيل السادس فما فوق(**مذربوردات asrock مازالت تحتاجه**)
 	- **لا يعمل على معالجات AMD**
