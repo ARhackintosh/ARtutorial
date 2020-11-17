@@ -54,10 +54,7 @@ chmod +x MountEFI.command
 
 لتعطيل النصوص المخصصه لحل المشاكل و تحسين دقه اوبن كور علي تعديل الاتي في **الكونفق**:
 
-
-**تحت `Misc -> Debug`**
-
-- قم بتعطيل `AppleDebug` لتعطيل وضع حل المشاكل في الاقلاع.
+![](/img/post-install/nvram.jpg)
 
 **`NVRAM -> Add -> 7C436110-AB2A-4BBB-A880-FE41995C9F82`**:
 
@@ -68,6 +65,10 @@ chmod +x MountEFI.command
 - UIScale
 	- `01`: دقه عاديه
 	- `02`: لتفعيل دقه HIDPI و ضروري لعمل FireVault على الشاشات الصغيرة
+
+**تحت `Misc -> Debug`**
+
+- قم بتعطيل `AppleDebug` لتعطيل وضع حل المشاكل في الاقلاع.
 
 - `Misc -> Debug -> Target`: 3
 	- يستخدم لتحديد درجه تسجيل الاخطاء في اوبن كور [خيارات اكثر هنا](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/debug.html)
