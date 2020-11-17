@@ -60,6 +60,7 @@
 - [AtherosE2200Ethernet](https://هاكنتوش.com/atherose2200ethernet-kext/)
 
 	- كيكست مخصص لتعريف كروت Atheros و Killer
+	- كرت `Atheros E2500` هو عبارة عن كرت Realtek بشكل اساسي لذلك استخدم تعريف [RealteakRTL8111.kext](https://هاكنتوش.com/realtekrtl8111-kext/)
 
 - [LucyRTL8125Ethernet](https://هاكنتوش.com/lucyrtl8125ethernet-kext/)
 	- مخصص للعمل مع كروت Realtek الحديثه التي تعمل بسرعه 2.5gbit/s
