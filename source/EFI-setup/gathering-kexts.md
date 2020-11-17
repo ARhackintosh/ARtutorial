@@ -55,6 +55,7 @@
 - [SmallTreeIntel82576.kext](https://هاكنتوش.com/smalltree-i211-at-patch-kext/)
 	- كيكست مخصص لتعريف كروت انتل i211 وهو مبني على كيكست smalltree مع باتش لاضافه دعم i211
 	- معظم مذربوردات  ryzen التي تستخدم كروت انتل تحتاج هذا الكيكست
+	- لماك هاي سييرا وموهافي استخدم اصدار `v1.2.5` اما كاتلينا فما احدث استخدام `v1.3.0`
 
 - [AtherosE2200Ethernet](https://هاكنتوش.com/atherose2200ethernet-kext/)
 
