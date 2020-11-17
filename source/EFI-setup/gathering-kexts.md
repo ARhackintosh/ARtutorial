@@ -64,6 +64,7 @@
 - [LucyRTL8125Ethernet](https://github.com/Mieze/LucyRTL8125Ethernet) [**التحميل من هنا**](https://onedrive.live.com/?authkey=%21APjCyRpzoAKp4xs&id=FE4038DA929BFB23%21493866&cid=FE4038DA929BFB23)
 
 	- مخصص للعمل مع كروت Realtek الحديثه التي تعمل بسرعه 2.5gbit/s
+	- يحتاج الى اصدار كاتلينا(10.15) او احدث
 
 	
 - [RealteakRTL8111.kext](https://هاكنتوش.com/realtekrtl8111-kext/)
