@@ -75,6 +75,7 @@ chmod +x MountEFI.command
 - `Misc -> Debug -> Target`: 3
 	- يستخدم لتحديد درجه تسجيل الاخطاء في اوبن كور [خيارات اكثر هنا](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/debug.html)
 
+![](/img/post-install/uefi.jpg)
 
 **`UEFI -> Output`**:
 
