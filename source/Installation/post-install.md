@@ -66,6 +66,8 @@ chmod +x MountEFI.command
 	- `01`: دقه عاديه
 	- `02`: لتفعيل دقه HIDPI و ضروري لعمل FireVault على الشاشات الصغيرة
 
+![](/img/post-install/misc-debug.jpg)
+
 **تحت `Misc -> Debug`**
 
 - قم بتعطيل `AppleDebug` لتعطيل وضع حل المشاكل في الاقلاع.
