@@ -69,6 +69,7 @@
 	
 - [RealteakRTL8111.kext](https://هاكنتوش.com/realtekrtl8111-kext/)
 	- مخصص لكروت Realtek التي تعمل بسرعه Gigabit
+	- لماك 10.12-10.13 استخدم اصدار 2.2.0 اما موهافي(10.14+) فاستخدم 2.3.0
 
 - [RealtekRTL8100.kext](https://هاكنتوش.com/realtekrtl8100-kext/)
 	- يعمل مع كروت Realtek بسرعه 10mbit/s-100mbit/s.
