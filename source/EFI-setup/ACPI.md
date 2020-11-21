@@ -1,6 +1,6 @@
 # ACPI
 
-???+ Warning "تنبية"
+???+ Warning "تنبيه"
 	ملف `dsdt.aml` لايوضع في الاوبن كور
 	فقط ملفات ال ssdt,
 	وتاكد من عدم تكرار الملف بعده صيغ مثل `ssdt-awac.dsl` و `ssdt-awac.aml`.
