@@ -53,8 +53,8 @@
 	| framebuffer-portcount | Number | 4 | |
 	| framebuffer-stolenmem | Data | 00000004 | وضع رامات الكرت 64 ميجا |
 	| framebuffer-con1-enable | Number | 1 | سيسمح لنا بعمل باتشات(تعديلات) حتى نقوم بتشغل المداخل الخارجيه |
-	| framebuffer-con1-alldata | Number | 4 | |
-	| framebuffer-portcount | Data | 02050000 00040000 07040000 03040000 00040000 81000000 04060000 00040000 81000000 | تعريف المداخل |
+	| framebuffer-con1-alldata | Data | 2050000 00040000 07040000 03040000 00040000 81000000 04060000 00040000 81000000 | تعريف المداخل |
+
 	
 ## Kernel
 
