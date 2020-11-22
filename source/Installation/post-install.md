@@ -87,13 +87,13 @@ chmod +x MountEFI.command
 
 للاقلاع المباشر للماك بدون الحاجه لضغط اي زر, توجه لاعدادت النظام ثم قرص بدء التشغيل او Startup Disk
 
-![](/img/post-install/settingsmenu.jpg#zoom)
+![](/img/post-install/settingsmenu.jpg)
 
 ثم بعدها قم بختيار الهاردسك الصحيح للاقلاع
 
 ???+ info "ملحوظة"
 	في حاله عدم القدرة عمل تعديلات قم الضغط على علامه القفل ثم ضع كلمه مرور الحساب
-![](/img/post-install/selectdrive.png#zoom)
+![](/img/post-install/selectdrive.png)
 
 
 ## كيفيه تحديث اوبن كور و الكيكستات
