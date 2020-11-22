@@ -54,7 +54,7 @@ chmod +x MountEFI.command
 
 لتعطيل النصوص المخصصه لحل المشاكل و تحسين دقه اوبن كور علي تعديل الاتي في **الكونفق**:
 
-![](/img/post-install/nvram.jpg)
+![](/img/post-install/nvram.jpg#zoom)
 
 **`NVRAM -> Add -> 7C436110-AB2A-4BBB-A880-FE41995C9F82`**:
 
@@ -66,7 +66,7 @@ chmod +x MountEFI.command
 	- `01`: دقه عاديه
 	- `02`: لتفعيل دقه HIDPI و ضروري لعمل FireVault على الشاشات الصغيرة
 
-![](/img/post-install/misc-debug.jpg)
+![](/img/post-install/misc-debug.jpg#zoom)
 
 **تحت `Misc -> Debug`**
 
@@ -75,7 +75,7 @@ chmod +x MountEFI.command
 - `Misc -> Debug -> Target`: 3
 	- يستخدم لتحديد درجه تسجيل الاخطاء في اوبن كور [خيارات اكثر هنا](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/debug.html)
 
-![](/img/post-install/uefi.jpg)
+![](/img/post-install/uefi.jpg#zoom)
 
 **`UEFI -> Output`**:
 
@@ -83,9 +83,22 @@ chmod +x MountEFI.command
 - `Resolution`: عدلها الى `Max` لتحصل على افضل دقه
   - ايضا يمكنك وضع الدقه بصيغه WxH مثلا 1920x1080
 
+## الاقلاع المباشر للماك
+
+للاقلاع المباشر للماك بدون الحاجه لضغط اي زر, توجه لاعدادت النظام ثم قرص بدء التشغيل او Startup Disk
+
+![](/img/post-install/settingsmenu.jpg#zoom)
+
+ثم بعدها قم بختيار الهاردسك الصحيح للاقلاع
+
+???+ info "ملحوظة"
+	في حاله عدم القدرة عمل تعديلات قم الضغط على علامه القفل ثم ضع كلمه مرور الحساب
+![](/img/post-install/selectdrive.png#zoom)
+
+
 ## كيفيه تحديث اوبن كور و الكيكستات
 
-لتحديث الكيكستات هناك عده برامج منها سكربت [Lilu-and-Friends](https://github.com/corpnewt/Lilu-and-Friends) وهو يقوم بحديث 50 كيكست.
+لتحديث الكيكستات هناك عده برامج منها سكربت [Lilu-and-Friends](https://github.com/corpnewt/Lilu-and-Friends) وهو يقوم بتحديث 50 كيكست.
 
 اما الاوبن الكور فالتحديثات تصدر **اول اثنين من كل شهر** ويجب عليك استبدال الملفات الاتيه:
 
