@@ -63,7 +63,7 @@ jobs:
         rm -rf ./site/.git
 
     - name: mkdocs build
-      run: mkdocs build --clean --verbose -d site/dev
+      run: mkdocs build --clean --verbose -d site/dev -f mkdocs-dev.yml
 
     # - name: mkdocs build into root 
     #   run : mkdocs build --clean --verbose
