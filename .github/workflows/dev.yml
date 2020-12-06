@@ -8,7 +8,7 @@ on:
   push:
     paths: 
       - 'source/**'
-      - 'mkdocs.yml'
+      - 'mkdocs-dev.yml'
       - '.github/workflows/dev.yml'
       - 'requirements.txt'
       - 'overrides/**'
