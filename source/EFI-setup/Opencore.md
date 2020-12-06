@@ -12,13 +12,13 @@
 
 بعد التنزيل قم بنسخ ملف ال`EFI` الموجود داخل `X64` من داخل الارشيف ولصقه في قسم ال EFI من ال USB
 
-بعد ذلك توجه الى ``EFI/OC/Drivers`` وقم بحذف جميع الملفات ماعدا ==OpenRuntime.efi==
+بعد ذلك توجه الى ``EFI/OC/Drivers`` وقم بحذف جميع الملفات ماعدا ==OpenRuntime.efi== **و** ==OpenCanopy.efi== لتفعيل الواجهه الرسوميه للاوبن كور
 
 ![](/img/Opencore/drivers.png)
 
 بعد ذلك قم بتحميل **[Hfsplus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)** عنطريق الضغط على زر download  ثم ضعه داخل ملف ``EFI/OC/Drivers``
 
-توجه الى ``EFI/OC/Tools`` وقم بحذف جميع الملفات الا ==OpenShell.efi== لانه يساعد على حل المشاكل في الاقلاع
+توجه الى ``EFI/OC/Tools`` وقم بحذف جميع الملفات الا ==OpenShell.efi== لانه يساعد على حل المشاكل في الاقلاع.
 
 ![](/img/Opencore/tools.png)
 
