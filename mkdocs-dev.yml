@@ -1,12 +1,12 @@
 site_name: شرح تثبيت الهاكنتوش | هاكنتوش بالعربي
-site_url: https://tutorial.xn--mgbg4a8cpdl.com
+site_url: https://tutorial.xn--mgbg4a8cpdl.com/dev
 site_author: مجتمع هاكنتوش بالعربي
 repo_name: ARhackintosh/ARtutorial
 repo_url: https://github.com/arhackintosh/artutorial
 copyright: حقوق هذا العمل محفوطه لهاكنتوش بالعربي تحت CC BY-NC-SA 4.0
 site_description: شرح هاكنتوش من هاكنتوش بالعربي هو اول واكبر شرح عربي لتثبيت الهاكنتوش مع دعم اوبن كور وماك بيج سر باللغه العربية.
 docs_dir: 'source'
-edit_uri: 'edit/master/docs/dev'
+# edit_uri: 'edit/master/docs/dev'
 
 plugins:
   - autolinks
