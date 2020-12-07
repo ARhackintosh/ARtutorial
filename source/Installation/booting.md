@@ -6,7 +6,7 @@
 يرجى التاكد من الاتي قبل محاوله الاقلاع:
 
 - تم نقل ملف ال EFI بشكل صحيح.
-- تاكد ان ملفات  الموجوده في `EFI/OC/Drivers` هي ==OpenRuntime.efi== و ==Hfsplus.efi== [فقط](/EFI-setup/Opencore/)
+- تاكد ان ملفات  الموجوده في `EFI/OC/Drivers` هي ==OpenRuntime.efi== و ==Hfsplus.efi== و  ==OpenCanopy.efi==(لتفعيل الواجهه الرسومية) [فقط](/EFI-setup/Opencore/)
 - تاكد ان الملف الموجود في `EFI/OC/Tools` هو ==OpenShell.efi== [فقط]((/EFI-setup/Opencore/))
 - يرجى التاكد من ال SSDTT [كامله وصحيحة لجهازك.](/EFI-setup/ACPI)
 - [استخدام الكيكستات التي تحتاجها فقط](/EFI-setup/gathering-kexts/)
