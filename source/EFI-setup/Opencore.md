@@ -1,6 +1,6 @@
 # نقل ملفات اوبن كور
 
-لتجهيز ملفات اوبن كور حمل ملف ال EFI [من صفحه OpenCorePkg على github](https://github.com/acidanthera/OpenCorePkg/releases/)
+لتجهيز ملفات اوبن كور حمل ملف ال EFI [من صفحه OpenCorePkg على github](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.4)
 
 بالنسبة للنسخ هناك نسختان من اوبن كور:
 
