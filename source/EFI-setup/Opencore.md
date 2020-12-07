@@ -25,6 +25,6 @@
 ???+ Warning "تنبيه"
 	توضع ملفات الكيكست(`kext.`) في ``EFI/OC/Kexts``
 	
-	ملفات ال ACPI (`.aml`) في `EFI/OC/ACPI`
+	ملفات ال ACPI (`.dsl`و  `.aml`) في `EFI/OC/ACPI`
 	
 	واخيرا تعريفات الفريموير(`efi.`) في `EFI/OC/Drivers`
