@@ -76,9 +76,9 @@ a.md-logo img {
     font-family: "Tajawal", -apple-system, Helvetica, Arial, sans-serif;
   }  
 
-  /* @media only screen and (min-width: 1400px) {
+  @media only screen and (min-width: 1400px) {
     .md-main__inner {
-        max-width: none;
+        max-width: 2200px;
         margin-left: auto;
         margin-right: auto;
         padding-left: 1%;
@@ -93,4 +93,11 @@ a.md-logo img {
         -webkit-transform: none;
         transform: none;   
     }
-  } */
+    .md-grid {
+        max-width: 2200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1%;
+        padding-right: 2%;
+    }
+  }
