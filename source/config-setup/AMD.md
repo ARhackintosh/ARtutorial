@@ -97,6 +97,7 @@
 	| :--- | :--- | :--- | :--- |
 	| AllowNvramReset | Boolean | YES | |
 	| AllowSetDefault | Boolean | YES | |
+	| BlacklistAppleUpdate | Boolean | True | |
 	| ScanPolicy | Number | 0 | |
 	| SecureBootModel | String | Default | يرجى نسخ الكلمه ولصقها كما هي, في حاله استخدام كرت انفيديا او اراده تعطيل Secure boot اكتب `Disabled` |
 	| Vault | String | Optional | هذه ايضا كلمه,يجب وضعها كالمكتوب بالظبط. |
