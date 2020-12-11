@@ -5,10 +5,11 @@
 <div align="center">
 
 <h2> تم بناء الشرح على اصدار اوبن كور <a href="https://forum.xn--mgbg4a8cpdl.com/threads/%D8%B5%D8%AF%D9%88%D8%B1-%D8%A7%D9%88%D8%A8%D9%86-%D9%83%D9%88%D8%B1-0-6-4-%D9%88-%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB%D8%A7%D8%AA-%D8%B4%D9%87%D8%B1-%D8%AF%D9%8A%D8%B3%D9%85%D8%A8%D8%B1-%D9%85%D9%86-%D9%81%D8%B1%D9%8A%D9%82-acidanthera.120/">0.6.4</a> </h2>
+<b>استخدامك لهذا الشرح يعني موافقتك على <a href="https://xn--mgbg4a8cpdl.com/privacy-policy/">سياسة خصوصية هاكنتوش بالعربي</a></b>
 
 </div>
 
-**استخدامك لهذا الشرح يعني موافقتك على [سياسة خصوصية هاكنتوش بالعربي](https://xn--mgbg4a8cpdl.com/privacy-policy/)**
+
     
 
 ???+ info "V2.2-Big sur"
