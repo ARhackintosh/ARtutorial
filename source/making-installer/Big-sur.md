@@ -21,8 +21,9 @@
 
 md5 checksum: 86588c32c89cb40848f286f4fcb8a0ba
 
-???+ info "طريقة تحميل الملف"
+???+ info "في حاله كان الملف على onedrive"
     تاكد من اختيار الملف ثم الضغط على علامه التنزيل او كلك يمين من الماوس ثم download او تنزيل.
+    
     ![](/img/Big-sur/onedrive.jpg)
 
 ## BootDisk Utility
