@@ -15,15 +15,15 @@
 
 [**التحميل من هنا**](https://1drv.ms/u/s!AgnzUi0bsqLHqhDLXpDYYrxTWxHm?e=n1Wfuo)
 
-الاصدار المرفوع: [macOS Big sur 11.0.1](https://forum.هاكنتوش.com/threads/rsmia-abl-tsdr-macos-11-big-sur-lagxz-almak.98/)
+الاصدار المرفوع: macOS Big Sur 11.1
 
-تاريخ الرفع: 2020-11-16
+تاريخ الرفع: 2020-12-17
 
-md5 checksum: 86588c32c89cb40848f286f4fcb8a0ba
+md5 checksum: 70491b0002234657b85fca5d5bba7068
 
 ???+ info "في حاله كان الملف على onedrive"
     تاكد من اختيار الملف ثم الضغط على علامه التنزيل او كلك يمين من الماوس ثم download او تنزيل.
-    
+
     ![](/img/Big-sur/onedrive.jpg)
 
 ## BootDisk Utility
