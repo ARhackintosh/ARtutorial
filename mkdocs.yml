@@ -34,6 +34,10 @@ extra:
       link: https://github.com/ARhackintosh
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/arhackintosh
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/arhackintosh
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/s3qmDWm
 
 extra_css:
   - extra/extra.css
