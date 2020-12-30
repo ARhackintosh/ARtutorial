@@ -55,7 +55,9 @@
 
 الكاتب الاساسي : [fareszr](https://forum.هاكنتوش.com/members/fareszr.2/) 
 
-المدقق اللغوي : عبد الله علي [Abdullah Ali](https://forum.هاكنتوش.com/members/abdullah-ali.48/)
+المدقق اللغوي :  [Abdullah Ali](https://forum.هاكنتوش.com/members/abdullah-ali.48/)
+
+مسؤول تحديث كونفقات الابتوبات : [Ahmed Alhammad](https://forum.xn--mgbg4a8cpdl.com/members/ahmedalhammad.108/)
 
 ## المصادر
 
