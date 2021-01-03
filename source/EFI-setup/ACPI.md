@@ -127,9 +127,8 @@ description: واهميته مع قائمه الملفات الضروريه و �
 
 	هذا ال SSDT ضروري للجيل السادس فما فوق من معالجات انتل ومعالجات Ryzen.
 
-**ستحتاج الى عمل [SSDT-EC.aml](#ssdt-ecaml) اولا**
 
-بعد ذلك قم بتحميل (**قم بالضغط على زر download**) [SSDT-USBX.aml](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/SSDT-USBX.aml) وضعه في ملف ال ACPI.
+قم بتحميل (**قم بالضغط على زر download**) [SSDT-USBX.aml](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/SSDT-USBX.aml) وضعه في ملف ال ACPI.
 
 ### SSDT-PLUG.aml
 
