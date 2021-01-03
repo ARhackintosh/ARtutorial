@@ -41,16 +41,16 @@ description: واهميته مع قائمه الملفات الضروريه و �
 
 ## Pc
 
-| **الجيل** | **المعالج** | **EC** | **AWAC** | **NVRAM** | **USB** |
-| :-------: | :-----: | :----: | :------: | :-------: | :-----: |
-| الجيل الثالث (Ivy Bridge) | [CPU-PM](#cpu-pmaml) (بعد تثبيث النظام) | [SSDT-EC](#ssdt-ecaml) | - | - | - |
-| الجيل الرابع(Haswell) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | - | - | - |
-| الجيل الخامس (Broadwell) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | - | - | - |
-| الجيل السادس (Skylake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC-USBX](#ssdt-usbxaml) | - | - | - |
-| الجيل السابع (Kaby Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC-USBX](#ssdt-usbxaml) | - | - | - |
-| الجيل الثامن/ التاسع (Coffee Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC-USBX](#ssdt-usbxaml) | [SSDT-AWAC](#ssdt-awacaml) | [SSDT-PMC](#ssdt-pmcaml) | - |
-| الجيل العاشر (Comet Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC-USBX](#ssdt-usbxaml) | [SSDT-AWAC](#ssdt-awacaml) | - | [SSDT-RHUB](#ssdt-rhubaml) |
-| AMD Ryzen (17h) | [SSDT-CPUR for B550](#ssdt-b550-cpuraml) | [SSDT-EC-USBX](#ssdt-usbxaml) | - | - | - |
+| **الجيل** | **المعالج** | **EC** | **EC-USBX** | **AWAC** | **NVRAM** | **USB** |
+| :-------: | :-----: | :----: | :------: | :------: | :-------: | :-----: |
+| الجيل الثالث (Ivy Bridge) | [CPU-PM](#cpu-pmaml) (بعد تثبيث النظام) | [SSDT-EC](#ssdt-ecaml) | - | - | - | - |
+| الجيل الرابع(Haswell) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | - | - | - | - | - |
+| الجيل الخامس (Broadwell) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | - | - | - | - |
+| الجيل السادس (Skylake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | - | - | - |
+| الجيل السابع (Kaby Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | - | - | - |
+| الجيل الثامن/ التاسع (Coffee Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-AWAC](#ssdt-awacaml) | [SSDT-PMC](#ssdt-pmcaml) | - |
+| الجيل العاشر (Comet Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) |[SSDT-USBX](#ssdt-usbxaml) | [SSDT-AWAC](#ssdt-awacaml) | - | [SSDT-RHUB](#ssdt-rhubaml) |
+| AMD Ryzen (17h) | [SSDT-CPUR for B550](#ssdt-b550-cpuraml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | - | - | - |
 
 - Backlight
 	- SSDTs تستخدم لتصحيح التحكم بسطوع الشاشة في النظام.
