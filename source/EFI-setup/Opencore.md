@@ -1,3 +1,6 @@
+---
+description: USB غير لازمة, مع كيفيه نقل الملف الى (Tools) وادوات (Drivers) من حذف تعريفات (OC) الخاص بالاوبن كور EFI كيفيه تجهيز ملف 
+---
 # نقل ملفات اوبن كور
 
 لتجهيز ملفات اوبن كور حمل ملف ال EFI [من صفحه OpenCorePkg على github](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.4)
