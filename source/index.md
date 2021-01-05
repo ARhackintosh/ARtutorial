@@ -1,6 +1,6 @@
 # اهلا بك في الاصدار الثاني من شرح تثبيت الهاكنتوش من [مجتمع هاكنتوش بالعربي](https://هاكنتوش.com)
 
-![](img/logo.png#center)
+![](img/logoa.png#center)
 
 <div align="center">
 
