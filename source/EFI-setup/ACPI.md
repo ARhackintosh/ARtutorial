@@ -251,16 +251,6 @@ description: واهميته مع قائمه الملفات الضروريه و �
 
 حمله من [هنا](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-XOSI.aml)(**قم بالضغط على زر download**) ثم قم بوضعه بملف ACPI
 
-بعد ذلك قم باضافه هذه الاعدادت على الكونفق في  config.plist -> ACPI -> Patch
-
-| Comment | String | Change _OSI to XOSI |
-| :--- | :--- | :--- |
-| Enabled | Boolean | YES |
-| Count | Number | 0 |
-| Limit | Number | 0 |
-| Find | Data | 5f4f5349 |
-| Replace | Data | 584f5349 |
-
 ### SSDT-HPET.aml
 
 - ماذا يعمل هذا ال SSDT؟
