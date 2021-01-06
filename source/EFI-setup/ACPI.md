@@ -66,17 +66,17 @@ description: واهميته مع قائمه الملفات الضروريه و �
 
 **يرجى الانتباة لعمود IRQ اخر الجدول لاظهاره قم بسحب الجدول في الاسفل الى اليسار**
 
-| **الجيل** | **المعالج** | **EC** | **EC-USBX** | **Backlight** | **I2C Trackpad** | **AWAC** | **USB** | **IRQ** |
-| :-------: | :-----: | :----: | :-------: | :-----------: | :--------------: | :------: | :-----: | :-----: |
-|  الثالث (Ivy Bridge) | [CPU-PM](#cpu-pmaml) (بعد تثبيث النظام) | [SSDT-EC](#ssdt-ecaml) | - | [SSDT-PNLF](#ssdt-pnlfaml) | - | - | - | [SSDT-HPET](#ssdt-hpetaml) |
-|  الرابع(Haswell)  | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | - | [SSDT-PNLF](#ssdt-pnlfaml)| [SSDT-GPI0](#ssdt-gpi0aml) | - | - | [SSDT-HPET](#ssdt-hpetaml) |
-|  الخامس (Broadwell)| [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | - | [SSDT-PNLF](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | - | - | [SSDT-HPET](#ssdt-hpetaml) |
-|  السادس (Skylake)  | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | - | - | - |
-|  السابع (Kaby Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | - | - | - |
-|  الثامن (Coffee Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF-CFL](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | [SSDT-AWAC](#ssdt-awacaml) | - | - |
-|  التاسع (Coffee Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF-CFL](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | [SSDT-AWAC](#ssdt-awacaml) | - | - |
-|  العاشر (Comet Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF-CFL](#ssdt-pnlfaml)| [SSDT-GPI0](#ssdt-gpi0aml) | [SSDT-AWAC](#ssdt-awacaml) | - | - |
-|  العاشر (Ice Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF-CFL](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | [SSDT-AWAC](#ssdt-awacaml) | [SSDT-RHUB](#ssdt-rhubaml) | - |
+| **الجيل** | **المعالج** | **EC** | **EC-USBX** | **Backlight** | **I2C Trackpad** | **AWAC** | **USB** | **IMEI** | **IRQ** |
+| :-------: | :-----: | :----: | :-------: | :-----------: | :--------: | :------: | :-----: | :-----: | :-----: |
+|  الثالث (Ivy Bridge) | [CPU-PM](#cpu-pmaml) (بعد تثبيث النظام) | [SSDT-EC](#ssdt-ecaml) | - | [SSDT-PNLF](#ssdt-pnlfaml) | - | - | - | [SSDT-IMEI](#ssdt-imeiaml) | [SSDT-HPET](#ssdt-hpetaml) |
+|  الرابع(Haswell)  | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | - | [SSDT-PNLF](#ssdt-pnlfaml)| [SSDT-GPI0](#ssdt-gpi0aml) | - | - | - | [SSDT-HPET](#ssdt-hpetaml) |
+|  الخامس (Broadwell)| [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | - | [SSDT-PNLF](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | - | - | - | [SSDT-HPET](#ssdt-hpetaml) |
+|  السادس (Skylake)  | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | - | - | - | - |
+|  السابع (Kaby Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | - | - | - | - |
+|  الثامن (Coffee Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF-CFL](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | [SSDT-AWAC](#ssdt-awacaml) | - | - | - |
+|  التاسع (Coffee Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF-CFL](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | [SSDT-AWAC](#ssdt-awacaml) | - | - | - |
+|  العاشر (Comet Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF-CFL](#ssdt-pnlfaml)| [SSDT-GPI0](#ssdt-gpi0aml) | [SSDT-AWAC](#ssdt-awacaml) | - | - | - |
+|  العاشر (Ice Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF-CFL](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | [SSDT-AWAC](#ssdt-awacaml) | [SSDT-RHUB](#ssdt-rhubaml) | - | - |
 
 ???+ Warning "تنبية"
 	جميع ملفات ال SSDT التي تنتهي ب `aml.` او `dsl.` توضع في EFI/OC/ACPI
@@ -274,3 +274,12 @@ description: واهميته مع قائمه الملفات الضروريه و �
 
 بعد ذلك ستجد الSSDT موجود في ملف جديد اسمه Results موجود في موقع البرنامج على جهازك.
 
+### SSDT-IMEI.aml
+
+- ماذا يعمل هذا ال SSDT؟
+
+	يقوم بحل مشكله مذروبوردات الجيل السادس(**مثل H61, B65, Q65, P67, H67, Q67, Z68...**) مع معالجات الجيل الثالث. لانها غير مدعومه بالماك بشكل رسمي, ويحل مشكله عدم ظهور المذربورد بشكل صحيح في ال ACPI.
+
+- **لا تضعه اذا لم يكن لديك مذربورد من الجيل السادس**
+
+قم بتحميل (**قم بالضغط على زر download**) [SSDT-IMEI.aml](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-IMEI.amll) وضعه في ملف ال ACPI.
