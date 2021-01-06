@@ -43,13 +43,13 @@ description: واهميته مع قائمه الملفات الضروريه و �
 
 | **الجيل** | **المعالج** | **EC** | **EC-USBX** | **AWAC** | **NVRAM** | **USB** |
 | :-------: | :-----: | :----: | :------: | :------: | :-------: | :-----: |
-| الجيل الثالث (Ivy Bridge) | [CPU-PM](#cpu-pmaml) (بعد تثبيث النظام) | [SSDT-EC](#ssdt-ecaml) | - | - | - | - |
-| الجيل الرابع(Haswell) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | - | - | - | - | - |
-| الجيل الخامس (Broadwell) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | - | - | - | - |
-| الجيل السادس (Skylake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | - | - | - |
-| الجيل السابع (Kaby Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | - | - | - |
-| الجيل الثامن/ التاسع (Coffee Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-AWAC](#ssdt-awacaml) | [SSDT-PMC](#ssdt-pmcaml) | - |
-| الجيل العاشر (Comet Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) |[SSDT-USBX](#ssdt-usbxaml) | [SSDT-AWAC](#ssdt-awacaml) | - | [SSDT-RHUB](#ssdt-rhubaml) |
+|  الثالث (Ivy Bridge) | [CPU-PM](#cpu-pmaml) (بعد تثبيث النظام) | [SSDT-EC](#ssdt-ecaml) | - | - | - | - |
+|  الرابع(Haswell) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | - | - | - | - | - |
+|  الخامس (Broadwell) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | - | - | - | - |
+|  السادس (Skylake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | - | - | - |
+|  السابع (Kaby Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | - | - | - |
+|  الثامن/ التاسع (Coffee Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-AWAC](#ssdt-awacaml) | [SSDT-PMC](#ssdt-pmcaml) | - |
+|  العاشر (Comet Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) |[SSDT-USBX](#ssdt-usbxaml) | [SSDT-AWAC](#ssdt-awacaml) | - | [SSDT-RHUB](#ssdt-rhubaml) |
 | AMD Ryzen (17h) | [SSDT-CPUR for B550](#ssdt-b550-cpuraml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | - | - | - |
 
 - Backlight
@@ -68,15 +68,15 @@ description: واهميته مع قائمه الملفات الضروريه و �
 
 | **الجيل** | **المعالج** | **EC** | **EC-USBX** | **Backlight** | **I2C Trackpad** | **AWAC** | **USB** | **IRQ** |
 | :-------: | :-----: | :----: | :-------: | :-----------: | :--------------: | :------: | :-----: | :-----: |
-| الجيل الثالث (Ivy Bridge) | [CPU-PM](#cpu-pmaml) (بعد تثبيث النظام) | [SSDT-EC](#ssdt-ecaml) | - | [SSDT-PNLF](#ssdt-pnlfaml) | - | - | - | [SSDT-HPET](#ssdt-hpetaml) |
-| الجيل الرابع(Haswell)  | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | - | [SSDT-PNLF](#ssdt-pnlfaml)| [SSDT-GPI0](#ssdt-gpi0aml) | - | - | [SSDT-HPET](#ssdt-hpetaml) |
-| الجيل الخامس (Broadwell)| [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | - | [SSDT-PNLF](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | - | - | [SSDT-HPET](#ssdt-hpetaml) |
-| الجيل السادس (Skylake)  | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | - | - | - |
-| الجيل السابع (Kaby Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | - | - | - |
-| الجيل الثامن (Coffee Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF-CFL](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | [SSDT-AWAC](#ssdt-awacaml) | - | - |
-| الجيل التاسع (Coffee Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF-CFL](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | [SSDT-AWAC](#ssdt-awacaml) | - | - |
-| الجيل العاشر (Comet Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF-CFL](#ssdt-pnlfaml)| [SSDT-GPI0](#ssdt-gpi0aml) | [SSDT-AWAC](#ssdt-awacaml) | - | - |
-| الجيل العاشر (Ice Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF-CFL](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | [SSDT-AWAC](#ssdt-awacaml) | [SSDT-RHUB](#ssdt-rhubaml) | - |
+|  الثالث (Ivy Bridge) | [CPU-PM](#cpu-pmaml) (بعد تثبيث النظام) | [SSDT-EC](#ssdt-ecaml) | - | [SSDT-PNLF](#ssdt-pnlfaml) | - | - | - | [SSDT-HPET](#ssdt-hpetaml) |
+|  الرابع(Haswell)  | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | - | [SSDT-PNLF](#ssdt-pnlfaml)| [SSDT-GPI0](#ssdt-gpi0aml) | - | - | [SSDT-HPET](#ssdt-hpetaml) |
+|  الخامس (Broadwell)| [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | - | [SSDT-PNLF](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | - | - | [SSDT-HPET](#ssdt-hpetaml) |
+|  السادس (Skylake)  | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | - | - | - |
+|  السابع (Kaby Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | - | - | - |
+|  الثامن (Coffee Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF-CFL](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | [SSDT-AWAC](#ssdt-awacaml) | - | - |
+|  التاسع (Coffee Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF-CFL](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | [SSDT-AWAC](#ssdt-awacaml) | - | - |
+|  العاشر (Comet Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF-CFL](#ssdt-pnlfaml)| [SSDT-GPI0](#ssdt-gpi0aml) | [SSDT-AWAC](#ssdt-awacaml) | - | - |
+|  العاشر (Ice Lake) | [SSDT-PLUG](#ssdt-plugaml) | [SSDT-EC](#ssdt-ecaml) | [SSDT-USBX](#ssdt-usbxaml) | [SSDT-PNLF-CFL](#ssdt-pnlfaml) | [SSDT-GPI0](#ssdt-gpi0aml) | [SSDT-AWAC](#ssdt-awacaml) | [SSDT-RHUB](#ssdt-rhubaml) | - |
 
 ???+ Warning "تنبية"
 	جميع ملفات ال SSDT التي تنتهي ب `aml.` او `dsl.` توضع في EFI/OC/ACPI
