@@ -259,7 +259,6 @@ description: اهم التعريفات (كيكستات) في عالم الهاك
 		|0x3DF0|AC 9462|
 		|0x06F0|AX201|
 
-		
 - **برنامج [Heliport](https://github.com/OpenIntelWireless/HeliPort/releases)**
 	برنامج مرافق لتعريف [itwlm](#itwlm) وهو عبارة عن واجهه للتحكم بالكرت للاتصال بشبكات الواي فاي الظاهره
 
