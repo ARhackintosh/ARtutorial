@@ -179,5 +179,5 @@
 	
 	| العنوان | مفعل | وصف |
 	| :--- | :--- | :--- |
-	| UnblockFsConnect | True | ضروري لمذربوردات HP |
+	| UnblockFsConnect | False | ضروري لمذربوردات HP |
 
