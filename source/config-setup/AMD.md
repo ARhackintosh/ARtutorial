@@ -29,7 +29,7 @@
 	| DevirtualizeMmio | False | مذربوردات TRx40 تحتاج لهذا الخيار |
 	| EnableWriteUnprotector | False | |
 	| RebuildAppleMemoryMap | True | |
-	| SetupVirtualMap | True | مذربوردات B550,A520,TRx40 يجب ان تعطل هذا الخيار, ايضا مذربوردات X570 مع بايوس محدث.  |
+	| SetupVirtualMap | True | مذربوردات B550,A520,TRx40 يجب ان تعطل هذا الخيار, ايضا مذربوردات B450,X470,X570 مع بايوس محدث(اخر 2020).  |
 	| SyncRuntimePermissions | True | |
 
 
