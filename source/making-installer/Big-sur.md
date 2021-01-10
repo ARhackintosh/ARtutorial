@@ -26,27 +26,8 @@ md5 checksum: 0d8b2a0f4cdcc110303d08c23b1ae577
 
     ![](/img/Big-sur/onedrive.jpg)
 
-## BootDisk Utility
+## Balena Etcher
 
-اولا نذهب الى اعدادات البرنامج الموجوده في **Options ثم Configuration**
+قوم باختيار ملف DMG ثم اختار الفلاشه ثم قم بالضغط على زر فلاش.
 
-ثم نتاكد ان اعدادات البرنامج كالاتي
-
-![](/img/Big-sur/BDU-Config.png#zoom)
-
-???+ info "معلومة"
-	هذه الاعدادات تقوم بتعطيل تنزيل الكلوفر التلقائي لان البرنامج للاسف مازال لا يدعم اوبن كور.
-
-**تاكد من اختيار ال usb ثم الضغط على زر format حتى نقوم بفرمته ال usb بشكل صحيح**
-
-![](/img/Big-sur/bdu-format.png)
-
-الان نبدء بنسخ اللنظام 
-
-اختار القسم الثاني (الاكبر) من ال USB ثم اضغط restore
-
-![](/img/Big-sur/BDU-restore.png)
-
-بعد قم بالتاكد انك حددت نوع الملفات الى **كل الملفات او all files** ثم اختار ملف الDMG الذي تم تحميله
-
-![](/img/Big-sur/BDU-select.jpg)
+![Balena](/img/Big-sur/Balena.png)
