@@ -7,7 +7,7 @@
 	في حاله كان **لديك نظام ماك من قبل** يمكنك نسخ النسخه من الماك, بعد تحميلها من gibmacos, افتح **installassistant.pkg** وقم بعمليه التثبيت. ستظهر النسخه في ملف التطبيقات.[ثم قم بنسخها من التيرمنال](https://forum.هاكنتوش.com/threads/kif-tnsx-nzam-almak-al-usb-mn-altirmnal.107/)
 
 ## البرامج
-- برنامج **[(bdu) Boot Disk Utility](http://cvad-mac.narod.ru/index/bootdiskutility_exe/0-5)** البرنامج المسؤول عن فرمته ال usb ونسخ الماك
+- برنامج **[Balena Etcher](https://www.balena.io/etcher/)** البرنامج المسؤول عن فرمته ال usb ونسخ الماك
 
 ## تنزيل الماك
 في هاكنتوش بالعربي بسبب عدم وجود اي بديل اخر سنقوم بعمل ملف dmg مجهزه مسبقا يحتوي على ماك بيج سر خام بدون اي نوع من التعديل,
