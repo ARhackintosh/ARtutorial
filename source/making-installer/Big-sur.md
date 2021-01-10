@@ -6,7 +6,10 @@
 ???+ info "محلوظه"
 	في حاله كان **لديك نظام ماك من قبل** يمكنك نسخ النسخه من الماك, بعد تحميلها من gibmacos, افتح **installassistant.pkg** وقم بعمليه التثبيت. ستظهر النسخه في ملف التطبيقات.[ثم قم بنسخها من التيرمنال](https://forum.هاكنتوش.com/threads/kif-tnsx-nzam-almak-al-usb-mn-altirmnal.107/)
 
+??? info "الطريقه تدعم نظام لينكس, فقط تجاوز خطوه makeinstall وقم بعمل mount لل EFI مباشره"
+
 ## البرامج
+
 - برنامج **[Balena Etcher](https://www.balena.io/etcher/)** البرنامج المسؤول عن فرمته ال usb ونسخ الماك
 - سكربت Makeinstall من [Gibmacos](https://github.com/corpnewt/gibMacOS) لاظهار قسم EFI وجعله قبل للتعديل
 ## تنزيل الماك
