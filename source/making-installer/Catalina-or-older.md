@@ -4,7 +4,7 @@
 
 ## برامج
 
-- أداة تنزيل الماك ونسخه **[GibmacOS](https://github.com/corpnewt/gibMacOS)** من المطور الرهيب **corpnewt**
+- أداة تنزيل الماك  **[GibmacOS](https://github.com/corpnewt/gibMacOS)** من المطور الرهيب **corpnewt**
 
 - سكربت **[PackAppWin.py](https://github.com/doesprintfwork/MakeInstallmacOS)** من مطور **doesprintfwork** 
 
