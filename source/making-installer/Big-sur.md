@@ -20,7 +20,9 @@
 
 الاصدار المرفوع: macOS Big Sur 11.1
 
-تاريخ الرفع: 2021-1-8
+تاريخ الرفع: 2021-1-11
+
+الملف: ARhacktintosh(BS11.1-2)
 
 md5 checksum: 0d8b2a0f4cdcc110303d08c23b1ae577
 
