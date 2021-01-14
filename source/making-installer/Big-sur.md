@@ -16,7 +16,7 @@
 في هاكنتوش بالعربي بسبب عدم وجود اي بديل اخر سنقوم بعمل ملف dmg مجهزه مسبقا يحتوي على ماك بيج سر خام بدون اي نوع من التعديل,
 سنحاول تحديث الرابط كل فتره
 
-[**التحميل من هنا**](https://1drv.ms/u/s!AgnzUi0bsqLHqhDLXpDYYrxTWxHm?e=n1Wfuo)
+[**التحميل من هنا**](https://mega.nz/folder/zwNXzCAQ#IIF2tE8o94mhytXGM7QawQ)
 
 الاصدار المرفوع: macOS Big Sur 11.1
 
