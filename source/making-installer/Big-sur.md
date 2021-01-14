@@ -28,10 +28,6 @@ md5 checksum: ecfa0e630fc89d817147784c13d6262b
 
 sha256 checksum: e6bf5d3f428627d17b09a6766f6e554459e2b4112935081503d4b132fb8f4cc7
 
-???+ info "في حاله كان الملف على onedrive"
-    تاكد من اختيار الملف ثم الضغط على علامه التنزيل او كلك يمين من الماوس ثم download او تنزيل.
-
-    ![](/img/Big-sur/onedrive.jpg)
 
 ## Balena Etcher
 
