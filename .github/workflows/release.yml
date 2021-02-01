@@ -1,33 +1,35 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Release-Build
 
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
 on:
-    release:
-      branches: [ v2-dev ]
-    push:
-      paths:
-        - '.github/workflows/release.yml'
-      branches: [ v2-dev ]
+    # release:
+    #   branches: [ v2-dev ]
+    workflow_dispatch:
+      inputs:
+        version:
+          description: 'رقم الاصدار'
+          required: true
+          default: 'الاخير'
+    pull_request:
+    pull_request_review:
+      types: [edited, dismissed]
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  build-and-deploy:
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+    - name: Checkout 🛎️
+      uses: actions/checkout@v2 
+      with:
+        persist-credentials: false
+        fetch-depth: '0'
+
     # setup python
-    - name: Set up Python 3
+    - name: Set up Python 3.8
       uses: actions/setup-python@v2
       with:
         python-version: 3.8
+
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip setuptools
@@ -36,14 +38,17 @@ jobs:
         pip show mkdocs-material
 
     - name: mkdocs build
-      run: mkdocs build --clean --verbose 
+      run: mkdocs build --clean --verbose -d site
 
-    - name: ghp-import
-      run: |
-        git pull https://github.com/ARhackintosh/ARtutorial
-        git config user.name "Release-Build"
-        git config user.email "41898282+Release-Build@users.noreply.github.com"
-        ghp-import -m "Release-Build deploy (${GITHUB_SHA:0:7})" -p site -f
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@3.7.1
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages # The branch the action should deploy to.
+        FOLDER: site # The folder the action should deploy.
+        COMMIT_MESSAGE: "Release-Build: ${{ github.event.inputs.version }} رفع الاصدار"
+        CLEAN: true # Automatically remove deleted files from the deploy branch
+        CLEAN_EXCLUDE: '["dev"]' #عدم حذف صفحه نسخه التطوير
 
     - name: Cache pip files
       uses: actions/cache@v2
