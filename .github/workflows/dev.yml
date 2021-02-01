@@ -87,6 +87,8 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages # The branch the action should deploy to.
         FOLDER: site # The folder the action should deploy.
+        TARGET_FOLDER: dev #نسخه التطوير
+        COMMIT_MESSAGE: "dev-Build: ${GITHUB_SHA:0:7} رفع نسخه التطوير مع تعديل"
         CLEAN: true # Automatically remove deleted files from the deploy branch
 
     - name: Cache pip files
