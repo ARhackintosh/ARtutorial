@@ -1,6 +1,7 @@
 name: dev-Build
 
 on:
+  workflow_dispatch:
   push:
     paths: 
       - 'source/**'
@@ -11,6 +12,8 @@ on:
     branches: [ v2-dev ]
   pull_request:
     branches: [ v2-dev ]
+  pull_request_review:
+    types: [edited, dismissed]
 
 jobs:
   build-and-deploy:
