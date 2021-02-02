@@ -16,17 +16,15 @@
 في هاكنتوش بالعربي بسبب عدم وجود اي بديل اخر سنقوم بعمل ملف dmg مجهزه مسبقا يحتوي على ماك بيج سر خام بدون اي نوع من التعديل,
 سنحاول تحديث الرابط كل فتره
 
-[**التحميل من هنا**](https://mega.nz/folder/zwNXzCAQ#IIF2tE8o94mhytXGM7QawQ)
+[**التحميل من هنا**](https://minhduc-my.sharepoint.com/:f:/g/personal/lex_onedrive5tb_com/ElAD7jruomJFn2tb-nqf6RUBBbFKwirGGFLi2rtwdRaE6A?e=8VuqOK)
 
-الاصدار المرفوع: macOS Big Sur 11.1
+الاصدار المرفوع: macOS Big Sur 11.2
 
-تاريخ الرفع: 2021-1-12
+تاريخ الرفع: 2021-2-2
 
-الملف: ARhacktintosh(BS11.1-2)
+الملف: Hacktintosh(BS11.2)
 
-md5 checksum: ecfa0e630fc89d817147784c13d6262b
-
-sha256 checksum: e6bf5d3f428627d17b09a6766f6e554459e2b4112935081503d4b132fb8f4cc7
+sha256 checksum: fe2299de518ed4fc14392a0cbb8c091a4d66b15a58474c68a639abab46ffba7c
 
 
 ## Balena Etcher
