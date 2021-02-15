@@ -1,5 +1,16 @@
 # بعد التثبيت
 
+???+ Success "ادعمنا"
+	اذا استمعت باستخدام **شرح تثبيت الهاكنتوش من هاكنتوش بالعربي**
+	فضلا ادعمنا لنكمل مشروعنا بدون اعلانات و اي تتبع للمستخدم,
+	
+	ونحافظ على خصوصيه المستخدم باعلى الدرجات
+
+	<a href="https://www.buymeacoffee.com/arhackintosh" target="_blank"><img src="/../img/bmc.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;" ></a>
+
+
+	<a href="https://liberapay.com/ARhackintosh/donate"><img alt="Donate using Liberapay" src="/../img/donate.svg" style="height: 40px !important;width: 110px !important;" ></a>
+
 هنا اهم الخطوات بعد تثبيت الماك, طبعا هناك خطوات اضافيه مثل تصليح خدمات ابل و تصليح السليب لكن هنا الخطوات الاساسية فقط.
 
 ???+ tip "ملحوظة"
