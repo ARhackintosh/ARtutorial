@@ -9,10 +9,7 @@
 
 <p><a class="center-me md-button md-button--primary" href="start" style="margin: auto;">ابدا</a></p> 
 
-<a href="https://www.buymeacoffee.com/arhackintosh" target="_blank"><img src="./img/bmc.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;" ></a>
-
-
-<a href="https://liberapay.com/ARhackintosh/donate"><img alt="Donate using Liberapay" src="./img/donate.svg" style="height: 40px !important;width: 110px !important;" ></a>
+<details class="success" open="open"><summary>ادعمنا</summary><p><a href="https://www.buymeacoffee.com/arhackintosh" target="_blank"><img src="./img/bmc.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;"></a> <a href="https://liberapay.com/ARhackintosh/donate"><img alt="Donate using Liberapay" src="./img/donate.svg" style="height: 40px !important;width: 110px !important;"></a></p> </details>
 
 </div>
 
