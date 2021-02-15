@@ -7,6 +7,13 @@
 <h2> تم بناء الشرح على اصدار اوبن كور <a href="https://forum.هاكنتوش.com/threads/اوبن-كور-0-6-5-وتحديثات-شهر-يناير-2021-من-acidanthera.128/">0.6.6</a> </h2>
 <b>استخدامك لهذا الشرح يعني موافقتك على <a href="https://xn--mgbg4a8cpdl.com/privacy-policy/">سياسة خصوصية هاكنتوش بالعربي</a></b>
 
+<p><a class="center-me md-button md-button--primary" href="start" style="margin: auto;">ابدا</a></p> 
+
+<a href="https://www.buymeacoffee.com/arhackintosh" target="_blank"><img src="./img/bmc.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;" ></a>
+
+
+<a href="https://liberapay.com/ARhackintosh/donate"><img alt="Donate using Liberapay" src="./img/donate.svg" style="height: 40px !important;width: 110px !important;" ></a>
+
 </div>
 
 ???+ info "V2.5-Big sur"
