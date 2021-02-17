@@ -60,6 +60,8 @@ chmod +x MountEFI.command
 
 ???+ Tip "ملحوظة"
 	**اذا نجحت في تثبيت الماك فضلا قم بتفح موضوع في قسم [تم التثبيت](https://forum.هاكنتوش.com/forums/success/) داخل المجتمع واكتب في العنوان نوع الجهاز واصدار الماك, ثم ضع رابط ملف ال EFI, هذا سيساعد الناس التي تمتلك نفس الجهاز وتسرع من عمليه التثبيت, في حاله وجود اي مشكله يرجى كتابتها في الموضوع**
+
+	<p><a class="center-me md-button md-button--primary" href="https://forum.هاكنتوش.com/forums/success/post-thread" style="margin: auto;">اكتب موضوع في قسم تم التثبيت</a></p> 
 	
 ### تعطيل نصوص الاقلاع
 
