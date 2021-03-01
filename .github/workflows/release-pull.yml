@@ -4,11 +4,10 @@ on:
   # release:
   #   branches: [ v2-dev ]
   workflow_dispatch:
-    inputs:
-      version:
-        description: 'رقم الاصدار'
-        required: true
-        default: 'الاخير'
+  pull_request:
+    branches: [ v2-dev ]
+  pull_request_review:
+    types: [edited, dismissed]
 
 jobs:
   build-and-deploy:
@@ -36,16 +35,6 @@ jobs:
 
     - name: mkdocs build
       run: mkdocs build --clean --verbose -d site
-
-    - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@3.7.1
-      with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages # The branch the action should deploy to.
-        FOLDER: site # The folder the action should deploy.
-        COMMIT_MESSAGE: "Release-Build: ${{ github.event.inputs.version }} رفع الاصدار"
-        CLEAN: true # Automatically remove deleted files from the deploy branch
-        CLEAN_EXCLUDE: '["dev"]' #عدم حذف صفحه نسخه التطوير
 
     - name: Cache pip files
       uses: actions/cache@v2
