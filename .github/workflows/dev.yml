@@ -41,12 +41,11 @@ jobs:
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@4.0.0
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages # The branch the action should deploy to.
-        FOLDER: site # The folder the action should deploy.
-        TARGET_FOLDER: dev #نسخه التطوير
-        COMMIT_MESSAGE: "dev-Build: ${{ github.sha }} رفع نسخه التطوير مع تعديل"
-        CLEAN: true # Automatically remove deleted files from the deploy branch
+        branch: gh-pages # The branch the action should deploy to.
+        folder: site # The folder the action should deploy.
+        target_folder: dev #نسخه التطوير
+        commit_message: "dev-Build: ${{ github.sha }} رفع نسخه التطوير مع تعديل"
+        clean: true # Automatically remove deleted files from the deploy branch
 
     - name: Cache pip files
       uses: actions/cache@v2
