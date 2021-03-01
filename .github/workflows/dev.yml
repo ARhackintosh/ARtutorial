@@ -43,8 +43,8 @@ jobs:
       with:
         branch: gh-pages # The branch the action should deploy to.
         folder: site # The folder the action should deploy.
-        target_folder: dev #نسخه التطوير
-        commit_message: "dev-Build: ${{ github.sha }} رفع نسخه التطوير مع تعديل"
+        target-folder: dev #نسخه التطوير
+        commit-message: "dev-Build: ${{ github.sha }} رفع نسخه التطوير مع تعديل"
         clean: true # Automatically remove deleted files from the deploy branch
 
     - name: Cache pip files

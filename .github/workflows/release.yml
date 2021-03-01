@@ -42,9 +42,9 @@ jobs:
       with:
         branch: gh-pages # The branch the action should deploy to.
         folder: site # The folder the action should deploy.
-        commit_message: "Release-Build: ${{ github.event.inputs.version }} رفع الاصدار"
+        commit-message: "Release-Build: ${{ github.event.inputs.version }} رفع الاصدار"
         clean: true # Automatically remove deleted files from the deploy branch
-        clean_exclude: dev #عدم حذف صفحه نسخه التطوير
+        clean-exclude: dev #عدم حذف صفحه نسخه التطوير
 
     - name: Cache pip files
       uses: actions/cache@v2
