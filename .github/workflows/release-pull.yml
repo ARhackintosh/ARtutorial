@@ -1,4 +1,4 @@
-name: Release-Build
+name: Release-PR-test
 
 on:
   # release:
