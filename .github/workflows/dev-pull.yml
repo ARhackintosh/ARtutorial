@@ -1,4 +1,4 @@
-name: dev-Build
+name: dev-PR-test
 
 on:
   workflow_dispatch:
