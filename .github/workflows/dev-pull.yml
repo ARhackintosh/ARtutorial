@@ -2,14 +2,10 @@ name: dev-Build
 
 on:
   workflow_dispatch:
-  push:
-    paths: 
-      - 'source/**'
-      - 'mkdocs-dev.yml'
-      - '.github/workflows/dev.yml'
-      - 'requirements.txt'
-      - 'overrides/**'
+  pull_request:
     branches: [ v2-dev ]
+  pull_request_review:
+    types: [edited, dismissed]
 
 jobs:
   build-and-deploy:
@@ -37,16 +33,6 @@ jobs:
 
     - name: mkdocs build
       run: mkdocs build --clean --verbose -d site -f mkdocs-dev.yml
-
-    - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@3.7.1
-      with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages # The branch the action should deploy to.
-        FOLDER: site # The folder the action should deploy.
-        TARGET_FOLDER: dev #نسخه التطوير
-        COMMIT_MESSAGE: "dev-Build: ${{ github.sha }} رفع نسخه التطوير مع تعديل"
-        CLEAN: true # Automatically remove deleted files from the deploy branch
 
     - name: Cache pip files
       uses: actions/cache@v2
