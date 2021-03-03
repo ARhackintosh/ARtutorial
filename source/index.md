@@ -13,6 +13,15 @@
 
 </div>
 
+???+ info "V2.6-Big sur"
+	تحديث شهر مارس للشرح ياتي مع دعم [اوبن كور 0.6.7](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.7) وتغييرات جديد لتحسين تجربتك للشرح
+
+	<p><a class="center-me md-button md-button--primary" href="https://xn--mgbg4a8cpdl.com/?p=4621" style="margin: auto;">كامل التغييرات هنا</a></p> 
+
+	ابرز التغييرات:
+
+	- توافق مع اصدار اوبن كور 0.6.7
+
 ???+ info "V2.5-Big sur"
 	تحديث شهر فبراير للشرح ياتي مع دعم [اوبن كور 0.6.6](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.6) وتغييرات جديد لتحسين تجربتك للشرح
 
@@ -25,7 +34,7 @@
 	- اضافه ازرار توضيحيه
 	- اضافه طرق الدعم لمشروع هاكنتوش بالعربي
 
-???+ info "V2.4-Big sur"
+??? info "V2.4-Big sur"
 	تحديث طارئ لحل مشكله نسخ بيج سر, واستبدال برنامج BDU
 
 	**[كامل التفاصيل هنا](https://xn--mgbg4a8cpdl.com/?p=4581)**
