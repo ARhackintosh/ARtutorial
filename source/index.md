@@ -16,11 +16,12 @@
 ???+ info "V2.6-Big sur"
 	تحديث شهر مارس للشرح ياتي مع دعم [اوبن كور 0.6.7](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.7) وتغييرات جديد لتحسين تجربتك للشرح
 
-	<p><a class="center-me md-button md-button--primary" href="https://xn--mgbg4a8cpdl.com/?p=4621" style="margin: auto;">كامل التغييرات هنا</a></p> 
+	<p><a class="center-me md-button md-button--primary" href="https://هاكنتوش.com/%d8%b5%d8%af%d9%88%d8%b1-%d8%aa%d8%ad%d8%af%d9%8a%d8%ab-v2-6-big-sur-%d9%84%d8%b4%d8%b1%d8%ad-%d8%aa%d8%ab%d8%a8%d9%8a%d8%aa-%d8%a7%d9%84%d9%87%d8%a7%d9%83%d9%86%d8%aa%d9%88%d8%b4/" style="margin: auto;">كامل التغييرات هنا</a></p> 
 
 	ابرز التغييرات:
 
 	- توافق مع اصدار اوبن كور 0.6.7
+	- رفع نسخه macOS 11.3 Big Sur
 
 ???+ info "V2.5-Big sur"
 	تحديث شهر فبراير للشرح ياتي مع دعم [اوبن كور 0.6.6](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.6) وتغييرات جديد لتحسين تجربتك للشرح
