@@ -29,7 +29,7 @@
 	| DevirtualizeMmio | False | مذربوردات TRx40 تحتاج لهذا الخيار |
 	| EnableWriteUnprotector | False | |
 	| RebuildAppleMemoryMap | True | |
-	| SetupVirtualMap | True | مذربوردات B550,A520,TRx40 يجب ان تعطل هذا الخيار, ايضا مذربوردات B450,X470,X570 مع بايوس محدث(اخر 2020).  |
+	| SetupVirtualMap | True | مذربوردات **B550,A520,TRx4**0 **يجب ان تعطل هذا الخيار**, ايضا مذربوردات **B450,X470,X570** **مع بايوس محدث(اخر 2020**).  |
 	| SyncRuntimePermissions | True | |
 
 
@@ -157,9 +157,9 @@
 
 - `iMacPro1,1` مع كروت AMD rx4xx+ "Polaris" او احدث
 
-- `MacPro7,1` مع كروت AMD R5/R7/R9 او اقدم
+- `MacPro7,1` مع كروت AMD R5/R7/R9 او اقدم (**كاتلينا 10.15 فما احدث فقط**)
 
-- `iMac14,2` كروت انفيديا  6xx او احدث (لايدعم بيج سر)
+- `iMac14,2` كروت انفيديا  6xx او احدث (**لايدعم بيج سر macOS Big Sur 11**)
 
 ![](/img/config-setup/gensmbios.png)
 
