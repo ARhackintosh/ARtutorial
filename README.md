@@ -12,7 +12,7 @@
 
 **مرخص تحت**:
 
-<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ar"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>
+![license](https://www.gnu.org/graphics/agplv3-with-text-162x68.png)
 
 اهلا بكم في مصدر الاصدار الثاني (v2) من شرح تثبيت الهاكنتوش
 هنا نقوم بعمل جميع التعديلات على الشرح.
