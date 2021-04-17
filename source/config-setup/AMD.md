@@ -60,10 +60,7 @@
 
 قم بتنزيل الباتشات من [هنا](https://github.com/AMD-OSX/AMD_Vanilla) (تنزيل عبر زر code) ثم داخل ملف 17h ستجد ملف patches.plist قم بفتحه ببرنامج propoer tree, ثم ضع بجانبه نافذه الكونفق الخاص بك, ثم قم بعمليه النسخ مثل الصورة:
 
-<video controls autoplay loop width="1100">
-  <source src="/img/config-setup/amd/video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video> 
+![باتشات amd](/img/config-setup/amd/amd-patches.gif)
 
 ### Quirks
 
