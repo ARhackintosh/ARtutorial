@@ -59,7 +59,11 @@
 هنا نقوم باضافه الباتشات المخصصه لمعالجات AMD, هذه الباتشات مطوره من فريق AMDOSX لهم الشكر, بحيث بدونهم لن يكون الهاكنتوش الخام ممكن على معالجات AMD
 
 قم بتنزيل الباتشات من [هنا](https://github.com/AMD-OSX/AMD_Vanilla) (تنزيل عبر زر code) ثم داخل ملف 17h ستجد ملف patches.plist قم بفتحه ببرنامج propoer tree, ثم ضع بجانبه نافذه الكونفق الخاص بك, ثم قم بعمليه النسخ مثل الصورة:
-![](/img/config-setup/amd/amd-patching.gif)
+
+<video controls autoplay loop width="1100">
+  <source src="/img/config-setup/amd/video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video> 
 
 ### Quirks
 
