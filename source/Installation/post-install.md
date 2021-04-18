@@ -31,7 +31,7 @@ chmod +x MountEFI.command
 ```
 اولا نختار اظهار ال USB
 مثلا `install macOS Catalina`
-![](/img/usb-mount.png)
+![usb mount](https://dortania.github.io/OpenCore-Post-Install/assets/img/usb-mount.bec53b4c.png)
 
 تاكد من نسخ ملف ال **EFI** كامل لصطح المكتب, ثم بعد ذلك قم بعمل اخراج لقسم ال EFI.
 
