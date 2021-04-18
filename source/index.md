@@ -1,6 +1,6 @@
 # اهلا بك في الاصدار الثاني من شرح تثبيت الهاكنتوش من [مجتمع هاكنتوش بالعربي](https://هاكنتوش.com)
 
-![](img/logoa.png#center)
+![](https://cdn.xn--mgbg4a8cpdl.com/logoa.png#center)
 
 <div align="center">
 
@@ -9,7 +9,7 @@
 
 <p><a class="center-me md-button md-button--primary" href="start" style="margin: auto;">ابدا</a></p> 
 
-<details class="success" open="open"><summary>ادعمنا</summary><p><a href="https://www.buymeacoffee.com/arhackintosh" target="_blank"><img src="./img/bmc.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;"></a> <a href="https://liberapay.com/ARhackintosh/donate"><img alt="Donate using Liberapay" src="./img/donate.svg" style="height: 40px !important;width: 110px !important;"></a></p> </details>
+<details class="success" open="open"><summary>ادعمنا</summary><p><a href="https://www.buymeacoffee.com/arhackintosh" target="_blank"><img src="https://cdn.xn--mgbg4a8cpdl.com/bmc.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;"></a> <a href="https://liberapay.com/ARhackintosh/donate"><img alt="Donate using Liberapay" src="https://cdn.xn--mgbg4a8cpdl.com/donate.svg" style="height: 40px !important;width: 110px !important;"></a></p> </details>
 
 </div>
 
