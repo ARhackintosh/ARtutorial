@@ -93,7 +93,7 @@ description: واهميته مع قائمه الملفات الضروريه و �
 
 سوف تحتاج الى سكربت [ssdtPRGen](https://github.com/Piker-Alpha/ssdtPRGen.sh) لعمل الملف
 
-![](/img/EFI-setup/ACPI/ssdtPRGen.png)
+![](https://dortania.github.io/OpenCore-Post-Install/assets/img/prgen-run.224e35cf.png)
 
 بعد انتهاء عمل البرنامج ستجد ملف SSDT.aml موجود في `/Users/your-name>/Library/ssdtPRGen/ssdt.aml`
 
