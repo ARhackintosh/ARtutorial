@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<h2> تم بناء الشرح على اصدار اوبن كور <a href="https://forum.هاكنتوش.com/threads/اوبن-كور-0-6-8-وتحديثات-مارس-2021-من-acidanthera.145">0.6.8</a> </h2>
+<h2> تم بناء الشرح على اصدار اوبن كور <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.8">0.6.8</a> </h2>
 <b>استخدامك لهذا الشرح يعني موافقتك على <a href="https://xn--mgbg4a8cpdl.com/privacy-policy/">سياسة خصوصية هاكنتوش بالعربي</a></b>
 
 <p><a class="center-me md-button md-button--primary" href="start" style="margin: auto;">ابدا</a></p> 
