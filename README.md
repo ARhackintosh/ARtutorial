@@ -6,7 +6,7 @@
 
 <div align="center">
   
-![logo](./source/img/logoa.png)
+![logo](https://cdn.xn--mgbg4a8cpdl.com/logoa.png)
 
 </div>
 
