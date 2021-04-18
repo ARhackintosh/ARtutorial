@@ -6,10 +6,10 @@
 	
 	ونحافظ على خصوصيه المستخدم باعلى الدرجات
 
-	<a href="https://www.buymeacoffee.com/arhackintosh" target="_blank"><img src="/../img/bmc.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;" ></a>
+	<a href="https://www.buymeacoffee.com/arhackintosh" target="_blank"><img src="https://cdn.xn--mgbg4a8cpdl.com/bmc.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;" ></a>
 
 
-	<a href="https://liberapay.com/ARhackintosh/donate"><img alt="Donate using Liberapay" src="/../img/donate.svg" style="height: 40px !important;width: 110px !important;" ></a>
+	<a href="https://liberapay.com/ARhackintosh/donate"><img alt="Donate using Liberapay" src="https://cdn.xn--mgbg4a8cpdl.com/donate.svg" style="height: 40px !important;width: 110px !important;" ></a>
 
 هنا اهم الخطوات بعد تثبيت الماك, طبعا هناك خطوات اضافيه مثل تصليح خدمات ابل و تصليح السليب لكن هنا الخطوات الاساسية فقط.
 
