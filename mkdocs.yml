@@ -20,8 +20,8 @@ theme:
   custom_dir: overrides
   language: ar
   font: false
-  logo: img/logo.png
-  favicon: img/logo.png
+  logo: https://cdn.xn--mgbg4a8cpdl.com/logo.png
+  favicon: https://cdn.xn--mgbg4a8cpdl.com/logo.png
   icon:
     repo: fontawesome/brands/github
   palette:
