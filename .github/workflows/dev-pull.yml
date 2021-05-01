@@ -35,7 +35,7 @@ jobs:
       run: mkdocs build --clean --verbose -d site -f mkdocs-dev.yml
 
     - name: Cache pip files
-      uses: actions/cache@v2.1.4
+      uses: actions/cache@v2.1.5
       env:
         cache-name: pip-reg
       with:
