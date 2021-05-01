@@ -47,7 +47,7 @@ jobs:
         clean-exclude: dev #عدم حذف صفحه نسخه التطوير
 
     - name: Cache pip files
-      uses: actions/cache@v2.1.4
+      uses: actions/cache@v2.1.5
       env:
         cache-name: pip-reg
       with:
