@@ -135,6 +135,10 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 	| PowerTimeoutKernelPanic | True | |
 	| XhciPortLimit | True | |
 
+### Scheme
+
+مخصص لانظمه الماك القديمه, لانحتاجه.
+
 ## NVRAM
 
 ### Add
