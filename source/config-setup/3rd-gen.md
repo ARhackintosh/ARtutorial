@@ -149,7 +149,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## Misc
 
-![Misc](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/misc.png)
+![Misc](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/misc.png#zoom){: style="width:800px"}
 
 ### Boot
 اعدادت مخصصه لشاشه الاقلاع, لاتوجد تعديلات هنا
@@ -178,8 +178,8 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 	| AllowSetDefault | True | |
 	| BlacklistAppleUpdate | True | |
 	| ScanPolicy | 0 | |
-	| SecureBootModel | Default | هذه كلمة, اكتبها مثل المكتوب بالظبط, وفيه حاله كنت تستخدم تعريفات انفيديا اكتب `Disabled` |
-	| Vault | Optional | هذه كلمة, اكتبها مثل المكتوب بالظبط |
+	| SecureBootModel | `Default` | هذه كلمة, اكتبها مثل المكتوب بالظبط, **فيه حاله كنت تستخدم تعريفات انفيديا اكتب** `Disabled` |
+	| Vault | `Optional` | هذه كلمة, اكتبها مثل المكتوب بالظبط |
 
 ### Tools
 مستخدم لتشغيل ادوات حل المشاكل في الاوبن كور, [سنابشوت](/EFI-setup/config/#acpi)
