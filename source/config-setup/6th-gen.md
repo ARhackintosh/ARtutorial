@@ -233,6 +233,9 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 - `Board Serial` يتم نسخه الى  Generic -> MLB.
 - `SmUUID` يتم نسخه الى  Generic -> Generic -> SystemUUID.
 
+### Generic
+لاتوجد تعديلات هنا
+
 ## UEFI
 
 ### Quirks
