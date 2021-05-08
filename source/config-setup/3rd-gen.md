@@ -149,7 +149,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 	| LapicKernelPanic | False | اجهزه HP ستحتاج تفعيل هذا الاعداد |
 	| PanicNoKextDump | True | |
 	| PowerTimeoutKernelPanic | True | |
-	| XhciPortLimit | True | |
+	| XhciPortLimit | False | يفعل فقط في حاله استخدام ماك اقدم من اصدار macOS Big Sur 11.3 |
 
 ### Scheme
 
