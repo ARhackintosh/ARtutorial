@@ -291,8 +291,8 @@ propertree
 ### Quirks
 
 ???+ note "Quirks"
-	
+
 	| العنوان | مفعل | وصف |
 	| :--- | :--- | :--- |
 	| IgnoreInvalidFlexRatio | True | |
-	| UnblockFsConnect | True | ضروري لمذربوردات HP |
+	| UnblockFsConnect | False | ضروري لمذربوردات HP |
