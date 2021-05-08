@@ -55,7 +55,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ![](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config.plist/skylake/DeviceProperties.png){: style="width:800px"; loading=lazy }
 
-???+ info "PciRoot(0x0)/Pci(0x2,0x0)"
+???+ note "PciRoot(0x0)/Pci(0x2,0x0)"
 	هذا القسم مخصص لتحديد باتشات ال Framebuffer لكيكست [WhateverGreen](/EFI-setup/gathering-kexts#gpus)
 
 	| AAPL,ig-platform-id | وصف |
@@ -122,7 +122,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ![](/img/config-setup/kernel-quirks.png)
 
-???+ info "Quirks"
+???+ note "Quirks"
 	اعدادات مخصصه للكيرنل.
 	
 	| العنوان | مفعل | وصف |
@@ -185,7 +185,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ![](/img/config-setup/nvram-add.png)
 
-???+ info "7C436110-AB2A-4BBB-A880-FE41995C9F82"
+???+ note "7C436110-AB2A-4BBB-A880-FE41995C9F82"
 
 	هنا نقوم باضافه شروط اقلاع اضافيه مثلا لتحديد كروت الصوت وغيرها.
 	 **اوامر اقلاع عامة:**
@@ -290,8 +290,7 @@ propertree
 
 ### Quirks
 
-???+ info "اذا كان لديك جهاز HP"
-	يجب عليك تفعيل UnblockFsConnect
+???+ note "Quirks"
 	
 	| العنوان | مفعل | وصف |
 	| :--- | :--- | :--- |
