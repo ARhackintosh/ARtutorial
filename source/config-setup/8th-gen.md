@@ -52,7 +52,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 	| DevirtualiseMmio | True | |
 	| EnableWriteUnprotector | False | |
 	| ProtectUefiServices | True | ضروري اذا كنت تسخدم مذربورد z390 |
-	| RebuildAppleMemoryMap | False | |
+	| RebuildAppleMemoryMap | True | |
 	| SyncRuntimePermissions | True | |
 
 ## DeviceProperties
