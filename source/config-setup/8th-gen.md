@@ -53,9 +53,9 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ### Add
 
-![](/img/config-setup/deviceproperties.png)
+![](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config.plist/coffee-lake/DeviceProperties.png){: style="width:800px"; loading=lazy }![](/img/config-setup/deviceproperties.png)
 
-???+ info "PciRoot(0x0)/Pci(0x2,0x0)"
+???+ note "PciRoot(0x0)/Pci(0x2,0x0)"
 	هذا القسم مخصص لتحديد باتشات ال Framebuffer لكيكست [WhateverGreen](/EFI-setup/gathering-kexts#gpus)
 
 	| AAPL,ig-platform-id | وصف |
@@ -75,6 +75,15 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 	**مثال** للاعدادت في الكونفق
 	
 	![](/img/config-setup/deviceproperties-example.png)
+
+???+ note "PciRoot(0x0)/Pci(0x16,0x0)"
+	`layout-id`
+
+	- يقوم بتحديد كوداك الصوت الموجود في المذربورد.
+
+	- لانحتاجه لانه سوف نقوم بتحديده في [nvram](#nvram) لاحقا
+	لذلك بامكانك حذفه, لان لن يتم استخدامة
+
 ## Booter
 
 ### Quirks
