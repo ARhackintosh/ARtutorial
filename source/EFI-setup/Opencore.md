@@ -3,7 +3,7 @@ description: USB غير لازمة, مع كيفيه نقل الملف الى (To
 ---
 # نقل ملفات اوبن كور
 
-لتجهيز ملفات اوبن كور حمل ملف ال EFI [من صفحه OpenCorePkg على github](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.8)
+لتجهيز ملفات اوبن كور حمل ملف ال EFI [من صفحه OpenCorePkg على github](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.9)
 
 بالنسبة للنسخ هناك نسختان من اوبن كور:
 
