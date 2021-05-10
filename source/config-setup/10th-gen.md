@@ -57,11 +57,11 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## DeviceProperties
 
+![](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config.plist/commetlake/DeviceProperties.png){: style="width:800px"; loading=lazy }
+
 ### Add
 
-![](/img/config-setup/deviceproperties.png)
-
-???+ info "PciRoot(0x0)/Pci(0x2,0x0)"
+???+ note "PciRoot(0x0)/Pci(0x2,0x0)"
 	هذا القسم مخصص لتحديد باتشات ال Framebuffer لكيكست [WhateverGreen](/EFI-setup/gathering-kexts#gpus)
 
 	| AAPL,ig-platform-id | وصف |
@@ -82,7 +82,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 	
 	![](/img/config-setup/deviceproperties-example.png)
 
-???+ info "PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)"
+???+ note "PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)"
 	في حاله لديك كرت انتل **intel i225-V 2.5GBe** لل ethernet 
 	سنقوم بتعديل اسم الكرت حتى يتم دعمه من النظام بشكل مباشر
 
@@ -92,6 +92,17 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 	- **ملاحظة** : اذا توقف الاقلاع على كيكست i210 اضيف المدخلات تحت `PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)` بدلا عن `PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)`
 	- **ملاحظة** : اذا المذربورد الخاص بك لا يحتوي على كرت i225 **لا تضيف هذه الاعدادات**
+
+???+ note "PciRoot(0x0)/Pci(0x16,0x0)"
+	`layout-id`
+
+	- يقوم بتحديد كوداك الصوت الموجود في المذربورد.
+
+	- لانحتاجه لانه سوف نقوم بتحديده في [nvram](#nvram) لاحقا
+	لذلك بامكانك حذفه, لان لن يتم استخدامة
+
+### Delete 
+لا توجد تعديلات هنا, ابقي كل شيء كما هو
 
 ## Kernel
 
