@@ -19,7 +19,7 @@ description: USB غير لازمة, مع كيفيه نقل الملف الى (To
 
 ![](/img/Opencore/drivers.png)
 
-بعد ذلك قم بتحميل **[Hfsplus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)** عنطريق الضغط على زر download  ثم ضعه داخل ملف ``EFI/OC/Drivers``
+بعد ذلك قم بتنزيل **[Hfsplus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)** عنطريق الضغط على زر download  ثم ضعه داخل ملف ``EFI/OC/Drivers``
 
 توجه الى ``EFI/OC/Tools`` وقم بحذف جميع الملفات الا ==OpenShell.efi== لانه يساعد على حل المشاكل في الاقلاع.
 
