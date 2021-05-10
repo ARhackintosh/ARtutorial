@@ -53,7 +53,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ### Add
 
-![](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config.plist/skylake/DeviceProperties.png){: style="width:800px"; loading=lazy }
+![](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config.plist/haswell/DeviceProperties.png){: style="width:800px"; loading=lazy }
 
 ???+ note "PciRoot(0x0)/Pci(0x2,0x0)"
 	هذا القسم مخصص لتحديد باتشات ال Framebuffer لكيكست [WhateverGreen](/EFI-setup/gathering-kexts#gpus)
