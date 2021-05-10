@@ -110,8 +110,8 @@ description: واهميته مع قائمه الملفات الضروريه و �
 
 سوف تحتاج الى سكربت [SSDTTime](https://github.com/corpnewt/SSDTTime)
 
-??? info "طريقه تحميل السكربت"
-	تحمل السكربت بالضغط على زر Code ثم Download ZIP لتحميل السكربت كامل 
+??? info "طريقه تنزيل السكربت"
+	تنزل السكربت بالضغط على زر Code ثم Download ZIP
 	![](/img/Github-zip.png)
 
 ![](/img/EFI-setup/ACPI/dumb-dsdt.png)
@@ -128,7 +128,7 @@ description: واهميته مع قائمه الملفات الضروريه و �
 	هذا ال SSDT ضروري للجيل السادس فما فوق من معالجات انتل ومعالجات Ryzen.
 
 
-قم بتحميل (**قم بالضغط على زر download**) [SSDT-USBX.aml](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/SSDT-USBX.aml) وضعه في ملف ال ACPI.
+قم بتنزيل (**قم بالضغط على زر download**) [SSDT-USBX.aml](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/SSDT-USBX.aml) وضعه في ملف ال ACPI.
 
 ### SSDT-PLUG.aml
 
@@ -138,8 +138,8 @@ description: واهميته مع قائمه الملفات الضروريه و �
 
 سوف تحتاج الى سكربت [SSDTTime](https://github.com/corpnewt/SSDTTime)
 
-??? info "طريقه تحميل السكربت"
-	تحمل السكربت بالضغط على زر Code ثم Download ZIP لتحميل السكربت كامل 
+??? info "طريقه تنزيل السكربت"
+	تنزل السكربت بالضغط على زر Code ثم Download ZIP  
 	![](/img/Github-zip.png)
 
 ![](/img/EFI-setup/ACPI/dumb-dsdt.png)
@@ -175,8 +175,8 @@ description: واهميته مع قائمه الملفات الضروريه و �
 
 سوف تحتاج الى سكربت [SSDTTime](https://github.com/corpnewt/SSDTTime)
 
-??? info "طريقه تحميل السكربت"
-	تحمل السكربت بالضغط على زر Code ثم Download ZIP لتحميل السكربت كامل 
+??? info "طريقه تنزيل السكربت"
+	تحمل السكربت بالضغط على زر Code ثم Download ZIP
 	![](/img/Github-zip.png)
 
 ![](/img/EFI-setup/ACPI/dumb-dsdt.png)
@@ -198,8 +198,8 @@ description: واهميته مع قائمه الملفات الضروريه و �
 
 سوف تحتاج الى سكربت [SSDTTime](https://github.com/corpnewt/SSDTTime)
 
-??? info "طريقه تحميل السكربت"
-	تحمل السكربت بالضغط على زر Code ثم Download ZIP لتحميل السكربت كامل 
+??? info "طريقه تنزيل السكربت"
+	تحمل السكربت بالضغط على زر Code ثم Download ZIP 
 	![](/img/Github-zip.png)
 
 ![](/img/EFI-setup/ACPI/dumb-dsdt.png)
@@ -217,8 +217,8 @@ description: واهميته مع قائمه الملفات الضروريه و �
 
 سوف تحتاج الى سكربت [SSDTTime](https://github.com/corpnewt/SSDTTime)
 
-??? info "طريقه تحميل السكربت"
-	تحمل السكربت بالضغط على زر Code ثم Download ZIP لتحميل السكربت كامل 
+??? info "طريقه تنزيل السكربت"
+	تحمل السكربت بالضغط على زر Code ثم Download ZIP 
 	![](/img/Github-zip.png)
 
 ![](/img/EFI-setup/ACPI/dumb-dsdt.png)
@@ -259,8 +259,8 @@ description: واهميته مع قائمه الملفات الضروريه و �
 
 سوف تحتاج الى سكربت [SSDTTime](https://github.com/corpnewt/SSDTTime)
 
-??? info "طريقه تحميل السكربت"
-	تحمل السكربت بالضغط على زر Code ثم Download ZIP لتحميل السكربت كامل 
+??? info "طريقه تنزيل السكربت"
+	تحمل السكربت بالضغط على زر Code ثم Download ZIP  
 	![](/img/Github-zip.png)
 
 ![](/img/EFI-setup/ACPI/dumb-dsdt.png)
@@ -283,4 +283,4 @@ description: واهميته مع قائمه الملفات الضروريه و �
 
 - **لا تضعه اذا لم يكن لديك مذربورد من الجيل السادس**
 
-قم بتحميل (**قم بالضغط على زر download**) [SSDT-IMEI.aml](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-IMEI.amll) وضعه في ملف ال ACPI.
+قم بتنزيل (**قم بالضغط على زر download**) [SSDT-IMEI.aml](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-IMEI.amll) وضعه في ملف ال ACPI.
