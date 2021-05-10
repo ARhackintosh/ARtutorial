@@ -96,6 +96,8 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## Kernel
 
+![kernel](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/kernel.png#zoom){: style="width:800px"; loading=lazy }
+
 ### Add
 
 قسم مخصص للكيكستات وترتيبها, لا تعدل شيء, لان عمليه [سنابشوت](/EFI-setup/config/#acpi) قامت باضافتها للكونفق
@@ -116,6 +118,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 مخصص لعمل باتشات للكيرنل و الكيكستات
 لا نحتاجه حاليا
+
 ### Quirks
 
 ![](/img/config-setup/kernel-quirks.png)
@@ -135,9 +138,10 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 ### Scheme
 
 مخصص لانظمه الماك القديمه, لانحتاجه.
+
 ## Misc
 
-![Misc](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/misc.png#zoom){: style="width:800px"}
+![Misc](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/misc.png#zoom){: style="width:800px"; loading=lazy }
 
 ### Boot
 اعدادت مخصصه لشاشه الاقلاع, لاتوجد تعديلات هنا
@@ -178,6 +182,8 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## NVRAM
 
+![nvram](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/nvram.png#zoom){: style="width:800px"; loading=lazy }
+
 ### Add
 
 ![](/img/config-setup/nvram-add.png)
@@ -213,9 +219,9 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## PlatformInfo
 
-### Generic
+![](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config.plist/coffeelake/DeviceProperties.png){: style="width:800px"; loading=lazy }
 
-![](/img/config-setup/propertree-platforminfo.png)
+### Generic
 
 ???+ note "Generic"
 	هنا نقوم بوضع معلومات الجهاز مثل نوعه و السيريال ورقم اللوحة وغيرها, سنستخدم برنامج [GenSMBios](https://github.com/corpnewt/GenSMBIOS)
