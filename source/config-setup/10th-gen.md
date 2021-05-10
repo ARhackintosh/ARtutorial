@@ -106,7 +106,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## Kernel
 
-![kernel](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/kernel.png#zoom){: style="width:800px"}
+![kernel](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/kernel.png#zoom){: style="width:800px"; loading=lazy }
 
 ### Add
 
@@ -161,7 +161,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## Misc
 
-![Misc](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/misc.png#zoom){: style="width:800px"}
+![Misc](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/misc.png#zoom){: style="width:800px"; loading=lazy }
 
 ### Boot
 اعدادت مخصصه لشاشه الاقلاع, لاتوجد تعديلات هنا
@@ -202,7 +202,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## NVRAM
 
-![nvram](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/nvram.png#zoom){: style="width:800px"}
+![nvram](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/nvram.png#zoom){: style="width:800px"; loading=lazy }
 
 ### Add
 
@@ -240,7 +240,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## PlatformInfo
 
-![](/img/config-setup/propertree-platforminfo.png)
+![](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config.plist/cometlake/DeviceProperties.png){: style="width:800px"; loading=lazy }
 
 ### Generic
 
