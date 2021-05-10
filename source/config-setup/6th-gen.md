@@ -51,9 +51,9 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## DeviceProperties
 
-### Add
-
 ![](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config.plist/skylake/DeviceProperties.png){: style="width:800px"; loading=lazy }
+
+### Add
 
 ???+ note "PciRoot(0x0)/Pci(0x2,0x0)"
 	هذا القسم مخصص لتحديد باتشات ال Framebuffer لكيكست [WhateverGreen](/EFI-setup/gathering-kexts#gpus)
@@ -94,6 +94,8 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 لا توجد تعديلات هنا, ابقي كل شيء كما هو
 
 ## Kernel
+
+![kernel](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/kernel.png#zoom){: style="width:800px"; loading=lazy }
 
 ### Add
 
@@ -138,7 +140,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## Misc
 
-![Misc](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/misc.png#zoom){: style="width:800px"}
+![Misc](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/misc.png#zoom){: style="width:800px"; loading=lazy }
 
 ### Boot
 اعدادت مخصصه لشاشه الاقلاع, لاتوجد تعديلات هنا
@@ -179,9 +181,9 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## NVRAM
 
-### Add
+![nvram](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/nvram.png#zoom){: style="width:800px"; loading=lazy }
 
-![](/img/config-setup/nvram-add.png)
+### Add
 
 ???+ note "7C436110-AB2A-4BBB-A880-FE41995C9F82"
 
@@ -214,7 +216,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## PlatformInfo
 
-![](/img/config-setup/propertree-platforminfo.png)
+![](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config.plist/skylake/DeviceProperties.png){: style="width:800px"; loading=lazy }
 
 ### Generic
 
