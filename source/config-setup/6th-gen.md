@@ -276,7 +276,7 @@ propertree
 
 ### Quirks
 
-???+ info "اذا كان لديك جهاز HP"
+???+ note "اذا كان لديك جهاز HP"
 	يجب عليك تفعيل UnblockFsConnect
 	
 	| العنوان | مفعل | وصف |
