@@ -88,6 +88,8 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.critic
   - pymdownx.magiclink
+  - pymdownx.highlight
+  - pymdownx.superfences
   - pymdownx.tabbed
   - pymdownx.keys
   - pymdownx.tasklist:
