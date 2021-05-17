@@ -240,7 +240,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## PlatformInfo
 
-![](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config.plist/cometlake/DeviceProperties.png){: style="width:800px"; loading=lazy }
+![](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config.plist/cometlake/smbios.png#zoom){: style="width:800px"; loading=lazy }
 
 ### Generic
 
