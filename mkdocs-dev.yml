@@ -90,7 +90,9 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.magiclink
   - pymdownx.tabbed
+  - pymdownx.highlight
   - pymdownx.inlinehilite
+  - pymdownx.superfences
   - pymdownx.keys
   - pymdownx.tasklist:
       custom_checkbox: true
