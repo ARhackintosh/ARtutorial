@@ -92,6 +92,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - attr_list
+  - pymdownx.inlinehilite
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
