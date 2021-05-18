@@ -183,9 +183,9 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## NVRAM
 
-### Add
+![nvram](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/nvram.png#zoom){: style="width:800px"; loading=lazy }
 
-![](/img/config-setup/nvram-add.png)
+### Add
 
 ???+ note "7C436110-AB2A-4BBB-A880-FE41995C9F82"
 
@@ -220,6 +220,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 	مخصص لتحديد لغه الكيبورد 
 	ابقه فارغ او حددها من هذه [القائمة](https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/AppleKeyboardLayouts/AppleKeyboardLayouts.txt)
+
 ### Delete
 
 ???+ note "Delete"
