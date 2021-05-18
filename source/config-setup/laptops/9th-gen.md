@@ -63,11 +63,11 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## DeviceProperties
 
+![](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-laptop.plist/coffeelake-plus/DeviceProperties.png#zoom){: style="width:800px"; loading=lazy }
+
 ### Add
 
-![](/img/config-setup/deviceproperties.png)
-
-???+ info "PciRoot(0x0)/Pci(0x2,0x0)"
+???+ note "PciRoot(0x0)/Pci(0x2,0x0)"
 	هذا القسم مخصص لتحديد باتشات ال Framebuffer لكيكست [WhateverGreen](/EFI-setup/gathering-kexts#gpus)
 
 	| AAPL,ig-platform-id | وصف |
@@ -82,12 +82,29 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 	| framebuffer-patch-enable | Data | 01000000 | تفعيل باتشات |
 	| framebuffer-stolenmem | Data | 00003001 |  |
 	| framebuffer-fbmem | Data | 00009000 |  |
+
+	اذا كان نوع الكرت غير `UHD630` و `UHD620`
 	
-	اذا كان لديك كرت **UHD620** على معالج [Coffee lake](https://en.wikipedia.org/wiki/Coffee_Lake)  تحتاج الى اضافه:
+	| عنوان  | النوع | القيمة | ملاحظة |
+	| :--- | :--- | :--- | :--- |
+	| device | Data | 9B3E0000 | تغيير اسم الكرت حتى يتم دعمه |
+
+	اذا كان لديك كرت **UHD620** على معالج [Comet lake(جيل عاشر)](https://en.wikipedia.org/wiki/Comet_Lake_(microprocessor))  تحتاج الى اضافه:
 
 	| عنوان  | النوع | القيمة | ملاحظة |
 	| :--- | :--- | :--- | :--- |
 	| device | Data | 9B3E0000 | تغيير اسم الكرت حتى يتم دعمه |
+
+???+ note "PciRoot(0x0)/Pci(0x16,0x0)"
+	`layout-id`
+
+	- يقوم بتحديد كوداك الصوت الموجود في المذربورد.
+
+	- لانحتاجه لانه سوف نقوم بتحديده في [nvram](#nvram) لاحقا
+	لذلك بامكانك حذفه, لان لن يتم استخدامة
+
+### Delete 
+لا توجد تعديلات هنا, ابقي كل شيء كما هو
 
 ## Kernel
 
