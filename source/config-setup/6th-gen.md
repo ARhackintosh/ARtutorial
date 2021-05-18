@@ -95,7 +95,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## Kernel
 
-![kernel](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/kernel.png#zoom){: style="width:800px"; loading=lazy }
+![kernel](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/kernel-modern-XCPM.png#zoom){: style="width:800px"; loading=lazy }
 
 ### Add
 
