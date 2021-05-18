@@ -57,10 +57,6 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 اعدادت مخصصه ل Boot.efi
 لاتوجد تعديلات هنا
 
-### Quirks
-
-قسم مخصص للاعدادت خاصه ب ACPI, لا توجد تعديلات هنا, ابقي كل شيء كما هو
-
 ## DeviceProperties
 
 ![](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-laptop.plist/coffeelake-plus/DeviceProperties.png#zoom){: style="width:800px"; loading=lazy }
