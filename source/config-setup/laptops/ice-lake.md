@@ -25,13 +25,13 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ### Patch
 
-???+ note "Patch"
+???+ Falsete "Patch"
 	ضروري لتوجيه كل الاوامر المهمه ل [SSDT-XOSI](/EFI-setup/ACPI/#ssdt-xosiaml)
 
 	| العنوان | النوع | القيمة |
 	| :--- | :--- | :--- |
 	| Comment | String | Change _OSI to XOSI |
-	| Enabled | Boolean | YES |
+	| Enabled | Boolean | True |
 	| Count | Number | 0 |
 	| Limit | Number | 0 |
 	| Find | Data | 5f4f5349 |
@@ -43,10 +43,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## Booter
 
-قسم مخصص لعمل باتشات boot.efi مع OpenRuntime
-لاتوجد تعديلات هنا
-
-## Booter
+![Booter](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-laptop.plist/icelake/booter.png#zoom){: style="width:800px"; loading=lazy }
 
 قسم مخصص لعمل باتشات boot.efi مع OpenRuntime
 لاتوجد تعديلات هنا
@@ -58,8 +55,15 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ### Quirks
 
-اعدادت مخصصه ل Boot.efi
-لاتوجد تعديلات هنا
+???+ note "Quirks"
+	| الخيار | مفعل |
+	| :--- | :--- |
+	| DevirtualiseMmio | True |
+	| EnableWriteUnprotector | False |
+	| ProtectUefiServices | True |
+	| RebuildAppleMemoryMap | True |
+	| SetupVirtualMap | False |
+	| SyncRuntimePermissions | True |
 
 ## DeviceProperties
 
@@ -67,7 +71,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ### Add
 
-???+ note "PciRoot(0x0)/Pci(0x2,0x0)"
+???+ Falsete "PciRoot(0x0)/Pci(0x2,0x0)"
 	هذا القسم مخصص لتحديد باتشات ال Framebuffer لكيكست [WhateverGreen](/EFI-setup/gathering-kexts#gpus)
 
 	| AAPL,ig-platform-id | وصف |
@@ -82,7 +86,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 	| framebuffer-stolenmem | Data | 00003001 |  |
 	| framebuffer-fbmem | Data | 00009000 |  |
 
-???+ note "PciRoot(0x0)/Pci(0x16,0x0)"
+???+ Falsete "PciRoot(0x0)/Pci(0x16,0x0)"
 	`layout-id`
 
 	- يقوم بتحديد كوداك الصوت الموجود في المذربورد.
@@ -107,7 +111,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 	| AppleXcpmCfgLock | True | غير ضروري اذا تم تعطيل `CFG-Lock` في البايوس |
 	| DisableIOMapper | True | غير ضروري اذا تم تعطيل `VT-D` في البايوس |
 	| LapicKernelPanic | False | اجهزه HP ستحتاج تفعيل هذا الاعداد |
-	| PanicNoKextDump | True | |
+	| PanicFalseKextDump | True | |
 	| PowerTimeoutKernelPanic | True | |
 	| XhciPortLimit | True | |
 
@@ -135,7 +139,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 	| :--- | :--- |
 	| **agdpmod=pikera** | يستخدم لتعطيل board id على كروت navi(RX 5xxx) بدونه ستواجهه شاشة سوداء, لاتستخدمة على كروت من نوع اخر. |
 	| **nvda_drv_vrl=1** | ضروري لتفعيل تعريفات انفيديا على فئة GTX 9xx و 10xx على سييرا وهاي سييرا |
-	| **-wegnoegpu** | يستخدم لتعطيل جميع الكروت الخارجيه, مفيد بحاله اذا كان كرتك المنفصل غير مدعوم من النظام مثل كروت انفيديا الحديثة. **تمت اضافته سابقا**|
+	| **-wegFalseegpu** | يستخدم لتعطيل جميع الكروت الخارجيه, مفيد بحاله اذا كان كرتك المنفصل غير مدعوم من النظام مثل كروت انفيديا الحديثة. **تمت اضافته سابقا**|
 
 ### Delete
 
