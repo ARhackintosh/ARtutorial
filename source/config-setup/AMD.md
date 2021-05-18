@@ -197,7 +197,7 @@
 
 	مخصص لتحديد لغه الكيبورد 
 	ابقه فارغ او حددها من هذه [القائمة](https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/AppleKeyboardLayouts/AppleKeyboardLayouts.txt)
-	
+
 ### Delete
 
 ???+ note "Delete"
@@ -255,7 +255,7 @@
 تشغيل جميع تعريفات `.efi`
 
 ### Drivers
-اضافه جميع التعريفات (ملفات EFI),
+اضافه جميع ملفات الفريموير (EFI),
 تم اضافتها مسبقا بواسطه [سنابشوت](/EFI-setup/config/#acpi)
 propertree 
 
