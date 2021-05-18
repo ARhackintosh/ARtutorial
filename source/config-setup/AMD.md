@@ -184,6 +184,20 @@
 	| **nvda_drv_vrl=1** | ضروري لتفعيل تعريفات انفيديا على فئة GTX 9xx و 10xx على سييرا وهاي سييرا |
 	| **-wegnoegpu** | يستخدم لتعطيل جميع الكروت الخارجيه, مفيد بحاله اذا كان كرتك المنفصل غير مدعوم من النظام مثل كروت انفيديا الحديثة. |
 
+	- **csr-active-config**: `00000000`
+
+	اعداد مخصص ل SIP('System Integrity Protection') 
+	خيار  `00000000` سوف يقوم بتفعيله ويفضل ابقائه كما هو لانه افضل لامان النظام
+
+	- **run-efi-updater**: `No`
+
+	مخصص لتعطيل تحديثات فريومير اجهزه ماك, لان جهازك ليس ماك حقيقي
+
+	- **prev-lang:kbd**: <>
+
+	مخصص لتحديد لغه الكيبورد 
+	ابقه فارغ او حددها من هذه [القائمة](https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/AppleKeyboardLayouts/AppleKeyboardLayouts.txt)
+	
 ### Delete
 
 ???+ note "Delete"
