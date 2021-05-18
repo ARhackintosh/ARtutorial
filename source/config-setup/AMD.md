@@ -70,9 +70,11 @@
 
 ## Kernel
 
-### ADD 
+![kernel](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/AMD/kernel.png#zoom){: style="width:800px"; loading=lazy }
 
-قسم مخصص لاضافه الكيكستات ونحن قمنا باضافتها [سابقا](/config/#acpi). لذلك لايوجد اي تعديل.
+### Add
+
+قسم مخصص للكيكستات وترتيبها, لا تعدل شيء, لان عمليه [سنابشوت](/EFI-setup/config/#acpi) قامت باضافتها للكونفق
 
 ### Emulate
 
@@ -80,6 +82,14 @@
 	| العنوان | مفعل | وصف |
 	| :--- | :--- | :--- |
 	| DummyPowerManagement | True | يقوم بتعطيل التحكم بطاقه المعالج من النظام على المعالجات الغير مدعومه مثل AMD |
+
+### Force
+
+مخصص لكيكستات في انظمه الماك القديمه, لا نحتاجه
+
+### Block 
+
+منع بعض كيكستات النظام من العمل, لا نحتاجه
 
 ### Patch 
 
@@ -91,8 +101,6 @@
 
 ### Quirks
 
-![](/img/config-setup/kernel-quirks.png)
-
 ???+ note "Quirks"
 	اعدادات مخصصه للكيرنل.
 	
@@ -101,6 +109,10 @@
 	| PanicNoKextDump | True |
 	| PowerTimeoutKernelPanic | True |
 	| XhciPortLimit | True |
+
+### Scheme
+
+مخصص لانظمه الماك القديمه, لانحتاجه.
 
 ## Misc
 
