@@ -63,11 +63,16 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## DeviceProperties
 
+![](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-laptop.plist/icelake/DeviceProperties.png#zoom){: style="width:800px"; loading=lazy }
+
 ### Add
 
-![](/img/config-setup/deviceproperties.png)
+???+ note "PciRoot(0x0)/Pci(0x2,0x0)"
+	هذا القسم مخصص لتحديد باتشات ال Framebuffer لكيكست [WhateverGreen](/EFI-setup/gathering-kexts#gpus)
 
-???+ info "PciRoot(0x0)/Pci(0x2,0x0)"
+	| AAPL,ig-platform-id | وصف |
+	| :--- | :--- |
+	| 0000528A | يستخدم مع كروت شاشه فئه G4/G7 |
 
 	في حاله عدم وجود طريقه لتحديد حجم رامات الكرت ==DVMT== في البايوس, قد تواجه كيرنل بانك في الاقلاع, ينصح باضافه الاتي:
 
@@ -76,6 +81,17 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 	| framebuffer-patch-enable | Number | 1 | تفعيل باتشات |
 	| framebuffer-stolenmem | Data | 00003001 |  |
 	| framebuffer-fbmem | Data | 00009000 |  |
+
+???+ note "PciRoot(0x0)/Pci(0x16,0x0)"
+	`layout-id`
+
+	- يقوم بتحديد كوداك الصوت الموجود في المذربورد.
+
+	- لانحتاجه لانه سوف نقوم بتحديده في [nvram](#nvram) لاحقا
+	لذلك بامكانك حذفه, لان لن يتم استخدامة
+
+### Delete 
+لا توجد تعديلات هنا, ابقي كل شيء كما هو
 
 ## Kernel
 
