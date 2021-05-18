@@ -51,7 +51,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## DeviceProperties
 
-![](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config.plist/haswell/DeviceProperties.png){: style="width:800px"; loading=lazy }
+![](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config.plist/haswell/DeviceProperties.png#zoom){: style="width:800px"; loading=lazy }
 
 ### Add
 
