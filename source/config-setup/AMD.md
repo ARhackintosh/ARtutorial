@@ -193,30 +193,44 @@
 
 ## PlatformInfo
 
-![](/img/config-setup/propertree-platforminfo.png)
+![](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/iMacPro-smbios.png#zoom){: style="width:800px"; loading=lazy }
 
-هنا نقوم بوضع معلومات الجهاز مثل نوعه و السيريال ورقم اللوحة وغيرها, سنستخدم برنامج [GenSMBios](https://github.com/corpnewt/GenSMBIOS)
+### Generic
 
-بعد تشغيل البرنامج اضغط رقم 1 لتنزيل الملفات الضرورية.
+???+ note "Generic"
+	هنا نقوم بوضع معلومات الجهاز مثل نوعه و السيريال ورقم اللوحة وغيرها, سنستخدم برنامج [GenSMBios](https://github.com/corpnewt/GenSMBIOS)
 
-بعدها اضغط رقم 3 لتوليد معلومات الجهاز
+	بعد تشغيل البرنامج اضغط رقم 1 لتنزيل الملفات الضرورية.
 
-بالنسبه للموديل الجهاز (SMBIOS) هناك خيارين للجيل الثامن:
+	بعدها اضغط رقم 3 لتوليد معلومات الجهاز
 
-- `iMacPro1,1` مع كروت AMD rx4xx+ "Polaris" او احدث
+	بالنسبه للموديل الجهاز (SMBIOS) هناك خيارين للجيل الثامن:
 
-- `MacPro7,1` مع كروت AMD R5/R7/R9 او اقدم (**كاتلينا 10.15 فما احدث فقط**)
+	- `iMacPro1,1` مع كروت AMD RX 4xx+ ==Polaris== او احدث
 
-- `iMac14,2` كروت انفيديا  6xx او احدث (**لايدعم بيج سر macOS 11 Big Sur**)
+	- `MacPro7,11` مع كروت AMD RX 4xx+ ==Polaris== او احدث
 
-![](/img/config-setup/gensmbios.png)
+	- `MacPro6,1` مع كروت AMD R5/R7/R9 او اقدم
 
-يتم نقل الارقام بالشكل الاتي للكونفق:
+	- `iMac14,2` كروت انفيديا  6xx او احدث (**لايدعم بيج سر macOS 11 Big Sur**)
 
-- `Type` يتم نسخه الى Generic -> SystemProductName.
-- `Serial` يتم نسخه الى  Generic -> SystemSerialNumber.
-- `Board Serial` يتم نسخه الى  Generic -> MLB.
-- `SmUUID` يتم نسخه الى  Generic -> Generic -> SystemUUID.
+	```bash
+	#######################################################
+	#              iMacPro1,1 SMBIOS Info                 #
+	#######################################################
+
+	Type:         iMacPro1,1
+	Serial:       C02T32ZNHX87
+	Board Serial: C02702303GUJG36UE
+	SmUUID:       E12CAE4E-7898-4EE0-81C8-DB9EC9E488E3
+	```
+
+	يتم نقل الارقام بالشكل الاتي للكونفق:
+
+	- `Type` يتم نسخه الى Generic -> SystemProductName.
+	- `Serial` يتم نسخه الى  Generic -> SystemSerialNumber.
+	- `Board Serial` يتم نسخه الى  Generic -> MLB.
+	- `SmUUID` يتم نسخه الى  Generic -> Generic -> SystemUUID.
 
 ## UEFI
 
