@@ -116,12 +116,18 @@
 
 ## Misc
 
+![Misc](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/misc.png#zoom){: style="width:800px"; loading=lazy }
+
+### Boot
+اعدادت مخصصه لشاشه الاقلاع, لاتوجد تعديلات هنا
+
 ### Debug
 
 ???+ note "Debug"
-	هذه اعدادات هامه لحل مشاكل الاقلاع في الاوبن كور(سنغير كل شيء الا displayDelay)
-	
-	| العنوان | مفعل |
+	قسم مخصص للاظهار سجل عمليه الاقلاع في الاوبن كور والنظام
+	سنعدل كل شيء الا `DisplayDelay`
+
+	| الخيار | مفعل |
 	| :--- | :--- |
 	| AppleDebug | True |
 	| ApplePanic | True |
@@ -131,18 +137,27 @@
 ### Security
 
 ???+ note "Debug"
-	هذه اعدادات هامه لحل مشاكل الاقلاع في الاوبن كور(سنغير كل شيء الا displayDelay)
-	
-	| عنوان  | النوع | القيمة | ملاحظة |
-	| :--- | :--- | :--- | :--- |
-	| AllowNvramReset | Boolean | True | |
-	| AllowSetDefault | Boolean | True | |
-	| BlacklistAppleUpdate | Boolean | True | |
-	| ScanPolicy | Number | 0 | |
-	| SecureBootModel | String | Default | يرجى نسخ الكلمه ولصقها كما هي, في حاله استخدام كرت انفيديا او اراده تعطيل Secure boot اكتب `Disabled` |
-	| Vault | String | Optional | هذه ايضا كلمه,يجب وضعها كالمكتوب بالظبط. |
+	خيارات الامان
+
+	| الخيار | مفعل | ملاحظة|
+	| :--- | :--- | :--- |
+	| AllowNvramReset | True | |
+	| AllowSetDefault | True | |
+	| BlacklistAppleUpdate | True | |
+	| ScanPolicy | 0 | |
+	| SecureBootModel | `Default` | هذه كلمة, اكتبها مثل المكتوب بالظبط, **فيه حاله كنت تستخدم تعريفات انفيديا اكتب** `Disabled` |
+	| Vault | `Optional` | هذه كلمة, اكتبها مثل المكتوب بالظبط |
+
+### Tools
+مستخدم لتشغيل ادوات حل المشاكل في الاوبن كور, [سنابشوت](/EFI-setup/config/#acpi)
+ في propertree قام باضافتها لك
+
+### Entries
+لاتوجد تعديلات هنا
 
 ## NVRAM
+
+![nvram](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/nvram.png#zoom){: style="width:800px"; loading=lazy }
 
 ### Add
 
@@ -167,14 +182,6 @@
 	| **agdpmod=pikera** | يستخدم لتعطيل board id على كروت navi(RX 5xxx) بدونه ستواجهه شاشة سوداء, لاتستخدمة على كروت من نوع اخر. |
 	| **nvda_drv_vrl=1** | ضروري لتفعيل تعريفات انفيديا على فئة GTX 9xx و 10xx على سييرا وهاي سييرا |
 	| **-wegnoegpu** | يستخدم لتعطيل جميع الكروت الخارجيه, مفيد بحاله اذا كان كرتك المنفصل غير مدعوم من النظام مثل كروت انفيديا الحديثة. |
-	
-	- **csr-active-config :** `00000000`
-		- يستخدم لتفعيل SIP وهي حمايه النظام من التعديلات, ينصح بوضعه على `00000000` وهو الافتراضي.
-	
-	- **run-efi-updater :** `No`
-		- يستخدم لتعطيل تحديثات فريم وير لانها قد تسبب مشاكل في الاقلاع, وهي مخصصه لاجهزه الماك فقط.
-	- **prev-lang:kbd :** `<0>`
-		- يستخدم لتحديد لغه الكيبورد, الاختيار الافتراضي هي اللغه الروسية, وتم تعدليها ل الانجليزية بالتخطيط الامريكي.
 
 ### Delete
 
