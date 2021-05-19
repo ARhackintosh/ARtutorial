@@ -15,6 +15,7 @@ plugins:
       minify_html: true
   - git-revision-date-localized:
       type: timeago
+  - macros
 
 theme:
   name: material
@@ -42,6 +43,9 @@ extra:
       link: https://t.me/arhackintosh
     - icon: fontawesome/brands/discord
       link: https://discord.gg/s3qmDWm
+  oc:
+    version: 0.6.9
+    git: https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.9
 
 extra_css:
   - extra/extra.css
