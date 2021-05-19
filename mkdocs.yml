@@ -18,6 +18,8 @@ plugins:
 theme:
   name: material
   custom_dir: overrides
+  features:
+    - navigation.instant
   language: ar
   font: false
   logo: https://cdn.xn--mgbg4a8cpdl.com/logo.png
@@ -28,6 +30,7 @@ theme:
     scheme: slate
     primary: deep purple
     accent: indigo
+
 extra:
   social:
     - icon: fontawesome/brands/github
