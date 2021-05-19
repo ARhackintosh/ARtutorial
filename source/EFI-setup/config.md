@@ -12,30 +12,6 @@ description: اساسيات اعداد الكونفق للاوبن كور, وم�
 
 لذلك الطريقه الاكثر شهره هي تعديل على العينة التي تاتي مع اوبن كور واضافه الاعدادات الضرورية
 
-Pc
-
-| اسم الجيل | السلسة | تاريخ الاصدار |
-| :--- | :--- | :--- |
-| [3-Ivy Bridge](/config-setup/3rd-gen) | 3XXX | 2012 |
-| [4-Haswell](/config-setup/4th-gen) | 4XXX | 2013-2014 |
-| [6-Skylake](/config-setup/6th-gen) | 6XXX | 2015-2016 |
-| [7-Kaby Lake](/config-setup/7th-gen) | 7XXX | 2017 |
-| [8/9-Coffee Lake](/config-setup/8th-gen) | 8XXX-9XXX | 2017-2019 |
-| [10-Comet Lake](/config-setup/10th-gen) | 10XXX | 2020 |
-
-Laptop
-
-| اسم الجيل | السلسة | تاريخ الاصدار |
-| :--- | :--- | :--- |
-| [3-Ivy Bridge](/config-setup/laptops/3rd-gen/) | 3XXX | 2012 |
-| [4-Haswell](/config-setup/laptops/4th-gen/) | 4XXX | 2013-2014 |
-| [5-Broadwell](/config-setup/laptops/5th-gen/) | 5XXX | 2014-2015 |
-| [6-Skylake](/config-setup/laptops/6th-gen/) | 6XXX | 2015-2016 |
-| [7-Kaby Lake](/config-setup/laptops/7th-gen/) | 7XXX | 2017 |
-| [8-Coffee Lake](/config-setup/laptops/8th-gen/) | 8XXX | 2017-2018 |
-| [9/10-Coffee Lake plus و Comet Lake](/config-setup/laptops/9th-gen/) | 9XXX-10XXX | 2019-2020 |
-| [10-ice Lake](/config-setup/laptops/ice-lake/) | 10XXGX | 2019-2020 |
-
 ## البرامج
 
 - [ProperTree](https://github.com/corpnewt/propertree)
@@ -120,8 +96,32 @@ Laptop
 
 بعد ذلك ستلاحظ ان الكيكستات و ال acpi تمت اضافتها
 
+
 ???+ Warning "تنبيه"
 	في كل مرة تقوم باضافه اي ملف جديد على ال efi سواء كيكست او ssdt او غيرة تقوم بعمل سنابشوت مره اخرى
 
 ![](/img/EFI-setup/propertree-snapshot.png)
 
+## PC / مكتبي
+
+| اسم الجيل | السلسة | تاريخ الاصدار |
+| :--- | :--- | :--- |
+| [3-Ivy Bridge](/config-setup/3rd-gen) | 3XXX | 2012 |
+| [4-Haswell](/config-setup/4th-gen) | 4XXX | 2013-2014 |
+| [6-Skylake](/config-setup/6th-gen) | 6XXX | 2015-2016 |
+| [7-Kaby Lake](/config-setup/7th-gen) | 7XXX | 2017 |
+| [8/9-Coffee Lake](/config-setup/8th-gen) | 8XXX-9XXX | 2017-2019 |
+| [10-Comet Lake](/config-setup/10th-gen) | 10XXX | 2020 |
+
+## Laptop / لابتوب
+
+| اسم الجيل | السلسة | تاريخ الاصدار |
+| :--- | :--- | :--- |
+| [3-Ivy Bridge](/config-setup/laptops/3rd-gen/) | 3XXX | 2012 |
+| [4-Haswell](/config-setup/laptops/4th-gen/) | 4XXX | 2013-2014 |
+| [5-Broadwell](/config-setup/laptops/5th-gen/) | 5XXX | 2014-2015 |
+| [6-Skylake](/config-setup/laptops/6th-gen/) | 6XXX | 2015-2016 |
+| [7-Kaby Lake](/config-setup/laptops/7th-gen/) | 7XXX | 2017 |
+| [8-Coffee Lake](/config-setup/laptops/8th-gen/) | 8XXX | 2017-2018 |
+| [9/10-Coffee Lake plus و Comet Lake](/config-setup/laptops/9th-gen/) | 9XXX-10XXX | 2019-2020 |
+| [10-ice Lake](/config-setup/laptops/ice-lake/) | 10XXGX | 2019-2020 |
