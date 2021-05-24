@@ -13,6 +13,18 @@
 
 </div>
 
+???+ info "V2.8-Big sur"
+	رحبو معنا باكبر تحديث للشرح!, اكثر من 190 تعديل!
+
+	<p><a class="center-me md-button md-button--primary" href="https://xn--mgbg4a8cpdl.com/?p=4669" style="margin: auto;">كامل التغييرات هنا</a></p> 
+
+	ابرز التغييرات:
+
+	- تحويل طريقه عمل الكونفقات الى السامبل
+	- تحديث صفحات الكونفقات و اضافه صور وتفاصيل اكثر
+	- توضيح صفحات مثل البدايه وصفحه اوبن كور
+	- دعم اوبن كور [v0.6.9](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.9)
+
 ???+ info "V2.7-Big sur"
 	تحديث شهر ابريل للشرح ياتي مع دعم [اوبن كور 0.6.8](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.8) وتغييرات جديد لتحسين تجربتك للشرح
 
