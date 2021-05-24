@@ -13,7 +13,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## ACPI
 
-![ACPI](/img/config-setup/3rd-gen/ACPI.png)
+![ACPI](/img/config-setup/3rd-gen/ACPI.png#zoom)
 
 ### Add
 
