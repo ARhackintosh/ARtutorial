@@ -14,6 +14,8 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## ACPI
 
+![ACPI](/img/config-setup/acpi-patch-laptops.png#zoom)
+
 ### Add
 
 هذا القسم مخصص لملفات SSDT/ACPI,
