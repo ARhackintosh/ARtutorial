@@ -43,8 +43,8 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/s3qmDWm
   oc:
-    version: 0.6.9
-    git: https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.9
+    version: 0.7.0
+    git: https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.0
 
 
 extra_css:
