@@ -283,4 +283,4 @@ description: واهميته مع قائمه الملفات الضروريه و �
 
 - **لا تضعه اذا لم يكن لديك مذربورد من الجيل السادس**
 
-قم بتنزيل (**قم بالضغط على زر download**) [SSDT-IMEI.aml](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-IMEI.amll) وضعه في ملف ال ACPI.
+قم بتنزيل (**قم بالضغط على زر download**) [SSDT-IMEI.aml](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-IMEI.aml) وضعه في ملف ال ACPI.
