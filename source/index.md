@@ -13,13 +13,10 @@
 
 </div>
 
-???+ info "V2.9-Big sur"
-	رحبو معنا باكبر تحديث للشرح!, اكثر من 190 تعديل!
-
-	<p><a class="center-me md-button md-button--primary" href="https://xn--mgbg4a8cpdl.com/?p=4669" style="margin: auto;">كامل التغييرات هنا</a></p> 
-
-
-??? info "V2.8-Big sur"
+???+ info "V2.8-Big sur"
+	### v2.8.2-Big sur
+	- دعم اوبن كور 0.7.0
+	
 	رحبو معنا باكبر تحديث للشرح!, اكثر من 190 تعديل!
 
 	<p><a class="center-me md-button md-button--primary" href="https://xn--mgbg4a8cpdl.com/?p=4669" style="margin: auto;">كامل التغييرات هنا</a></p> 
@@ -31,7 +28,7 @@
 	- توضيح صفحات مثل البدايه وصفحه اوبن كور
 	- دعم اوبن كور [v0.6.9](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.9)
 
-??? info "V2.7-Big sur"
+???+ info "V2.7-Big sur"
 	تحديث شهر ابريل للشرح ياتي مع دعم [اوبن كور 0.6.8](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.8) وتغييرات جديد لتحسين تجربتك للشرح
 
 	<p><a class="center-me md-button md-button--primary" href="https://xn--mgbg4a8cpdl.com/%d8%b5%d8%af%d9%88%d8%b1-%d8%aa%d8%ad%d8%af%d9%8a%d8%ab-v2-7-big-sur-%d9%84%d8%b4%d8%b1%d8%ad-%d8%aa%d8%ab%d8%a8%d9%8a%d8%aa-%d8%a7%d9%84%d9%87%d8%a7%d9%83%d9%86%d8%aa%d9%88%d8%b4/" style="margin: auto;">كامل التغييرات هنا</a></p> 
