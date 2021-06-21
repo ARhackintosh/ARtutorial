@@ -1,8 +1,8 @@
 name: Release-Build
 
 on:
-  # release:
-  #   branches: [ v2-dev ]
+  release:
+    branches: [ v2-dev ]
   workflow_dispatch:
     inputs:
       version:
