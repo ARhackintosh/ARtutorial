@@ -2,7 +2,8 @@
   
 # (v2)الاصدار الثاني من شرح تثبيت الهاكنتوش من [هاكنتوش بالعربي](https://هاكنتوش.com)
 
-![dev-Build](https://github.com/ARhackintosh/ARtutorial/workflows/dev-Build/badge.svg) ![Release-Build](https://github.com/ARhackintosh/ARtutorial/workflows/Release-Build/badge.svg)
+Dev:[![Build Status](https://cd.xn--mgbg4a8cpdl.com/api/badges/ARhackintosh/ARtutorial/status.svg?ref=refs/heads/v2-dev)](https://cd.xn--mgbg4a8cpdl.com/ARhackintosh/ARtutorial)
+release:[![Build Status](https://cd.xn--mgbg4a8cpdl.com/api/badges/ARhackintosh/ARtutorial/status.svg?ref=refs/heads/v2)](https://cd.xn--mgbg4a8cpdl.com/ARhackintosh/ARtutorial)
 
 <div align="center">
   
