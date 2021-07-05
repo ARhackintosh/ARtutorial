@@ -1,0 +1,81 @@
+---
+kind: pipeline
+type: docker
+name: dev
+
+clone:
+  depth: 0
+
+steps:
+  - name: build
+    image: squidfunk/mkdocs-material:latest
+    pull: if-not-exists
+    entrypoint: [/bin/sh]
+    commands:
+      - python3 -m pip install --no-cache-dir -r requirements.txt
+      - mkdocs build --clean --verbose -d /drone/src/build/
+
+  - name: push
+    image: squidfunk/mkdocs-material:latest
+    entrypoint: [/bin/sh]
+    commands:
+      - apk add --no-cache rsync
+      - eval `ssh-agent -s`
+      - echo "$SSH_KEY" | ssh-add -
+      - mkdir -p ~/.ssh
+      - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+      - rsync -rv -e "ssh -p $SSH_PORT" /drone/src/build/ $SSH_USER:$SSH_DIR/dev --checksum
+    environment:
+      SSH_KEY:
+        from_secret: drone_ssh_key
+      SSH_USER:
+        from_secret: drone_ssh_user
+      SSH_PORT:
+        from_secret: drone_ssh_port
+      SSH_DIR:
+        from_secret: drone_ssh_dir
+
+trigger:
+  branch:
+  - v2-dev
+
+---
+kind: pipeline
+type: docker
+name: Release
+
+clone:
+  depth: 0
+
+steps:
+  - name: build
+    image: squidfunk/mkdocs-material:latest
+    pull: if-not-exists
+    entrypoint: [/bin/sh]
+    commands:
+      - python3 -m pip install --no-cache-dir -r requirements.txt
+      - mkdocs build --clean --verbose -d /drone/src/build/
+
+  - name: Deploy
+    image: squidfunk/mkdocs-material:latest
+    entrypoint: [/bin/sh]
+    commands:
+      - apk add --no-cache rsync
+      - eval `ssh-agent -s`
+      - echo "$SSH_KEY" | ssh-add -
+      - mkdir -p ~/.ssh
+      - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+      - rsync -rv -e "ssh -p $SSH_PORT" /drone/src/build/ $SSH_USER:$SSH_DIR --checksum
+    environment:
+      SSH_KEY:
+        from_secret: drone_ssh_key
+      SSH_USER:
+        from_secret: drone_ssh_user
+      SSH_PORT:
+        from_secret: drone_ssh_port
+      SSH_DIR:
+        from_secret: drone_ssh_dir
+
+trigger:
+  branch:
+  - v2
