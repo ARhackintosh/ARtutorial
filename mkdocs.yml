@@ -2,7 +2,7 @@ site_name: شرح تثبيت الهاكنتوش | هاكنتوش بالعربي
 site_url: https://tutorial.xn--mgbg4a8cpdl.com
 site_author: مجتمع هاكنتوش بالعربي
 repo_name: ARhackintosh/ARtutorial
-repo_url: https://github.com/arhackintosh/artutorial
+repo_url: https://codeberg.org/ARhackintosh/ARtutorial
 copyright: حقوق هذا العمل محفوطه لهاكنتوش بالعربي تحت AGPLv3
 site_description: شرح تثبيت الهاكنتوش من هاكنتوش بالعربي هو اول واكبر شرح عربي لتثبيت الهاكنتوش مع دعم اوبن كور وماك 11 بيج سر باللغه العربية.
 docs_dir: 'source'
@@ -34,8 +34,8 @@ theme:
 
 extra:
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/ARhackintosh
+    - icon: codeberg
+      link: https://codeberg.org/ARhackintosh
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/arhackintosh
     - icon: fontawesome/brands/telegram
@@ -108,3 +108,9 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - meta
+  - pymdownx.emoji:
+    emoji_index: !!python/name:materialx.emoji.twemoji
+    emoji_generator: !!python/name:materialx.emoji.to_svg
+    options:
+      custom_icons:
+        - overrides/.icons
