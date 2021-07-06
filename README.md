@@ -3,7 +3,7 @@
 
 Dev:![Build Status](https://cd.xn--mgbg4a8cpdl.com/api/badges/ARhackintosh/ARtutorial/status.svg?ref=refs/heads/v2-dev)
 
-Relase:![Build Status](https://cd.xn--mgbg4a8cpdl.com/api/badges/ARhackintosh/ARtutorial/status.svg?ref=refs/heads/v2)
+Release:![Build Status](https://cd.xn--mgbg4a8cpdl.com/api/badges/ARhackintosh/ARtutorial/status.svg?ref=refs/heads/v2)
 
 <div align="center">
   
