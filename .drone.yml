@@ -97,7 +97,7 @@ trigger:
 ---
 kind: pipeline
 type: docker
-name: dev
+name: pull-test
 
 clone:
   depth: 0
