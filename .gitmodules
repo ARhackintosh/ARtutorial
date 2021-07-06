@@ -1,0 +1,3 @@
+[submodule "source/extra/local-bmc"]
+	path = source/extra/local-bmc
+	url = https://codeberg.org/ARhackintosh/local-bmc
