@@ -7,7 +7,7 @@ release:[![Build Status](https://cd.xn--mgbg4a8cpdl.com/api/badges/ARhackintosh/
 
 <div align="center">
   
-![logo](https://cdn.xn--mgbg4a8cpdl.com/logoa.png)
+![logo](https://xn--mgbg4a8cpdl.com/img/logoa.png)
 
 </div>
 
