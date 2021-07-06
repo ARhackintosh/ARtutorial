@@ -43,6 +43,8 @@ steps:
 trigger:
   branch:
   - v2-dev
+  event:
+  - push
 
 ---
 kind: pipeline
@@ -89,3 +91,31 @@ steps:
 trigger:
   branch:
   - v2
+  event:
+  - push
+
+---
+kind: pipeline
+type: docker
+name: dev
+
+clone:
+  depth: 0
+
+steps:
+  - name: submodules
+    image: alpine/git
+    commands:
+    - git submodule update --init --recursive
+
+  - name: build
+    image: squidfunk/mkdocs-material:latest
+    pull: if-not-exists
+    entrypoint: [/bin/sh]
+    commands:
+      - python3 -m pip install --no-cache-dir -r requirements.txt
+      - mkdocs build --clean --verbose -d /drone/src/build/
+
+trigger:
+  event:
+  - pull_request
