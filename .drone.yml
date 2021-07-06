@@ -12,7 +12,6 @@ steps:
     pull: if-not-exists
     entrypoint: [/bin/sh]
     commands:
-      - wget -O overrides/.icons/codeberg.svg https://codeberg.org/Codeberg/Design/raw/branch/master/logo-kit/icon_inverted.svg
       - python3 -m pip install --no-cache-dir -r requirements.txt
       - mkdocs build --clean --verbose -d /drone/src/build/
 
