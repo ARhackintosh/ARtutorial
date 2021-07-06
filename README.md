@@ -1,4 +1,3 @@
-<div dir="rtl">
   
 # (v2)الاصدار الثاني من شرح تثبيت الهاكنتوش من [هاكنتوش بالعربي](https://هاكنتوش.com)
 
@@ -11,6 +10,8 @@ release:[![Build Status](https://cd.xn--mgbg4a8cpdl.com/api/badges/ARhackintosh/
 ![logo](https://cdn.xn--mgbg4a8cpdl.com/logoa.png)
 
 </div>
+
+<div dir="rtl">
 
 **مرخص تحت**:
 
