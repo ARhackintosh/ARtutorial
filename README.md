@@ -61,7 +61,8 @@ Release:![Build Status](https://cd.xn--mgbg4a8cpdl.com/api/badges/ARhackintosh/A
 7. [css مخصص](./docs/extra.css)
 8. [Caret, Mark & Tilde](https://squidfunk.github.io/mkdocs-material/reference/formatting/#caret-mark-tilde)
 
-جميع التغييرات يتم بنائها من dev-build ثم دفعها الى github pages
+جميع التغييرات يتم بنائها من drone ci 
+ثم على حسب الفرع يدفعها لنسخه التطوير ام الصفحه الرئيسية
 
 </div>
 
