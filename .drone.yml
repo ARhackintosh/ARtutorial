@@ -3,9 +3,6 @@ kind: pipeline
 type: docker
 name: dev
 
-clone:
-  depth: 0
-
 steps:
   - name: submodules
     image: alpine/git
