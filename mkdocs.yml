@@ -23,8 +23,8 @@ theme:
     - navigation.instant
   language: ar
   font: false
-  logo: https://xn--mgbg4a8cpdl.com/img/logo.png
-  favicon: https://xn--mgbg4a8cpdl.com/img/logo.png
+  logo: https://xn--mgbg4a8cpdl.com/wp-content/uploads/2021/07/logo-normalres.png
+  favicon: https://xn--mgbg4a8cpdl.com/wp-content/uploads/2021/07/cropped-icon-1.png
   icon:
     repo: codeberg
   palette:
