@@ -1,15 +1,15 @@
 # اهلا بك في الاصدار الثاني من شرح تثبيت الهاكنتوش من [مجتمع هاكنتوش بالعربي](https://هاكنتوش.com)
 
-![](https://xn--mgbg4a8cpdl.com/img/logoa.png#center)
+![](https://هاكنتوش.com/img/logoa.png#center)
 
 <div align="center">
 
 <h2> تم بناء الشرح على اصدار اوبن كور <a href="{{ oc.git }}">{{ oc.version }}</a> </h2>
-<b>استخدامك لهذا الشرح يعني موافقتك على <a href="https://xn--mgbg4a8cpdl.com/privacy-policy/">سياسة خصوصية هاكنتوش بالعربي</a></b>
+<b>استخدامك لهذا الشرح يعني موافقتك على <a href="https://هاكنتوش.com/privacy-policy/">سياسة خصوصية هاكنتوش بالعربي</a></b>
 
 <p><a class="center-me md-button md-button--primary" href="start" style="margin: auto;">ابدا</a></p> 
 
-<details class="success" open="open"><summary>ادعمنا</summary><p><a href="https://www.buymeacoffee.com/arhackintosh" target="_blank"><img src="https://xn--mgbg4a8cpdl.com/img/bmc.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;"></a> <a href="https://liberapay.com/ARhackintosh/donate"><img alt="Donate using Liberapay" src="https://xn--mgbg4a8cpdl.com/img/donate.svg" style="height: 40px !important;width: 110px !important;"></a></p> </details>
+<details class="success" open="open"><summary>ادعمنا</summary><p><a href="https://www.buymeacoffee.com/arhackintosh" target="_blank"><img src="https://هاكنتوش.com/img/bmc.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;"></a> <a href="https://liberapay.com/ARhackintosh/donate"><img alt="Donate using Liberapay" src="https://هاكنتوش.com/img/donate.svg" style="height: 40px !important;width: 110px !important;"></a></p> </details>
 
 </div>
 
@@ -19,7 +19,7 @@
 	
 	رحبو معنا باكبر تحديث للشرح!, اكثر من 190 تعديل!
 
-	<p><a class="center-me md-button md-button--primary" href="https://xn--mgbg4a8cpdl.com/?p=4669" style="margin: auto;">كامل التغييرات هنا</a></p> 
+	<p><a class="center-me md-button md-button--primary" href="https://هاكنتوش.com/?p=4669" style="margin: auto;">كامل التغييرات هنا</a></p> 
 
 	ابرز التغييرات:
 
@@ -31,7 +31,7 @@
 ???+ info "V2.7-Big sur"
 	تحديث شهر ابريل للشرح ياتي مع دعم [اوبن كور 0.6.8](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.8) وتغييرات جديد لتحسين تجربتك للشرح
 
-	<p><a class="center-me md-button md-button--primary" href="https://xn--mgbg4a8cpdl.com/%d8%b5%d8%af%d9%88%d8%b1-%d8%aa%d8%ad%d8%af%d9%8a%d8%ab-v2-7-big-sur-%d9%84%d8%b4%d8%b1%d8%ad-%d8%aa%d8%ab%d8%a8%d9%8a%d8%aa-%d8%a7%d9%84%d9%87%d8%a7%d9%83%d9%86%d8%aa%d9%88%d8%b4/" style="margin: auto;">كامل التغييرات هنا</a></p> 
+	<p><a class="center-me md-button md-button--primary" href="https://هاكنتوش.com/%d8%b5%d8%af%d9%88%d8%b1-%d8%aa%d8%ad%d8%af%d9%8a%d8%ab-v2-7-big-sur-%d9%84%d8%b4%d8%b1%d8%ad-%d8%aa%d8%ab%d8%a8%d9%8a%d8%aa-%d8%a7%d9%84%d9%87%d8%a7%d9%83%d9%86%d8%aa%d9%88%d8%b4/" style="margin: auto;">كامل التغييرات هنا</a></p> 
 
 	ابرز التغييرات:
 
@@ -52,7 +52,7 @@
 ??? info "V2.5-Big sur"
 	تحديث شهر فبراير للشرح ياتي مع دعم [اوبن كور 0.6.6](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.6) وتغييرات جديد لتحسين تجربتك للشرح
 
-	<p><a class="center-me md-button md-button--primary" href="https://xn--mgbg4a8cpdl.com/?p=4621" style="margin: auto;">كامل التغييرات هنا</a></p> 
+	<p><a class="center-me md-button md-button--primary" href="https://هاكنتوش.com/?p=4621" style="margin: auto;">كامل التغييرات هنا</a></p> 
 
 	ابرز التغييرات:
 
@@ -64,7 +64,7 @@
 ??? info "V2.4-Big sur"
 	تحديث طارئ لحل مشكله نسخ بيج سر, واستبدال برنامج BDU
 
-	**[كامل التفاصيل هنا](https://xn--mgbg4a8cpdl.com/?p=4581)**
+	**[كامل التفاصيل هنا](https://هاكنتوش.com/?p=4581)**
 
 	ابرز التغييرات:
 	
@@ -76,7 +76,7 @@
 	اكبر تحديث لشرح تثبيت الهاكنتوش من مجتمع هاكنتوش بالعربي.
 	نقوم فيه بتحديث جميع اقسام الشرح.
 
-	**[كامل التغييرات هنا](https://xn--mgbg4a8cpdl.com/?p=4570)**
+	**[كامل التغييرات هنا](https://هاكنتوش.com/?p=4570)**
 
 	ابرز التغييرات:
 	
@@ -86,7 +86,7 @@
 	- رفع نسخه جديده
 
 ??? info "V2.2-Big sur"
-	**[كامل التغييرات هنا](https://xn--mgbg4a8cpdl.com/?p=4462)**, تحديث جديد, نقدم فيه تصحيح لبعض الاخطاء, مع زيادة لعرض الشرح ومميزات جديدة!.
+	**[كامل التغييرات هنا](https://هاكنتوش.com/?p=4462)**, تحديث جديد, نقدم فيه تصحيح لبعض الاخطاء, مع زيادة لعرض الشرح ومميزات جديدة!.
 
 	ابرز التغييرات:
 	
@@ -98,7 +98,7 @@
 
 
 ??? info "V2.1-Big sur"
-	**[كامل التغييرات هنا](https://xn--mgbg4a8cpdl.com/?p=4448)**, تحديث فيه تحسينات هامه لحسين تجربتكم في عالم الهاكنتوش.
+	**[كامل التغييرات هنا](https://هاكنتوش.com/?p=4448)**, تحديث فيه تحسينات هامه لحسين تجربتكم في عالم الهاكنتوش.
 
 	ابرز التغييرات:
 	
@@ -112,7 +112,7 @@
 
 ??? info "V2.0-Big sur"
 	**الاصدار الرسمي للشرح**
-	**[كامل التفاصيل هنا](https://xn--mgbg4a8cpdl.com/?p=4359)**
+	**[كامل التفاصيل هنا](https://هاكنتوش.com/?p=4359)**
 	هذا اكبر تحديث لشرح الهاكنتوش ويحتوي فيه:
 	
 	- دعم ماك Big sur
@@ -126,11 +126,9 @@
 
 ## فريق المتطوعين
 
-الكاتب الاساسي : [fareszr](https://forum.هاكنتوش.com/members/fareszr.2/) 
+الكاتب الاساسي : [fareszr](https://forum.هاكنتوش.com/u/fariszr) 
 
-المدقق اللغوي :  [Abdullah Ali](https://forum.هاكنتوش.com/members/abdullah-ali.48/)
-
-مسؤول تحديث كونفقات الابتوبات : [Ahmed Alhammad](https://forum.xn--mgbg4a8cpdl.com/members/ahmedalhammad.108/)
+المسئول عن نسخه النظام :  [Abdullah Ali](https://forum.هاكنتوش.com/u/abdullah_ali)
 
 ## المصادر
 
