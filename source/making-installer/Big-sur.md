@@ -16,15 +16,15 @@
 في هاكنتوش بالعربي بسبب عدم وجود اي بديل اخر سنقوم بعمل ملف dmg مجهزه مسبقا يحتوي على ماك بيج سر خام بدون اي نوع من التعديل,
 سنحاول تحديث الرابط كل فتره
 
-[**التنزيل من هنا**](https://gofile.io/d/p3wp5u)
+[**التنزيل من هنا**](https://gofile.io/d/AhJddY)
 
-الاصدار المرفوع: macOS Big Sur 11.4
+الاصدار المرفوع: macOS Big Sur 11.5
 
-تاريخ الرفع: 2021-7-5
+تاريخ الرفع: 2021-7-25
 
-الملف: ARhackintosh(BS11.4)
+الملف: ARhackintosh(BS11.5)
 
-sha256 checksum: 6bc280e54c12507b186deea22fc8eefd71e37737660b7610684497bece07cff2  
+sha256 checksum: 3bb11a392a8b1b59fd0381cf72fad35d34a739c341a212ec6bf9d1195bc784e3  
 
 
 ## Balena Etcher
