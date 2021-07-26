@@ -1,8 +1,7 @@
 # اهلا بك في الاصدار الثاني من شرح تثبيت الهاكنتوش من [مجتمع هاكنتوش بالعربي](https://هاكنتوش.com)
 
-![](https://هاكنتوش.com/img/logoa.png#center)
-
 <div align="center">
+<img src="https://هاكنتوش.com/img/logoa.png" width="300" height="370" alt="ARtutorial" />
 
 <h2> تم بناء الشرح على اصدار اوبن كور <a href="{{ oc.git }}">{{ oc.version }}</a> </h2>
 <b>استخدامك لهذا الشرح يعني موافقتك على <a href="https://هاكنتوش.com/privacy-policy/">سياسة خصوصية هاكنتوش بالعربي</a></b>
