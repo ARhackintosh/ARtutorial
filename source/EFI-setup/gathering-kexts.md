@@ -150,56 +150,41 @@ description: اهم التعريفات (كيكستات) في عالم الهاك
 
 ## واي فاي | Wi-Fi
 
-ابل دعمها لكروت **الواي فاي ضعيف جدا بحيث كروت RealTek** غير مدعومه بشكل كامل أما **Atheros و انتل** مدعومه جزئيا بينما كروت **Broadcom** هي الكروت الأكثر دعما بحيت فيها من يتعرف تلقائي **OOB** ومنها من تحتاج بعض الكيكست.
+ابل دعمها لكروت الواي فاي ضعيف جدا بحيث كروت Broadcom** هي الكروت المدعومة مع **Atheros** في اصدارات قديمة, وبعضها قد يحتاج لكيكستات اضافية.
 
-### قائمة الكروت المدعومه والغير مدعومة
+### قائمة الكروت مدعومة **مباشرة** من النظام
 
 ??? info "الكروت المدعومة"
+	**Big Sur(11)+**
 
-	* BCM94360CD
-	* BCM94331CD
-	* BCM94360CS2
-	* BCM94352Z
-	* BCM94350ZAE
+	- BCM943602
+	- BCM94360
+	- BCM94352
+	- BCM94350
+	
+	**Catalina(10.15)+**
 
-	**High Sierra :**
+	- BCM943224
+	- BCM94331
+	- بالاضافه للمدعوم في بيج سر(الدعم يقل مع كل اصدار)
+	- قد تحتاج لاجبار تشغيل `IO80211Family.kext`, انظر في اعداد `Kernel -> Force` في اوبن كور.
+	
+	**Mojave(10.14)+**
 
-	* BCM943224
-	* AR9285
-	* AR9287
-	* AR9280
-	* AR9380
+	- BCM94322
+	- بالاضافه للمدعوم في كاتلينا(الدعم يقل مع كل اصدار)
 
-??? info "الكروت الغير مدعومة"
+	**High Sierra(10.13)+**
 
-	**Wireless AC**
+	- AR242x
+	- AR542x
+	- AR5416
+	- AR5418
+	- AR9280 - AR5BHB92
+	- AR9285 - AR5B95
+	- AR9287 - AR5B97
+	- AR9380 - AR5BXB112
 
-	- Intel® Wireless-AC 9560
-	- Intel® Dual Band Wireless-AC 8260
-	- Intel® Dual Band Wireless-AC 7260
-
-	**Wireless N**
-
-	- Intel® Dual Band Wireless-N 7265
-	- Intel® Wireless-N 7265
-	- Intel® Dual Band Wireless-N 7260
-	- Intel® Wireless-N 7260
-	- Intel® Centrino® Advanced-N 6230
-	- Intel® Centrino® Wireless-N 1030
-	- Intel® Centrino® Wireless-N 130
-	- Intel® Centrino® Advanced-N 6235
-	- Intel® Centrino® Wireless-N 135
-	- Intel® Centrino® Wireless-N 105
-	- Intel® Centrino® Wireless-N 2200
-	- Intel® Centrino® Wireless-N 2230
-	- Intel® Centrino® Wireless-N 1000
-	- Intel® Centrino® Advanced-N 6205
-	- Intel® Centrino® Wireless-N 100
-	- Intel® Centrino® Wireless-N + WiMAX 6150
-	- Intel® Centrino® Advanced-N + WiMAX 6250
-	- Intel® Centrino® Ultimate-N 6300
-	- Intel® Centrino® Advanced-N 6200
-	- Intel® Wireless WiFi Link 5100AGN
 
 ???+ Warning "تنبية"
 	اذا كنت تفكر بتغير كرت الواي فاي الخاص بك على جهاز من تصنيع oem (لابتوبات وكمبيوترات مبنية مسبقا) **انتبه** من **BIOS** جهازك  بحيث هناك احتمال وجود **Whitelist** لسماح لكروت معينه فقط بالعمل, اشهر  الشركات التي تستخدم هذا الطريقه  هي **HP** و **Lenovo** **مقال يشرحها [هنا](https://www.thewindowsclub.com/bios-whitelist)**
@@ -273,22 +258,6 @@ description: اهم التعريفات (كيكستات) في عالم الهاك
 		- BrcmPatchRAM2 ل 10.11-10.14
 	- ايضا اضف كيكست BrcmBluetoothInjector(مرفق معه بملف التنزيل)
 
-- **تعريف [AirPortAtheros40](https://هاكنتوش.com/airportatheros40-kext/)**
-
-	هدا الكيكست مطلوب **لكل كروت Atheros** التي تم **رفع الدعم عنها في اصدار \(Mojave 10.14\)**
-
-	* AR9285
-	* AR9287
-	* AR9280
-	* AR9380
-
-	لتنصيبه يجب نسخه على هذا المسار : **Library/Extensions** لا تلصقه هنا ~~**System/Library/Extensions**~~
-
-	تم انسخ هدا الامر على **Terminal**
-
-	```text
-	sudo chown -R root:wheel /L*/E*; sudo chmod -R 755 /L*/E*; sudo kextcache -i /
-	```
 
 بشكل عام **افضل حل للواي فاي والبلوتوث هو كرت خارجي** مع تعريف من الشركه مثل **TP-Link** وغيرها من الشركات التي تعطي USB واي فاي **تاكد من وجود دعم للماك** و سوف تعمل معك.
 
