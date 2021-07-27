@@ -118,7 +118,7 @@ description: اهم التعريفات (كيكستات) في عالم الهاك
 	- يجب ان يكون كرت الصوت الخاص بك موجود في هذه [القائمه](https://github.com/acidanthera/applealc/wiki/supported-codecs)
 
 - [VoodoHDA](https://هاكنتوش.com/voodoohda-kext/)
-	- هذا تعريف بديل وهو ليس كيكست بل برنامج تثبته بعد تثبيت النظام, يقدم دعم اوسع, اذا كان كرتك لايعمل مع AppleALC استخدم هذا. يجب حذف Applealc قبل استخدامه وجودته اسوء بفرق كبير عن applealc
+	- يقدم دعم اوسع, اذا كان كرتك لايعمل مع AppleALC استخدم هذا. يجب حذف Applealc قبل استخدامه وجودته اسوء بفرق كبير عن applealc
 	- قد يحل مشكله المايكروفون على معالجات Ryzen 
 	
 ## كيكستات اضافيه
@@ -206,7 +206,7 @@ description: اهم التعريفات (كيكستات) في عالم الهاك
 
 ### تعريفات كروت الواي فاي
 
-- **تعريف [Itwlm](https://github.com/OpenIntelWireless/itlwm/releases)**
+- **تعريف [AirportItwlm](https://هاكنتوش.com/Airportitwlm-kext/)**
 
 	تعريف مخصص لكروت انتل الحديث وهو اول تعريف يفتح الطريقه لدعم كروت واي فاي انتل على الماك
 
@@ -258,9 +258,6 @@ description: اهم التعريفات (كيكستات) في عالم الهاك
 		|0x02F0|AC 9462|
 		|0x3DF0|AC 9462|
 		|0x06F0|AX201|
-
-- **برنامج [Heliport](https://github.com/OpenIntelWireless/HeliPort/releases)**
-	برنامج مرافق لتعريف [itwlm](#itwlm) وهو عبارة عن واجهه للتحكم بالكرت للاتصال بشبكات الواي فاي الظاهره
 
 - **تعريف [AirportBrcmFixup](https://هاكنتوش.com/airportbrcmfixup-kext/)**
 
