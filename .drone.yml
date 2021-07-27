@@ -42,14 +42,12 @@ trigger:
   - v2-dev
   event:
   - push
+  - custom
 
 ---
 kind: pipeline
 type: docker
 name: Release
-
-clone:
-  depth: 0
 
 steps:
   - name: submodules
@@ -90,14 +88,12 @@ trigger:
   - v2
   event:
   - push
+  - custom
 
 ---
 kind: pipeline
 type: docker
 name: pull-test
-
-clone:
-  depth: 0
 
 steps:
   - name: submodules
