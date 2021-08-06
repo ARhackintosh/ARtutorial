@@ -1,10 +1,9 @@
 # اهلا بك في الاصدار الثاني من شرح تثبيت الهاكنتوش من [مجتمع هاكنتوش بالعربي](https://هاكنتوش.com)
 
 <div align="center">
-<img src="https://هاكنتوش.com/img/logoa.png" width="300" height="370" alt="ARtutorial" />
+<img src="https://هاكنتوش.com/wp-content/uploads/2021/01/logoa.png.webp" width="300" height="370" alt="ARtutorial" />
 
 <h2> تم بناء الشرح على اصدار اوبن كور <a href="{{ oc.git }}">{{ oc.version }}</a> </h2>
-<b>استخدامك لهذا الشرح يعني موافقتك على <a href="https://هاكنتوش.com/privacy-policy/">سياسة خصوصية هاكنتوش بالعربي</a></b>
 
 <p><a class="center-me md-button md-button--primary" href="start" style="margin: auto;">ابدا</a></p> 
 
