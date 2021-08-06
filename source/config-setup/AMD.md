@@ -147,7 +147,7 @@
 	| AllowSetDefault | True | |
 	| BlacklistAppleUpdate | True | |
 	| ScanPolicy | 0 | |
-	| SecureBootModel | `Default` | هذه كلمة, اكتبها مثل المكتوب بالظبط, **فيه حاله كنت تستخدم تعريفات انفيديا اكتب** `Disabled` |
+	| SecureBootModel | `Disabled` | هذه كلمة, اكتبها مثل المكتوب بالظبط |
 	| Vault | `Optional` | هذه كلمة, اكتبها مثل المكتوب بالظبط |
 
 ### Tools
