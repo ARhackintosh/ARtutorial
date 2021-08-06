@@ -97,7 +97,7 @@
 
 هنا نقوم باضافه الباتشات المخصصه لمعالجات AMD, هذه الباتشات مطوره من فريق AMDOSX لهم الشكر, بحيث بدونهم لن يكون الهاكنتوش الخام ممكن على معالجات AMD
 
-قم بتنزيل الباتشات من [هنا](https://github.com/AMD-OSX/AMD_Vanilla) (تنزيل عبر زر code) ثم داخل ملف 17h ستجد ملف patches.plist قم بفتحه ببرنامج propoer tree, ثم ضع بجانبه نافذه الكونفق الخاص بك, ثم قم بعمليه النسخ مثل الصورة:
+قم بتنزيل الباتشات من [هنا](https://github.com/AMD-OSX/AMD_Vanilla) (تنزيل عبر زر code) ثم ستجد ملف patches.plist قم بفتحه ببرنامج propoer tree, ثم ضع بجانبه نافذه الكونفق الخاص بك, ثم قم بعمليه النسخ مثل الصورة:
 
 ![باتشات amd](/img/config-setup/amd/amd-patches.gif)
 
@@ -110,6 +110,7 @@
 	| :--- | :--- |
 	| PanicNoKextDump | True |
 	| PowerTimeoutKernelPanic | True |
+	| ProvideCurrentCpuInfo | True |
 	| XhciPortLimit | True |
 
 ### Scheme
