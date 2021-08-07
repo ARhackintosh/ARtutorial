@@ -10,22 +10,31 @@
 
 ## البرامج
 
-- برنامج **[Balena Etcher](https://www.balena.io/etcher/)** البرنامج المسؤول عن فرمته ال usb ونسخ الماك
-- سكربت Makeinstall من [Gibmacos](https://github.com/corpnewt/gibMacOS) لاظهار قسم EFI وجعله قبل للتعديل
+- [python](https://www.python.org/downloads/) لغه برمجه التي تعتمد عليها كل سكربتات الهاكنتوش
 ## تنزيل الماك
-في هاكنتوش بالعربي بسبب عدم وجود اي بديل اخر سنقوم بعمل ملف dmg مجهزه مسبقا يحتوي على ماك بيج سر خام بدون اي نوع من التعديل,
-سنحاول تحديث الرابط كل فتره
 
-[**التنزيل من هنا**](https://gofile.io/d/AhJddY)
+نظرا لان لا يمكن اتباع طريقه تنزيل النسخه الكامله من الماك داخل ويندوز, سنستخدم نسخه ريكوفري
+وهي نسخه ليست كامله, تقوم بتنزيل النظام اثناء التثبيت
 
-الاصدار المرفوع: macOS Big Sur 11.5
+اذهب لملف اوبن كور ثم `/Utilities/macrecovery/`
+### ويندوز
+ثم **Shift + كلك يمين** 
+واختار فتح نافذه PowerShell
 
-تاريخ الرفع: 2021-7-25
+![powershell](/img/Big-sur/open-powershell.png)
 
-الملف: ARhackintosh(BS11.5)
+ثم ضع هذا الامر
+```
+python macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
+```
+### لينكس
 
-sha256 checksum: 3bb11a392a8b1b59fd0381cf72fad35d34a739c341a212ec6bf9d1195bc784e3  
+كلك يمين, ثم افتح تيرمنال
 
+ثم ضع هذا الامر
+```
+python macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
+```
 
 ## Balena Etcher
 
