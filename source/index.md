@@ -16,7 +16,7 @@
 	وذلك بسبب عدم تحديث فريق دورتانيا لشرحهم لاصدار 0.7.1
 	لذلك انتظرنا 0.7.2 لنصدر التحديث
 
-	<p><a class="center-me md-button md-button--primary" href="https://هاكنتوش.com/?p=4669" style="margin: auto;">كامل التغييرات هنا</a></p> 
+	<p><a class="center-me md-button md-button--primary" href="https://هاكنتوش.com/?p=4854" style="margin: auto;">كامل التغييرات هنا</a></p> 
 
 	ابرز التغييرات:
 
