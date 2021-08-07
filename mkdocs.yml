@@ -53,16 +53,13 @@ extra_css:
 nav:
     - الرئيسية: 'index.md'
     - البداية: 'start.md'
-    - نسخ النظام:
-      - 'macOS 11 Big Sur - بيج سر' : 'making-installer/Big-sur.md'
-      - 'macOS 10.15 Catalina - كاتلينا او اقدم' : 'making-installer/Catalina-or-older.md'
-    - تجهيز قسم ال EFI:
+    - تجهيز ملف ال EFI:
       - 'نقل ملفات اوبن كور': 'EFI-setup/Opencore.md'
-      - اختيار التعريفات | Kext: 'EFI-setup/gathering-kexts.md'
+      - 'اختيار التعريفات | Kext': 'EFI-setup/gathering-kexts.md'
       - 'ACPI': 'EFI-setup/ACPI.md'
       - 'الكونفق': 'EFI-setup/config.md'
     - تجهيز الكونفق:
-      - 'Intel(PC)':
+      - Intel(PC):
         - 'الجيل الثالث' : 'config-setup/3rd-gen.md'
         - 'الجيل الرابع و الخامس' : 'config-setup/4th-gen.md'
         - 'الجيل السادس' : 'config-setup/6th-gen.md'
@@ -70,7 +67,7 @@ nav:
         - 'الجيل الثامن والتاسع' : 'config-setup/8th-gen.md' 
         - 'الجيل العاشر' : 'config-setup/10th-gen.md'
       - 'Ryzen(PC)': 'config-setup/AMD.md'
-      - 'Intel(Laptop)':
+      - Intel(Laptop):
         - 'الجيل الثالث' : 'config-setup/laptops/3rd-gen.md'
         - 'الجيل الرابع' : 'config-setup/laptops/4th-gen.md'
         - 'الجيل الخامس' : 'config-setup/laptops/5th-gen.md'
@@ -79,9 +76,12 @@ nav:
         - 'الجيل الثامن' : 'config-setup/laptops/8th-gen.md'
         - 'الجيل التاسع و comet lake' : 'config-setup/laptops/9th-gen.md'
         - 'ice lake' : 'config-setup/laptops/ice-lake.md'
-    - 'تثبيت الماك':
+    - تنزيل ونسخ الماك والملفات:
+      - 'macOS 11 Big Sur - بيج سر' : 'making-installer/Big-sur.md'
+      - 'macOS 10.15 Catalina - كاتلينا او اقدم' : 'making-installer/Catalina-or-older.md'
+    - تثبيت الماك:
       - 'الاقلاع': 'Installation/booting.md'
-      - بعد التثبيت: 'Installation/post-install.md'
+      - 'بعد التثبيت': 'Installation/post-install.md'
     - 'مجتمع هاكنتوش بالعربي': 'https://forum.هاكنتوش.com'
     - 'نسخة التطوير': '/dev'
     - 'تيليجرام': 'https://t.me/arhackintosh'
