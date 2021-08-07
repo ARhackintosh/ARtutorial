@@ -76,7 +76,7 @@ nav:
         - 'الجيل الثامن' : 'config-setup/laptops/8th-gen.md'
         - 'الجيل التاسع و comet lake' : 'config-setup/laptops/9th-gen.md'
         - 'ice lake' : 'config-setup/laptops/ice-lake.md'
-    - تنزيل ونسخ الماك والملفات:
+    - تنزيل ونسخ الماك وال EFI:
       - 'macOS 11 Big Sur - بيج سر' : 'making-installer/Big-sur.md'
       - 'macOS 10.15 Catalina - كاتلينا او اقدم' : 'making-installer/Catalina-or-older.md'
     - تثبيت الماك:
