@@ -26,6 +26,7 @@
 	- تصحيح بعض الاغلاط اللغوية
 	- تحديث التعريفات 
 	- تحديث روابط المجتمع
+	- اول اصدار من Codeberg!
 	- دعم اوبن كور [v0.7.2](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.2)
 
 ???+ info "V2.8-Big sur"
