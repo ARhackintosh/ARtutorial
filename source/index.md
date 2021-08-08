@@ -1,13 +1,13 @@
 # اهلا بك في الاصدار الثاني من شرح تثبيت الهاكنتوش من [مجتمع هاكنتوش بالعربي](https://هاكنتوش.com)
 
 <div align="center">
-<img src="https://هاكنتوش.com/wp-content/uploads/2021/01/logoa.png.webp" width="300" height="370" alt="ARtutorial" />
+<img src="https://هاكنتوش.com/wp-content/uploads/2021/01/logoa.png.webp" style="height: 370px !important;width: 300px !important;" alt="ARtutorial" />
 
 <h2> تم بناء الشرح على اصدار اوبن كور <a href="{{ oc.git }}">{{ oc.version }}</a> </h2>
 
 <p><a class="center-me md-button md-button--primary" href="start" style="margin: auto;">ابدا</a></p> 
 
-<details class="success" open="open"><summary>ادعمنا</summary><p><a href="https://www.buymeacoffee.com/arhackintosh" target="_blank"><img src="https://هاكنتوش.com/img/bmc.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;"></a> <a href="https://liberapay.com/ARhackintosh/donate"><img alt="Donate using Liberapay" src="https://هاكنتوش.com/img/donate.svg" style="height: 40px !important;width: 110px !important;"></a></p> </details>
+<details class="success" open="open"><summary>ادعمنا</summary><p><a href="https://www.buymeacoffee.com/arhackintosh" target="_blank" rel="noopener" rel="noreferrer"><img src="https://هاكنتوش.com/img/bmc.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;"></a> <a href="https://liberapay.com/ARhackintosh/donate" rel="noopener" rel="noreferrer" ><img alt="Donate using Liberapay" src="https://هاكنتوش.com/img/donate.svg" style="height: 40px !important;width: 110px !important;"></a></p> </details>
 
 </div>
 
