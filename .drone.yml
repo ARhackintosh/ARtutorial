@@ -39,7 +39,7 @@ steps:
 
 trigger:
   branch:
-  - v2-dev
+  - V3-Dev
   event:
   - push
   - custom
