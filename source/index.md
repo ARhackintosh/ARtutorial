@@ -18,11 +18,9 @@
 
 
 
-## فريق المتطوعين
+## المتطوعين
 
 الكاتب الاساسي : [fareszr](https://forum.هاكنتوش.com/u/fariszr) 
-
-المسئول عن نسخه النظام :  [Abdullah Ali](https://forum.هاكنتوش.com/u/abdullah_ali)
 
 ## المصادر
 
