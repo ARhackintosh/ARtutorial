@@ -29,8 +29,8 @@ theme:
     repo: codeberg
   palette:
     scheme: slate
-    primary: deep purple
-    accent: indigo
+#    primary: deep purple
+    accent: deep purple
 
 extra:
   social:
