@@ -44,8 +44,8 @@ extra:
     - icon: matrix
       link: https://matrix.to/#/#arhackintosh:utwente.io
   oc:
-    version: 0.7.5
-    git: https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.5
+    version: 0.7.6
+    git: https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.6
 
 
 extra_css:
