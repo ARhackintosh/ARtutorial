@@ -1,15 +1,10 @@
----
-kind: pipeline
-type: docker
-name: dev
-
-steps:
-  - name: submodules
+pipeline:
+  submodules:
     image: alpine/git
     commands:
       - git submodule update --init --recursive
 
-  - name: build
+  build:
     image: squidfunk/mkdocs-material:latest
     pull: if-not-exists
     entrypoint: [/bin/sh]
@@ -17,7 +12,7 @@ steps:
       - python3 -m pip install --no-cache-dir -r requirements.txt
       - mkdocs build --clean --verbose -d dev
 
-  - name: push
+  push:
     image: appleboy/drone-git-push
     settings:
       remote_name: origin
@@ -30,67 +25,3 @@ steps:
 when:
   branch: V3-Dev
   event: push
-
----
-kind: pipeline
-type: docker
-name: Release
-
-steps:
-  - name: submodules
-    image: alpine/git
-    commands:
-      - git submodule update --init --recursive
-
-  - name: build
-    image: squidfunk/mkdocs-material:latest
-    pull: if-not-exists
-    entrypoint: [/bin/sh]
-    commands:
-      - python3 -m pip install --no-cache-dir -r requirements.txt
-      - mkdocs build --clean --verbose -d release
-
-  - name: Deploy
-    image: appleboy/drone-git-push
-    settings:
-      remote_name: origin
-      branch: pages
-      local_ref: pages
-      ssh_key: $SSH_KEY
-      path: release
-    secrets: [ key_ssh ]
-
-trigger:
-  branch:
-  - v2
-  - v3
-  event:
-  - push
-  - custom
-
-when:
-  branch: [V3,V2]
-  event: push
-
----
-kind: pipeline
-type: docker
-name: pull-test
-
-steps:
-  - name: submodules
-    image: alpine/git
-    commands:
-      - git submodule update --init --recursive
-
-  - name: build
-    image: squidfunk/mkdocs-material:latest
-    pull: if-not-exists
-    entrypoint: [/bin/sh]
-    commands:
-      - python3 -m pip install --no-cache-dir -r requirements.txt
-      - mkdocs build --clean --verbose -d /drone/src/build/
-
-when:
-  branch: V3-Dev
-  event: pull_request
