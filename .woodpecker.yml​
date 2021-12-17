@@ -12,6 +12,7 @@ pipeline:
     image: appleboy/drone-git-push
     settings:
       remote_name: origin
+      remote: git@codeberg.org:ARhackintosh/ARtutorial
       branch: pages
       author_name: fariszr
       local_ref: pages
