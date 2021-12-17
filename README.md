@@ -1,5 +1,5 @@
   
-# (v2)الاصدار الثاني من شرح تثبيت الهاكنتوش من [هاكنتوش بالعربي](https://هاكنتوش.com)
+# (v3)الاصدار الثالث من شرح تثبيت الهاكنتوش من [هاكنتوش بالعربي](https://هاكنتوش.com)
 
 Dev:![Build Status](https://cd.xn--mgbg4a8cpdl.com/api/badges/ARhackintosh/ARtutorial/status.svg?ref=refs/heads/v2-dev)
 
