@@ -1,9 +1,4 @@
 pipeline:
-  submodules:
-    image: alpine/git
-    commands:
-      - git submodule update --init --recursive
-
   build:
     image: debian:latest
     pull: true
@@ -18,6 +13,7 @@ pipeline:
     settings:
       remote_name: origin
       branch: pages
+      author_name: fariszr
       local_ref: pages
       ssh_key: 
         from_secret: key_ssh
