@@ -15,27 +15,19 @@ steps:
     entrypoint: [/bin/sh]
     commands:
       - python3 -m pip install --no-cache-dir -r requirements.txt
-      - mkdocs build --clean --verbose -d /drone/src/build/
+      - mkdocs build --clean --verbose -d dev
 
   - name: push
-    image: squidfunk/mkdocs-material:latest
-    entrypoint: [/bin/sh]
-    commands:
-      - apk add --no-cache rsync
-      - eval `ssh-agent -s`
-      - echo "$SSH_KEY" | ssh-add -
-      - mkdir -p ~/.ssh
-      - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
-      - rsync -rv -e "ssh -p $SSH_PORT" /drone/src/build/ $SSH_USER:$SSH_DIR/dev --checksum
+    image: appleboy/drone-git-push
+    settings:
+      remote_name: origin
+      branch: pages
+      local_ref: pages
+      ssh_key: $SSH_KEY
+      path: dev
     environment:
       SSH_KEY:
-        from_secret: drone_ssh_key
-      SSH_USER:
-        from_secret: drone_ssh_user
-      SSH_PORT:
-        from_secret: drone_ssh_port
-      SSH_DIR:
-        from_secret: drone_ssh_dir
+        from_secret: ssh_key
 
 trigger:
   branch:
@@ -61,31 +53,24 @@ steps:
     entrypoint: [/bin/sh]
     commands:
       - python3 -m pip install --no-cache-dir -r requirements.txt
-      - mkdocs build --clean --verbose -d /drone/src/build/
+      - mkdocs build --clean --verbose -d release
 
   - name: Deploy
-    image: squidfunk/mkdocs-material:latest
-    entrypoint: [/bin/sh]
-    commands:
-      - apk add --no-cache rsync
-      - eval `ssh-agent -s`
-      - echo "$SSH_KEY" | ssh-add -
-      - mkdir -p ~/.ssh
-      - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
-      - rsync -rv -e "ssh -p $SSH_PORT" /drone/src/build/ $SSH_USER:$SSH_DIR --checksum
+    image: appleboy/drone-git-push
+    settings:
+      remote_name: origin
+      branch: pages
+      local_ref: pages
+      ssh_key: $SSH_KEY
+      path: release
     environment:
       SSH_KEY:
-        from_secret: drone_ssh_key
-      SSH_USER:
-        from_secret: drone_ssh_user
-      SSH_PORT:
-        from_secret: drone_ssh_port
-      SSH_DIR:
-        from_secret: drone_ssh_dir
+        from_secret: ssh_key
 
 trigger:
   branch:
   - v2
+  - v3
   event:
   - push
   - custom
