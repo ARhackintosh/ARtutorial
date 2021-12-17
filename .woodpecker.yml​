@@ -6,7 +6,7 @@ pipeline:
 
   build:
     image: squidfunk/mkdocs-material:latest
-    pull: if-not-exists
+    pull: true
     entrypoint: [/bin/sh]
     commands:
       - python3 -m pip install --no-cache-dir -r requirements.txt
