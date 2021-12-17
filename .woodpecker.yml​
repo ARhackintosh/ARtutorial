@@ -9,7 +9,7 @@ pipeline:
     pull: true
     commands:
       - apt update
-      - apt install pip -y
+      - apt install pip git -y
       - python3 -m pip install --no-cache-dir -r requirements.txt
       - mkdocs build --clean --verbose -d dev
 
