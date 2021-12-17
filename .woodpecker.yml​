@@ -17,7 +17,7 @@ pipeline:
       author_name: fariszr
       local_ref: pages
       ssh_key: 
-        from_secret: key_ssh
+        from_secret: SSH_KEY
       path: dev
 
 when:
