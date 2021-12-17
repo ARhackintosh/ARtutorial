@@ -7,7 +7,7 @@ steps:
   - name: submodules
     image: alpine/git
     commands:
-    - git submodule update --init --recursive
+      - git submodule update --init --recursive
 
   - name: build
     image: squidfunk/mkdocs-material:latest
@@ -23,16 +23,13 @@ steps:
       remote_name: origin
       branch: pages
       local_ref: pages
-      ssh_key: $SSH_KEY
+      ssh_key: 
+        from_secret: key_ssh
       path: dev
-    secrets: [ key_ssh ]
 
-trigger:
-  branch:
-  - V3-Dev
-  event:
-  - push
-  - custom
+when:
+  branch: V3-Dev
+  event: push
 
 ---
 kind: pipeline
@@ -43,7 +40,7 @@ steps:
   - name: submodules
     image: alpine/git
     commands:
-    - git submodule update --init --recursive
+      - git submodule update --init --recursive
 
   - name: build
     image: squidfunk/mkdocs-material:latest
@@ -71,6 +68,10 @@ trigger:
   - push
   - custom
 
+when:
+  branch: [V3,V2]
+  event: push
+
 ---
 kind: pipeline
 type: docker
@@ -80,7 +81,7 @@ steps:
   - name: submodules
     image: alpine/git
     commands:
-    - git submodule update --init --recursive
+      - git submodule update --init --recursive
 
   - name: build
     image: squidfunk/mkdocs-material:latest
@@ -90,6 +91,6 @@ steps:
       - python3 -m pip install --no-cache-dir -r requirements.txt
       - mkdocs build --clean --verbose -d /drone/src/build/
 
-trigger:
-  event:
-  - pull_request
+when:
+  branch: V3-Dev
+  event: pull_request
