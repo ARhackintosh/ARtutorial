@@ -5,10 +5,11 @@ pipeline:
       - git submodule update --init --recursive
 
   build:
-    image: squidfunk/mkdocs-material:latest
+    image: debian:latest
     pull: true
-    entrypoint: [/bin/sh]
     commands:
+      - apt update
+      - apt install pip -y
       - python3 -m pip install --no-cache-dir -r requirements.txt
       - mkdocs build --clean --verbose -d dev
 
