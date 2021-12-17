@@ -25,9 +25,7 @@ steps:
       local_ref: pages
       ssh_key: $SSH_KEY
       path: dev
-    environment:
-      SSH_KEY:
-        from_secret: ssh_key
+    secrets: [ key_ssh ]
 
 trigger:
   branch:
@@ -63,9 +61,7 @@ steps:
       local_ref: pages
       ssh_key: $SSH_KEY
       path: release
-    environment:
-      SSH_KEY:
-        from_secret: ssh_key
+    secrets: [ key_ssh ]
 
 trigger:
   branch:
