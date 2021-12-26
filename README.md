@@ -1,9 +1,9 @@
   
 # (v3)الاصدار الثالث من شرح تثبيت الهاكنتوش من [هاكنتوش بالعربي](https://هاكنتوش.com)
 
-Dev:![Build Status](https://cd.xn--mgbg4a8cpdl.com/api/badges/ARhackintosh/ARtutorial/status.svg?ref=refs/heads/v2-dev)
+Dev:[![Build Status](https://cd.xn--mgbg4a8cpdl.com/api/badges/ARhackintosh/ARtutorial/status.svg?ref=refs/heads/V3-Dev)](https://cd.xn--mgbg4a8cpdl.com/ARhackintosh/ARtutorial)
 
-Release:![Build Status](https://cd.xn--mgbg4a8cpdl.com/api/badges/ARhackintosh/ARtutorial/status.svg?ref=refs/heads/v2)
+Release:[![Build Status](https://cd.xn--mgbg4a8cpdl.com/api/badges/ARhackintosh/ARtutorial/status.svg?ref=refs/heads/V3)](https://cd.xn--mgbg4a8cpdl.com/ARhackintosh/ARtutorial)
 
 <div align="center">
   
