@@ -26,6 +26,7 @@ steps:
     image: alpine/git
     commands:
       - git checkout pages
+      - git pull
       - cp -r /build/dev ./
     volumes:
       - name: build
@@ -91,6 +92,7 @@ steps:
     image: alpine/git
     commands:
       - git checkout pages
+      - git pull
       - mkdir -p /build/dev
       - cp -r ./dev  /build/
       - rm -rf ./*
