@@ -43,10 +43,31 @@ steps:
       - git config --global user.name "ARhackintosh-Bot"
       - git config --global user.email "$BOT_EMAIL"
       - git remote set-url origin ssh://git@codeberg.org/FarisZR/ARtutorial.git
-      - git checkout pages
       - git add dev
       - git commit -m "رفع اخر نسخه تطوير من $DRONE_COMMIT_SHA"
       - git push
+    environment:
+      SSH_KEY:
+        from_secret: drone_ssh_key
+      BOT_EMAIL:
+        from_secret: drone_bot_email
+
+  - name: pull and push if failure
+    image: alpine/git
+    commands:
+      - git pull
+      - apk add --no-cache openssh
+      - eval `ssh-agent -s`
+      - echo "$SSH_KEY" | ssh-add -
+      - mkdir -p ~/.ssh
+      - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+      - git config --global user.name "ARhackintosh-bot"
+      - git config --global user.email "$BOT_EMAIL"
+      - git remote set-url origin ssh://git@codeberg.org/FarisZR/ARtutorial.git
+      - git push
+    when:
+      status:
+      - failure
     environment:
       SSH_KEY:
         from_secret: drone_ssh_key
