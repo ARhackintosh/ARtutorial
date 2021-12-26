@@ -55,7 +55,6 @@ steps:
   - name: pull and push if failure
     image: alpine/git
     commands:
-      - git pull
       - apk add --no-cache openssh
       - eval `ssh-agent -s`
       - echo "$SSH_KEY" | ssh-add -
@@ -64,6 +63,7 @@ steps:
       - git config --global user.name "ARhackintosh-bot"
       - git config --global user.email "$BOT_EMAIL"
       - git remote set-url origin ssh://git@codeberg.org/FarisZR/ARtutorial.git
+      - git pull
       - git push
     when:
       status:
