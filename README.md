@@ -1,17 +1,12 @@
   
 # (v2)الاصدار الثاني من شرح تثبيت الهاكنتوش من [هاكنتوش بالعربي](https://هاكنتوش.com)
 
-Dev:![Build Status](https://cd.xn--mgbg4a8cpdl.com/api/badges/ARhackintosh/ARtutorial/status.svg?ref=refs/heads/v2-dev)
-
-Release:![Build Status](https://cd.xn--mgbg4a8cpdl.com/api/badges/ARhackintosh/ARtutorial/status.svg?ref=refs/heads/v2)
-
+![dev-Build](https://github.com/ARhackintosh/ARtutorial/workflows/dev-Build/badge.svg) ![Release-Build](https://github.com/ARhackintosh/ARtutorial/workflows/Release-Build/badge.svg)
 <div align="center">
   
 ![logo](https://xn--mgbg4a8cpdl.com/img/logoa.png)
 
 </div>
-
-<div dir="rtl">
 
 **مرخص تحت**:
 
@@ -63,8 +58,6 @@ Release:![Build Status](https://cd.xn--mgbg4a8cpdl.com/api/badges/ARhackintosh/A
 
 جميع التغييرات يتم بنائها من drone ci 
 ثم على حسب الفرع يدفعها لنسخه التطوير ام الصفحه الرئيسية
-
-</div>
 
 **رابط الشرح**:
 
