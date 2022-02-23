@@ -33,7 +33,7 @@ jobs:
         pip show mkdocs-material
 
     - name: mkdocs build
-      run: mkdocs build --clean --verbose -d site -f mkdocs-dev.yml
+      run: mkdocs build --clean --verbose -d site
 
     - name: Cache pip files
       uses: actions/cache@v2.1.6
