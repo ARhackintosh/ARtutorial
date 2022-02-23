@@ -2,11 +2,11 @@ site_name: شرح تثبيت الهاكنتوش | هاكنتوش بالعربي
 site_url: https://tutorial.xn--mgbg4a8cpdl.com
 site_author: مجتمع هاكنتوش بالعربي
 repo_name: ARhackintosh/ARtutorial
-repo_url: https://codeberg.org/ARhackintosh/ARtutorial
+repo_url: https://github.com/ARhackintosh/ARtutorial
 copyright: حقوق هذا العمل محفوطه لهاكنتوش بالعربي تحت AGPLv3
 site_description: شرح تثبيت الهاكنتوش من هاكنتوش بالعربي هو اول واكبر شرح عربي لتثبيت الهاكنتوش مع دعم اوبن كور وماك 12 مونتيري باللغه العربية.
 docs_dir: 'source'
-edit_uri: https://codeberg.org/ARhackintosh/ARtutorial/_edit/V3-Dev/source
+edit_uri: https://github.com/ARhackintosh/ARtutorial/_edit/V3-Dev/source
 
 plugins:
   - autolinks
@@ -27,7 +27,7 @@ theme:
   logo: https://xn--mgbg4a8cpdl.com/wp-content/uploads/2021/07/logo-normalres.png.webp
   favicon: https://xn--mgbg4a8cpdl.com/wp-content/uploads/2021/07/cropped-icon-1.png.webp
   icon:
-    repo: codeberg
+    repo: fontawesome/brands/github
   palette:
     scheme: slate
 #    primary: deep purple
@@ -35,8 +35,8 @@ theme:
 
 extra:
   social:
-    - icon: codeberg
-      link: https://codeberg.org/ARhackintosh
+    - icon: fontawesome/brands/github
+      link: https://github.com/ARhackintosh
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/arhackintosh
     - icon: fontawesome/brands/telegram
@@ -44,8 +44,8 @@ extra:
     - icon: matrix
       link: https://matrix.to/#/#arhackintosh:utwente.io
   oc:
-    version: 0.7.6
-    git: https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.6
+    version: 0.7.8
+    git: https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.8
 
 
 extra_css:
