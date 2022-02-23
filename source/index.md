@@ -142,7 +142,7 @@
 
 ## فريق المتطوعين
 
-الكاتب الاساسي : [fareszr](https://forum.هاكنتوش.com/u/fariszr) 
+الكاتب الاساسي : [FarisZR](https://forum.هاكنتوش.com/u/fariszr) 
 
 المسئول عن نسخه النظام :  [Abdullah Ali](https://forum.هاكنتوش.com/u/abdullah_ali)
 
