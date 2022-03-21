@@ -48,7 +48,7 @@ jobs:
         clean: true # Automatically remove deleted files from the deploy branch
 
     - name: Cache pip files
-      uses: actions/cache@v2.1.7
+      uses: actions/cache@v3
       env:
         cache-name: pip-reg
       with:
