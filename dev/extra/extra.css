@@ -32,27 +32,6 @@ a.md-logo img {
     border: none;
 }
 
-.md-header {
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(20px);
-    background: linear-gradient(0.75turn, #1d0548ac, #852186c2);
-    background-color: transparent !important;
-    box-shadow: 0 0 .2rem transparent,0 .2rem .4rem transparent;
-    color: var(--md-primary-bg-color);
-    left: 0;
-    position: -webkit-sticky;
-    position: sticky;
-    right: 0;
-    top: 0;
-    z-index: 3;
-}
-
-:root {
-    --md-primary-fg-color:        #8f2291 ;
-    --md-primary-fg-color--light: #ECB7B7;
-    --md-primary-fg-color--dark:  #8f2291;
-}
-
 @font-face {
     font-family: 'Tajawal';
     font-style: normal;
