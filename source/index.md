@@ -152,8 +152,6 @@ comments: true
 
 الكاتب الاساسي : [FarisZR](https://forum.هاكنتوش.com/u/fariszr) 
 
-المسئول عن نسخه النظام :  [Abdullah Ali](https://forum.هاكنتوش.com/u/abdullah_ali)
-
 ## المصادر
 
 تم بناء الشرح على شرح [Dortania](https://github.com/dortania) المخصص لتثبيت الهاكنتوش مع اوبن كور, شكر خاص لفريق دورتانيا :
