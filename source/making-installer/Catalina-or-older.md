@@ -25,20 +25,20 @@ comments: true
 
 بعد ما يتم تنزيل اداة gibmacos نفك الضغط و بعدها نفتح الملف ونختار gibMacOS.bat
 
-![](/img/Catalina-or-older/gibMacOS.png#zoom)
+![](/img/Catalina-or-older/gibMacOS.png)
 
 ???+ info "في حاله عدم وجود بايثون"
 	في حاله عدم وجود بايثون 3 على حهازك البرنامج سيطلب منك تنزيله اكتب y للموافقه
 
-	![](/img/no-python.png#zoom)
+	![](/img/no-python.png)
 
 البرنامج يرتب النسخ **بحسب وقت اصدارها** ابل ايضا تحدث الاصدارات القديمه نحن نريد اصدار 10.15 كاتلينا, وفي هاذه الحالة تم رفع تحديث امني للاصدار السابق فظهر اعلى من الإصدار المطلوب من الماك لذا سنختار رقم 2
 
-![](/img/Catalina-or-older/system-list.png#zoom)
+![](/img/Catalina-or-older/system-list.png)
 
 ثم سيقوم البرنامج ببدء التنزيل
 
-![](/img/Catalina-or-older/g-download.png#zoom)
+![](/img/Catalina-or-older/g-download.png)
 
 ???+ info "معلومة"
     سرعه التنزيل تعتمد على سرعه الانترنت الخاص بك
@@ -46,21 +46,21 @@ comments: true
 سوف تظهر قائمه الملفات التي تم تنزيلها بنجاح واذا لم يوجد اي ملف تحت failed مبروك لقد تم تنزيل النسخة بنجاح تحت File saved to
 يوجد موقع حفظ الملف سوف نحتاجه في الخطوة القادمه
 
-![](/img/Catalina-or-older/g-done.png#zoom)
+![](/img/Catalina-or-older/g-done.png)
 
 ### تنزيل نسخ اقدم
 
 اذا كنت تحتاج نسخ اقدم مثل لو كان لديك كرت انفيديا اضغط M في الصفحة الرئيسيه ثم اكتب رقم النسخة بهاذه الحالة سوف تكون 10.13
 
-![](/img/Catalina-or-older/old-ver.png#zoom)
+![](/img/Catalina-or-older/old-ver.png)
 
 سوف تظهر اختيارات جديده نختار اعلى اختيار من الإصدار المطلوب بهاذه الحالة MacOS High Sierra
 
-![](/img/Catalina-or-older/g-old-list.png#zoom)
+![](/img/Catalina-or-older/g-old-list.png)
 
 ثم البرنامج سيقوم بتنزيل النسخة مقسمه على 11 ملف
 
-![](/img/Catalina-or-older/g-download.png#zoom)
+![](/img/Catalina-or-older/g-download.png)
 
 ## PackAppwin.py
 
@@ -94,7 +94,7 @@ comments: true
 
 ثم نتاكد ان اعدادات البرنامج كالاتي
 
-![](/img/Catalina-or-older/BDU-Config.png#zoom)
+![](/img/Catalina-or-older/BDU-Config.png)
 
 ???+ info "معلومة"
 	هذه الاعدادات تقوم بتعطيل تنزيل الكلوفر التلقائي لان البرنامج للاسف مازال لا يدعم اوبن كور.
@@ -105,21 +105,21 @@ comments: true
 
 1. ثم اذهب إلى **tools/Extract HFS from dmg file**.
 
-![](/img/Catalina-or-older/BDU-Extract.png#zoom)
+![](/img/Catalina-or-older/BDU-Extract.png)
 
 2.اختار ملف ==BaseSystem.dmg== من ملف تنزيلات الماك من برنامج gibmacos ثم اختار **فتح أو open**.
 
-![](/img/Catalina-or-older/BDU-Basesystemdmg.png#zoom)
+![](/img/Catalina-or-older/BDU-Basesystemdmg.png)
 
 ثم بعد ذلك قم بختيار سطح المكتب كمكان نحفظ فيه الملف او اي مكان اخر الموضوع راجع لك.
 
-![](/img/Catalina-or-older/BDU-Desktop.png#zoom)
+![](/img/Catalina-or-older/BDU-Desktop.png)
 
 بعدها سوف تجد ملف 4.hfs على سطح المكتب
 
 الان نعود إلى bdu ثم نضغط على علامه الزائد بجانب ال usb, ثم اختار part 2
 
-![](/img/Catalina-or-older/BDU-USB.png#zoom)
+![](/img/Catalina-or-older/BDU-USB.png)
 
 ثم اضغط على زر restore
  
@@ -130,10 +130,10 @@ comments: true
 بعد نسخ الملف ستلاحظ ان حجم القسم هو حوالي 1.87GB وهو غير كافي ابدا لبقيه ملفات النظام الاخرى, لذلك سنحتاج الى برنامج PPM حتى نقوم بتغير حجم القسم (**Partition**)
 
 اولا افتح البرنامج ثم ابحث عن القسم بالحجم الاكبر (**حجمه حوالي 1.87GB**) ثم قم بالضغط على **Move or Resize**
-![](/img/Catalina-or-older/PPM-select.png#zoom)
+![](/img/Catalina-or-older/PPM-select.png)
 
 بعد ذلك ستفتح نافذه جديدة, قم بتغيير حجم New volume size الى اكبر شيء ممكن, **تاكد ان اسم القسم ==macOS Base System== او ==OS X Base System==**), بعد ذلك قم بالضغط على Change now
-![](/img/Catalina-or-older/PPM-Resize.png#zoom)
+![](/img/Catalina-or-older/PPM-Resize.png)
 
 ## Paragon HFS+ For Windows
 
@@ -144,11 +144,11 @@ comments: true
 
 ??? info "في حالة عدم ظهور ال usb"
 	قم بفتح برنامج PHW وبعد ذلك اختار ال usb ثم mount 
-	![](/img/Catalina-or-older/PHW-Mount.png#zoom)
+	![](/img/Catalina-or-older/PHW-Mount.png)
 
 افتح ال usb (او القسم) ثم توجه الى  `Install macOS xxx.app/Contents`  وقم بلصق ملف Sharedsupport الذي انشئناه مع سكربت packappwin.py, بحيث تصبح الملفات بهذا الشكل 
 
-![](/img/Catalina-or-older/USB-paste.png#zoom)
+![](/img/Catalina-or-older/USB-paste.png)
 
 
 

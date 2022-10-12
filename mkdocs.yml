@@ -17,6 +17,8 @@ plugins:
   - macros
   - social:
       cards_font: Tajawal
+  - glightbox:
+      effect: fade
 
 theme:
   name: material

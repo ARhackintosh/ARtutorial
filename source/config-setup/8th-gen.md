@@ -97,7 +97,7 @@ comments: true
 
 ## Kernel
 
-![kernel](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config-universal/kernel-modern-XCPM.png#zoom){: style="width:800px"; loading=lazy }
+![kernel](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config-universal/kernel-modern-XCPM.png){: style="width:800px"; loading=lazy }
 
 ### Add
 
@@ -142,7 +142,7 @@ comments: true
 
 ## Misc
 
-![Misc](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config-universal/misc.png#zoom){: style="width:800px"; loading=lazy }
+![Misc](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config-universal/misc.png){: style="width:800px"; loading=lazy }
 
 ### Boot
 اعدادت مخصصه لشاشه الاقلاع, لاتوجد تعديلات هنا
@@ -183,7 +183,7 @@ comments: true
 
 ## NVRAM
 
-![nvram](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config-universal/nvram.png#zoom){: style="width:800px"; loading=lazy }
+![nvram](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config-universal/nvram.png){: style="width:800px"; loading=lazy }
 
 ### Add
 
@@ -233,7 +233,7 @@ comments: true
 
 ## PlatformInfo
 
-![](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config.plist/coffeelake/smbios.png#zoom){: style="width:800px"; loading=lazy }
+![](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config.plist/coffeelake/smbios.png){: style="width:800px"; loading=lazy }
 
 ### Generic
 

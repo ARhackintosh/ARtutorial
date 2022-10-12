@@ -14,7 +14,7 @@ comments: true
 
 ## ACPI
 
-![ACPI](/img/config-setup/3rd-gen/ACPI.png#zoom)
+![ACPI](/img/config-setup/3rd-gen/ACPI.png)
 
 ### Add
 
@@ -117,7 +117,7 @@ comments: true
 
 ## Kernel
 
-![kernel](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config-universal/kernel.png#zoom){: style="width:800px"; loading=lazy }
+![kernel](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config-universal/kernel.png){: style="width:800px"; loading=lazy }
 
 ### Add
 
@@ -160,7 +160,7 @@ comments: true
 
 ## Misc
 
-![Misc](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config-universal/misc.png#zoom){: style="width:800px"; loading=lazy }
+![Misc](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config-universal/misc.png){: style="width:800px"; loading=lazy }
 
 ### Boot
 اعدادت مخصصه لشاشه الاقلاع, لاتوجد تعديلات هنا
@@ -201,7 +201,7 @@ comments: true
 
 ## NVRAM
 
-![nvram](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config-universal/nvram.png#zoom){: style="width:800px"; loading=lazy }
+![nvram](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config-universal/nvram.png){: style="width:800px"; loading=lazy }
 
 ### Add
 
@@ -250,7 +250,7 @@ comments: true
 
 ## PlatformInfo
 
-![](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config.plist/ivy-bridge/smbios.png#zoom){: style="width:800px"; loading=lazy }
+![](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config.plist/ivy-bridge/smbios.png){: style="width:800px"; loading=lazy }
 
 ### Generic
 
