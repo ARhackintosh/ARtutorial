@@ -26,6 +26,9 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
+    - toc.follow
+    - toc.integrate
+    - navigation.top
   language: ar
   font: false
   logo: img/artutorial-logo.webp
