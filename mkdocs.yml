@@ -23,6 +23,7 @@ theme:
   custom_dir: overrides
   features:
     - navigation.instant
+    - navigation.tracking
   language: ar
   font: false
   logo: img/artutorial-logo.webp
