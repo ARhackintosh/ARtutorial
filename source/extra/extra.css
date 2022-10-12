@@ -96,3 +96,21 @@
     height: 2rem;
     width: auto;
 }
+
+.md-header {
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    background:var(--md-header-color);
+    color: var(--md-header-font-color)
+}
+
+
+[data-md-color-scheme=default]{
+    --md-header-color: #d5d5d58f;
+    --md-header-font-color: #000000
+}
+
+[data-md-color-scheme="slate"]{
+    --md-header-color: #0000008f;
+    --md-header-font-color: var(--md-primary-bg-color)
+}
