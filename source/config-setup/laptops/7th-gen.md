@@ -60,7 +60,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## DeviceProperties
 
-![](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-laptop.plist/kaby-lake/DeviceProperties.png#zoom){: style="width:800px"; loading=lazy }
+![](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config-laptop.plist/kaby-lake/DeviceProperties.png#zoom){: style="width:800px"; loading=lazy }
 
 ### Add
 
@@ -115,7 +115,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## Kernel
 
-![kernel](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/kernel-modern-XCPM.png#zoom){: style="width:800px"; loading=lazy }
+![kernel](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config-universal/kernel-modern-XCPM.png#zoom){: style="width:800px"; loading=lazy }
 
 ### Add
 
@@ -158,7 +158,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## Misc
 
-![Misc](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/misc.png#zoom){: style="width:800px"; loading=lazy }
+![Misc](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config-universal/misc.png#zoom){: style="width:800px"; loading=lazy }
 
 ### Boot
 اعدادت مخصصه لشاشه الاقلاع, لاتوجد تعديلات هنا
@@ -199,7 +199,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## NVRAM
 
-![nvram](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/nvram.png#zoom){: style="width:800px"; loading=lazy }
+![nvram](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config-universal/nvram.png#zoom){: style="width:800px"; loading=lazy }
 
 ### Add
 
@@ -255,7 +255,7 @@ description: شرح كيفيه انشاء كونفق اوبن كور لمعال�
 
 ## PlatformInfo
 
-![](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-laptop.plist/kaby-lake/smbios.png#zoom){: style="width:800px"; loading=lazy }
+![](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config-laptop.plist/kaby-lake/smbios.png#zoom){: style="width:800px"; loading=lazy }
 
 ### Generic
 
