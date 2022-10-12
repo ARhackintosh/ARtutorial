@@ -10,6 +10,10 @@ on:
       - 'requirements.txt'
       - 'overrides/**'
     branches: [ v2-dev ]
+  pull_request:
+    branches: [ v2-dev ]
+  pull_request_review:
+    types: [edited, dismissed]
 
 jobs:
   build-and-deploy:
@@ -38,14 +42,18 @@ jobs:
 
     - name: mkdocs build
       run: mkdocs build --clean --verbose -d site
-    - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@v4.4.0
+
+    - name: Include _headers file
+      run: cp _headers .site/_headers
+
+    - name: Publish to Cloudflare Pages
+      uses: cloudflare/pages-action@1
       with:
-        branch: gh-pages # The branch the action should deploy to.
-        folder: site # The folder the action should deploy.
-        target-folder: dev #نسخه التطوير
-        commit-message: "dev-Build: ${{ github.sha }} رفع نسخه التطوير مع تعديل"
-        clean: true # Automatically remove deleted files from the deploy branch
+        apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        accountId: ${{ secrets.CLOUDFLARE_ID }}
+        projectName: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
+        directory: site
+        gitHubToken: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Cache pip files
       uses: actions/cache@v3.0.9
