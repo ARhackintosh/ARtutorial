@@ -62,3 +62,9 @@ jobs:
       with:
         path: $HOME/.cache/pip
         key: pip-reg
+
+    - name: Cache Mkdocs files
+      uses: actions/cache@v3
+      with:
+        key: ${{ github.ref }}
+        path: .cache
