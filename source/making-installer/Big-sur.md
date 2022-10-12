@@ -1,5 +1,6 @@
 ---
 description: تجهيز مثبت macOS لإصدار 11 Big Sur
+comments: true
 ---
 ## لماذا طريقة تنزيل بيج سر مختلفة ؟
 

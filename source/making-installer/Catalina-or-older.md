@@ -1,5 +1,6 @@
 ---
 description: تجهيز مثبت macOS للاصدار Catalina 10.15 او اقدم
+comments: true
 ---
 
 ???+ info "ملحوظة"
