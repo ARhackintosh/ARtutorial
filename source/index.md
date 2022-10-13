@@ -4,7 +4,7 @@ comments: true
 # اهلا بك في الاصدار الثاني من شرح تثبيت الهاكنتوش من [مجتمع هاكنتوش بالعربي](https://هاكنتوش.com)
 
 <div align="center">
-<img src="https://xn--mgbg4a8cpdl.com/wp-content/uploads/2022/09/artutorial-logo.webp" style="height: 30% !important;width: 30% !important;" alt="ARtutorial" />
+<img src="../../img/artutorial-logo.webp" style="height: 30% !important;width: 30% !important;" alt="ARtutorial" />
 
 <h2> تم بناء الشرح على اصدار اوبن كور <a href="{{ oc.git }}">{{ oc.version }}</a> </h2>
 
