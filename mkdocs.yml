@@ -19,6 +19,8 @@ plugins:
       cards_font: Tajawal
   - glightbox:
       effect: fade
+      skip_classes:
+        - skip-lightbox
 
 theme:
   name: material
@@ -36,7 +38,6 @@ theme:
   icon:
     repo: fontawesome/brands/github
   palette:
-
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate

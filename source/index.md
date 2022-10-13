@@ -10,7 +10,7 @@ comments: true
 
 <p><a class="center-me md-button md-button--primary" href="start" style="margin: auto;">ابدا</a></p> 
 
-<details class="success" open="open"><summary>ادعمنا</summary><p><a href="https://www.buymeacoffee.com/arhackintosh" target="_blank" rel="noopener" rel="noreferrer"><img src="https://هاكنتوش.com/img/bmc.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;"></a> <a href="https://liberapay.com/ARhackintosh/donate" rel="noopener" rel="noreferrer" ><img alt="Donate using Liberapay" src="https://هاكنتوش.com/img/donate.svg" style="height: 40px !important;width: 110px !important;"></a></p> </details>
+<details class="success" open="open"><summary>ادعمنا</summary><p><a href="https://www.buymeacoffee.com/arhackintosh" target="_blank" rel="noopener" rel="noreferrer"><img class="skip-lightbox" src="https://هاكنتوش.com/img/bmc.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;"></details>
 
 </div>
 
