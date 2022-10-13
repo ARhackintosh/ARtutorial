@@ -12,6 +12,8 @@ plugins:
   - search # necessary for search to work
   - minify:
       minify_html: true
+      minify_js: true
+      minify_css: true
   - git-revision-date-localized:
       type: timeago
   - macros
