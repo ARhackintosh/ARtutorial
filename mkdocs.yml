@@ -4,7 +4,7 @@ site_author: مجتمع هاكنتوش بالعربي
 repo_name: ARhackintosh/ARtutorial
 repo_url: https://github.com/ARhackintosh/ARtutorial
 copyright: حقوق هذا العمل محفوطه لهاكنتوش بالعربي تحت AGPLv3
-site_description: شرح تثبيت الهاكنتوش من هاكنتوش بالعربي هو اول واكبر شرح عربي لتثبيت الهاكنتوش مع دعم اوبن كور وماك 11 بيج سر باللغه العربية.
+site_description: شرح تثبيت الهاكنتوش من هاكنتوش بالعربي هو اول واكبر شرح عربي لتثبيت الهاكنتوش مع دعم OpenCore وmacOS 11 Big Sur باللغة العربية.
 docs_dir: 'source'
 
 plugins:
@@ -12,25 +12,51 @@ plugins:
   - search # necessary for search to work
   - minify:
       minify_html: true
+      minify_js: true
+      minify_css: true
   - git-revision-date-localized:
       type: timeago
   - macros
+  - social:
+      cards_font: Tajawal
+  - glightbox:
+      effect: fade
+      skip_classes:
+        - skip-lightbox
 
 theme:
   name: material
   custom_dir: overrides
   features:
     - navigation.instant
+    - navigation.tracking
+    - toc.follow
+    - toc.integrate
+    - navigation.top
   language: ar
   font: false
-  logo: https://xn--mgbg4a8cpdl.com/wp-content/uploads/2021/07/logo-normalres.png.webp
-  favicon: https://xn--mgbg4a8cpdl.com/wp-content/uploads/2021/07/cropped-icon-1.png.webp
+  logo: img/artutorial-logo.webp
+  favicon: img/artutorial-logo.webp
   icon:
     repo: fontawesome/brands/github
   palette:
-    scheme: slate
-    primary: deep purple
-    accent: indigo
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
 
 extra:
   social:
@@ -83,7 +109,6 @@ nav:
       - 'الاقلاع': 'Installation/booting.md'
       - 'بعد التثبيت': 'Installation/post-install.md'
     - 'مجتمع هاكنتوش بالعربي': 'https://forum.هاكنتوش.com'
-    - 'نسخة التطوير': '/dev'
     - 'تيليجرام': 'https://t.me/arhackintosh'
     - 'ماتركس': 'https://matrix.to/#/#arhackintosh:utwente.io'
 

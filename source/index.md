@@ -1,15 +1,45 @@
+---
+comments: true
+---
 # اهلا بك في الاصدار الثاني من شرح تثبيت الهاكنتوش من [مجتمع هاكنتوش بالعربي](https://هاكنتوش.com)
 
 <div align="center">
-<img src="https://xn--mgbg4a8cpdl.com/wp-content/uploads/2022/09/artutorial-logo.webp" style="height: 30% !important;width: 30% !important;" alt="ARtutorial" />
+<img src="../../img/artutorial-logo.webp" style="height: 30% !important;width: 30% !important;" alt="ARtutorial" />
 
 <h2> تم بناء الشرح على اصدار اوبن كور <a href="{{ oc.git }}">{{ oc.version }}</a> </h2>
 
 <p><a class="center-me md-button md-button--primary" href="start" style="margin: auto;">ابدا</a></p> 
 
-<details class="success" open="open"><summary>ادعمنا</summary><p><a href="https://www.buymeacoffee.com/arhackintosh" target="_blank" rel="noopener" rel="noreferrer"><img src="https://هاكنتوش.com/img/bmc.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;"></a> <a href="https://liberapay.com/ARhackintosh/donate" rel="noopener" rel="noreferrer" ><img alt="Donate using Liberapay" src="https://هاكنتوش.com/img/donate.svg" style="height: 40px !important;width: 110px !important;"></a></p> </details>
+<details class="success" open="open"><summary>ادعمنا</summary><p><a href="https://www.buymeacoffee.com/arhackintosh" target="_blank" rel="noopener" rel="noreferrer"><img class="skip-lightbox" src="https://هاكنتوش.com/img/bmc.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;"></details>
 
 </div>
+
+!!! note "ملاحظة"
+
+	مشروع هاكنتوش بالعربي تمت أرشفتة, ولن يتم تحديث هذا الشرح الا في حالة انضمام متطوعين جدد
+	
+	تفاصيل اكثر حول الارشفة موجوده بزر كامل التفاصيل بالاسفل.
+	اذا تريد المساهمة, زر الرابط اعلى الصفحة.
+
+???+ info "V2.10LTR-Big sur"
+	**الاصدار الذي يرافق أرشفة مشروع هاكنتوش بالعربي**
+
+	هذا الاصدار مصمم حتى يبقى يعمل لاطول مدة, وقمت ببعض التغييرات, مثل استخدام الصور من نسخه مثبته من شرح Dortania,
+	حتى تبقى تعمل بغض النظر عن اي تحديثات جديدة منهم.
+	
+	هذا التحديث ايضا يجلب ميزات وتصميم جديد, تحسن تجرب المستخدم كونه اخر اصدار لفترة طويلة:
+
+	<p><a class="center-me md-button md-button--primary" href="https://xn--mgbg4a8cpdl.com/مشروع-هاكنتوش-بالعربي-يدخل-مرحلة-الأرشفة/" style="margin: auto;">كامل التفاصيل هنا</a></p> 
+
+	- تفعيل نظام تعليقات, يمكن فيه عبر حساب Github التعليق والسؤال, وهو بديل للمجتمع الذي تم ارشفته
+	- تصميم جديد, بينقل كل المعلومات والعناوين الفرعية الى القائمة الجانبيه, لاعطاء مساحة للمحتوى اكثر
+	- تغييرات جماليه للتصميم
+	- دعم الوضع الليلي والفاتح بنائا على تفضيلات جهاز المستخدم(عند اول زيارة فقط)
+	- تحسين دعم تكبير الصور, الان اصبح افضل بكثير و اسهل للاستخدام
+	- تغيير الرابط تلقائيا بنائا على موقع المستخدم على الصفحة
+	- انتقال لاستضافة CloudFlare, اكبر شبكة توصيل محتوى في العالم, لتسريع وصول الشرح للجميع خاصة مع انترنت ضعيف
+	- تغيير الى الشعار الجديد للشرح
+	- استخدام صور معاينة جديدة للشرح, ستظهر صورة مع وصف مخصص لكل صفحة, بدلا من الصوره السابقة
 
 ???+ info "V2.9-Big sur"
 	**V2.9.1-Big sur**
@@ -21,7 +51,7 @@
 	وذلك بسبب عدم تحديث فريق دورتانيا لشرحهم لاصدار 0.7.1
 	لذلك انتظرنا 0.7.2 لنصدر التحديث
 
-	<p><a class="center-me md-button md-button--primary" href="https://هاكنتوش.com/?p=4854" style="margin: auto;">كامل التغييرات هنا</a></p> 
+	<p><a class="center-me md-button md-button--primary" href="https://هاكنتوش.com/صدور-تحديث-v2-9-big-sur-لشرح-تثبيت-الهاكنتوش/" style="margin: auto;">كامل التغييرات هنا</a></p> 
 
 	ابرز التغييرات:
 
@@ -34,13 +64,13 @@
 	- اول اصدار من Codeberg!
 	- دعم اوبن كور [v0.7.2](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.2)
 
-???+ info "V2.8-Big sur"
+??? info "V2.8-Big sur"
 	**v2.8.2-Big sur**
 	- دعم اوبن كور 0.7.0
 	
 	رحبو معنا باكبر تحديث للشرح!, اكثر من 190 تعديل!
 
-	<p><a class="center-me md-button md-button--primary" href="https://هاكنتوش.com/?p=4669" style="margin: auto;">كامل التغييرات هنا</a></p> 
+	<p><a class="center-me md-button md-button--primary" href="https://هاكنتوش.com/صدور-تحديث-v2-8-big-sur-لشرح-تثبيت-الهاكنتوش/" style="margin: auto;">كامل التغييرات هنا</a></p> 
 
 	ابرز التغييرات:
 
@@ -73,7 +103,7 @@
 ??? info "V2.5-Big sur"
 	تحديث شهر فبراير للشرح ياتي مع دعم [اوبن كور 0.6.6](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.6) وتغييرات جديد لتحسين تجربتك للشرح
 
-	<p><a class="center-me md-button md-button--primary" href="https://هاكنتوش.com/?p=4621" style="margin: auto;">كامل التغييرات هنا</a></p> 
+	<p><a class="center-me md-button md-button--primary" href="https://هاكنتوش.com/صدور-v2-5-big-sur/" style="margin: auto;">كامل التغييرات هنا</a></p> 
 
 	ابرز التغييرات:
 
@@ -85,7 +115,7 @@
 ??? info "V2.4-Big sur"
 	تحديث طارئ لحل مشكله نسخ بيج سر, واستبدال برنامج BDU
 
-	**[كامل التفاصيل هنا](https://هاكنتوش.com/?p=4581)**
+	**[كامل التفاصيل هنا](https://هاكنتوش.com/صدور-تحديث-v2-4-big-sur-لشرح-تثبيت-الهاكنتوش/)**
 
 	ابرز التغييرات:
 	
@@ -97,7 +127,7 @@
 	اكبر تحديث لشرح تثبيت الهاكنتوش من مجتمع هاكنتوش بالعربي.
 	نقوم فيه بتحديث جميع اقسام الشرح.
 
-	**[كامل التغييرات هنا](https://هاكنتوش.com/?p=4570)**
+	**[كامل التغييرات هنا](https://هاكنتوش.com/صدور-تحديث-v2-3-big-sur-لشرح-تثبيت-الهاكنتوش/)**
 
 	ابرز التغييرات:
 	
@@ -107,7 +137,7 @@
 	- رفع نسخه جديده
 
 ??? info "V2.2-Big sur"
-	**[كامل التغييرات هنا](https://هاكنتوش.com/?p=4462)**, تحديث جديد, نقدم فيه تصحيح لبعض الاخطاء, مع زيادة لعرض الشرح ومميزات جديدة!.
+	**[كامل التغييرات هنا](https://هاكنتوش.com/رسميا-صدور-تحديث-v2-2-big-sur-لشرح-تثبيت-الهاكنت/)**, تحديث جديد, نقدم فيه تصحيح لبعض الاخطاء, مع زيادة لعرض الشرح ومميزات جديدة!.
 
 	ابرز التغييرات:
 	
@@ -119,7 +149,7 @@
 
 
 ??? info "V2.1-Big sur"
-	**[كامل التغييرات هنا](https://هاكنتوش.com/?p=4448)**, تحديث فيه تحسينات هامه لحسين تجربتكم في عالم الهاكنتوش.
+	**[كامل التغييرات هنا](https://هاكنتوش.com/رسميا-صدور-تحديث-v2-1-big-sur-لشرح-تثبيت-الهاكنت/)**, تحديث فيه تحسينات هامه لحسين تجربتكم في عالم الهاكنتوش.
 
 	ابرز التغييرات:
 	
@@ -133,7 +163,7 @@
 
 ??? info "V2.0-Big sur"
 	**الاصدار الرسمي للشرح**
-	**[كامل التفاصيل هنا](https://هاكنتوش.com/?p=4359)**
+	**[كامل التفاصيل هنا](https://هاكنتوش.com/رسميا-اصدار-شرح-الهاكنتوش-v2-0-big-sur/)**
 	هذا اكبر تحديث لشرح الهاكنتوش ويحتوي فيه:
 	
 	- دعم ماك Big sur
@@ -148,8 +178,6 @@
 ## فريق المتطوعين
 
 الكاتب الاساسي : [FarisZR](https://forum.هاكنتوش.com/u/fariszr) 
-
-المسئول عن نسخه النظام :  [Abdullah Ali](https://forum.هاكنتوش.com/u/abdullah_ali)
 
 ## المصادر
 

@@ -4,7 +4,7 @@
 ![dev-Build](https://github.com/ARhackintosh/ARtutorial/workflows/dev-Build/badge.svg) ![Release-Build](https://github.com/ARhackintosh/ARtutorial/workflows/Release-Build/badge.svg)
 <div align="center">
   
-![logo](https://xn--mgbg4a8cpdl.com/wp-content/uploads/2022/09/artutorial-logo.webp)
+![logo](./source/img/artutorial-logo.webp)
 
 </div>
 

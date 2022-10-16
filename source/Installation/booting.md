@@ -1,3 +1,7 @@
+---
+description: اهم الاعدادات في الBios للاقلاع في الهاكنتوش
+comments: true
+---
 # الاقلاع
 
 ???+ Warning "تنبية"

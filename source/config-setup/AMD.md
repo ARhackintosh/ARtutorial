@@ -1,3 +1,7 @@
+---
+description: شرح كيفيه انشاء كونفق اوبن كور لمعالجات Ryzen من AMD على المكتبي وكافه الخيارات الضروريه.
+comments: true
+---
 # Ryzen جميع الاجيال
 | الدعم | الاصدار |
 | :--- | :--- |
@@ -72,7 +76,7 @@
 
 ## Kernel
 
-![kernel](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/AMD/kernel.png#zoom){: style="width:800px"; loading=lazy }
+![kernel](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/AMD/kernel.png){: style="width:800px"; loading=lazy }
 
 ### Add
 
@@ -119,7 +123,7 @@
 
 ## Misc
 
-![Misc](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/misc.png#zoom){: style="width:800px"; loading=lazy }
+![Misc](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config-universal/misc.png){: style="width:800px"; loading=lazy }
 
 ### Boot
 اعدادت مخصصه لشاشه الاقلاع, لاتوجد تعديلات هنا
@@ -160,7 +164,7 @@
 
 ## NVRAM
 
-![nvram](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/nvram.png#zoom){: style="width:800px"; loading=lazy }
+![nvram](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config-universal/nvram.png){: style="width:800px"; loading=lazy }
 
 ### Add
 
@@ -210,7 +214,7 @@
 
 ## PlatformInfo
 
-![](https://raw.githubusercontent.com/dortania/OpenCore-Install-Guide/master/images/config/config-universal/iMacPro-smbios.png#zoom){: style="width:800px"; loading=lazy }
+![](https://dortania-mirror.tutorial.هاكنتوش.com/images/config/config-universal/iMacPro-smbios.png){: style="width:800px"; loading=lazy }
 
 ### Generic
 
