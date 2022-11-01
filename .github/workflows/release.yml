@@ -51,7 +51,7 @@ jobs:
         gitHubToken: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Cache pip files
-      uses: actions/cache@v3.0.9
+      uses: actions/cache@v3.0.11
       env:
         cache-name: pip-reg
       with:
@@ -59,7 +59,7 @@ jobs:
         key: pip-reg
 
     - name: Cache Mkdocs files
-      uses: actions/cache@v3
+      uses: actions/cache@v3.0.11
       with:
         key: ${{ github.ref }}
         path: .cache
